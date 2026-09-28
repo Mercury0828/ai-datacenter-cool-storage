@@ -1,0 +1,167 @@
+{
+ "n_points": 240,
+ "lambda": 0.01,
+ "h8": {
+  "model_all_points": {
+   "b": [
+    11.044708350765145,
+    -13.504879960663654,
+    2.687095350488709
+   ],
+   "mu": [
+    -0.07208983945219671,
+    12.882744267559008
+   ],
+   "sd": [
+    4.728851238658669,
+    2.7066150317113586
+   ]
+  },
+  "loco": {
+   "error_among_confident_weighted": 0.016742448379098846,
+   "error_among_confident_unweighted": 0.018867924528301886,
+   "marginal_share_weighted": 0.11915924186069689,
+   "marginal_share_unweighted": 0.11666666666666667,
+   "n": 240,
+   "n_errors": 4,
+   "n_marginal": 28,
+   "by_climate": {
+    "historical": {
+     "error_among_confident_weighted": 0.0,
+     "error_among_confident_unweighted": 0.0,
+     "marginal_share_weighted": 0.19925119852989168,
+     "marginal_share_unweighted": 0.125,
+     "n": 80,
+     "n_errors": 0,
+     "n_marginal": 10
+    },
+    "stress_plus1.2K": {
+     "error_among_confident_weighted": 0.023044286325049325,
+     "error_among_confident_unweighted": 0.0273972602739726,
+     "marginal_share_weighted": 0.04005938508998226,
+     "marginal_share_unweighted": 0.0875,
+     "n": 80,
+     "n_errors": 2,
+     "n_marginal": 7
+    },
+    "ssp245_median": {
+     "error_among_confident_weighted": 0.025085418606711245,
+     "error_among_confident_unweighted": 0.028985507246376812,
+     "marginal_share_weighted": 0.11816714196221674,
+     "marginal_share_unweighted": 0.1375,
+     "n": 80,
+     "n_errors": 2,
+     "n_marginal": 11
+    }
+   }
+  }
+ },
+ "h0": {
+  "model_all_points": {
+   "b": [
+    -5.7192160005147405,
+    -4.438956435808176,
+    -1.4006867449516442
+   ],
+   "mu": [
+    -0.07208983945219671,
+    12.882744267559008
+   ],
+   "sd": [
+    4.728851238658669,
+    2.7066150317113586
+   ]
+  },
+  "loco": {
+   "error_among_confident_weighted": 0.010305648983830901,
+   "error_among_confident_unweighted": 0.009569377990430622,
+   "marginal_share_weighted": 0.14139725039199597,
+   "marginal_share_unweighted": 0.12916666666666668,
+   "n": 240,
+   "n_errors": 2,
+   "n_marginal": 31,
+   "by_climate": {
+    "historical": {
+     "error_among_confident_weighted": 0.03162743296971228,
+     "error_among_confident_unweighted": 0.028985507246376812,
+     "marginal_share_weighted": 0.16068510247235782,
+     "marginal_share_unweighted": 0.1375,
+     "n": 80,
+     "n_errors": 2,
+     "n_marginal": 11
+    },
+    "stress_plus1.2K": {
+     "error_among_confident_weighted": 0.0,
+     "error_among_confident_unweighted": 0.0,
+     "marginal_share_weighted": 0.13175332435181505,
+     "marginal_share_unweighted": 0.125,
+     "n": 80,
+     "n_errors": 0,
+     "n_marginal": 10
+    },
+    "ssp245_median": {
+     "error_among_confident_weighted": 0.0,
+     "error_among_confident_unweighted": 0.0,
+     "marginal_share_weighted": 0.13175332435181505,
+     "marginal_share_unweighted": 0.125,
+     "n": 80,
+     "n_errors": 0,
+     "n_marginal": 10
+    }
+   }
+  }
+ },
+ "bar_met_h8": true,
+ "external": {
+  "h8": {
+   "error_among_confident_weighted": 0.037037037037037035,
+   "error_among_confident_unweighted": 0.037037037037037035,
+   "marginal_share_weighted": 0.1,
+   "marginal_share_unweighted": 0.1,
+   "n": 30,
+   "n_errors": 1,
+   "n_marginal": 3
+  },
+  "h0": {
+   "error_among_confident_weighted": 0.0,
+   "error_among_confident_unweighted": 0.0,
+   "marginal_share_weighted": 0.0,
+   "marginal_share_unweighted": 0.0,
+   "n": 30,
+   "n_errors": 0,
+   "n_marginal": 0
+  },
+  "n_cells": 15
+ },
+ "equipment": {
+  "h8": {
+   "error_among_confident_weighted": 0.00237873964360777,
+   "error_among_confident_unweighted": 0.005447247706422019,
+   "marginal_share_weighted": 0.11983293131878645,
+   "marginal_share_unweighted": 0.09166666666666666,
+   "n": 3840,
+   "n_errors": 19,
+   "n_marginal": 352
+  }
+ },
+ "external_original_including_duplicate": {
+  "h8": {
+   "error_among_confident_weighted": 0.034482758620689655,
+   "error_among_confident_unweighted": 0.034482758620689655,
+   "marginal_share_weighted": 0.09375,
+   "marginal_share_unweighted": 0.09375,
+   "n": 32,
+   "n_errors": 1,
+   "n_marginal": 3
+  },
+  "h0": {
+   "error_among_confident_weighted": 0.0,
+   "error_among_confident_unweighted": 0.0,
+   "marginal_share_weighted": 0.0,
+   "marginal_share_unweighted": 0.0,
+   "n": 32,
+   "n_errors": 0,
+   "n_marginal": 0
+  }
+ }
+}

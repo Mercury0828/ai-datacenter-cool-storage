@@ -1,0 +1,4 @@
+[
+  {"name": "r2f_train", "args": ["experiments/phase1/r2f_precompute.py", "--part", "train", "--workers", "2"],
+   "items": "experiments/phase1/out/r2f/train/*__*.npz", "expected": 495}
+]

@@ -1,0 +1,37 @@
+{
+ "n_sites": 15,
+ "n_same_non_chiller_configuration": 13,
+ "n_same_full_design_incl_chiller": 12,
+ "sites_compressor_presence_differs": [
+  "qts_cedar_rapids",
+  "openai_stargate_uae",
+  "openai_stargate_abilene"
+ ],
+ "same_non_chiller_configuration_MW": 15899.0,
+ "same_full_design_MW": 14766.0,
+ "total_MW": 17742.0,
+ "SAA_m1_pooled_test_violation_weighted": {
+  "F0": 0.0384859757534766,
+  "F1": 0.10678820672057061,
+  "F2": 0.29520091001321974,
+  "F3": 0.4729096852870948,
+  "F4": 0.43368073702872484
+ },
+ "SAA_m1_pooled_test_violation_unweighted": {
+  "F0": 0.048484848484848485,
+  "F1": 0.1212121212121212,
+  "F2": 0.3151515151515152,
+  "F3": 0.4909090909090909,
+  "F4": 0.4484848484848485
+ },
+ "binomial_upper_95_label": "nominal fixed-design, iid-binomial reference bounds; no selection-adjusted coverage is claimed for the R1 designs (selected and screened on the same years) (internal review boundary-validity R1 finding 3)",
+ "binomial_upper_95": {
+  "0/36": 0.07984650951989439,
+  "1/36": 0.12511620483905223,
+  "0/25": 0.11292814500684321,
+  "1/25": 0.176120710604518,
+  "0/11": 0.23840419038085256,
+  "1/11": 0.3643594892472425
+ },
+ "note": "R1 designs are all in-sample (selected and screened on the same 36 years); R2 SAA m'=1 is the same rule on 25 training years with 11 held-out years (F0 observed; F1-F4 warmed +0.6/+1.2/+1.8 K and hot-tail amplified)."
+}

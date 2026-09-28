@@ -1,0 +1,1588 @@
+{
+ "n_cases": 195,
+ "regimes": {
+  "adiabatic": {
+   "n": 83,
+   "USD_per_m3_min": 4.305888206136271,
+   "USD_per_m3_max": 21.551547561574505,
+   "tower_share_min": 0.0,
+   "tower_share_max": 0.043035684785422704
+  },
+  "mixed": {
+   "n": 74,
+   "USD_per_m3_min": 1.2873832829851581,
+   "USD_per_m3_max": 12.522191765311593,
+   "tower_share_min": 0.05528945920719104,
+   "tower_share_max": 0.9473326340109812
+  },
+  "tower": {
+   "n": 38,
+   "USD_per_m3_min": 1.3812137377621354,
+   "USD_per_m3_max": 4.739696016608989,
+   "tower_share_min": 0.954411400854191,
+   "tower_share_max": 1.0
+  }
+ },
+ "cases": [
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-b",
+   "case": "dc0.5_pads_abs",
+   "tower_share": 0.0,
+   "USD_per_m3": 14.921612910951897,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-b",
+   "case": "dc1.5_pads_abs",
+   "tower_share": 0.0,
+   "USD_per_m3": 19.69723890658047,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-b",
+   "case": "dc2_pads_abs",
+   "tower_share": 0.026813510769733772,
+   "USD_per_m3": 14.592821918511952,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-b",
+   "case": "dc2.5_pads_abs",
+   "tower_share": 0.043035684785422704,
+   "USD_per_m3": 13.550849070349948,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-b",
+   "case": "dc3_pads_abs",
+   "tower_share": 0.4269432644158142,
+   "USD_per_m3": 2.814871849612188,
+   "regime": "mixed"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-b",
+   "case": "dc4_pads_abs",
+   "tower_share": 0.9885986270856015,
+   "USD_per_m3": 1.8021712708210371,
+   "regime": "tower"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-b",
+   "case": "dc6_pads_abs",
+   "tower_share": 1.0,
+   "USD_per_m3": 2.7315926960424606,
+   "regime": "tower"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-b",
+   "case": "dc10_pads_abs",
+   "tower_share": 1.0,
+   "USD_per_m3": 4.5206450833740135,
+   "regime": "tower"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-b",
+   "case": "dc2_pads_scaled",
+   "tower_share": 0.032229839945219996,
+   "USD_per_m3": 12.190793047370597,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-b",
+   "case": "dc2.25_pads_scaled",
+   "tower_share": 0.043035684785422704,
+   "USD_per_m3": 11.234649534701683,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-b",
+   "case": "dc2.25_pads_abs",
+   "tower_share": 0.032229839945219996,
+   "USD_per_m3": 14.495025650497544,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-b",
+   "case": "dc2.5_pads_scaled",
+   "tower_share": 0.23673648658597948,
+   "USD_per_m3": 3.710599831630981,
+   "regime": "mixed"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-b",
+   "case": "dc2.75_pads_scaled",
+   "tower_share": 0.7869765410916862,
+   "USD_per_m3": 1.3510673612160824,
+   "regime": "mixed"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-b",
+   "case": "dc2.75_pads_abs",
+   "tower_share": 0.05528945920719104,
+   "USD_per_m3": 12.181468100127823,
+   "regime": "mixed"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-b",
+   "case": "dc3_pads_scaled",
+   "tower_share": 0.9126788526921773,
+   "USD_per_m3": 1.326269084900066,
+   "regime": "mixed"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-b",
+   "case": "netl_dc2_joint_low_pads_scaled",
+   "tower_share": 0.0,
+   "USD_per_m3": 6.95011787311846,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-b",
+   "case": "netl_dc2_joint_low_pads_abs",
+   "tower_share": 0.0,
+   "USD_per_m3": 8.969821116803887,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-b",
+   "case": "netl_dc2_joint_high_pads_scaled",
+   "tower_share": 0.038128812314561424,
+   "USD_per_m3": 15.885168863920315,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-b",
+   "case": "netl_dc2_joint_high_pads_abs",
+   "tower_share": 0.026813510769733772,
+   "USD_per_m3": 20.00244175747964,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-b",
+   "case": "netl_dc3_joint_low_pads_scaled",
+   "tower_share": 0.043035684785422704,
+   "USD_per_m3": 4.305888206136271,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-b",
+   "case": "netl_dc3_joint_low_pads_abs",
+   "tower_share": 0.026813510769733772,
+   "USD_per_m3": 7.4200180701901335,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-b",
+   "case": "netl_dc3_joint_high_pads_scaled",
+   "tower_share": 0.9207229059230974,
+   "USD_per_m3": 1.993025712002406,
+   "regime": "mixed"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-b",
+   "case": "netl_dc3_joint_high_pads_abs",
+   "tower_share": 0.6194106447209632,
+   "USD_per_m3": 2.986911489532235,
+   "regime": "mixed"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-c",
+   "case": "pump-5|dc1|pads_scaled",
+   "tower_share": 0.0,
+   "USD_per_m3": 17.698369864855557,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-c",
+   "case": "pump-5|dc1|pads_abs",
+   "tower_share": 0.0,
+   "USD_per_m3": 17.69836986485555,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-c",
+   "case": "pump-5|dc2|pads_scaled",
+   "tower_share": 0.05528945920719104,
+   "USD_per_m3": 9.835478650858663,
+   "regime": "mixed"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-c",
+   "case": "pump-5|dc2|pads_abs",
+   "tower_share": 0.043035684785422704,
+   "USD_per_m3": 12.686696882537692,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-c",
+   "case": "pump-5|dc2.25|pads_scaled",
+   "tower_share": 0.4555347344670071,
+   "USD_per_m3": 2.174499367873818,
+   "regime": "mixed"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-c",
+   "case": "pump-5|dc2.25|pads_abs",
+   "tower_share": 0.05528945920719104,
+   "USD_per_m3": 11.707897546059911,
+   "regime": "mixed"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-c",
+   "case": "pump-5|dc2.5|pads_scaled",
+   "tower_share": 0.8968856948488043,
+   "USD_per_m3": 1.2873832829851581,
+   "regime": "mixed"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-c",
+   "case": "pump-5|dc2.5|pads_abs",
+   "tower_share": 0.2599301734017992,
+   "USD_per_m3": 4.230751813753261,
+   "regime": "mixed"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-c",
+   "case": "pump-5|dc2.75|pads_scaled",
+   "tower_share": 0.954411400854191,
+   "USD_per_m3": 1.3812137377621354,
+   "regime": "tower"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-c",
+   "case": "pump-5|dc2.75|pads_abs",
+   "tower_share": 0.800214147841278,
+   "USD_per_m3": 1.6626522452900085,
+   "regime": "mixed"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-c",
+   "case": "pump-5|dc3|pads_scaled",
+   "tower_share": 0.9885986270856015,
+   "USD_per_m3": 1.4980698153234089,
+   "regime": "tower"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-c",
+   "case": "pump-5|dc3|pads_abs",
+   "tower_share": 0.9126788526921773,
+   "USD_per_m3": 1.6272871675677123,
+   "regime": "mixed"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-c",
+   "case": "pump-5|dc4|pads_scaled",
+   "tower_share": 0.999726234055041,
+   "USD_per_m3": 2.0583498623255814,
+   "regime": "tower"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-c",
+   "case": "pump-5|dc4|pads_abs",
+   "tower_share": 0.9986000666027123,
+   "USD_per_m3": 2.06060424165464,
+   "regime": "tower"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-c",
+   "case": "pump+0|dc1|pads_scaled",
+   "tower_share": 0.0,
+   "USD_per_m3": 17.698369864855557,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-c",
+   "case": "pump+0|dc1|pads_abs",
+   "tower_share": 0.0,
+   "USD_per_m3": 17.69836986485555,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-c",
+   "case": "pump+0|dc2|pads_scaled",
+   "tower_share": 0.032229839945219996,
+   "USD_per_m3": 12.190793047370597,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-c",
+   "case": "pump+0|dc2|pads_abs",
+   "tower_share": 0.026813510769733772,
+   "USD_per_m3": 14.592821918511952,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-c",
+   "case": "pump+0|dc2.25|pads_scaled",
+   "tower_share": 0.043035684785422704,
+   "USD_per_m3": 11.234649534701683,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-c",
+   "case": "pump+0|dc2.25|pads_abs",
+   "tower_share": 0.032229839945219996,
+   "USD_per_m3": 14.495025650497544,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-c",
+   "case": "pump+0|dc2.5|pads_scaled",
+   "tower_share": 0.23673648658597948,
+   "USD_per_m3": 3.710599831630981,
+   "regime": "mixed"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-c",
+   "case": "pump+0|dc2.5|pads_abs",
+   "tower_share": 0.043035684785422704,
+   "USD_per_m3": 13.550849070349948,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-c",
+   "case": "pump+0|dc2.75|pads_scaled",
+   "tower_share": 0.7869765410916862,
+   "USD_per_m3": 1.3510673612160824,
+   "regime": "mixed"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-c",
+   "case": "pump+0|dc2.75|pads_abs",
+   "tower_share": 0.05528945920719104,
+   "USD_per_m3": 12.181468100127823,
+   "regime": "mixed"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-c",
+   "case": "pump+0|dc3|pads_scaled",
+   "tower_share": 0.9126788526921773,
+   "USD_per_m3": 1.326269084900066,
+   "regime": "mixed"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-c",
+   "case": "pump+0|dc3|pads_abs",
+   "tower_share": 0.4269432644158142,
+   "USD_per_m3": 2.814871849612188,
+   "regime": "mixed"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-c",
+   "case": "pump+0|dc4|pads_scaled",
+   "tower_share": 0.999726234055041,
+   "USD_per_m3": 1.780852079984744,
+   "regime": "tower"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-c",
+   "case": "pump+0|dc4|pads_abs",
+   "tower_share": 0.9885986270856015,
+   "USD_per_m3": 1.8021712708210371,
+   "regime": "tower"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-c",
+   "case": "pump+5|dc1|pads_scaled",
+   "tower_share": 0.0,
+   "USD_per_m3": 17.698369864855557,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-c",
+   "case": "pump+5|dc1|pads_abs",
+   "tower_share": 0.0,
+   "USD_per_m3": 17.69836986485555,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-c",
+   "case": "pump+5|dc2|pads_scaled",
+   "tower_share": 0.026813510769733772,
+   "USD_per_m3": 12.740868469774005,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-c",
+   "case": "pump+5|dc2|pads_abs",
+   "tower_share": 0.0,
+   "USD_per_m3": 20.281451374018737,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-c",
+   "case": "pump+5|dc2.25|pads_scaled",
+   "tower_share": 0.026813510769733772,
+   "USD_per_m3": 12.911871045627903,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-c",
+   "case": "pump+5|dc2.25|pads_abs",
+   "tower_share": 0.026813510769733772,
+   "USD_per_m3": 15.15689193105465,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-c",
+   "case": "pump+5|dc2.5|pads_scaled",
+   "tower_share": 0.043035684785422704,
+   "USD_per_m3": 11.100445276945885,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-c",
+   "case": "pump+5|dc2.5|pads_abs",
+   "tower_share": 0.026813510769733772,
+   "USD_per_m3": 15.57645336881333,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-c",
+   "case": "pump+5|dc2.75|pads_scaled",
+   "tower_share": 0.05528945920719104,
+   "USD_per_m3": 9.596704187382702,
+   "regime": "mixed"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-c",
+   "case": "pump+5|dc2.75|pads_abs",
+   "tower_share": 0.038128812314561424,
+   "USD_per_m3": 14.275747507877302,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-c",
+   "case": "pump+5|dc3|pads_scaled",
+   "tower_share": 0.5322750022899851,
+   "USD_per_m3": 1.7893618828737559,
+   "regime": "mixed"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-c",
+   "case": "pump+5|dc3|pads_abs",
+   "tower_share": 0.043035684785422704,
+   "USD_per_m3": 13.819038409595139,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-c",
+   "case": "pump+5|dc4|pads_scaled",
+   "tower_share": 0.9885986270856015,
+   "USD_per_m3": 1.5210757112825524,
+   "regime": "tower"
+  },
+  {
+   "menu": "uncorrected|historical",
+   "source": "PR-COST-c",
+   "case": "pump+5|dc4|pads_abs",
+   "tower_share": 0.9009613484858037,
+   "USD_per_m3": 1.6735511036044473,
+   "regime": "mixed"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-b",
+   "case": "dc0.5_pads_abs",
+   "tower_share": 0.0,
+   "USD_per_m3": 16.822699033344136,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-b",
+   "case": "dc1.5_pads_abs",
+   "tower_share": 0.0,
+   "USD_per_m3": 20.287813594419053,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-b",
+   "case": "dc2_pads_abs",
+   "tower_share": 0.026813510769733772,
+   "USD_per_m3": 16.016772493173278,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-b",
+   "case": "dc2.5_pads_abs",
+   "tower_share": 0.05528945920719104,
+   "USD_per_m3": 12.514362723888627,
+   "regime": "mixed"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-b",
+   "case": "dc3_pads_abs",
+   "tower_share": 0.792759991847292,
+   "USD_per_m3": 1.813768133842618,
+   "regime": "mixed"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-b",
+   "case": "dc4_pads_abs",
+   "tower_share": 0.992486586147213,
+   "USD_per_m3": 2.008047873410655,
+   "regime": "tower"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-b",
+   "case": "dc6_pads_abs",
+   "tower_share": 1.0,
+   "USD_per_m3": 2.950114792431655,
+   "regime": "tower"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-b",
+   "case": "dc10_pads_abs",
+   "tower_share": 1.0,
+   "USD_per_m3": 4.733033245792773,
+   "regime": "tower"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-b",
+   "case": "dc2_pads_scaled",
+   "tower_share": 0.043035684785422704,
+   "USD_per_m3": 12.117166101590495,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-b",
+   "case": "dc2.25_pads_scaled",
+   "tower_share": 0.11205366150671744,
+   "USD_per_m3": 6.964020481360142,
+   "regime": "mixed"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-b",
+   "case": "dc2.25_pads_abs",
+   "tower_share": 0.043035684785422704,
+   "USD_per_m3": 14.15590667191787,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-b",
+   "case": "dc2.5_pads_scaled",
+   "tower_share": 0.6534988844799515,
+   "USD_per_m3": 1.7072582084125865,
+   "regime": "mixed"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-b",
+   "case": "dc2.75_pads_scaled",
+   "tower_share": 0.8658356493774525,
+   "USD_per_m3": 1.4638443059059456,
+   "regime": "mixed"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-b",
+   "case": "dc2.75_pads_abs",
+   "tower_share": 0.5218899060514415,
+   "USD_per_m3": 2.4737624964318528,
+   "regime": "mixed"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-b",
+   "case": "dc3_pads_scaled",
+   "tower_share": 0.9633134864297426,
+   "USD_per_m3": 1.478063760535723,
+   "regime": "tower"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-b",
+   "case": "netl_dc2_joint_low_pads_scaled",
+   "tower_share": 0.026813510769733772,
+   "USD_per_m3": 5.575018504709249,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-b",
+   "case": "netl_dc2_joint_low_pads_abs",
+   "tower_share": 0.0,
+   "USD_per_m3": 9.442954672967437,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-b",
+   "case": "netl_dc2_joint_high_pads_scaled",
+   "tower_share": 0.043035684785422704,
+   "USD_per_m3": 16.80922492970636,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-b",
+   "case": "netl_dc2_joint_high_pads_abs",
+   "tower_share": 0.026813510769733772,
+   "USD_per_m3": 21.429239826887816,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-b",
+   "case": "netl_dc3_joint_low_pads_scaled",
+   "tower_share": 0.09971944655263991,
+   "USD_per_m3": 2.9091825723255837,
+   "regime": "mixed"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-b",
+   "case": "netl_dc3_joint_low_pads_abs",
+   "tower_share": 0.043035684785422704,
+   "USD_per_m3": 6.741995345201473,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-b",
+   "case": "netl_dc3_joint_high_pads_scaled",
+   "tower_share": 0.9726714016883796,
+   "USD_per_m3": 2.213891333934902,
+   "regime": "tower"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-b",
+   "case": "netl_dc3_joint_high_pads_abs",
+   "tower_share": 0.8600975580727295,
+   "USD_per_m3": 2.5144859639990464,
+   "regime": "mixed"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-c",
+   "case": "pump-5|dc1|pads_scaled",
+   "tower_share": 0.0,
+   "USD_per_m3": 18.031163065062398,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-c",
+   "case": "pump-5|dc1|pads_abs",
+   "tower_share": 0.0,
+   "USD_per_m3": 18.03116306506239,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-c",
+   "case": "pump-5|dc2|pads_scaled",
+   "tower_share": 0.2015035334345493,
+   "USD_per_m3": 4.657087942681452,
+   "regime": "mixed"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-c",
+   "case": "pump-5|dc2|pads_abs",
+   "tower_share": 0.043035684785422704,
+   "USD_per_m3": 13.954136102975179,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-c",
+   "case": "pump-5|dc2.25|pads_scaled",
+   "tower_share": 0.792759991847292,
+   "USD_per_m3": 1.5047688300170547,
+   "regime": "mixed"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-c",
+   "case": "pump-5|dc2.25|pads_abs",
+   "tower_share": 0.2015035334345493,
+   "USD_per_m3": 5.462756599714221,
+   "regime": "mixed"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-c",
+   "case": "pump-5|dc2.5|pads_scaled",
+   "tower_share": 0.9126520391814076,
+   "USD_per_m3": 1.4919692933008066,
+   "regime": "mixed"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-c",
+   "case": "pump-5|dc2.5|pads_abs",
+   "tower_share": 0.7294801064307203,
+   "USD_per_m3": 1.884183175695706,
+   "regime": "mixed"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-c",
+   "case": "pump-5|dc2.75|pads_scaled",
+   "tower_share": 0.9823510790762535,
+   "USD_per_m3": 1.563198395234912,
+   "regime": "tower"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-c",
+   "case": "pump-5|dc2.75|pads_abs",
+   "tower_share": 0.869911303014452,
+   "USD_per_m3": 1.7677960756720232,
+   "regime": "mixed"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-c",
+   "case": "pump-5|dc3|pads_scaled",
+   "tower_share": 0.9948461750949495,
+   "USD_per_m3": 1.7056903286185883,
+   "regime": "tower"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-c",
+   "case": "pump-5|dc3|pads_abs",
+   "tower_share": 0.9633134864297426,
+   "USD_per_m3": 1.7634862657294157,
+   "regime": "tower"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-c",
+   "case": "pump-5|dc4|pads_scaled",
+   "tower_share": 0.999726234055041,
+   "USD_per_m3": 2.26891565989869,
+   "regime": "tower"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-c",
+   "case": "pump-5|dc4|pads_abs",
+   "tower_share": 0.9961332236118967,
+   "USD_per_m3": 2.276708328560696,
+   "regime": "tower"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-c",
+   "case": "pump+0|dc1|pads_scaled",
+   "tower_share": 0.0,
+   "USD_per_m3": 18.031163065062398,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-c",
+   "case": "pump+0|dc1|pads_abs",
+   "tower_share": 0.0,
+   "USD_per_m3": 18.03116306506239,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-c",
+   "case": "pump+0|dc2|pads_scaled",
+   "tower_share": 0.043035684785422704,
+   "USD_per_m3": 12.117166101590495,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-c",
+   "case": "pump+0|dc2|pads_abs",
+   "tower_share": 0.026813510769733772,
+   "USD_per_m3": 16.016772493173278,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-c",
+   "case": "pump+0|dc2.25|pads_scaled",
+   "tower_share": 0.11205366150671744,
+   "USD_per_m3": 6.964020481360142,
+   "regime": "mixed"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-c",
+   "case": "pump+0|dc2.25|pads_abs",
+   "tower_share": 0.043035684785422704,
+   "USD_per_m3": 14.15590667191787,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-c",
+   "case": "pump+0|dc2.5|pads_scaled",
+   "tower_share": 0.6534988844799515,
+   "USD_per_m3": 1.7072582084125865,
+   "regime": "mixed"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-c",
+   "case": "pump+0|dc2.5|pads_abs",
+   "tower_share": 0.05528945920719104,
+   "USD_per_m3": 12.514362723888627,
+   "regime": "mixed"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-c",
+   "case": "pump+0|dc2.75|pads_scaled",
+   "tower_share": 0.8658356493774525,
+   "USD_per_m3": 1.4638443059059456,
+   "regime": "mixed"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-c",
+   "case": "pump+0|dc2.75|pads_abs",
+   "tower_share": 0.5218899060514415,
+   "USD_per_m3": 2.4737624964318528,
+   "regime": "mixed"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-c",
+   "case": "pump+0|dc3|pads_scaled",
+   "tower_share": 0.9633134864297426,
+   "USD_per_m3": 1.478063760535723,
+   "regime": "tower"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-c",
+   "case": "pump+0|dc3|pads_abs",
+   "tower_share": 0.792759991847292,
+   "USD_per_m3": 1.813768133842618,
+   "regime": "mixed"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-c",
+   "case": "pump+0|dc4|pads_scaled",
+   "tower_share": 0.999726234055041,
+   "USD_per_m3": 1.9928914449887778,
+   "regime": "tower"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-c",
+   "case": "pump+0|dc4|pads_abs",
+   "tower_share": 0.992486586147213,
+   "USD_per_m3": 2.008047873410655,
+   "regime": "tower"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-c",
+   "case": "pump+5|dc1|pads_scaled",
+   "tower_share": 0.0,
+   "USD_per_m3": 18.031163065062398,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-c",
+   "case": "pump+5|dc1|pads_abs",
+   "tower_share": 0.0,
+   "USD_per_m3": 18.03116306506239,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-c",
+   "case": "pump+5|dc2|pads_scaled",
+   "tower_share": 0.026813510769733772,
+   "USD_per_m3": 13.925243196978041,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-c",
+   "case": "pump+5|dc2|pads_abs",
+   "tower_share": 0.026813510769733772,
+   "USD_per_m3": 15.921074735635935,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-c",
+   "case": "pump+5|dc2.25|pads_scaled",
+   "tower_share": 0.043035684785422704,
+   "USD_per_m3": 11.72271692167598,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-c",
+   "case": "pump+5|dc2.25|pads_abs",
+   "tower_share": 0.026813510769733772,
+   "USD_per_m3": 16.261096711765667,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-c",
+   "case": "pump+5|dc2.5|pads_scaled",
+   "tower_share": 0.05528945920719104,
+   "USD_per_m3": 10.150450607507642,
+   "regime": "mixed"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-c",
+   "case": "pump+5|dc2.5|pads_abs",
+   "tower_share": 0.043035684785422704,
+   "USD_per_m3": 14.019318009219383,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-c",
+   "case": "pump+5|dc2.75|pads_scaled",
+   "tower_share": 0.5086522993018496,
+   "USD_per_m3": 2.022720819152005,
+   "regime": "mixed"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-c",
+   "case": "pump+5|dc2.75|pads_abs",
+   "tower_share": 0.05528945920719104,
+   "USD_per_m3": 12.522191765311593,
+   "regime": "mixed"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-c",
+   "case": "pump+5|dc3|pads_scaled",
+   "tower_share": 0.8600975580727295,
+   "USD_per_m3": 1.358846956453064,
+   "regime": "mixed"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-c",
+   "case": "pump+5|dc3|pads_abs",
+   "tower_share": 0.15533066788906774,
+   "USD_per_m3": 6.630768428504164,
+   "regime": "mixed"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-c",
+   "case": "pump+5|dc4|pads_scaled",
+   "tower_share": 0.9948461750949495,
+   "USD_per_m3": 1.725831549154697,
+   "regime": "tower"
+  },
+  {
+   "menu": "uncorrected|stress_plus1.2K",
+   "source": "PR-COST-c",
+   "case": "pump+5|dc4|pads_abs",
+   "tower_share": 0.9445440288909289,
+   "USD_per_m3": 1.8191766807824663,
+   "regime": "mixed"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-b",
+   "case": "dc0.5_pads_abs",
+   "tower_share": 0.0,
+   "USD_per_m3": 16.791027635655528,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-b",
+   "case": "dc1.5_pads_abs",
+   "tower_share": 0.0,
+   "USD_per_m3": 20.364091934225186,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-b",
+   "case": "dc2_pads_abs",
+   "tower_share": 0.026813510769733772,
+   "USD_per_m3": 15.976418867509455,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-b",
+   "case": "dc2.5_pads_abs",
+   "tower_share": 0.05528945920719104,
+   "USD_per_m3": 12.481983177576039,
+   "regime": "mixed"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-b",
+   "case": "dc3_pads_abs",
+   "tower_share": 0.8466551484944569,
+   "USD_per_m3": 1.7118978628375827,
+   "regime": "mixed"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-b",
+   "case": "dc4_pads_abs",
+   "tower_share": 0.9885986270856015,
+   "USD_per_m3": 2.0255024944953526,
+   "regime": "tower"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-b",
+   "case": "dc6_pads_abs",
+   "tower_share": 1.0,
+   "USD_per_m3": 2.959533793836541,
+   "regime": "tower"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-b",
+   "case": "dc10_pads_abs",
+   "tower_share": 1.0,
+   "USD_per_m3": 4.739696016608989,
+   "regime": "tower"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-b",
+   "case": "dc2_pads_scaled",
+   "tower_share": 0.043035684785422704,
+   "USD_per_m3": 11.945439630942683,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-b",
+   "case": "dc2.25_pads_scaled",
+   "tower_share": 0.10132825719882393,
+   "USD_per_m3": 7.340296324384447,
+   "regime": "mixed"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-b",
+   "case": "dc2.25_pads_abs",
+   "tower_share": 0.043035684785422704,
+   "USD_per_m3": 14.069114811691259,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-b",
+   "case": "dc2.5_pads_scaled",
+   "tower_share": 0.6628836132493584,
+   "USD_per_m3": 1.684659822147547,
+   "regime": "mixed"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-b",
+   "case": "dc2.75_pads_scaled",
+   "tower_share": 0.874442786334537,
+   "USD_per_m3": 1.4608544303245388,
+   "regime": "mixed"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-b",
+   "case": "dc2.75_pads_abs",
+   "tower_share": 0.5650411124505998,
+   "USD_per_m3": 2.2977733837207865,
+   "regime": "mixed"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-b",
+   "case": "dc3_pads_scaled",
+   "tower_share": 0.9661020915497949,
+   "USD_per_m3": 1.482702585115163,
+   "regime": "tower"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-b",
+   "case": "netl_dc2_joint_low_pads_scaled",
+   "tower_share": 0.026813510769733772,
+   "USD_per_m3": 5.482795849561457,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-b",
+   "case": "netl_dc2_joint_low_pads_abs",
+   "tower_share": 0.0,
+   "USD_per_m3": 9.347360072443031,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-b",
+   "case": "netl_dc2_joint_high_pads_scaled",
+   "tower_share": 0.043035684785422704,
+   "USD_per_m3": 16.888526284215924,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-b",
+   "case": "netl_dc2_joint_high_pads_abs",
+   "tower_share": 0.026813510769733772,
+   "USD_per_m3": 21.551547561574505,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-b",
+   "case": "netl_dc3_joint_low_pads_scaled",
+   "tower_share": 0.1010601220911266,
+   "USD_per_m3": 2.817047042263184,
+   "regime": "mixed"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-b",
+   "case": "netl_dc3_joint_low_pads_abs",
+   "tower_share": 0.043035684785422704,
+   "USD_per_m3": 6.469999409724091,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-b",
+   "case": "netl_dc3_joint_high_pads_scaled",
+   "tower_share": 0.9768006823469186,
+   "USD_per_m3": 2.2055329589682025,
+   "regime": "tower"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-b",
+   "case": "netl_dc3_joint_high_pads_abs",
+   "tower_share": 0.8641732117097289,
+   "USD_per_m3": 2.503151376302336,
+   "regime": "mixed"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-c",
+   "case": "pump-5|dc1|pads_scaled",
+   "tower_share": 0.0,
+   "USD_per_m3": 18.044327728532668,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-c",
+   "case": "pump-5|dc1|pads_abs",
+   "tower_share": 0.0,
+   "USD_per_m3": 18.04432772853266,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-c",
+   "case": "pump-5|dc2|pads_scaled",
+   "tower_share": 0.2491243285615965,
+   "USD_per_m3": 3.8469632336948476,
+   "regime": "mixed"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-c",
+   "case": "pump-5|dc2|pads_abs",
+   "tower_share": 0.043035684785422704,
+   "USD_per_m3": 13.901335025579687,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-c",
+   "case": "pump-5|dc2.25|pads_scaled",
+   "tower_share": 0.8334175417448652,
+   "USD_per_m3": 1.4355503703157355,
+   "regime": "mixed"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-c",
+   "case": "pump-5|dc2.25|pads_abs",
+   "tower_share": 0.2491243285615965,
+   "USD_per_m3": 4.539182999756037,
+   "regime": "mixed"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-c",
+   "case": "pump-5|dc2.5|pads_scaled",
+   "tower_share": 0.9126520391814076,
+   "USD_per_m3": 1.498385310748941,
+   "regime": "mixed"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-c",
+   "case": "pump-5|dc2.5|pads_abs",
+   "tower_share": 0.8109395521491715,
+   "USD_per_m3": 1.7070769570618989,
+   "regime": "mixed"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-c",
+   "case": "pump-5|dc2.75|pads_scaled",
+   "tower_share": 0.9823510790762535,
+   "USD_per_m3": 1.5731662267288415,
+   "regime": "tower"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-c",
+   "case": "pump-5|dc2.75|pads_abs",
+   "tower_share": 0.874442786334537,
+   "USD_per_m3": 1.7691498453733612,
+   "regime": "mixed"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-c",
+   "case": "pump-5|dc3|pads_scaled",
+   "tower_share": 0.9948461750949495,
+   "USD_per_m3": 1.713832848476195,
+   "regime": "tower"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-c",
+   "case": "pump-5|dc3|pads_abs",
+   "tower_share": 0.9678449697498276,
+   "USD_per_m3": 1.7638390390650895,
+   "regime": "tower"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-c",
+   "case": "pump-5|dc4|pads_scaled",
+   "tower_share": 0.999726234055041,
+   "USD_per_m3": 2.2783215656502467,
+   "regime": "tower"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-c",
+   "case": "pump-5|dc4|pads_abs",
+   "tower_share": 0.9961332236118967,
+   "USD_per_m3": 2.286146485082827,
+   "regime": "tower"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-c",
+   "case": "pump+0|dc1|pads_scaled",
+   "tower_share": 0.0,
+   "USD_per_m3": 18.044327728532668,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-c",
+   "case": "pump+0|dc1|pads_abs",
+   "tower_share": 0.0,
+   "USD_per_m3": 18.04432772853266,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-c",
+   "case": "pump+0|dc2|pads_scaled",
+   "tower_share": 0.043035684785422704,
+   "USD_per_m3": 11.945439630942683,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-c",
+   "case": "pump+0|dc2|pads_abs",
+   "tower_share": 0.026813510769733772,
+   "USD_per_m3": 15.976418867509455,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-c",
+   "case": "pump+0|dc2.25|pads_scaled",
+   "tower_share": 0.10132825719882393,
+   "USD_per_m3": 7.340296324384447,
+   "regime": "mixed"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-c",
+   "case": "pump+0|dc2.25|pads_abs",
+   "tower_share": 0.043035684785422704,
+   "USD_per_m3": 14.069114811691259,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-c",
+   "case": "pump+0|dc2.5|pads_scaled",
+   "tower_share": 0.6628836132493584,
+   "USD_per_m3": 1.684659822147547,
+   "regime": "mixed"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-c",
+   "case": "pump+0|dc2.5|pads_abs",
+   "tower_share": 0.05528945920719104,
+   "USD_per_m3": 12.481983177576039,
+   "regime": "mixed"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-c",
+   "case": "pump+0|dc2.75|pads_scaled",
+   "tower_share": 0.874442786334537,
+   "USD_per_m3": 1.4608544303245388,
+   "regime": "mixed"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-c",
+   "case": "pump+0|dc2.75|pads_abs",
+   "tower_share": 0.5650411124505998,
+   "USD_per_m3": 2.2977733837207865,
+   "regime": "mixed"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-c",
+   "case": "pump+0|dc3|pads_scaled",
+   "tower_share": 0.9661020915497949,
+   "USD_per_m3": 1.482702585115163,
+   "regime": "tower"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-c",
+   "case": "pump+0|dc3|pads_abs",
+   "tower_share": 0.8466551484944569,
+   "USD_per_m3": 1.7118978628375827,
+   "regime": "mixed"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-c",
+   "case": "pump+0|dc4|pads_scaled",
+   "tower_share": 0.999726234055041,
+   "USD_per_m3": 2.002453419916916,
+   "regime": "tower"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-c",
+   "case": "pump+0|dc4|pads_abs",
+   "tower_share": 0.9885986270856015,
+   "USD_per_m3": 2.0255024944953526,
+   "regime": "tower"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-c",
+   "case": "pump+5|dc1|pads_scaled",
+   "tower_share": 0.0,
+   "USD_per_m3": 18.044327728532668,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-c",
+   "case": "pump+5|dc1|pads_abs",
+   "tower_share": 0.0,
+   "USD_per_m3": 18.04432772853266,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-c",
+   "case": "pump+5|dc2|pads_scaled",
+   "tower_share": 0.026813510769733772,
+   "USD_per_m3": 13.728188737827402,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-c",
+   "case": "pump+5|dc2|pads_abs",
+   "tower_share": 0.026813510769733772,
+   "USD_per_m3": 15.879813639646532,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-c",
+   "case": "pump+5|dc2.25|pads_scaled",
+   "tower_share": 0.043035684785422704,
+   "USD_per_m3": 11.574741935374004,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-c",
+   "case": "pump+5|dc2.25|pads_abs",
+   "tower_share": 0.026813510769733772,
+   "USD_per_m3": 16.172133498951165,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-c",
+   "case": "pump+5|dc2.5|pads_scaled",
+   "tower_share": 0.05528945920719104,
+   "USD_per_m3": 10.070097904568422,
+   "regime": "mixed"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-c",
+   "case": "pump+5|dc2.5|pads_abs",
+   "tower_share": 0.043035684785422704,
+   "USD_per_m3": 13.990479745499336,
+   "regime": "adiabatic"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-c",
+   "case": "pump+5|dc2.75|pads_scaled",
+   "tower_share": 0.5728438440845923,
+   "USD_per_m3": 1.8207519028070602,
+   "regime": "mixed"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-c",
+   "case": "pump+5|dc2.75|pads_abs",
+   "tower_share": 0.05528945920719104,
+   "USD_per_m3": 12.398810918505628,
+   "regime": "mixed"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-c",
+   "case": "pump+5|dc3|pads_scaled",
+   "tower_share": 0.8581669852973086,
+   "USD_per_m3": 1.3702464783616106,
+   "regime": "mixed"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-c",
+   "case": "pump+5|dc3|pads_abs",
+   "tower_share": 0.20295146301611494,
+   "USD_per_m3": 5.339920522558689,
+   "regime": "mixed"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-c",
+   "case": "pump+5|dc4|pads_scaled",
+   "tower_share": 0.9948461750949495,
+   "USD_per_m3": 1.7356377715722093,
+   "regime": "tower"
+  },
+  {
+   "menu": "cmip_ssp245_median|ssp245_median",
+   "source": "PR-COST-c",
+   "case": "pump+5|dc4|pads_abs",
+   "tower_share": 0.9473326340109812,
+   "USD_per_m3": 1.8245509225241519,
+   "regime": "mixed"
+  }
+ ]
+}

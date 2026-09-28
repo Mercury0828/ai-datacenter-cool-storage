@@ -1,0 +1,4 @@
+[
+ {"name": "m2_pressure", "args": ["experiments/phase1/m2_pressure_sensitivity.py", "--workers", "2"],
+  "items": "experiments/phase1/out/m2/pressure/*__*__*.json", "expected": 162}
+]

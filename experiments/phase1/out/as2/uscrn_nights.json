@@ -1,0 +1,183 @@
+{
+ "stations": {
+  "TX_Monahans_6_ENE": {
+   "coverage_since_first_obs": 0.9975993321684304,
+   "matched_hours": 192400,
+   "first_obs": "2004-01-01T01",
+   "elev_station_m": 830.2752,
+   "elev_era5_m": 803.0,
+   "lapse_adj_K": -0.17728880000000025,
+   "era5_dist_km": 14.2,
+   "dry_bulb_q_era5_minus_station": {
+    "0.99": 0.5,
+    "0.996": 0.6095999999990411,
+    "0.999": 0.8500000000000014
+   },
+   "annual_max_mean_era5_minus_station": 0.6454545454545456,
+   "annual_max_years": 22,
+   "hot_days": 87,
+   "night_min_hot_days_era5_minus_station": 1.5908045977011496,
+   "night_min_hot_days_lapse_adjusted": 1.4135157977011494,
+   "day_max_hot_days_era5_minus_station": 0.40804597701149475,
+   "night_min_jja_era5_minus_station": 1.0363568956994564,
+   "night_min_jja_lapse_adjusted": 0.8590680956994562
+  },
+  "NM_Socorro_20_N": {
+   "coverage_since_first_obs": 0.9921239429024749,
+   "matched_hours": 191344,
+   "first_obs": "2004-01-01T01",
+   "elev_station_m": 1477.3656,
+   "elev_era5_m": 1703.0,
+   "lapse_adj_K": 1.4666235999999995,
+   "era5_dist_km": 15.7,
+   "dry_bulb_q_era5_minus_station": {
+    "0.99": -1.5,
+    "0.996": -1.5,
+    "0.999": -1.5500000000000043
+   },
+   "annual_max_mean_era5_minus_station": -1.8318181818181827,
+   "annual_max_years": 22,
+   "hot_days": 80,
+   "night_min_hot_days_era5_minus_station": 0.6031250000000002,
+   "night_min_hot_days_lapse_adjusted": 2.0697485999999996,
+   "day_max_hot_days_era5_minus_station": -2.111875,
+   "night_min_jja_era5_minus_station": 0.3820959595959596,
+   "night_min_jja_lapse_adjusted": 1.8487195595959591
+  },
+  "TX_Muleshoe_19_S": {
+   "coverage_since_first_obs": 0.9975664017212746,
+   "matched_hours": 191020,
+   "first_obs": "2004-02-27T10",
+   "elev_station_m": 1140.5616,
+   "elev_era5_m": 1165.0,
+   "lapse_adj_K": 0.1588496,
+   "era5_dist_km": 5.9,
+   "dry_bulb_q_era5_minus_station": {
+    "0.99": -0.04999999999999716,
+    "0.996": -0.14999999999999858,
+    "0.999": -0.20000000000000284
+   },
+   "annual_max_mean_era5_minus_station": -0.14545454545454495,
+   "annual_max_years": 22,
+   "hot_days": 82,
+   "night_min_hot_days_era5_minus_station": 3.2024390243902436,
+   "night_min_hot_days_lapse_adjusted": 3.3612886243902436,
+   "day_max_hot_days_era5_minus_station": -0.3963414634146344,
+   "night_min_jja_era5_minus_station": 2.4352663016426086,
+   "night_min_jja_lapse_adjusted": 2.5941159016426085
+  },
+  "TX_Bronte_11_NNE": {
+   "coverage_since_first_obs": 0.9977057900348624,
+   "matched_hours": 166559,
+   "first_obs": "2006-12-16T02",
+   "elev_station_m": 608.6856,
+   "elev_era5_m": 633.0,
+   "lapse_adj_K": 0.15804359999999984,
+   "era5_dist_km": 4.5,
+   "dry_bulb_q_era5_minus_station": {
+    "0.99": -0.25,
+    "0.996": -0.25,
+    "0.999": -0.3500000000000014
+   },
+   "annual_max_mean_era5_minus_station": -0.7131578947368415,
+   "annual_max_years": 19,
+   "hot_days": 70,
+   "night_min_hot_days_era5_minus_station": 3.495714285714285,
+   "night_min_hot_days_lapse_adjusted": 3.6537578857142847,
+   "day_max_hot_days_era5_minus_station": -0.745,
+   "night_min_jja_era5_minus_station": 1.900028604118993,
+   "night_min_jja_lapse_adjusted": 2.058072204118993
+  },
+  "NM_Las_Cruces_20_N": {
+   "coverage_since_first_obs": 0.9992007266121707,
+   "matched_hours": 165018,
+   "first_obs": "2007-02-28T18",
+   "elev_station_m": 1318.8696,
+   "elev_era5_m": 1406.0,
+   "lapse_adj_K": 0.5663476000000001,
+   "era5_dist_km": 12.3,
+   "dry_bulb_q_era5_minus_station": {
+    "0.99": 0.0,
+    "0.996": 0.04999999999999716,
+    "0.999": -0.05000000000000426
+   },
+   "annual_max_mean_era5_minus_station": -0.4236842105263164,
+   "annual_max_years": 19,
+   "hot_days": 69,
+   "night_min_hot_days_era5_minus_station": 6.3884057971014485,
+   "night_min_hot_days_lapse_adjusted": 6.954753397101449,
+   "day_max_hot_days_era5_minus_station": -0.36449275362318817,
+   "night_min_jja_era5_minus_station": 3.9658466819221965,
+   "night_min_jja_lapse_adjusted": 4.532194281922196
+  },
+  "TX_Austin_33_NW": {
+   "coverage_since_first_obs": 0.9984779978348086,
+   "matched_hours": 156791,
+   "first_obs": "2008-02-02T02",
+   "elev_station_m": 414.8328,
+   "elev_era5_m": 294.0,
+   "lapse_adj_K": -0.7854132000000001,
+   "era5_dist_km": 15.4,
+   "dry_bulb_q_era5_minus_station": {
+    "0.99": 1.0,
+    "0.996": 0.8999999999999986,
+    "0.999": 0.44999999999999574
+   },
+   "annual_max_mean_era5_minus_station": 0.6361111111111116,
+   "annual_max_years": 18,
+   "hot_days": 66,
+   "night_min_hot_days_era5_minus_station": 0.6356060606060604,
+   "night_min_hot_days_lapse_adjusted": -0.14980713939393975,
+   "day_max_hot_days_era5_minus_station": 0.11060606060606046,
+   "night_min_jja_era5_minus_station": 0.9234280532043531,
+   "night_min_jja_lapse_adjusted": 0.13801485320435292
+  },
+  "OK_Stillwater_2_W": {
+   "coverage_since_first_obs": 0.9968475031499043,
+   "matched_hours": 192255,
+   "first_obs": "2004-01-01T01",
+   "elev_station_m": 271.272,
+   "elev_era5_m": 294.0,
+   "lapse_adj_K": 0.14773200000000006,
+   "era5_dist_km": 14.7,
+   "dry_bulb_q_era5_minus_station": {
+    "0.99": -0.04999999999999716,
+    "0.996": -0.25,
+    "0.999": -0.3500000000000014
+   },
+   "annual_max_mean_era5_minus_station": -0.2840909090909081,
+   "annual_max_years": 22,
+   "hot_days": 86,
+   "night_min_hot_days_era5_minus_station": 1.2837209302325578,
+   "night_min_hot_days_lapse_adjusted": 1.4314529302325578,
+   "day_max_hot_days_era5_minus_station": -0.6476744186046512,
+   "night_min_jja_era5_minus_station": 0.9420207509881422,
+   "night_min_jja_lapse_adjusted": 1.0897527509881422
+  },
+  "TX_Palestine_6_WNW": {
+   "coverage_since_first_obs": 0.9972519353115943,
+   "matched_hours": 192333,
+   "first_obs": "2004-01-01T01",
+   "elev_station_m": 116.7384,
+   "elev_era5_m": 115.0,
+   "lapse_adj_K": -0.011299599999999991,
+   "era5_dist_km": 3.6,
+   "dry_bulb_q_era5_minus_station": {
+    "0.99": 1.5,
+    "0.996": 1.25,
+    "0.999": 0.8000000000000043
+   },
+   "annual_max_mean_era5_minus_station": 1.5999999999999999,
+   "annual_max_years": 22,
+   "hot_days": 82,
+   "night_min_hot_days_era5_minus_station": 1.8128048780487802,
+   "night_min_hot_days_lapse_adjusted": 1.8015052780487801,
+   "day_max_hot_days_era5_minus_station": 0.42195121951219516,
+   "night_min_jja_era5_minus_station": 1.300593471810089,
+   "night_min_jja_lapse_adjusted": 1.289293871810089
+  }
+ },
+ "median_hot_day_night_min_era5_minus_station": 1.7018047378749648,
+ "median_hot_day_night_min_lapse_adjusted": 1.9356269390243899,
+ "rule": "ERA5 nights warmer than rural stations (> +0.5 K)"
+}

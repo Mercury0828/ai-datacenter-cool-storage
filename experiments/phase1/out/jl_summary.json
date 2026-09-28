@@ -1,0 +1,37 @@
+{
+ "cells": 80,
+ "F_dry_8h_GW|central_airport_nights|5K": 33.982631374,
+ "F_dry_8h_GW|central_airport_nights|6K": 28.194631374,
+ "F_dry_8h_GW|central_rural|5K": 35.689631373999994,
+ "F_dry_8h_GW|central_rural|6K": 33.982631374,
+ "F_dry_8h_GW|central|5K": 34.136631374,
+ "F_dry_8h_GW|central|6K": 29.051631373999996,
+ "lever_kept_GW|central": 5.085,
+ "lever_kept_cells|central": [
+  "cell_485_331",
+  "cell_487_293",
+  "cell_490_321",
+  "cell_490_332",
+  "cell_490_333",
+  "cell_493_331",
+  "cell_495_317",
+  "cell_505_339"
+ ],
+ "lever_kept_GW|central_airport_nights": 5.788,
+ "lever_kept_cells|central_airport_nights": [
+  "cell_483_332",
+  "cell_485_331",
+  "cell_487_293",
+  "cell_490_321",
+  "cell_490_332",
+  "cell_493_331",
+  "cell_495_317",
+  "cell_505_339"
+ ],
+ "lever_kept_GW|central_rural": 1.707,
+ "lever_kept_cells|central_rural": [
+  "cell_490_333",
+  "cell_491_323",
+  "cell_503_338"
+ ]
+}

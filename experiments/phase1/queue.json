@@ -1,0 +1,65 @@
+[
+ {
+  "name": "bv1_uncorrected",
+  "args": [
+   "experiments/phase1/bv1_min_storage.py",
+   "--workers",
+   "3"
+  ],
+  "items": "experiments/phase1/out/bv1/uncorrected/*.json",
+  "expected": 160
+ },
+ {
+  "name": "bv2c_uncorrected",
+  "args": [
+   "experiments/phase1/bv2_continuous.py",
+   "--workers",
+   "2",
+   "--tag",
+   "uncorrected"
+  ],
+  "items": "experiments/phase1/out/bv2_continuous/uncorrected/*.json",
+  "expected": 160
+ },
+ {
+  "name": "hub_corrected",
+  "args": [
+   "experiments/phase0/hub_screen.py",
+   "2"
+  ],
+  "env": {
+   "HUB_WX": "D:/_caches/era5/weather_hub_corrected",
+   "HUB_OUT": "experiments/phase1/out/bv3/hub_corrected"
+  },
+  "items": "experiments/phase1/out/bv3/hub_corrected/items/*.json",
+  "expected": 160
+ },
+ {
+  "name": "bv1_corrected",
+  "args": [
+   "experiments/phase1/bv1_min_storage.py",
+   "--workers",
+   "3",
+   "--weather-dir",
+   "D:/_caches/era5/weather_hub_corrected",
+   "--tag",
+   "corrected"
+  ],
+  "items": "experiments/phase1/out/bv1/corrected/*.json",
+  "expected": 160
+ },
+ {
+  "name": "bv2c_corrected",
+  "args": [
+   "experiments/phase1/bv2_continuous.py",
+   "--workers",
+   "2",
+   "--weather-dir",
+   "D:/_caches/era5/weather_hub_corrected",
+   "--tag",
+   "corrected"
+  ],
+  "items": "experiments/phase1/out/bv2_continuous/corrected/*.json",
+  "expected": 160
+ }
+]

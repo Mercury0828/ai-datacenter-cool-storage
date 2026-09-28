@@ -1,0 +1,6 @@
+[
+  {"name": "r2f_shift", "args": ["experiments/phase1/r2f_precompute.py", "--part", "shift", "--workers", "3"],
+   "items": "experiments/phase1/out/r2f/shift/*__*.npz", "expected": 1038},
+  {"name": "r2f_bmon", "args": ["experiments/phase1/r2f_precompute.py", "--part", "bmon", "--workers", "3"],
+   "items": "experiments/phase1/out/r2f/bmon/*__*.npz", "expected": 549}
+]

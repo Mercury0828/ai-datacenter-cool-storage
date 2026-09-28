@@ -1,0 +1,62 @@
+{
+ "tables_compared": 127,
+ "points": 106,
+ "missing": [],
+ "max_abs_dT": 3.83,
+ "max_abs_dTd": 5.95,
+ "T_Td_agreement": false,
+ "pressure_mean_dp_pct": {
+  "min": -0.02153421496785526,
+  "median": 0.011691395566288766,
+  "max": 13.776167086899529
+ },
+ "worst_T": [
+  {
+   "table": "hub_cells:cell_525_1179",
+   "max_abs_dT": 3.83
+  },
+  {
+   "table": "hub_cells:cell_634_790",
+   "max_abs_dT": 3.38
+  },
+  {
+   "table": "md_hubs:md_santa_clara",
+   "max_abs_dT": 2.69
+  },
+  {
+   "table": "md_hubs:md_colorado_springs",
+   "max_abs_dT": 2.63
+  },
+  {
+   "table": "nonepoch_hot_sites:adani_google_vizag",
+   "max_abs_dT": 2.2
+  }
+ ],
+ "worst_p": [
+  {
+   "table": "hub_cells:cell_616_630",
+   "mean_dp_pct": 13.776167086899529,
+   "max_abs_dp_Pa": 15010.0
+  },
+  {
+   "table": "as2_uscrn_stations:NM_Las_Cruces_20_N",
+   "mean_dp_pct": 0.2577035225361198,
+   "max_abs_dp_Pa": 870.0
+  },
+  {
+   "table": "as2_uscrn_stations:NM_Socorro_20_N",
+   "mean_dp_pct": 0.2397719785876631,
+   "max_abs_dp_Pa": 1250.0
+  },
+  {
+   "table": "hub_cells:cell_499_293",
+   "mean_dp_pct": 0.23395953321917023,
+   "max_abs_dp_Pa": 1050.0
+  },
+  {
+   "table": "md_hubs:md_albuquerque",
+   "mean_dp_pct": 0.22992327623334413,
+   "max_abs_dp_Pa": 1030.0
+  }
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "points": [
+  {
+   "site": "anthropic_amazon_new_carlisle",
+   "lat": 41.75,
+   "lon": -86.5
+  },
+  {
+   "site": "colossus_2",
+   "lat": 35.0,
+   "lon": -90.0
+  },
+  {
+   "site": "goodnight",
+   "lat": 35.0,
+   "lon": -101.25
+  },
+  {
+   "site": "meta_hyperion",
+   "lat": 32.5,
+   "lon": -91.75
+  },
+  {
+   "site": "meta_prometheus",
+   "lat": 40.0,
+   "lon": -82.75
+  },
+  {
+   "site": "microsoft_fairwater_wisconsin",
+   "lat": 42.75,
+   "lon": -88.0
+  },
+  {
+   "site": "microsoft_goodyear",
+   "lat": 33.5,
+   "lon": -112.25
+  },
+  {
+   "site": "nebius_mantsala",
+   "lat": 60.75,
+   "lon": 25.25
+  },
+  {
+   "site": "openai_stargate_abilene",
+   "lat": 32.5,
+   "lon": -99.75
+  },
+  {
+   "site": "openai_stargate_michigan",
+   "lat": 42.0,
+   "lon": -83.75
+  },
+  {
+   "site": "openai_stargate_new_mexico",
+   "lat": 31.75,
+   "lon": -106.75
+  },
+  {
+   "site": "openai_stargate_shackelford",
+   "lat": 32.75,
+   "lon": -99.25
+  },
+  {
+   "site": "openai_stargate_uae",
+   "lat": 24.25,
+   "lon": 54.5
+  },
+  {
+   "site": "openai_stargate_wisconsin",
+   "lat": 43.5,
+   "lon": -88.0
+  },
+  {
+   "site": "qts_cedar_rapids",
+   "lat": 42.0,
+   "lon": -91.75
+  }
+ ],
+ "tables_done": [
+  "anthropic_amazon_new_carlisle",
+  "colossus_2",
+  "goodnight",
+  "meta_hyperion",
+  "meta_prometheus",
+  "microsoft_fairwater_wisconsin",
+  "microsoft_goodyear",
+  "nebius_mantsala",
+  "openai_stargate_abilene",
+  "openai_stargate_michigan",
+  "openai_stargate_new_mexico",
+  "openai_stargate_shackelford",
+  "openai_stargate_uae",
+  "openai_stargate_wisconsin",
+  "qts_cedar_rapids"
+ ],
+ "hours": 262992
+}

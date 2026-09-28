@@ -1,0 +1,81 @@
+{
+ "fleet": {
+  "water_allowed_GL": {
+   "earlier_copy": 21.117122469560595,
+   "cds": 21.176511293596477,
+   "rel_change": 0.002812354009003258
+  },
+  "tower_water_GL": {
+   "earlier_copy": 470.9144803750607,
+   "cds": 470.9408106218764,
+   "rel_change": 5.591301162520769e-05
+  },
+  "ban_added_cost_MUSD": {
+   "earlier_copy": 373.73864394773545,
+   "cds": 374.3022117565359,
+   "rel_change": 0.0015079195526787406
+  },
+  "ban_USD_per_m3": {
+   "earlier_copy": 17.69836986485556,
+   "cds": 17.675348246324237,
+   "rel_change": -0.0013007762131267775
+  },
+  "ban_chillers_GWth": {
+   "earlier_copy": 2.935926980879791,
+   "cds": 2.947797961895407,
+   "rel_change": 0.0040433502239413995
+  },
+  "envelope_min_GWth": {
+   "earlier_copy": 0.7425723695618974,
+   "cds": 0.7447539054189414,
+   "rel_change": 0.0029378090896797168
+  },
+  "lc_Z1": {
+   "earlier_copy": 0.03788485398423877,
+   "cds": 0.03788485398423877,
+   "rel_change": 0.0
+  },
+  "lc_Z2": {
+   "earlier_copy": 0.9621151460157613,
+   "cds": 0.9621151460157613,
+   "rel_change": 0.0
+  },
+  "lc_Z3": {
+   "earlier_copy": 0.0,
+   "cds": 0.0,
+   "rel_change": null
+  },
+  "ban_Z1": {
+   "earlier_copy": 0.5605533719948332,
+   "cds": 0.5605533719948332,
+   "rel_change": 0.0
+  },
+  "ban_Z3": {
+   "earlier_copy": 0.4394466280051668,
+   "cds": 0.4394466280051668,
+   "rel_change": 0.0
+  },
+  "lc_elec_TWh": {
+   "earlier_copy": 0.6906131503231657,
+   "cds": 0.6915051311678773,
+   "rel_change": 0.0012915781350154476
+  },
+  "ban_elec_TWh": {
+   "earlier_copy": 0.6631120947164849,
+   "cds": 0.6649283775755431,
+   "rel_change": 0.00273902839886335
+  },
+  "lc_peak_GW": {
+   "earlier_copy": 0.5099919453251353,
+   "cds": 0.5100428031153671,
+   "rel_change": 9.972273228632326e-05
+  },
+  "ban_peak_GW": {
+   "earlier_copy": 1.1718774122056776,
+   "cds": 1.174046903372097,
+   "rel_change": 0.0018512953179428903
+  }
+ },
+ "sites_changing_zone": [],
+ "max_abs_rel_change": 0.0040433502239413995
+}

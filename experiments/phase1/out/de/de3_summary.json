@@ -1,0 +1,199 @@
+{
+ "uncorrected": {
+  "items": 160,
+  "historical": {
+   "missing_items": 0,
+   "banned_Z3_share": {
+    "PR-FF": 0.4394466280051668,
+    "refined": 0.5939192635496031
+   },
+   "installed_GW_th": {
+    "PR-FF": 2.9359269808797905,
+    "refined": 4.464683406202959
+   },
+   "physically_necessary_GW_th": 0.7425723695618974,
+   "economic_GW_th": {
+    "PR-FF": 2.1933546113178926,
+    "refined": 3.722111036641063
+   },
+   "ban_added_cost_MUSD_yr": {
+    "PR-FF": 373.7386439477354,
+    "refined": 365.6031969759071
+   },
+   "USD_per_m3": {
+    "PR-FF": 17.698369864855557,
+    "refined": 17.313116287643265
+   },
+   "economic_GW_th_refined_by_category": {
+    "feasible_alternative_gap_gt5pct": 2.086533555117528,
+    "feasible_alternative_gap_le5pct": 1.0366060924448202,
+    "compressor_free_alternative_infeasible": 0.5989713890787148
+   },
+   "sites_switching_Z1_to_Z3": [
+    "google_fort_wayne",
+    "amazon_madison_mega_site",
+    "microsoft_fairwater_atlanta",
+    "google_omaha",
+    "meta_montgomery",
+    "stack_infrastructure_nva02",
+    "qts_richmond_3",
+    "google_bristow",
+    "qts_richmond_1",
+    "google_papillion",
+    "google_council_bluffs_east",
+    "meta_cheyenne",
+    "microsoft_project_osmium",
+    "qts_richmond_2",
+    "meta_jeffersonville",
+    "meta_huntsville",
+    "coreweave_chester_va",
+    "google_kansas_city_east",
+    "coreweave_lancaster_greenfield_site",
+    "google_arcola"
+   ],
+   "MW_switching_Z1_to_Z3": 5761.0
+  },
+  "stress_plus1.2K": {
+   "missing_items": 0,
+   "banned_Z3_share": {
+    "PR-FF": 0.5951526850450108,
+    "refined": 0.8656025953511817
+   },
+   "installed_GW_th": {
+    "PR-FF": 4.5367379731222774,
+    "refined": 6.885311503884917
+   },
+   "physically_necessary_GW_th": 1.5719501090271555,
+   "economic_GW_th": {
+    "PR-FF": 2.9647878640951215,
+    "refined": 5.31336139485776
+   },
+   "ban_added_cost_MUSD_yr": {
+    "PR-FF": 453.3195076863898,
+    "refined": 437.4143215782578
+   },
+   "USD_per_m3": {
+    "PR-FF": 18.031163065062394,
+    "refined": 17.39852096730759
+   },
+   "economic_GW_th_refined_by_category": {
+    "feasible_alternative_gap_gt5pct": 0.6170126387082046,
+    "feasible_alternative_gap_le5pct": 2.3624550196104357,
+    "compressor_free_alternative_infeasible": 2.33389373653912
+   },
+   "sites_switching_Z1_to_Z3": [
+    "microsoft_fairwater_wisconsin",
+    "anthropic_amazon_new_carlisle",
+    "qts_cedar_rapids",
+    "meta_prometheus",
+    "openai_stargate_michigan",
+    "meta_bowling_green",
+    "coreweave_ellendale_nd",
+    "aws_new_albany",
+    "google_new_albany",
+    "google_cedar_rapids",
+    "meta_cheyenne",
+    "microsoft_project_osmium",
+    "meta_qts_hillsboro_2",
+    "meta_rosemount",
+    "google_lancaster",
+    "coreweave_lancaster_greenfield_site",
+    "xai_qts_atlanta"
+   ],
+   "MW_switching_Z1_to_Z3": 10086.32971
+  }
+ },
+ "corrected": {
+  "items": 160,
+  "historical": {
+   "missing_items": 0,
+   "banned_Z3_share": {
+    "PR-FF": 0.5601342399797385,
+    "refined": 0.781971255260382
+   },
+   "installed_GW_th": {
+    "PR-FF": 3.7981401497573524,
+    "refined": 5.605970507119627
+   },
+   "physically_necessary_GW_th": 0.8379544654505562,
+   "economic_GW_th": {
+    "PR-FF": 2.960185684306796,
+    "refined": 4.768016041669071
+   },
+   "ban_added_cost_MUSD_yr": {
+    "PR-FF": 430.32913257825527,
+    "refined": 421.8704263388605
+   },
+   "USD_per_m3": {
+    "PR-FF": 20.198327886848165,
+    "refined": 19.801302193750907
+   },
+   "economic_GW_th_refined_by_category": {
+    "feasible_alternative_gap_gt5pct": 1.667957232675331,
+    "feasible_alternative_gap_le5pct": 1.7773310138696463,
+    "compressor_free_alternative_infeasible": 1.322727795124094
+   },
+   "sites_switching_Z1_to_Z3": [
+    "microsoft_fairwater_wisconsin",
+    "anthropic_amazon_new_carlisle",
+    "meta_prometheus",
+    "google_fort_wayne",
+    "coreweave_ellendale_nd",
+    "aws_new_albany",
+    "google_new_albany",
+    "google_council_bluffs_east",
+    "meta_cheyenne",
+    "microsoft_project_osmium",
+    "meta_qts_hillsboro_2",
+    "meta_jeffersonville",
+    "coreweave_lancaster_greenfield_site",
+    "coreweave_dalton_1__2",
+    "xai_qts_atlanta"
+   ],
+   "MW_switching_Z1_to_Z3": 8273.32971
+  },
+  "stress_plus1.2K": {
+   "missing_items": 0,
+   "banned_Z3_share": {
+    "PR-FF": 0.6568326004980345,
+    "refined": 0.8759526105082989
+   },
+   "installed_GW_th": {
+    "PR-FF": 5.634361850289485,
+    "refined": 8.30876242390594
+   },
+   "physically_necessary_GW_th": 1.8209242282567064,
+   "economic_GW_th": {
+    "PR-FF": 3.813437622032778,
+    "refined": 6.487838195649233
+   },
+   "ban_added_cost_MUSD_yr": {
+    "PR-FF": 512.6382841317144,
+    "refined": 494.37338291053163
+   },
+   "USD_per_m3": {
+    "PR-FF": 20.095505517859635,
+    "refined": 19.379518369347853
+   },
+   "economic_GW_th_refined_by_category": {
+    "feasible_alternative_gap_gt5pct": 2.38327522002903,
+    "feasible_alternative_gap_le5pct": 1.656434956653413,
+    "compressor_free_alternative_infeasible": 2.448128018966791
+   },
+   "sites_switching_Z1_to_Z3": [
+    "microsoft_fairwater_wisconsin",
+    "anthropic_amazon_new_carlisle",
+    "meta_prometheus",
+    "openai_stargate_michigan",
+    "meta_bowling_green",
+    "google_columbus",
+    "aws_new_albany",
+    "google_new_albany",
+    "meta_qts_hillsboro_2",
+    "meta_rosemount",
+    "google_lancaster"
+   ],
+   "MW_switching_Z1_to_Z3": 8172.0
+  }
+ }
+}

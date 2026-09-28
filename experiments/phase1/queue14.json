@@ -1,0 +1,4 @@
+[
+ {"name": "as2_ruler", "args": ["experiments/phase1/as2_ruler.py", "--workers", "3"],
+  "items": "experiments/phase1/out/as2/ruler/cell_*.json", "expected": 160}
+]

@@ -1,0 +1,992 @@
+{
+ "methods": {
+  "B-SAA": {
+   "V": 0.05435673668257368,
+   "K": 15703.571059990974,
+   "V_f": {
+    "CAM": 0.048873357632234875,
+    "ECHAM": 0.013087588772404464,
+    "IFS": 0.012723105249314243,
+    "UM": 0.20215308307969793,
+    "GFDL-AM": 0.011397312090582297,
+    "CAS-IAP": 0.009084532621901576,
+    "INM": 0.01090632397700372,
+    "LMDZ": 0.017380603464472247,
+    "MIROC": 0.04437117198361703,
+    "MRI": 0.03342915116672303,
+    "CanAM": 0.2385281629278924,
+    "GFS": 0.010346447225040393
+   },
+   "K_f": {
+    "CAM": 15741.305658716472,
+    "ECHAM": 15736.072012121827,
+    "IFS": 15722.580695157627,
+    "UM": 15585.299669410635,
+    "GFDL-AM": 15749.22718749673,
+    "CAS-IAP": 15725.379756296405,
+    "INM": 15736.072012121827,
+    "LMDZ": 15690.71419150296,
+    "MIROC": 15735.737938390736,
+    "MRI": 15765.335311736066,
+    "CanAM": 15529.944943807392,
+    "GFS": 15725.18334313303
+   },
+   "compliant": false,
+   "calibration_failures": [],
+   "detail": {
+    "CAM": {
+     "site_violation": {
+      "microsoft_fairwater_wisconsin": 0.018518518518518517,
+      "anthropic_amazon_new_carlisle": 0.040740740740740744,
+      "openai_stargate_new_mexico": 0.0,
+      "meta_hyperion": 0.037037037037037035,
+      "colossus_2": 0.1037037037037037,
+      "openai_stargate_shackelford": 0.044444444444444446,
+      "qts_cedar_rapids": 0.14814814814814814,
+      "meta_prometheus": 0.08518518518518518,
+      "goodnight": 0.08148148148148149,
+      "openai_stargate_uae": 0.02962962962962963,
+      "openai_stargate_michigan": 0.007407407407407408,
+      "openai_stargate_wisconsin": 0.03333333333333333,
+      "openai_stargate_abilene": 0.05925925925925926,
+      "microsoft_goodyear": 0.003703703703703704,
+      "nebius_mantsala": 0.07407407407407407
+     },
+     "world_risk": {
+      "CESM2-WACCM": 0.0021286589260887537,
+      "CMCC-CM2-SR5": 0.006921429376620448,
+      "CMCC-ESM2": 0.03214218614962612,
+      "FIO-ESM-2-0": 0.006342764814188554,
+      "NorESM2-LM": 0.02837147258858452,
+      "NorESM2-MM": 0.011295231653703077,
+      "TaiESM1": 0.11017735693082328,
+      "CIESM": 0.17687408409423966,
+      "BCC-CSM2-MR": 0.06560703415623942
+     }
+    },
+    "ECHAM": {
+     "site_violation": {
+      "microsoft_fairwater_wisconsin": 0.0,
+      "anthropic_amazon_new_carlisle": 0.0,
+      "openai_stargate_new_mexico": 0.0,
+      "meta_hyperion": 0.04666666666666667,
+      "colossus_2": 0.013333333333333334,
+      "openai_stargate_shackelford": 0.04666666666666667,
+      "qts_cedar_rapids": 0.013333333333333334,
+      "meta_prometheus": 0.0,
+      "goodnight": 0.02,
+      "openai_stargate_uae": 0.0,
+      "openai_stargate_michigan": 0.0,
+      "openai_stargate_wisconsin": 0.0,
+      "openai_stargate_abilene": 0.04,
+      "microsoft_goodyear": 0.006666666666666667,
+      "nebius_mantsala": 0.0
+     },
+     "world_risk": {
+      "AWI-CM-1-1-MR": 0.04877691353849621,
+      "CAMS-CSM1-0": 0.006342764814188554,
+      "MPI-ESM1-2-HR": 0.0061041596212377406,
+      "MPI-ESM1-2-LR": 0.0,
+      "NESM3": 0.0042141058880998
+     }
+    },
+    "IFS": {
+     "site_violation": {
+      "microsoft_fairwater_wisconsin": 0.0,
+      "anthropic_amazon_new_carlisle": 0.0,
+      "openai_stargate_new_mexico": 0.0,
+      "meta_hyperion": 0.041666666666666664,
+      "colossus_2": 0.016666666666666666,
+      "openai_stargate_shackelford": 0.016666666666666666,
+      "qts_cedar_rapids": 0.008333333333333333,
+      "meta_prometheus": 0.0,
+      "goodnight": 0.016666666666666666,
+      "openai_stargate_uae": 0.025,
+      "openai_stargate_michigan": 0.0,
+      "openai_stargate_wisconsin": 0.025,
+      "openai_stargate_abilene": 0.041666666666666664,
+      "microsoft_goodyear": 0.0,
+      "nebius_mantsala": 0.0
+     },
+     "world_risk": {
+      "EC-Earth3": 0.02785105023860519,
+      "EC-Earth3-CC": 0.0,
+      "EC-Earth3-Veg": 0.012448803216473152,
+      "EC-Earth3-Veg-LR": 0.010592567542178633
+     }
+    },
+    "UM": {
+     "site_violation": {
+      "microsoft_fairwater_wisconsin": 0.3333333333333333,
+      "anthropic_amazon_new_carlisle": 0.25,
+      "openai_stargate_new_mexico": 0.0,
+      "meta_hyperion": 0.08333333333333333,
+      "colossus_2": 0.15,
+      "openai_stargate_shackelford": 0.03333333333333333,
+      "qts_cedar_rapids": 0.15,
+      "meta_prometheus": 0.5166666666666667,
+      "goodnight": 0.03333333333333333,
+      "openai_stargate_uae": 0.38333333333333336,
+      "openai_stargate_michigan": 0.3,
+      "openai_stargate_wisconsin": 0.38333333333333336,
+      "openai_stargate_abilene": 0.08333333333333333,
+      "microsoft_goodyear": 0.21666666666666667,
+      "nebius_mantsala": 0.4666666666666667
+     },
+     "world_risk": {
+      "ACCESS-CM2": 0.09585728779168075,
+      "KACE-1-0-G": 0.308448878367715
+     }
+    },
+    "GFDL-AM": {
+     "site_violation": {
+      "microsoft_fairwater_wisconsin": 0.0,
+      "anthropic_amazon_new_carlisle": 0.0,
+      "openai_stargate_new_mexico": 0.0,
+      "meta_hyperion": 0.022222222222222223,
+      "colossus_2": 0.0,
+      "openai_stargate_shackelford": 0.05555555555555555,
+      "qts_cedar_rapids": 0.0,
+      "meta_prometheus": 0.0,
+      "goodnight": 0.011111111111111112,
+      "openai_stargate_uae": 0.0,
+      "openai_stargate_michigan": 0.0,
+      "openai_stargate_wisconsin": 0.0,
+      "openai_stargate_abilene": 0.05555555555555555,
+      "microsoft_goodyear": 0.13333333333333333,
+      "nebius_mantsala": 0.022222222222222223
+     },
+     "world_risk": {
+      "GFDL-CM4": 0.022383797392251905,
+      "GFDL-ESM4": 0.004973133431029947,
+      "KIOST-ESM": 0.006835005448465035
+     }
+    },
+    "CAS-IAP": {
+     "site_violation": {
+      "microsoft_fairwater_wisconsin": 0.0,
+      "anthropic_amazon_new_carlisle": 0.0,
+      "openai_stargate_new_mexico": 0.0,
+      "meta_hyperion": 0.022222222222222223,
+      "colossus_2": 0.011111111111111112,
+      "openai_stargate_shackelford": 0.03333333333333333,
+      "qts_cedar_rapids": 0.011111111111111112,
+      "meta_prometheus": 0.0,
+      "goodnight": 0.011111111111111112,
+      "openai_stargate_uae": 0.0,
+      "openai_stargate_michigan": 0.0,
+      "openai_stargate_wisconsin": 0.0,
+      "openai_stargate_abilene": 0.044444444444444446,
+      "microsoft_goodyear": 0.0,
+      "nebius_mantsala": 0.0
+     },
+     "world_risk": {
+      "CAS-ESM2-0": 0.016696727163416372,
+      "FGOALS-f3-L": 0.006342764814188554,
+      "FGOALS-g3": 0.0042141058880998
+     }
+    },
+    "INM": {
+     "site_violation": {
+      "microsoft_fairwater_wisconsin": 0.0,
+      "anthropic_amazon_new_carlisle": 0.0,
+      "openai_stargate_new_mexico": 0.0,
+      "meta_hyperion": 0.016666666666666666,
+      "colossus_2": 0.0,
+      "openai_stargate_shackelford": 0.06666666666666667,
+      "qts_cedar_rapids": 0.0,
+      "meta_prometheus": 0.0,
+      "goodnight": 0.016666666666666666,
+      "openai_stargate_uae": 0.0,
+      "openai_stargate_michigan": 0.0,
+      "openai_stargate_wisconsin": 0.0,
+      "openai_stargate_abilene": 0.06666666666666667,
+      "microsoft_goodyear": 0.0,
+      "nebius_mantsala": 0.0
+     },
+     "world_risk": {
+      "INM-CM4-8": 0.01759854206590764,
+      "INM-CM5-0": 0.0042141058880998
+     }
+    },
+    "LMDZ": {
+     "site_violation": {
+      "microsoft_fairwater_wisconsin": 0.03333333333333333,
+      "anthropic_amazon_new_carlisle": 0.0,
+      "openai_stargate_new_mexico": 0.0,
+      "meta_hyperion": 0.0,
+      "colossus_2": 0.0,
+      "openai_stargate_shackelford": 0.03333333333333333,
+      "qts_cedar_rapids": 0.03333333333333333,
+      "meta_prometheus": 0.0,
+      "goodnight": 0.0,
+      "openai_stargate_uae": 0.03333333333333333,
+      "openai_stargate_michigan": 0.0,
+      "openai_stargate_wisconsin": 0.06666666666666667,
+      "openai_stargate_abilene": 0.03333333333333333,
+      "microsoft_goodyear": 0.13333333333333333,
+      "nebius_mantsala": 0.0
+     },
+     "world_risk": {
+      "IPSL-CM6A-LR": 0.017380603464472247
+     }
+    },
+    "MIROC": {
+     "site_violation": {
+      "microsoft_fairwater_wisconsin": 0.0,
+      "anthropic_amazon_new_carlisle": 0.0,
+      "openai_stargate_new_mexico": 0.0,
+      "meta_hyperion": 0.26666666666666666,
+      "colossus_2": 0.0,
+      "openai_stargate_shackelford": 0.03333333333333333,
+      "qts_cedar_rapids": 0.0,
+      "meta_prometheus": 0.0,
+      "goodnight": 0.03333333333333333,
+      "openai_stargate_uae": 0.1,
+      "openai_stargate_michigan": 0.0,
+      "openai_stargate_wisconsin": 0.0,
+      "openai_stargate_abilene": 0.1,
+      "microsoft_goodyear": 0.43333333333333335,
+      "nebius_mantsala": 0.0
+     },
+     "world_risk": {
+      "MIROC6": 0.04437117198361703
+     }
+    },
+    "MRI": {
+     "site_violation": {
+      "microsoft_fairwater_wisconsin": 0.0,
+      "anthropic_amazon_new_carlisle": 0.0,
+      "openai_stargate_new_mexico": 0.0,
+      "meta_hyperion": 0.0,
+      "colossus_2": 0.0,
+      "openai_stargate_shackelford": 0.13333333333333333,
+      "qts_cedar_rapids": 0.0,
+      "meta_prometheus": 0.0,
+      "goodnight": 0.26666666666666666,
+      "openai_stargate_uae": 0.0,
+      "openai_stargate_michigan": 0.0,
+      "openai_stargate_wisconsin": 0.0,
+      "openai_stargate_abilene": 0.1,
+      "microsoft_goodyear": 0.26666666666666666,
+      "nebius_mantsala": 0.0
+     },
+     "world_risk": {
+      "MRI-ESM2-0": 0.03342915116672303
+     }
+    },
+    "CanAM": {
+     "site_violation": {
+      "microsoft_fairwater_wisconsin": 0.13333333333333333,
+      "anthropic_amazon_new_carlisle": 0.13333333333333333,
+      "openai_stargate_new_mexico": 0.0,
+      "meta_hyperion": 0.06666666666666667,
+      "colossus_2": 0.6666666666666666,
+      "openai_stargate_shackelford": 0.5,
+      "qts_cedar_rapids": 0.4666666666666667,
+      "meta_prometheus": 0.1,
+      "goodnight": 0.1,
+      "openai_stargate_uae": 0.4,
+      "openai_stargate_michigan": 0.03333333333333333,
+      "openai_stargate_wisconsin": 0.26666666666666666,
+      "openai_stargate_abilene": 0.36666666666666664,
+      "microsoft_goodyear": 0.5,
+      "nebius_mantsala": 0.2
+     },
+     "world_risk": {
+      "CanESM5": 0.2385281629278924
+     }
+    },
+    "GFS": {
+     "site_violation": {
+      "microsoft_fairwater_wisconsin": 0.0,
+      "anthropic_amazon_new_carlisle": 0.0,
+      "openai_stargate_new_mexico": 0.0,
+      "meta_hyperion": 0.06666666666666667,
+      "colossus_2": 0.0,
+      "openai_stargate_shackelford": 0.03333333333333333,
+      "qts_cedar_rapids": 0.0,
+      "meta_prometheus": 0.0,
+      "goodnight": 0.0,
+      "openai_stargate_uae": 0.0,
+      "openai_stargate_michigan": 0.0,
+      "openai_stargate_wisconsin": 0.0,
+      "openai_stargate_abilene": 0.03333333333333333,
+      "microsoft_goodyear": 0.0,
+      "nebius_mantsala": 0.0
+     },
+     "world_risk": {
+      "IITM-ESM": 0.010346447225040393
+     }
+    }
+   }
+  },
+  "B-ROB": {
+   "V": 0.013210891606858802,
+   "K": 17030.78574088137,
+   "V_f": {
+    "CAM": 0.012937286288655921,
+    "ECHAM": 0.004935182053883439,
+    "IFS": 0.0034874873182279336,
+    "UM": 0.028664562431894188,
+    "GFDL-AM": 0.0036091383910119112,
+    "CAS-IAP": 0.00415586367564724,
+    "INM": 0.00522395070078533,
+    "LMDZ": 0.001963326193965355,
+    "MIROC": 0.013068800961935894,
+    "MRI": 0.007761244504565437,
+    "CanAM": 0.0650077030022921,
+    "GFS": 0.007716153759440874
+   },
+   "K_f": {
+    "CAM": 16852.222464345392,
+    "ECHAM": 17075.658726054582,
+    "IFS": 17075.658726054582,
+    "UM": 16834.19446148236,
+    "GFDL-AM": 17075.658726054582,
+    "CAS-IAP": 17075.658726054582,
+    "INM": 17075.658726054582,
+    "LMDZ": 17075.658726054582,
+    "MIROC": 17062.187183181446,
+    "MRI": 17075.658726054582,
+    "CanAM": 17015.554973130544,
+    "GFS": 17075.658726054582
+   },
+   "compliant": true,
+   "calibration_failures": [],
+   "detail": {
+    "CAM": {
+     "site_violation": {
+      "microsoft_fairwater_wisconsin": 0.0,
+      "anthropic_amazon_new_carlisle": 0.0,
+      "openai_stargate_new_mexico": 0.0,
+      "meta_hyperion": 0.02962962962962963,
+      "colossus_2": 0.040740740740740744,
+      "openai_stargate_shackelford": 0.014814814814814815,
+      "qts_cedar_rapids": 0.018518518518518517,
+      "meta_prometheus": 0.03333333333333333,
+      "goodnight": 0.003703703703703704,
+      "openai_stargate_uae": 0.0,
+      "openai_stargate_michigan": 0.0,
+      "openai_stargate_wisconsin": 0.0,
+      "openai_stargate_abilene": 0.044444444444444446,
+      "microsoft_goodyear": 0.003703703703703704,
+      "nebius_mantsala": 0.007407407407407408
+     },
+     "world_risk": {
+      "CESM2-WACCM": 0.0,
+      "CMCC-CM2-SR5": 0.0015838124225002817,
+      "CMCC-ESM2": 0.013222861007778152,
+      "FIO-ESM-2-0": 0.0015838124225002817,
+      "NorESM2-LM": 0.0015838124225002817,
+      "NorESM2-MM": 0.0,
+      "TaiESM1": 0.02432457821365498,
+      "CIESM": 0.0595197835644234,
+      "BCC-CSM2-MR": 0.014616916544545899
+     }
+    },
+    "ECHAM": {
+     "site_violation": {
+      "microsoft_fairwater_wisconsin": 0.0,
+      "anthropic_amazon_new_carlisle": 0.0,
+      "openai_stargate_new_mexico": 0.0,
+      "meta_hyperion": 0.03333333333333333,
+      "colossus_2": 0.0,
+      "openai_stargate_shackelford": 0.006666666666666667,
+      "qts_cedar_rapids": 0.0,
+      "meta_prometheus": 0.0,
+      "goodnight": 0.0,
+      "openai_stargate_uae": 0.0,
+      "openai_stargate_michigan": 0.0,
+      "openai_stargate_wisconsin": 0.0,
+      "openai_stargate_abilene": 0.02666666666666667,
+      "microsoft_goodyear": 0.006666666666666667,
+      "nebius_mantsala": 0.0
+     },
+     "world_risk": {
+      "AWI-CM-1-1-MR": 0.021508285424416636,
+      "CAMS-CSM1-0": 0.0015838124225002817,
+      "MPI-ESM1-2-HR": 0.0015838124225002817,
+      "MPI-ESM1-2-LR": 0.0,
+      "NESM3": 0.0
+     }
+    },
+    "IFS": {
+     "site_violation": {
+      "microsoft_fairwater_wisconsin": 0.0,
+      "anthropic_amazon_new_carlisle": 0.0,
+      "openai_stargate_new_mexico": 0.0,
+      "meta_hyperion": 0.025,
+      "colossus_2": 0.0,
+      "openai_stargate_shackelford": 0.0,
+      "qts_cedar_rapids": 0.0,
+      "meta_prometheus": 0.0,
+      "goodnight": 0.0,
+      "openai_stargate_uae": 0.0,
+      "openai_stargate_michigan": 0.0,
+      "openai_stargate_wisconsin": 0.0,
+      "openai_stargate_abilene": 0.025,
+      "microsoft_goodyear": 0.0,
+      "nebius_mantsala": 0.0
+     },
+     "world_risk": {
+      "EC-Earth3": 0.007716153759440874,
+      "EC-Earth3-CC": 0.0,
+      "EC-Earth3-Veg": 0.0015838124225002817,
+      "EC-Earth3-Veg-LR": 0.004649983090970578
+     }
+    },
+    "UM": {
+     "site_violation": {
+      "microsoft_fairwater_wisconsin": 0.05,
+      "anthropic_amazon_new_carlisle": 0.0,
+      "openai_stargate_new_mexico": 0.0,
+      "meta_hyperion": 0.06666666666666667,
+      "colossus_2": 0.016666666666666666,
+      "openai_stargate_shackelford": 0.03333333333333333,
+      "qts_cedar_rapids": 0.0,
+      "meta_prometheus": 0.0,
+      "goodnight": 0.0,
+      "openai_stargate_uae": 0.06666666666666667,
+      "openai_stargate_michigan": 0.016666666666666666,
+      "openai_stargate_wisconsin": 0.08333333333333333,
+      "openai_stargate_abilene": 0.05,
+      "microsoft_goodyear": 0.03333333333333333,
+      "nebius_mantsala": 0.05
+     },
+     "world_risk": {
+      "ACCESS-CM2": 0.012984255814827338,
+      "KACE-1-0-G": 0.04434486904896104
+     }
+    },
+    "GFDL-AM": {
+     "site_violation": {
+      "microsoft_fairwater_wisconsin": 0.0,
+      "anthropic_amazon_new_carlisle": 0.0,
+      "openai_stargate_new_mexico": 0.0,
+      "meta_hyperion": 0.011111111111111112,
+      "colossus_2": 0.0,
+      "openai_stargate_shackelford": 0.011111111111111112,
+      "qts_cedar_rapids": 0.0,
+      "meta_prometheus": 0.0,
+      "goodnight": 0.0,
+      "openai_stargate_uae": 0.0,
+      "openai_stargate_michigan": 0.0,
+      "openai_stargate_wisconsin": 0.0,
+      "openai_stargate_abilene": 0.03333333333333333,
+      "microsoft_goodyear": 0.011111111111111112,
+      "nebius_mantsala": 0.0
+     },
+     "world_risk": {
+      "GFDL-CM4": 0.009243602750535452,
+      "GFDL-ESM4": 0.0015838124225002817,
+      "KIOST-ESM": 0.0
+     }
+    },
+    "CAS-IAP": {
+     "site_violation": {
+      "microsoft_fairwater_wisconsin": 0.0,
+      "anthropic_amazon_new_carlisle": 0.0,
+      "openai_stargate_new_mexico": 0.0,
+      "meta_hyperion": 0.022222222222222223,
+      "colossus_2": 0.0,
+      "openai_stargate_shackelford": 0.0,
+      "qts_cedar_rapids": 0.0,
+      "meta_prometheus": 0.0,
+      "goodnight": 0.0,
+      "openai_stargate_uae": 0.0,
+      "openai_stargate_michigan": 0.0,
+      "openai_stargate_wisconsin": 0.0,
+      "openai_stargate_abilene": 0.044444444444444446,
+      "microsoft_goodyear": 0.0,
+      "nebius_mantsala": 0.0
+     },
+     "world_risk": {
+      "CAS-ESM2-0": 0.009299966181941156,
+      "FGOALS-f3-L": 0.0015838124225002817,
+      "FGOALS-g3": 0.0015838124225002817
+     }
+    },
+    "INM": {
+     "site_violation": {
+      "microsoft_fairwater_wisconsin": 0.0,
+      "anthropic_amazon_new_carlisle": 0.0,
+      "openai_stargate_new_mexico": 0.0,
+      "meta_hyperion": 0.016666666666666666,
+      "colossus_2": 0.0,
+      "openai_stargate_shackelford": 0.016666666666666666,
+      "qts_cedar_rapids": 0.0,
+      "meta_prometheus": 0.0,
+      "goodnight": 0.0,
+      "openai_stargate_uae": 0.0,
+      "openai_stargate_michigan": 0.0,
+      "openai_stargate_wisconsin": 0.0,
+      "openai_stargate_abilene": 0.05,
+      "microsoft_goodyear": 0.0,
+      "nebius_mantsala": 0.0
+     },
+     "world_risk": {
+      "INM-CM4-8": 0.008864088979070378,
+      "INM-CM5-0": 0.0015838124225002817
+     }
+    },
+    "LMDZ": {
+     "site_violation": {
+      "microsoft_fairwater_wisconsin": 0.0,
+      "anthropic_amazon_new_carlisle": 0.0,
+      "openai_stargate_new_mexico": 0.0,
+      "meta_hyperion": 0.0,
+      "colossus_2": 0.0,
+      "openai_stargate_shackelford": 0.0,
+      "qts_cedar_rapids": 0.0,
+      "meta_prometheus": 0.0,
+      "goodnight": 0.0,
+      "openai_stargate_uae": 0.0,
+      "openai_stargate_michigan": 0.0,
+      "openai_stargate_wisconsin": 0.0,
+      "openai_stargate_abilene": 0.03333333333333333,
+      "microsoft_goodyear": 0.03333333333333333,
+      "nebius_mantsala": 0.0
+     },
+     "world_risk": {
+      "IPSL-CM6A-LR": 0.001963326193965355
+     }
+    },
+    "MIROC": {
+     "site_violation": {
+      "microsoft_fairwater_wisconsin": 0.0,
+      "anthropic_amazon_new_carlisle": 0.0,
+      "openai_stargate_new_mexico": 0.0,
+      "meta_hyperion": 0.06666666666666667,
+      "colossus_2": 0.0,
+      "openai_stargate_shackelford": 0.03333333333333333,
+      "qts_cedar_rapids": 0.0,
+      "meta_prometheus": 0.0,
+      "goodnight": 0.0,
+      "openai_stargate_uae": 0.0,
+      "openai_stargate_michigan": 0.0,
+      "openai_stargate_wisconsin": 0.0,
+      "openai_stargate_abilene": 0.06666666666666667,
+      "microsoft_goodyear": 0.1,
+      "nebius_mantsala": 0.0
+     },
+     "world_risk": {
+      "MIROC6": 0.013068800961935894
+     }
+    },
+    "MRI": {
+     "site_violation": {
+      "microsoft_fairwater_wisconsin": 0.0,
+      "anthropic_amazon_new_carlisle": 0.0,
+      "openai_stargate_new_mexico": 0.0,
+      "meta_hyperion": 0.0,
+      "colossus_2": 0.0,
+      "openai_stargate_shackelford": 0.03333333333333333,
+      "qts_cedar_rapids": 0.0,
+      "meta_prometheus": 0.0,
+      "goodnight": 0.0,
+      "openai_stargate_uae": 0.0,
+      "openai_stargate_michigan": 0.0,
+      "openai_stargate_wisconsin": 0.0,
+      "openai_stargate_abilene": 0.1,
+      "microsoft_goodyear": 0.03333333333333333,
+      "nebius_mantsala": 0.0
+     },
+     "world_risk": {
+      "MRI-ESM2-0": 0.007761244504565437
+     }
+    },
+    "CanAM": {
+     "site_violation": {
+      "microsoft_fairwater_wisconsin": 0.0,
+      "anthropic_amazon_new_carlisle": 0.0,
+      "openai_stargate_new_mexico": 0.0,
+      "meta_hyperion": 0.06666666666666667,
+      "colossus_2": 0.06666666666666667,
+      "openai_stargate_shackelford": 0.4,
+      "qts_cedar_rapids": 0.0,
+      "meta_prometheus": 0.0,
+      "goodnight": 0.0,
+      "openai_stargate_uae": 0.06666666666666667,
+      "openai_stargate_michigan": 0.0,
+      "openai_stargate_wisconsin": 0.0,
+      "openai_stargate_abilene": 0.36666666666666664,
+      "microsoft_goodyear": 0.03333333333333333,
+      "nebius_mantsala": 0.0
+     },
+     "world_risk": {
+      "CanESM5": 0.0650077030022921
+     }
+    },
+    "GFS": {
+     "site_violation": {
+      "microsoft_fairwater_wisconsin": 0.0,
+      "anthropic_amazon_new_carlisle": 0.0,
+      "openai_stargate_new_mexico": 0.0,
+      "meta_hyperion": 0.06666666666666667,
+      "colossus_2": 0.0,
+      "openai_stargate_shackelford": 0.0,
+      "qts_cedar_rapids": 0.0,
+      "meta_prometheus": 0.0,
+      "goodnight": 0.0,
+      "openai_stargate_uae": 0.0,
+      "openai_stargate_michigan": 0.0,
+      "openai_stargate_wisconsin": 0.0,
+      "openai_stargate_abilene": 0.03333333333333333,
+      "microsoft_goodyear": 0.0,
+      "nebius_mantsala": 0.0
+     },
+     "world_risk": {
+      "IITM-ESM": 0.007716153759440874
+     }
+    }
+   }
+  },
+  "B-QNT": {
+   "V": 0.043594296020741746,
+   "K": 15885.448277165668,
+   "V_f": {
+    "CAM": 0.05465749821515801,
+    "ECHAM": 0.01237928831773945,
+    "IFS": 0.012011986623078945,
+    "UM": 0.12920471198286554,
+    "GFDL-AM": 0.010070892671501396,
+    "CAS-IAP": 0.009164067686218514,
+    "INM": 0.011276443843234509,
+    "LMDZ": 0.00841693908991846,
+    "MIROC": 0.018410175478149774,
+    "MRI": 0.04203396836132717,
+    "CanAM": 0.2051591327546688,
+    "GFS": 0.010346447225040393
+   },
+   "K_f": {
+    "CAM": 15870.16681658315,
+    "ECHAM": 15930.886971897962,
+    "IFS": 15907.49092219707,
+    "UM": 15889.494382820221,
+    "GFDL-AM": 15907.49092219707,
+    "CAS-IAP": 15907.49092219707,
+    "INM": 15907.49092219707,
+    "LMDZ": 15840.760447225026,
+    "MIROC": 15958.246497045562,
+    "MRI": 15868.625338568443,
+    "CanAM": 15729.744260862286,
+    "GFS": 15907.49092219707
+   },
+   "compliant": true,
+   "calibration_failures": [],
+   "detail": {
+    "CAM": {
+     "site_violation": {
+      "microsoft_fairwater_wisconsin": 0.0,
+      "anthropic_amazon_new_carlisle": 0.011111111111111112,
+      "openai_stargate_new_mexico": 0.0,
+      "meta_hyperion": 0.037037037037037035,
+      "colossus_2": 0.23333333333333334,
+      "openai_stargate_shackelford": 0.06666666666666667,
+      "qts_cedar_rapids": 0.17037037037037037,
+      "meta_prometheus": 0.08518518518518518,
+      "goodnight": 0.003703703703703704,
+      "openai_stargate_uae": 0.02962962962962963,
+      "openai_stargate_michigan": 0.02962962962962963,
+      "openai_stargate_wisconsin": 0.02962962962962963,
+      "openai_stargate_abilene": 0.05925925925925926,
+      "microsoft_goodyear": 0.003703703703703704,
+      "nebius_mantsala": 0.11851851851851852
+     },
+     "world_risk": {
+      "CESM2-WACCM": 0.0147690978093413,
+      "CMCC-CM2-SR5": 0.013933040243490022,
+      "CMCC-ESM2": 0.0399410062751287,
+      "FIO-ESM-2-0": 0.009219178596926314,
+      "NorESM2-LM": 0.03697253222109495,
+      "NorESM2-MM": 0.01295607409912449,
+      "TaiESM1": 0.09194942321421862,
+      "CIESM": 0.19510577537293805,
+      "BCC-CSM2-MR": 0.07707135610415962
+     }
+    },
+    "ECHAM": {
+     "site_violation": {
+      "microsoft_fairwater_wisconsin": 0.0,
+      "anthropic_amazon_new_carlisle": 0.0,
+      "openai_stargate_new_mexico": 0.0,
+      "meta_hyperion": 0.04666666666666667,
+      "colossus_2": 0.013333333333333334,
+      "openai_stargate_shackelford": 0.04666666666666667,
+      "qts_cedar_rapids": 0.02,
+      "meta_prometheus": 0.0,
+      "goodnight": 0.0,
+      "openai_stargate_uae": 0.0,
+      "openai_stargate_michigan": 0.0,
+      "openai_stargate_wisconsin": 0.0,
+      "openai_stargate_abilene": 0.04,
+      "microsoft_goodyear": 0.006666666666666667,
+      "nebius_mantsala": 0.0
+     },
+     "world_risk": {
+      "AWI-CM-1-1-MR": 0.04712546499830909,
+      "CAMS-CSM1-0": 0.006342764814188554,
+      "MPI-ESM1-2-HR": 0.0042141058880998,
+      "MPI-ESM1-2-LR": 0.0,
+      "NESM3": 0.0042141058880998
+     }
+    },
+    "IFS": {
+     "site_violation": {
+      "microsoft_fairwater_wisconsin": 0.0,
+      "anthropic_amazon_new_carlisle": 0.0,
+      "openai_stargate_new_mexico": 0.0,
+      "meta_hyperion": 0.041666666666666664,
+      "colossus_2": 0.016666666666666666,
+      "openai_stargate_shackelford": 0.025,
+      "qts_cedar_rapids": 0.008333333333333333,
+      "meta_prometheus": 0.0,
+      "goodnight": 0.0,
+      "openai_stargate_uae": 0.025,
+      "openai_stargate_michigan": 0.0,
+      "openai_stargate_wisconsin": 0.016666666666666666,
+      "openai_stargate_abilene": 0.041666666666666664,
+      "microsoft_goodyear": 0.0,
+      "nebius_mantsala": 0.0
+     },
+     "world_risk": {
+      "EC-Earth3": 0.024266336001202416,
+      "EC-Earth3-CC": 0.0,
+      "EC-Earth3-Veg": 0.010558749483335211,
+      "EC-Earth3-Veg-LR": 0.013222861007778152
+     }
+    },
+    "UM": {
+     "site_violation": {
+      "microsoft_fairwater_wisconsin": 0.05,
+      "anthropic_amazon_new_carlisle": 0.05,
+      "openai_stargate_new_mexico": 0.0,
+      "meta_hyperion": 0.08333333333333333,
+      "colossus_2": 0.31666666666666665,
+      "openai_stargate_shackelford": 0.05,
+      "qts_cedar_rapids": 0.21666666666666667,
+      "meta_prometheus": 0.15,
+      "goodnight": 0.0,
+      "openai_stargate_uae": 0.26666666666666666,
+      "openai_stargate_michigan": 0.3,
+      "openai_stargate_wisconsin": 0.31666666666666665,
+      "openai_stargate_abilene": 0.08333333333333333,
+      "microsoft_goodyear": 0.03333333333333333,
+      "nebius_mantsala": 0.4666666666666667
+     },
+     "world_risk": {
+      "ACCESS-CM2": 0.05624694698079886,
+      "KACE-1-0-G": 0.2021624769849322
+     }
+    },
+    "GFDL-AM": {
+     "site_violation": {
+      "microsoft_fairwater_wisconsin": 0.0,
+      "anthropic_amazon_new_carlisle": 0.0,
+      "openai_stargate_new_mexico": 0.0,
+      "meta_hyperion": 0.022222222222222223,
+      "colossus_2": 0.0,
+      "openai_stargate_shackelford": 0.06666666666666667,
+      "qts_cedar_rapids": 0.0,
+      "meta_prometheus": 0.0,
+      "goodnight": 0.0,
+      "openai_stargate_uae": 0.0,
+      "openai_stargate_michigan": 0.0,
+      "openai_stargate_wisconsin": 0.0,
+      "openai_stargate_abilene": 0.05555555555555555,
+      "microsoft_goodyear": 0.011111111111111112,
+      "nebius_mantsala": 0.0
+     },
+     "world_risk": {
+      "GFDL-CM4": 0.020302107992334572,
+      "GFDL-ESM4": 0.0042141058880998,
+      "KIOST-ESM": 0.005696464134069814
+     }
+    },
+    "CAS-IAP": {
+     "site_violation": {
+      "microsoft_fairwater_wisconsin": 0.0,
+      "anthropic_amazon_new_carlisle": 0.0,
+      "openai_stargate_new_mexico": 0.0,
+      "meta_hyperion": 0.022222222222222223,
+      "colossus_2": 0.011111111111111112,
+      "openai_stargate_shackelford": 0.03333333333333333,
+      "qts_cedar_rapids": 0.022222222222222223,
+      "meta_prometheus": 0.0,
+      "goodnight": 0.0,
+      "openai_stargate_uae": 0.0,
+      "openai_stargate_michigan": 0.0,
+      "openai_stargate_wisconsin": 0.0,
+      "openai_stargate_abilene": 0.044444444444444446,
+      "microsoft_goodyear": 0.0,
+      "nebius_mantsala": 0.0
+     },
+     "world_risk": {
+      "CAS-ESM2-0": 0.016935332356367187,
+      "FGOALS-f3-L": 0.006342764814188554,
+      "FGOALS-g3": 0.0042141058880998
+     }
+    },
+    "INM": {
+     "site_violation": {
+      "microsoft_fairwater_wisconsin": 0.0,
+      "anthropic_amazon_new_carlisle": 0.0,
+      "openai_stargate_new_mexico": 0.0,
+      "meta_hyperion": 0.016666666666666666,
+      "colossus_2": 0.0,
+      "openai_stargate_shackelford": 0.08333333333333333,
+      "qts_cedar_rapids": 0.0,
+      "meta_prometheus": 0.0,
+      "goodnight": 0.0,
+      "openai_stargate_uae": 0.0,
+      "openai_stargate_michigan": 0.0,
+      "openai_stargate_wisconsin": 0.0,
+      "openai_stargate_abilene": 0.06666666666666667,
+      "microsoft_goodyear": 0.0,
+      "nebius_mantsala": 0.0
+     },
+     "world_risk": {
+      "INM-CM4-8": 0.018338781798369216,
+      "INM-CM5-0": 0.0042141058880998
+     }
+    },
+    "LMDZ": {
+     "site_violation": {
+      "microsoft_fairwater_wisconsin": 0.0,
+      "anthropic_amazon_new_carlisle": 0.0,
+      "openai_stargate_new_mexico": 0.0,
+      "meta_hyperion": 0.0,
+      "colossus_2": 0.0,
+      "openai_stargate_shackelford": 0.03333333333333333,
+      "qts_cedar_rapids": 0.03333333333333333,
+      "meta_prometheus": 0.0,
+      "goodnight": 0.0,
+      "openai_stargate_uae": 0.0,
+      "openai_stargate_michigan": 0.0,
+      "openai_stargate_wisconsin": 0.03333333333333333,
+      "openai_stargate_abilene": 0.03333333333333333,
+      "microsoft_goodyear": 0.03333333333333333,
+      "nebius_mantsala": 0.0
+     },
+     "world_risk": {
+      "IPSL-CM6A-LR": 0.00841693908991846
+     }
+    },
+    "MIROC": {
+     "site_violation": {
+      "microsoft_fairwater_wisconsin": 0.0,
+      "anthropic_amazon_new_carlisle": 0.0,
+      "openai_stargate_new_mexico": 0.0,
+      "meta_hyperion": 0.06666666666666667,
+      "colossus_2": 0.0,
+      "openai_stargate_shackelford": 0.03333333333333333,
+      "qts_cedar_rapids": 0.0,
+      "meta_prometheus": 0.0,
+      "goodnight": 0.0,
+      "openai_stargate_uae": 0.06666666666666667,
+      "openai_stargate_michigan": 0.0,
+      "openai_stargate_wisconsin": 0.0,
+      "openai_stargate_abilene": 0.1,
+      "microsoft_goodyear": 0.1,
+      "nebius_mantsala": 0.0
+     },
+     "world_risk": {
+      "MIROC6": 0.018410175478149774
+     }
+    },
+    "MRI": {
+     "site_violation": {
+      "microsoft_fairwater_wisconsin": 0.0,
+      "anthropic_amazon_new_carlisle": 0.0,
+      "openai_stargate_new_mexico": 0.0,
+      "meta_hyperion": 0.0,
+      "colossus_2": 0.0,
+      "openai_stargate_shackelford": 0.3,
+      "qts_cedar_rapids": 0.0,
+      "meta_prometheus": 0.0,
+      "goodnight": 0.23333333333333334,
+      "openai_stargate_uae": 0.0,
+      "openai_stargate_michigan": 0.0,
+      "openai_stargate_wisconsin": 0.0,
+      "openai_stargate_abilene": 0.1,
+      "microsoft_goodyear": 0.03333333333333333,
+      "nebius_mantsala": 0.0
+     },
+     "world_risk": {
+      "MRI-ESM2-0": 0.04203396836132717
+     }
+    },
+    "CanAM": {
+     "site_violation": {
+      "microsoft_fairwater_wisconsin": 0.06666666666666667,
+      "anthropic_amazon_new_carlisle": 0.06666666666666667,
+      "openai_stargate_new_mexico": 0.0,
+      "meta_hyperion": 0.06666666666666667,
+      "colossus_2": 0.7,
+      "openai_stargate_shackelford": 0.5,
+      "qts_cedar_rapids": 0.4,
+      "meta_prometheus": 0.1,
+      "goodnight": 0.06666666666666667,
+      "openai_stargate_uae": 0.26666666666666666,
+      "openai_stargate_michigan": 0.06666666666666667,
+      "openai_stargate_wisconsin": 0.2,
+      "openai_stargate_abilene": 0.36666666666666664,
+      "microsoft_goodyear": 0.03333333333333333,
+      "nebius_mantsala": 0.2
+     },
+     "world_risk": {
+      "CanESM5": 0.2051591327546688
+     }
+    },
+    "GFS": {
+     "site_violation": {
+      "microsoft_fairwater_wisconsin": 0.0,
+      "anthropic_amazon_new_carlisle": 0.0,
+      "openai_stargate_new_mexico": 0.0,
+      "meta_hyperion": 0.06666666666666667,
+      "colossus_2": 0.0,
+      "openai_stargate_shackelford": 0.03333333333333333,
+      "qts_cedar_rapids": 0.0,
+      "meta_prometheus": 0.0,
+      "goodnight": 0.0,
+      "openai_stargate_uae": 0.0,
+      "openai_stargate_michigan": 0.0,
+      "openai_stargate_wisconsin": 0.0,
+      "openai_stargate_abilene": 0.03333333333333333,
+      "microsoft_goodyear": 0.0,
+      "nebius_mantsala": 0.0
+     },
+     "world_risk": {
+      "IITM-ESM": 0.010346447225040393
+     }
+    }
+   }
+  }
+ },
+ "oracle_5pct": {
+  "success": true,
+  "status": 0,
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "options": 5778,
+  "incumbent": 14980.425701811933,
+  "risk": 0.04999832214414843,
+  "dual_bound": 14980.425701811924,
+  "mip_gap": 6.071220670737827e-16
+ },
+ "gate": {
+  "compliant_baselines": [
+   "B-QNT",
+   "B-ROB"
+  ],
+  "L": 14980.425701811924,
+  "incumbent": 14980.425701811933,
+  "cheapest_compliant": {
+   "method": "B-QNT",
+   "K": 15885.448277165668
+  },
+  "headroom_vs_cheapest_pct": 5.697179957172804,
+  "lower_bound_headroom_pct": 5.69717995717286,
+  "decision": "headroom established: proceed to Stage 2"
+ }
+}

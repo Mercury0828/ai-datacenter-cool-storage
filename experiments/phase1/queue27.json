@@ -1,0 +1,4 @@
+[
+  {"name": "sb_screen", "args": ["experiments/phase1/sb_screen.py", "--workers", "3"],
+   "items": "experiments/phase1/out/sb/screen/*__*.json", "expected": 2880}
+]

@@ -1,0 +1,1 @@
+{"cell": "cell_616_630", "climate": "stress_plus1.2K", "tag": "uncorrected", "commit": "0933198", "ff_ban": {"design": "dry k=0.6000 tank=0h C=0.000", "cost": 6124.442517179474, "zone": "Z1", "c_ch": 0.0}, "ff_ban_z3_cost": null, "refined_best_z3": null, "refined_ban_winner": null, "n_candidates": 0, "n_opex": 0, "elapsed_s": 41.3}

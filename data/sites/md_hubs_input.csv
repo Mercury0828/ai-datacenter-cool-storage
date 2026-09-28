@@ -1,0 +1,13 @@
+site_id,site,lat,lon,station
+md_phoenix,Phoenix AZ (PHX),33.434,-112.012,KPHX
+md_las_vegas,Las Vegas NV (LAS),36.080,-115.152,KLAS
+md_tucson,Tucson AZ (TUS),32.132,-110.956,KTUS
+md_albuquerque,Albuquerque NM (ABQ),35.042,-106.609,KABQ
+md_el_paso,El Paso TX (ELP),31.807,-106.378,KELP
+md_reno,Reno NV (RNO),39.499,-119.768,KRNO
+md_salt_lake_city,Salt Lake City UT (SLC),40.788,-111.978,KSLC
+md_boise,Boise ID (BOI),43.564,-116.223,KBOI
+md_cheyenne,Cheyenne WY (CYS),41.156,-104.812,KCYS
+md_denver,Denver CO (DEN),39.862,-104.673,KDEN
+md_colorado_springs,Colorado Springs CO (COS),38.806,-104.701,KCOS
+md_santa_clara,Santa Clara CA (SJC),37.362,-121.929,KSJC

@@ -1,0 +1,10065 @@
+{
+ "tag": "cmip_ssp245_median",
+ "n_items": 80,
+ "complete": true,
+ "fleet": {
+  "B_full_MW": {
+   "ssp245_median": {
+    "denominator_MW": 37294.631374,
+    "lc_zone_share": {
+     "Z1": 0.026194163288634845,
+     "Z2": 0.9738058367113652,
+     "Z3": 0.0,
+     "Zempty": 0.0
+    },
+    "ban_zone_share": {
+     "Z1": 0.3890273436008463,
+     "Z2": 0.0,
+     "Z3": 0.6109726563991538,
+     "Zempty": 0.0
+    },
+    "lc_scale": {
+     "covered_MW": 37294.631374,
+     "chiller_GW_th": 0.0,
+     "peak_GW_e": 0.5481774467462882,
+     "elec_TWh_yr": 0.7325203467682156,
+     "water_GL_yr": 25.103655359392437,
+     "tank_GWh_th": 1.621103952588349,
+     "viol_unmet_GWh_in_violating_years": 3.365733967124035,
+     "cost_BUSD_yr": 0.5432001069704212
+    },
+    "ban_scale": {
+     "covered_MW": 37294.631374,
+     "chiller_GW_th": 4.371805090919818,
+     "peak_GW_e": 1.473629105332232,
+     "elec_TWh_yr": 0.8729936819138127,
+     "water_GL_yr": 0.0,
+     "tank_GWh_th": 63.09557043325897,
+     "viol_unmet_GWh_in_violating_years": 29.877353113075284,
+     "cost_BUSD_yr": 0.9961786914594339
+    },
+    "cf_scale": {
+     "covered_MW": 37294.631374,
+     "chiller_GW_th": 0.0,
+     "peak_GW_e": 0.5481774467462882,
+     "elec_TWh_yr": 0.7325203467682156,
+     "water_GL_yr": 25.103655359392437,
+     "tank_GWh_th": 1.621103952588349,
+     "viol_unmet_GWh_in_violating_years": 3.365733967124035,
+     "cost_BUSD_yr": 0.5432001069704212
+    },
+    "cfdry_scale": {
+     "covered_MW": 29051.631374,
+     "chiller_GW_th": 0.0,
+     "peak_GW_e": 0.5726313798031748,
+     "elec_TWh_yr": 0.34150220226478006,
+     "water_GL_yr": 0.0,
+     "tank_GWh_th": 66.64336820820395,
+     "viol_unmet_GWh_in_violating_years": 22.00891655987453,
+     "cost_BUSD_yr": 0.7003046848056561
+    },
+    "cfdrycomplete_scale": {
+     "covered_MW": 37294.631374,
+     "chiller_GW_th": 1.1887704156242174,
+     "peak_GW_e": 0.9566213108887919,
+     "elec_TWh_yr": 0.8194432083207618,
+     "water_GL_yr": 0.0,
+     "tank_GWh_th": 132.58736820820397,
+     "viol_unmet_GWh_in_violating_years": 92.35123113453004,
+     "cost_BUSD_yr": 1.1649069231752072
+    },
+    "tower_scale": {
+     "covered_MW": 37294.631374,
+     "chiller_GW_th": 0.0,
+     "peak_GW_e": 0.12205894845760472,
+     "elec_TWh_yr": 0.5358702317246828,
+     "water_GL_yr": 473.69613273124713,
+     "tank_GWh_th": 0.0,
+     "viol_unmet_GWh_in_violating_years": 0.0076962706208012184,
+     "cost_BUSD_yr": 1.1244462723349649
+    },
+    "cphys_GW_th": {
+     "cphys_ban_h0": 14.562802511357837,
+     "cphys_w0.01_h0": 8.566171228565793,
+     "cphys_w0.1_h0": 1.501714448851919,
+     "cphys_w1_h0": 0.0,
+     "cphys_peak50_h0": 14.562802511357837,
+     "cphys_free_h0": 0.0,
+     "cphys_ban_h2": 4.382952658109054,
+     "cphys_w0.01_h2": 3.805648935295423,
+     "cphys_w0.1_h2": 1.0598839994310574,
+     "cphys_w1_h2": 0.0,
+     "cphys_peak50_h2": 4.382952658109054,
+     "cphys_free_h2": 0.0,
+     "cphys_ban_h4": 2.1393144821301564,
+     "cphys_w0.01_h4": 2.1375529415190186,
+     "cphys_w0.1_h4": 0.9526481565029167,
+     "cphys_w1_h4": 0.0,
+     "cphys_peak50_h4": 2.1393144821301564,
+     "cphys_free_h4": 0.0,
+     "cphys_ban_h8": 1.1887704156242174,
+     "cphys_w0.01_h8": 1.1887704156242174,
+     "cphys_w0.1_h8": 0.8658679446926956,
+     "cphys_w1_h8": 0.0,
+     "cphys_peak50_h8": 1.1887704156242174,
+     "cphys_free_h8": 0.0
+    },
+    "cphys_MW_with_C_gt_0": {
+     "cphys_ban_h0": 35962.72971,
+     "cphys_w0.01_h0": 14619.0,
+     "cphys_w0.1_h0": 1605.0,
+     "cphys_w1_h0": 0.0,
+     "cphys_peak50_h0": 35962.72971,
+     "cphys_free_h0": 0.0,
+     "cphys_ban_h2": 22966.0,
+     "cphys_w0.01_h2": 14619.0,
+     "cphys_w0.1_h2": 1605.0,
+     "cphys_w1_h2": 0.0,
+     "cphys_peak50_h2": 22966.0,
+     "cphys_free_h2": 0.0,
+     "cphys_ban_h4": 10791.0,
+     "cphys_w0.01_h4": 10508.0,
+     "cphys_w0.1_h4": 1605.0,
+     "cphys_w1_h4": 0.0,
+     "cphys_peak50_h4": 10791.0,
+     "cphys_free_h4": 0.0,
+     "cphys_ban_h8": 8243.0,
+     "cphys_w0.01_h8": 8243.0,
+     "cphys_w0.1_h8": 1605.0,
+     "cphys_w1_h8": 0.0,
+     "cphys_peak50_h8": 8243.0,
+     "cphys_free_h8": 0.0
+    },
+    "ban_split_GW_th": {
+     "installed_least_cost": 4.371805090919818,
+     "physically_necessary": 1.1887704156242174,
+     "economic": 3.183034675295599,
+     "MW_economic_only": 14543.0
+    },
+    "water_allowed_split_GW_th": {
+     "installed_least_cost": 0.0,
+     "physically_necessary": 0.0
+    },
+    "eliminate_compressors_with_water": {
+     "MW": 0.0,
+     "d_cost_MUSD_yr": 0.0,
+     "d_water_GL_yr": 0.0,
+     "d_elec_TWh_yr": 0.0,
+     "d_peak_GW_e": 0.0
+    },
+    "eliminate_compressors_water_ban": {
+     "MW_feasible": 14543.0,
+     "MW_infeasible": 8243.0,
+     "d_cost_MUSD_yr": 26.461478043136097,
+     "d_tank_GWh_th": 20.033797774944983,
+     "d_elec_TWh_yr": -0.020316381087712977
+    },
+    "mixed_mode": {
+     "MW_feasible_C<=0.1": 35536.631374000004,
+     "MW_feasible_C<=0.2": 35689.631374,
+     "MW_mm01_cheaper_than_tower": 26503.631374
+    },
+    "near_ties_MW": {
+     "2%": 3797.0,
+     "5%": 10514.0
+    }
+   }
+  },
+  "B_2027_MW": {
+   "ssp245_median": {
+    "denominator_MW": 24099.531374000002,
+    "lc_zone_share": {
+     "Z1": 0.04053612698269889,
+     "Z2": 0.9594638730173011,
+     "Z3": 0.0,
+     "Zempty": 0.0
+    },
+    "ban_zone_share": {
+     "Z1": 0.3985775169206408,
+     "Z2": 0.0,
+     "Z3": 0.6014224830793591,
+     "Zempty": 0.0
+    },
+    "lc_scale": {
+     "covered_MW": 24099.531374000002,
+     "chiller_GW_th": 0.0,
+     "peak_GW_e": 0.35262842783053144,
+     "elec_TWh_yr": 0.45693237594749114,
+     "water_GL_yr": 13.24875127789559,
+     "tank_GWh_th": 1.0254253557243118,
+     "viol_unmet_GWh_in_violating_years": 1.6711480462185295,
+     "cost_BUSD_yr": 0.34208066449218943
+    },
+    "ban_scale": {
+     "covered_MW": 24099.531374000002,
+     "chiller_GW_th": 2.3663300629144812,
+     "peak_GW_e": 0.8773259417767482,
+     "elec_TWh_yr": 0.45986825940224396,
+     "water_GL_yr": 0.0,
+     "tank_GWh_th": 40.2810714612173,
+     "viol_unmet_GWh_in_violating_years": 15.329581573298666,
+     "cost_BUSD_yr": 0.6154044154471753
+    },
+    "cf_scale": {
+     "covered_MW": 24099.531374000002,
+     "chiller_GW_th": 0.0,
+     "peak_GW_e": 0.35262842783053144,
+     "elec_TWh_yr": 0.45693237594749114,
+     "water_GL_yr": 13.24875127789559,
+     "tank_GWh_th": 1.0254253557243118,
+     "viol_unmet_GWh_in_violating_years": 1.6711480462185295,
+     "cost_BUSD_yr": 0.34208066449218943
+    },
+    "cfdry_scale": {
+     "covered_MW": 19938.531374000002,
+     "chiller_GW_th": 0.0,
+     "peak_GW_e": 0.3991486305073118,
+     "elec_TWh_yr": 0.23155213619457896,
+     "water_GL_yr": 0.0,
+     "tank_GWh_th": 44.16493372705241,
+     "viol_unmet_GWh_in_violating_years": 11.68469537560465,
+     "cost_BUSD_yr": 0.4724450864471724
+    },
+    "cfdrycomplete_scale": {
+     "covered_MW": 24099.531374000002,
+     "chiller_GW_th": 0.4846947669013285,
+     "peak_GW_e": 0.5735796343544023,
+     "elec_TWh_yr": 0.43102174159207773,
+     "water_GL_yr": 0.0,
+     "tank_GWh_th": 77.4529337270524,
+     "viol_unmet_GWh_in_violating_years": 35.042118278385324,
+     "cost_BUSD_yr": 0.6995861015143949
+    },
+    "tower_scale": {
+     "covered_MW": 24099.531374000002,
+     "chiller_GW_th": 0.0,
+     "peak_GW_e": 0.0786968268303933,
+     "elec_TWh_yr": 0.347022536205007,
+     "water_GL_yr": 305.8495006180368,
+     "tank_GWh_th": 0.0,
+     "viol_unmet_GWh_in_violating_years": 0.0076962706208012184,
+     "cost_BUSD_yr": 0.7246063620669703
+    },
+    "cphys_GW_th": {
+     "cphys_ban_h0": 8.865668719854918,
+     "cphys_w0.01_h0": 4.305378331471073,
+     "cphys_w0.1_h0": 0.6032135621008902,
+     "cphys_w1_h0": 0.0,
+     "cphys_peak50_h0": 8.865668719854918,
+     "cphys_free_h0": 0.0,
+     "cphys_ban_h2": 2.377477630103718,
+     "cphys_w0.01_h2": 1.855667155534222,
+     "cphys_w0.1_h2": 0.4161643848768647,
+     "cphys_w1_h2": 0.0,
+     "cphys_peak50_h2": 2.377477630103718,
+     "cphys_free_h2": 0.0,
+     "cphys_ban_h4": 0.9774232139333551,
+     "cphys_w0.01_h4": 0.9756616733222174,
+     "cphys_w0.1_h4": 0.3732177304203781,
+     "cphys_w1_h4": 0.0,
+     "cphys_peak50_h4": 0.9774232139333551,
+     "cphys_free_h4": 0.0,
+     "cphys_ban_h8": 0.4846947669013285,
+     "cphys_w0.01_h8": 0.4846947669013285,
+     "cphys_w0.1_h8": 0.3384312992058748,
+     "cphys_w1_h8": 0.0,
+     "cphys_peak50_h8": 0.4846947669013285,
+     "cphys_free_h8": 0.0
+    },
+    "cphys_MW_with_C_gt_0": {
+     "cphys_ban_h0": 22791.62971,
+     "cphys_w0.01_h0": 7492.0,
+     "cphys_w0.1_h0": 649.0,
+     "cphys_w1_h0": 0.0,
+     "cphys_peak50_h0": 22791.62971,
+     "cphys_free_h0": 0.0,
+     "cphys_ban_h2": 14674.0,
+     "cphys_w0.01_h2": 7492.0,
+     "cphys_w0.1_h2": 649.0,
+     "cphys_w1_h2": 0.0,
+     "cphys_peak50_h2": 14674.0,
+     "cphys_free_h2": 0.0,
+     "cphys_ban_h4": 5852.0,
+     "cphys_w0.01_h4": 5569.0,
+     "cphys_w0.1_h4": 649.0,
+     "cphys_w1_h4": 0.0,
+     "cphys_peak50_h4": 5852.0,
+     "cphys_free_h4": 0.0,
+     "cphys_ban_h8": 4161.0,
+     "cphys_w0.01_h8": 4161.0,
+     "cphys_w0.1_h8": 649.0,
+     "cphys_w1_h8": 0.0,
+     "cphys_peak50_h8": 4161.0,
+     "cphys_free_h8": 0.0
+    },
+    "ban_split_GW_th": {
+     "installed_least_cost": 2.3663300629144812,
+     "physically_necessary": 0.4846947669013285,
+     "economic": 1.8816352960131524,
+     "MW_economic_only": 10333.0
+    },
+    "water_allowed_split_GW_th": {
+     "installed_least_cost": 0.0,
+     "physically_necessary": 0.0
+    },
+    "eliminate_compressors_with_water": {
+     "MW": 0.0,
+     "d_cost_MUSD_yr": 0.0,
+     "d_water_GL_yr": 0.0,
+     "d_elec_TWh_yr": 0.0,
+     "d_peak_GW_e": 0.0
+    },
+    "eliminate_compressors_water_ban": {
+     "MW_feasible": 10333.0,
+     "MW_infeasible": 4161.0,
+     "d_cost_MUSD_yr": 13.503880199921772,
+     "d_tank_GWh_th": 12.20586226583509,
+     "d_elec_TWh_yr": -0.011916962015954415
+    },
+    "mixed_mode": {
+     "MW_feasible_C<=0.1": 23297.531374,
+     "MW_feasible_C<=0.2": 23450.531374,
+     "MW_mm01_cheaper_than_tower": 18247.531374000002
+    },
+    "near_ties_MW": {
+     "2%": 3296.0,
+     "5%": 7977.0
+    }
+   }
+  },
+  "B_now_MW": {
+   "ssp245_median": {
+    "denominator_MW": 13500.209806,
+    "lc_zone_share": {
+     "Z1": 0.04737556713494531,
+     "Z2": 0.9526244328650546,
+     "Z3": 0.0,
+     "Zempty": 0.0
+    },
+    "ban_zone_share": {
+     "Z1": 0.3713431034065812,
+     "Z2": 0.0,
+     "Z3": 0.6286568965934187,
+     "Zempty": 0.0
+    },
+    "lc_scale": {
+     "covered_MW": 13500.209806,
+     "chiller_GW_th": 0.0,
+     "peak_GW_e": 0.19802364091385227,
+     "elec_TWh_yr": 0.2561073502293489,
+     "water_GL_yr": 6.913317619918543,
+     "tank_GWh_th": 0.6004778885175562,
+     "viol_unmet_GWh_in_violating_years": 0.6689645286035312,
+     "cost_BUSD_yr": 0.19080575325898175
+    },
+    "ban_scale": {
+     "covered_MW": 13500.209806,
+     "chiller_GW_th": 1.216246744408231,
+     "peak_GW_e": 0.47374207115836664,
+     "elec_TWh_yr": 0.2431232184743257,
+     "water_GL_yr": 0.0,
+     "tank_GWh_th": 22.833620262103626,
+     "viol_unmet_GWh_in_violating_years": 10.158441865931776,
+     "cost_BUSD_yr": 0.34098876052384497
+    },
+    "cf_scale": {
+     "covered_MW": 13500.209806,
+     "chiller_GW_th": 0.0,
+     "peak_GW_e": 0.19802364091385227,
+     "elec_TWh_yr": 0.2561073502293489,
+     "water_GL_yr": 6.913317619918543,
+     "tank_GWh_th": 0.6004778885175562,
+     "viol_unmet_GWh_in_violating_years": 0.6689645286035312,
+     "cost_BUSD_yr": 0.19080575325898175
+    },
+    "cfdry_scale": {
+     "covered_MW": 11536.209806,
+     "chiller_GW_th": 0.0,
+     "peak_GW_e": 0.23365860399713745,
+     "elec_TWh_yr": 0.13548389417710255,
+     "water_GL_yr": 0.0,
+     "tank_GWh_th": 25.28892186267949,
+     "viol_unmet_GWh_in_violating_years": 7.077929388085649,
+     "cost_BUSD_yr": 0.27282894132395685
+    },
+    "cfdrycomplete_scale": {
+     "covered_MW": 13500.209806,
+     "chiller_GW_th": 0.28079690795442536,
+     "peak_GW_e": 0.3246916380741674,
+     "elec_TWh_yr": 0.23116473189941494,
+     "water_GL_yr": 0.0,
+     "tank_GWh_th": 41.0009218626795,
+     "viol_unmet_GWh_in_violating_years": 17.27729258586337,
+     "cost_BUSD_yr": 0.3819851835932649
+    },
+    "tower_scale": {
+     "covered_MW": 13500.209806,
+     "chiller_GW_th": 0.0,
+     "peak_GW_e": 0.045069717803114806,
+     "elec_TWh_yr": 0.19979137821157553,
+     "water_GL_yr": 171.5329039628159,
+     "tank_GWh_th": 0.0,
+     "viol_unmet_GWh_in_violating_years": 0.003077209164546582,
+     "cost_BUSD_yr": 0.4063538533427819
+    },
+    "cphys_GW_th": {
+     "cphys_ban_h0": 4.857547771080804,
+     "cphys_w0.01_h0": 1.841928689065278,
+     "cphys_w0.1_h0": 0.41540525535516354,
+     "cphys_w1_h0": 0.0,
+     "cphys_peak50_h0": 4.857547771080804,
+     "cphys_free_h0": 0.0,
+     "cphys_ban_h2": 1.2273943115974681,
+     "cphys_w0.01_h2": 0.818703155801839,
+     "cphys_w0.1_h2": 0.28046522211556485,
+     "cphys_w1_h2": 0.0,
+     "cphys_peak50_h2": 1.2273943115974681,
+     "cphys_free_h2": 0.0,
+     "cphys_ban_h4": 0.48393498416403086,
+     "cphys_w0.01_h4": 0.4830573261210259,
+     "cphys_w0.1_h4": 0.250257998700299,
+     "cphys_w1_h4": 0.0,
+     "cphys_peak50_h4": 0.48393498416403086,
+     "cphys_free_h4": 0.0,
+     "cphys_ban_h8": 0.28079690795442536,
+     "cphys_w0.01_h8": 0.28079690795442536,
+     "cphys_w0.1_h8": 0.22681304931402876,
+     "cphys_w1_h8": 0.0,
+     "cphys_peak50_h8": 0.28079690795442536,
+     "cphys_free_h8": 0.0
+    },
+    "cphys_MW_with_C_gt_0": {
+     "cphys_ban_h0": 12818.62971,
+     "cphys_w0.01_h0": 3189.0,
+     "cphys_w0.1_h0": 449.0,
+     "cphys_w1_h0": 0.0,
+     "cphys_peak50_h0": 12818.62971,
+     "cphys_free_h0": 0.0,
+     "cphys_ban_h2": 8667.0,
+     "cphys_w0.01_h2": 3189.0,
+     "cphys_w0.1_h2": 449.0,
+     "cphys_w1_h2": 0.0,
+     "cphys_peak50_h2": 8667.0,
+     "cphys_free_h2": 0.0,
+     "cphys_ban_h4": 2411.0,
+     "cphys_w0.01_h4": 2270.0,
+     "cphys_w0.1_h4": 449.0,
+     "cphys_w1_h4": 0.0,
+     "cphys_peak50_h4": 2411.0,
+     "cphys_free_h4": 0.0,
+     "cphys_ban_h8": 1964.0,
+     "cphys_w0.01_h8": 1964.0,
+     "cphys_w0.1_h8": 449.0,
+     "cphys_w1_h8": 0.0,
+     "cphys_peak50_h8": 1964.0,
+     "cphys_free_h8": 0.0
+    },
+    "ban_split_GW_th": {
+     "installed_least_cost": 1.216246744408231,
+     "physically_necessary": 0.28079690795442536,
+     "economic": 0.9354498364538056,
+     "MW_economic_only": 6523.0
+    },
+    "water_allowed_split_GW_th": {
+     "installed_least_cost": 0.0,
+     "physically_necessary": 0.0
+    },
+    "eliminate_compressors_with_water": {
+     "MW": 0.0,
+     "d_cost_MUSD_yr": 0.0,
+     "d_water_GL_yr": 0.0,
+     "d_elec_TWh_yr": 0.0,
+     "d_peak_GW_e": 0.0
+    },
+    "eliminate_compressors_water_ban": {
+     "MW_feasible": 6523.0,
+     "MW_infeasible": 1964.0,
+     "d_cost_MUSD_yr": 6.842295393352879,
+     "d_tank_GWh_th": 6.383301600575871,
+     "d_elec_TWh_yr": -0.005645546989503509
+    },
+    "mixed_mode": {
+     "MW_feasible_C<=0.1": 13051.209805999999,
+     "MW_feasible_C<=0.2": 13051.209806,
+     "MW_mm01_cheaper_than_tower": 11089.209806
+    },
+    "near_ties_MW": {
+     "2%": 908.0,
+     "5%": 3829.0
+    }
+   }
+  }
+ },
+ "flips|B_full_MW": {
+  "tank_kUSD_per_MWh": {
+   "10": {
+    "ssp245_median": {
+     "lc": {
+      "Z1": 0.03788485398423877,
+      "Z2": 0.9621151460157613,
+      "Z3": 0.0,
+      "Zempty": 0.0
+     },
+     "ban": {
+      "Z1": 0.7559970519954228,
+      "Z3": 0.24400294800457734,
+      "Zempty": 0.0
+     }
+    },
+    "_per_site": {
+     "cell_209_1300|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_366_1134|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1135|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1136|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_457_938|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_478_325|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_478_326|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_483_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_1193|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_485_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_487_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_321|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_353|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_490_359|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_490_360|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_490_375|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_491_323|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_493_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_270|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_271|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_273|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_382|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_495_317|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_382|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_495_393|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_499_293|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_499_380|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_500_315|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_500_360|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_500_373|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_501_384|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_503_338|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_505_339|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_506_374|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_509_410|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_510_411|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_512_685|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_513_377|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_515_410|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_516_342|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_516_410|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_518_242|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_518_420|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_519_388|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_519_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_1168|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_272|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_524_1173|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_524_333|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_524_335|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_524_380|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_524_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_1179|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_301|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_336|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_337|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_397|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_526_345|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_527_374|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_528_353|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_528_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_531_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_533_406|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_534_254|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_534_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_539_347|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_542_228|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_543_235|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_544_326|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_567_720|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_602_782|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_603_821|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_606_745|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_616_630|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_634_790|ssp245_median": [
+      "Z2",
+      "Z1"
+     ]
+    }
+   },
+   "17": {
+    "ssp245_median": {
+     "lc": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0,
+      "Zempty": 0.0
+     },
+     "ban": {
+      "Z1": 0.7253760226963868,
+      "Z3": 0.2746239773036133,
+      "Zempty": 0.0
+     }
+    },
+    "_per_site": {
+     "cell_209_1300|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_366_1134|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1135|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1136|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_457_938|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_478_325|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_478_326|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_483_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_1193|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_487_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_321|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_353|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_490_359|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_490_360|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_490_375|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_491_323|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_493_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_270|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_271|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_273|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_382|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_495_317|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_382|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_495_393|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_499_293|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_499_380|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_500_315|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_500_360|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_500_373|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_501_384|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_503_338|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_505_339|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_506_374|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_509_410|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_510_411|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_512_685|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_513_377|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_515_410|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_516_342|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_516_410|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_518_242|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_518_420|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_519_388|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_519_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_1168|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_272|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_524_1173|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_524_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_335|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_524_380|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_524_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_1179|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_301|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_336|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_337|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_397|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_526_345|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_527_374|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_528_353|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_528_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_531_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_533_406|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_534_254|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_534_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_539_347|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_542_228|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_543_235|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_544_326|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_567_720|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_602_782|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_603_821|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_606_745|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_616_630|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_634_790|ssp245_median": [
+      "Z2",
+      "Z1"
+     ]
+    }
+   },
+   "25": {
+    "ssp245_median": {
+     "lc": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0,
+      "Zempty": 0.0
+     },
+     "ban": {
+      "Z1": 0.6984016308620347,
+      "Z3": 0.3015983691379655,
+      "Zempty": 0.0
+     }
+    },
+    "_per_site": {
+     "cell_209_1300|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_366_1134|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1135|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1136|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_457_938|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_478_325|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_478_326|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_483_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_1193|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_487_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_321|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_353|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_490_359|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_490_360|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_490_375|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_491_323|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_493_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_270|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_271|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_273|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_382|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_495_317|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_382|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_495_393|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_499_293|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_499_380|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_500_315|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_360|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_500_373|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_501_384|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_503_338|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_505_339|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_506_374|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_509_410|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_510_411|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_512_685|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_513_377|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_515_410|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_516_342|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_516_410|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_518_242|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_518_420|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_519_388|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_519_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_1168|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_272|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_524_1173|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_524_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_335|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_524_380|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_524_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_1179|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_301|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_336|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_337|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_397|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_526_345|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_527_374|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_528_353|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_528_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_531_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_533_406|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_534_254|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_534_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_539_347|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_542_228|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_543_235|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_544_326|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_567_720|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_602_782|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_603_821|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_606_745|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_616_630|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_634_790|ssp245_median": [
+      "Z2",
+      "Z1"
+     ]
+    }
+   },
+   "35": {
+    "ssp245_median": {
+     "lc": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0,
+      "Zempty": 0.0
+     },
+     "ban": {
+      "Z1": 0.3890273436008463,
+      "Z3": 0.6109726563991538,
+      "Zempty": 0.0
+     }
+    },
+    "_per_site": {
+     "cell_209_1300|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_366_1134|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1135|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1136|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_457_938|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_478_325|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_478_326|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_483_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_1193|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_487_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_321|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_353|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_359|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_360|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_375|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_491_323|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_493_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_270|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_271|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_273|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_382|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_317|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_382|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_495_393|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_499_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_499_380|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_315|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_360|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_373|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_501_384|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_503_338|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_505_339|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_506_374|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_509_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_510_411|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_512_685|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_513_377|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_515_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_516_342|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_516_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_518_242|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_518_420|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_519_388|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_519_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_1168|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_272|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_1173|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_524_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_335|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_380|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_1179|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_301|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_336|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_337|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_397|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_526_345|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_527_374|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_528_353|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_528_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_531_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_533_406|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_534_254|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_534_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_539_347|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_542_228|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_543_235|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_544_326|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_567_720|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_602_782|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_603_821|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_606_745|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_616_630|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_634_790|ssp245_median": [
+      "Z2",
+      "Z1"
+     ]
+    }
+   },
+   "50": {
+    "ssp245_median": {
+     "lc": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0,
+      "Zempty": 0.0
+     },
+     "ban": {
+      "Z1": 0.17834474880041215,
+      "Z3": 0.8216552511995879,
+      "Zempty": 0.0
+     }
+    },
+    "_per_site": {
+     "cell_209_1300|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_366_1134|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1135|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1136|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_457_938|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_478_325|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_478_326|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_483_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_1193|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_487_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_321|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_353|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_359|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_360|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_375|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_491_323|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_493_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_270|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_271|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_273|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_382|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_317|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_382|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_393|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_499_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_499_380|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_315|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_360|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_373|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_501_384|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_503_338|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_505_339|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_506_374|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_509_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_510_411|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_512_685|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_513_377|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_515_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_516_342|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_516_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_518_242|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_518_420|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_519_388|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_519_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_389|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_520_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_1168|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_272|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_1173|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_524_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_335|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_380|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_1179|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_301|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_336|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_337|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_397|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_526_345|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_527_374|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_528_353|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_528_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_531_368|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_533_406|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_534_254|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_534_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_539_347|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_542_228|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_543_235|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_544_326|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_567_720|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_602_782|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_603_821|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_606_745|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_616_630|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_634_790|ssp245_median": [
+      "Z2",
+      "Z1"
+     ]
+    }
+   },
+   "70": {
+    "ssp245_median": {
+     "lc": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0,
+      "Zempty": 0.0
+     },
+     "ban": {
+      "Z1": 0.08572015719744382,
+      "Z3": 0.9142798428025563,
+      "Zempty": 0.0
+     }
+    },
+    "_per_site": {
+     "cell_209_1300|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_366_1134|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1135|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1136|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_457_938|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_478_325|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_478_326|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_483_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_1193|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_487_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_321|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_353|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_359|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_360|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_375|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_491_323|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_493_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_270|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_271|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_273|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_382|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_317|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_382|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_393|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_499_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_499_380|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_315|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_360|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_373|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_501_384|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_503_338|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_505_339|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_506_374|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_509_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_510_411|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_512_685|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_513_377|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_515_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_516_342|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_516_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_518_242|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_518_420|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_519_388|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_519_389|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_520_389|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_520_415|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_521_1168|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_521_272|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_1173|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_335|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_380|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_415|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_1179|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_301|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_336|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_337|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_385|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_397|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_526_345|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_527_374|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_528_353|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_528_385|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_531_368|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_533_406|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_534_254|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_534_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_539_347|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_542_228|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_543_235|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_544_326|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_567_720|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_602_782|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_603_821|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_606_745|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_616_630|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_634_790|ssp245_median": [
+      "Z2",
+      "Z1"
+     ]
+    }
+   },
+   "100": {
+    "ssp245_median": {
+     "lc": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0,
+      "Zempty": 0.0
+     },
+     "ban": {
+      "Z1": 0.07558465012648445,
+      "Z3": 0.9244153498735156,
+      "Zempty": 0.0
+     }
+    },
+    "_per_site": {
+     "cell_209_1300|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_366_1134|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1135|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1136|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_457_938|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_478_325|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_478_326|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_483_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_1193|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_487_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_321|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_353|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_359|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_360|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_375|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_491_323|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_493_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_270|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_271|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_273|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_382|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_317|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_382|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_393|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_499_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_499_380|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_315|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_360|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_373|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_501_384|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_503_338|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_505_339|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_506_374|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_509_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_510_411|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_512_685|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_513_377|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_515_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_516_342|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_516_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_518_242|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_518_420|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_519_388|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_519_389|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_520_389|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_520_415|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_521_1168|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_521_272|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_1173|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_335|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_380|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_415|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_1179|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_301|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_336|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_337|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_385|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_397|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_526_345|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_527_374|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_528_353|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_528_385|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_531_368|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_533_406|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_534_254|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_534_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_539_347|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_542_228|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_543_235|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_544_326|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_567_720|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_602_782|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_603_821|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_606_745|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_616_630|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_634_790|ssp245_median": [
+      "Z2",
+      "Z1"
+     ]
+    }
+   },
+   "moved_between_plausible_bounds": {
+    "ssp245_median|water_allowed": {
+     "MW": 0.0,
+     "cells": []
+    },
+    "ssp245_median|water_banned": {
+     "MW": 23855.72971,
+     "cells": [
+      "cell_209_1300",
+      "cell_490_353",
+      "cell_490_359",
+      "cell_490_360",
+      "cell_490_375",
+      "cell_494_382",
+      "cell_495_382",
+      "cell_495_393",
+      "cell_499_293",
+      "cell_499_380",
+      "cell_500_315",
+      "cell_500_360",
+      "cell_500_373",
+      "cell_506_374",
+      "cell_509_410",
+      "cell_510_411",
+      "cell_513_377",
+      "cell_515_410",
+      "cell_516_342",
+      "cell_516_410",
+      "cell_518_242",
+      "cell_518_420",
+      "cell_519_388",
+      "cell_519_389",
+      "cell_520_389",
+      "cell_520_415",
+      "cell_521_1168",
+      "cell_521_272",
+      "cell_524_1173",
+      "cell_524_335",
+      "cell_524_380",
+      "cell_524_415",
+      "cell_525_301",
+      "cell_525_336",
+      "cell_525_337",
+      "cell_525_385",
+      "cell_525_397",
+      "cell_526_345",
+      "cell_527_374",
+      "cell_528_353",
+      "cell_528_385",
+      "cell_531_368",
+      "cell_539_347",
+      "cell_542_228",
+      "cell_543_235",
+      "cell_544_326"
+     ]
+    }
+   }
+  },
+  "h_max": {
+   "0": {
+    "ssp245_median": {
+     "lc": {
+      "Z1": 0.013511372694550768,
+      "Z2": 0.6890463523367927,
+      "Z3": 0.2974422749686568,
+      "Zempty": 0.0
+     },
+     "ban": {
+      "Z1": 0.028231990107134612,
+      "Z3": 0.9717680098928655,
+      "Zempty": 0.0
+     }
+    },
+    "_per_site": {
+     "cell_209_1300|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_366_1134|ssp245_median": [
+      "Z3",
+      "Z3"
+     ],
+     "cell_366_1135|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1136|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_457_938|ssp245_median": [
+      "Z3",
+      "Z3"
+     ],
+     "cell_478_325|ssp245_median": [
+      "Z3",
+      "Z3"
+     ],
+     "cell_478_326|ssp245_median": [
+      "Z3",
+      "Z3"
+     ],
+     "cell_483_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_1193|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_487_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_321|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_353|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_359|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_360|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_375|ssp245_median": [
+      "Z3",
+      "Z3"
+     ],
+     "cell_491_323|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_493_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_270|ssp245_median": [
+      "Z3",
+      "Z3"
+     ],
+     "cell_494_271|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_273|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_382|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_317|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_382|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_393|ssp245_median": [
+      "Z3",
+      "Z3"
+     ],
+     "cell_499_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_499_380|ssp245_median": [
+      "Z3",
+      "Z3"
+     ],
+     "cell_500_315|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_360|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_373|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_501_384|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_503_338|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_505_339|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_506_374|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_509_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_510_411|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_512_685|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_513_377|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_515_410|ssp245_median": [
+      "Z3",
+      "Z3"
+     ],
+     "cell_516_342|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_516_410|ssp245_median": [
+      "Z3",
+      "Z3"
+     ],
+     "cell_518_242|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_518_420|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_519_388|ssp245_median": [
+      "Z3",
+      "Z3"
+     ],
+     "cell_519_389|ssp245_median": [
+      "Z3",
+      "Z3"
+     ],
+     "cell_520_389|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_520_415|ssp245_median": [
+      "Z3",
+      "Z3"
+     ],
+     "cell_521_1168|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_521_272|ssp245_median": [
+      "Z3",
+      "Z3"
+     ],
+     "cell_524_1173|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_333|ssp245_median": [
+      "Z3",
+      "Z3"
+     ],
+     "cell_524_335|ssp245_median": [
+      "Z3",
+      "Z3"
+     ],
+     "cell_524_380|ssp245_median": [
+      "Z3",
+      "Z3"
+     ],
+     "cell_524_415|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_1179|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_301|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_336|ssp245_median": [
+      "Z3",
+      "Z3"
+     ],
+     "cell_525_337|ssp245_median": [
+      "Z3",
+      "Z3"
+     ],
+     "cell_525_385|ssp245_median": [
+      "Z3",
+      "Z3"
+     ],
+     "cell_525_397|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_526_345|ssp245_median": [
+      "Z3",
+      "Z3"
+     ],
+     "cell_527_374|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_528_353|ssp245_median": [
+      "Z3",
+      "Z3"
+     ],
+     "cell_528_385|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_531_368|ssp245_median": [
+      "Z3",
+      "Z3"
+     ],
+     "cell_533_406|ssp245_median": [
+      "Z3",
+      "Z1"
+     ],
+     "cell_534_254|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_534_368|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_539_347|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_542_228|ssp245_median": [
+      "Z3",
+      "Z3"
+     ],
+     "cell_543_235|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_544_326|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_567_720|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_602_782|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_603_821|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_606_745|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_616_630|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_634_790|ssp245_median": [
+      "Z2",
+      "Z3"
+     ]
+    }
+   },
+   "2": {
+    "ssp245_median": {
+     "lc": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0,
+      "Zempty": 0.0
+     },
+     "ban": {
+      "Z1": 0.3842009116622942,
+      "Z3": 0.6157990883377058,
+      "Zempty": 0.0
+     }
+    },
+    "_per_site": {
+     "cell_209_1300|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_366_1134|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1135|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1136|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_457_938|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_478_325|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_478_326|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_483_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_1193|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_487_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_321|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_353|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_359|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_360|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_375|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_491_323|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_493_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_270|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_271|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_273|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_382|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_317|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_382|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_495_393|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_499_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_499_380|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_315|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_360|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_373|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_501_384|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_503_338|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_505_339|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_506_374|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_509_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_510_411|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_512_685|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_513_377|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_515_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_516_342|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_516_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_518_242|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_518_420|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_519_388|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_519_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_1168|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_272|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_1173|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_524_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_335|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_380|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_1179|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_301|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_336|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_337|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_397|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_526_345|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_527_374|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_528_353|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_528_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_531_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_533_406|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_534_254|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_534_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_539_347|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_542_228|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_543_235|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_544_326|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_567_720|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_602_782|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_603_821|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_606_745|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_616_630|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_634_790|ssp245_median": [
+      "Z2",
+      "Z1"
+     ]
+    }
+   },
+   "4": {
+    "ssp245_median": {
+     "lc": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0,
+      "Zempty": 0.0
+     },
+     "ban": {
+      "Z1": 0.3890273436008463,
+      "Z3": 0.6109726563991538,
+      "Zempty": 0.0
+     }
+    },
+    "_per_site": {
+     "cell_209_1300|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_366_1134|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1135|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1136|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_457_938|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_478_325|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_478_326|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_483_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_1193|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_487_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_321|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_353|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_359|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_360|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_375|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_491_323|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_493_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_270|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_271|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_273|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_382|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_317|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_382|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_495_393|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_499_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_499_380|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_315|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_360|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_373|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_501_384|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_503_338|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_505_339|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_506_374|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_509_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_510_411|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_512_685|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_513_377|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_515_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_516_342|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_516_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_518_242|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_518_420|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_519_388|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_519_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_1168|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_272|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_1173|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_524_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_335|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_380|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_1179|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_301|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_336|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_337|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_397|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_526_345|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_527_374|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_528_353|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_528_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_531_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_533_406|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_534_254|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_534_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_539_347|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_542_228|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_543_235|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_544_326|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_567_720|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_602_782|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_603_821|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_606_745|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_616_630|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_634_790|ssp245_median": [
+      "Z2",
+      "Z1"
+     ]
+    }
+   },
+   "8": {
+    "ssp245_median": {
+     "lc": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0,
+      "Zempty": 0.0
+     },
+     "ban": {
+      "Z1": 0.3890273436008463,
+      "Z3": 0.6109726563991538,
+      "Zempty": 0.0
+     }
+    },
+    "_per_site": {
+     "cell_209_1300|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_366_1134|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1135|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1136|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_457_938|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_478_325|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_478_326|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_483_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_1193|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_487_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_321|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_353|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_359|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_360|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_375|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_491_323|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_493_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_270|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_271|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_273|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_382|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_317|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_382|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_495_393|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_499_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_499_380|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_315|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_360|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_373|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_501_384|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_503_338|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_505_339|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_506_374|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_509_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_510_411|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_512_685|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_513_377|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_515_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_516_342|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_516_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_518_242|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_518_420|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_519_388|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_519_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_1168|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_272|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_1173|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_524_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_335|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_380|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_1179|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_301|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_336|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_337|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_397|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_526_345|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_527_374|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_528_353|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_528_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_531_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_533_406|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_534_254|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_534_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_539_347|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_542_228|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_543_235|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_544_326|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_567_720|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_602_782|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_603_821|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_606_745|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_616_630|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_634_790|ssp245_median": [
+      "Z2",
+      "Z1"
+     ]
+    }
+   }
+  },
+  "water_mult": {
+   "0": {
+    "ssp245_median": {
+     "lc": {
+      "Z1": 0.0,
+      "Z2": 0.9731864892302662,
+      "Z3": 0.026813510769733772,
+      "Zempty": 0.0
+     },
+     "ban": {
+      "Z1": 0.3890273436008463,
+      "Z3": 0.6109726563991538,
+      "Zempty": 0.0
+     }
+    },
+    "_per_site": {
+     "cell_209_1300|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_366_1134|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_366_1135|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_366_1136|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_457_938|ssp245_median": [
+      "Z3",
+      "Z3"
+     ],
+     "cell_478_325|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_478_326|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_483_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_1193|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_487_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_321|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_353|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_359|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_360|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_375|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_491_323|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_493_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_270|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_271|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_273|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_382|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_317|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_382|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_495_393|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_499_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_499_380|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_315|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_360|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_373|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_501_384|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_503_338|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_505_339|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_506_374|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_509_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_510_411|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_512_685|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_513_377|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_515_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_516_342|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_516_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_518_242|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_518_420|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_519_388|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_519_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_1168|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_272|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_1173|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_524_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_335|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_380|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_1179|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_301|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_336|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_337|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_397|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_526_345|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_527_374|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_528_353|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_528_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_531_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_533_406|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_534_254|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_534_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_539_347|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_542_228|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_543_235|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_544_326|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_567_720|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_602_782|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_603_821|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_606_745|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_616_630|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_634_790|ssp245_median": [
+      "Z2",
+      "Z1"
+     ]
+    }
+   },
+   "0.25": {
+    "ssp245_median": {
+     "lc": {
+      "Z1": 0.00027376594495898186,
+      "Z2": 0.9729127232853073,
+      "Z3": 0.026813510769733772,
+      "Zempty": 0.0
+     },
+     "ban": {
+      "Z1": 0.3890273436008463,
+      "Z3": 0.6109726563991538,
+      "Zempty": 0.0
+     }
+    },
+    "_per_site": {
+     "cell_209_1300|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_366_1134|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_366_1135|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_366_1136|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_457_938|ssp245_median": [
+      "Z3",
+      "Z3"
+     ],
+     "cell_478_325|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_478_326|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_483_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_1193|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_487_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_321|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_353|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_359|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_360|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_375|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_491_323|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_493_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_270|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_271|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_273|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_382|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_317|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_382|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_495_393|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_499_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_499_380|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_315|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_360|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_373|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_501_384|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_503_338|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_505_339|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_506_374|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_509_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_510_411|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_512_685|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_513_377|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_515_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_516_342|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_516_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_518_242|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_518_420|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_519_388|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_519_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_1168|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_272|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_1173|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_524_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_335|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_380|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_1179|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_301|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_336|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_337|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_397|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_526_345|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_527_374|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_528_353|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_528_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_531_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_533_406|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_534_254|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_534_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_539_347|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_542_228|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_543_235|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_544_326|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_567_720|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_602_782|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_603_821|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_606_745|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_616_630|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_634_790|ssp245_median": [
+      "Z2",
+      "Z1"
+     ]
+    }
+   },
+   "0.5": {
+    "ssp245_median": {
+     "lc": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0,
+      "Zempty": 0.0
+     },
+     "ban": {
+      "Z1": 0.3890273436008463,
+      "Z3": 0.6109726563991538,
+      "Zempty": 0.0
+     }
+    },
+    "_per_site": {
+     "cell_209_1300|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_366_1134|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1135|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1136|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_457_938|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_478_325|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_478_326|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_483_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_1193|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_487_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_321|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_353|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_359|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_360|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_375|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_491_323|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_493_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_270|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_271|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_273|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_382|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_317|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_382|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_495_393|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_499_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_499_380|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_315|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_360|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_373|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_501_384|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_503_338|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_505_339|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_506_374|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_509_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_510_411|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_512_685|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_513_377|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_515_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_516_342|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_516_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_518_242|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_518_420|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_519_388|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_519_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_1168|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_272|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_1173|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_524_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_335|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_380|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_1179|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_301|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_336|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_337|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_397|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_526_345|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_527_374|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_528_353|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_528_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_531_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_533_406|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_534_254|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_534_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_539_347|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_542_228|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_543_235|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_544_326|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_567_720|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_602_782|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_603_821|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_606_745|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_616_630|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_634_790|ssp245_median": [
+      "Z2",
+      "Z1"
+     ]
+    }
+   },
+   "1": {
+    "ssp245_median": {
+     "lc": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0,
+      "Zempty": 0.0
+     },
+     "ban": {
+      "Z1": 0.3890273436008463,
+      "Z3": 0.6109726563991538,
+      "Zempty": 0.0
+     }
+    },
+    "_per_site": {
+     "cell_209_1300|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_366_1134|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1135|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1136|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_457_938|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_478_325|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_478_326|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_483_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_1193|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_487_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_321|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_353|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_359|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_360|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_375|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_491_323|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_493_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_270|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_271|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_273|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_382|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_317|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_382|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_495_393|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_499_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_499_380|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_315|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_360|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_373|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_501_384|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_503_338|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_505_339|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_506_374|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_509_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_510_411|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_512_685|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_513_377|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_515_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_516_342|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_516_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_518_242|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_518_420|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_519_388|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_519_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_1168|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_272|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_1173|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_524_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_335|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_380|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_1179|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_301|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_336|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_337|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_397|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_526_345|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_527_374|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_528_353|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_528_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_531_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_533_406|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_534_254|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_534_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_539_347|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_542_228|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_543_235|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_544_326|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_567_720|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_602_782|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_603_821|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_606_745|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_616_630|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_634_790|ssp245_median": [
+      "Z2",
+      "Z1"
+     ]
+    }
+   },
+   "2": {
+    "ssp245_median": {
+     "lc": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0,
+      "Zempty": 0.0
+     },
+     "ban": {
+      "Z1": 0.3890273436008463,
+      "Z3": 0.6109726563991538,
+      "Zempty": 0.0
+     }
+    },
+    "_per_site": {
+     "cell_209_1300|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_366_1134|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1135|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1136|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_457_938|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_478_325|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_478_326|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_483_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_1193|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_487_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_321|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_353|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_359|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_360|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_375|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_491_323|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_493_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_270|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_271|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_273|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_382|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_317|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_382|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_495_393|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_499_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_499_380|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_315|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_360|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_373|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_501_384|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_503_338|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_505_339|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_506_374|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_509_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_510_411|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_512_685|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_513_377|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_515_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_516_342|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_516_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_518_242|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_518_420|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_519_388|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_519_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_1168|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_272|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_1173|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_524_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_335|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_380|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_1179|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_301|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_336|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_337|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_397|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_526_345|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_527_374|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_528_353|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_528_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_531_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_533_406|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_534_254|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_534_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_539_347|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_542_228|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_543_235|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_544_326|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_567_720|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_602_782|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_603_821|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_606_745|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_616_630|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_634_790|ssp245_median": [
+      "Z2",
+      "Z1"
+     ]
+    }
+   },
+   "3": {
+    "ssp245_median": {
+     "lc": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0,
+      "Zempty": 0.0
+     },
+     "ban": {
+      "Z1": 0.3890273436008463,
+      "Z3": 0.6109726563991538,
+      "Zempty": 0.0
+     }
+    },
+    "_per_site": {
+     "cell_209_1300|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_366_1134|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1135|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1136|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_457_938|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_478_325|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_478_326|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_483_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_1193|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_487_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_321|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_353|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_359|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_360|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_375|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_491_323|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_493_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_270|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_271|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_273|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_382|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_317|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_382|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_495_393|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_499_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_499_380|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_315|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_360|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_373|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_501_384|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_503_338|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_505_339|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_506_374|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_509_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_510_411|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_512_685|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_513_377|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_515_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_516_342|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_516_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_518_242|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_518_420|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_519_388|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_519_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_1168|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_272|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_1173|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_524_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_335|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_380|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_1179|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_301|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_336|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_337|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_397|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_526_345|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_527_374|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_528_353|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_528_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_531_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_533_406|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_534_254|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_534_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_539_347|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_542_228|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_543_235|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_544_326|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_567_720|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_602_782|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_603_821|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_606_745|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_616_630|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_634_790|ssp245_median": [
+      "Z2",
+      "Z1"
+     ]
+    }
+   },
+   "5": {
+    "ssp245_median": {
+     "lc": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0,
+      "Zempty": 0.0
+     },
+     "ban": {
+      "Z1": 0.3890273436008463,
+      "Z3": 0.6109726563991538,
+      "Zempty": 0.0
+     }
+    },
+    "_per_site": {
+     "cell_209_1300|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_366_1134|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1135|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1136|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_457_938|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_478_325|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_478_326|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_483_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_1193|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_487_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_321|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_353|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_359|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_360|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_375|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_491_323|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_493_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_270|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_271|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_273|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_382|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_317|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_382|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_495_393|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_499_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_499_380|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_315|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_360|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_373|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_501_384|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_503_338|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_505_339|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_506_374|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_509_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_510_411|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_512_685|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_513_377|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_515_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_516_342|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_516_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_518_242|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_518_420|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_519_388|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_519_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_1168|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_272|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_1173|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_524_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_335|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_380|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_1179|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_301|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_336|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_337|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_397|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_526_345|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_527_374|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_528_353|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_528_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_531_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_533_406|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_534_254|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_534_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_539_347|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_542_228|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_543_235|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_544_326|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_567_720|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_602_782|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_603_821|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_606_745|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_616_630|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_634_790|ssp245_median": [
+      "Z2",
+      "Z1"
+     ]
+    }
+   },
+   "10": {
+    "ssp245_median": {
+     "lc": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9307701519259425,
+      "Z3": 0.043035684785422704,
+      "Zempty": 0.0
+     },
+     "ban": {
+      "Z1": 0.3890273436008463,
+      "Z3": 0.6109726563991538,
+      "Zempty": 0.0
+     }
+    },
+    "_per_site": {
+     "cell_209_1300|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_366_1134|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1135|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1136|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_457_938|ssp245_median": [
+      "Z3",
+      "Z3"
+     ],
+     "cell_478_325|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_478_326|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_483_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_1193|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_487_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_321|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_353|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_359|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_360|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_375|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_491_323|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_493_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_270|ssp245_median": [
+      "Z3",
+      "Z3"
+     ],
+     "cell_494_271|ssp245_median": [
+      "Z3",
+      "Z3"
+     ],
+     "cell_494_273|ssp245_median": [
+      "Z3",
+      "Z3"
+     ],
+     "cell_494_382|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_317|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_382|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_495_393|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_499_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_499_380|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_315|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_360|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_373|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_501_384|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_503_338|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_505_339|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_506_374|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_509_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_510_411|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_512_685|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_513_377|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_515_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_516_342|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_516_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_518_242|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_518_420|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_519_388|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_519_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_1168|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_272|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_1173|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_524_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_335|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_380|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_1179|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_301|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_336|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_337|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_397|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_526_345|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_527_374|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_528_353|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_528_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_531_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_533_406|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_534_254|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_534_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_539_347|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_542_228|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_543_235|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_544_326|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_567_720|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_602_782|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_603_821|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_606_745|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_616_630|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_634_790|ssp245_median": [
+      "Z2",
+      "Z1"
+     ]
+    }
+   },
+   "20": {
+    "ssp245_median": {
+     "lc": {
+      "Z1": 0.04322074262741579,
+      "Z2": 0.7059924911432643,
+      "Z3": 0.25078676622932,
+      "Zempty": 0.0
+     },
+     "ban": {
+      "Z1": 0.3890273436008463,
+      "Z3": 0.6109726563991538,
+      "Zempty": 0.0
+     }
+    },
+    "_per_site": {
+     "cell_209_1300|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_366_1134|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1135|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1136|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_457_938|ssp245_median": [
+      "Z3",
+      "Z3"
+     ],
+     "cell_478_325|ssp245_median": [
+      "Z3",
+      "Z3"
+     ],
+     "cell_478_326|ssp245_median": [
+      "Z3",
+      "Z3"
+     ],
+     "cell_483_332|ssp245_median": [
+      "Z3",
+      "Z3"
+     ],
+     "cell_485_1193|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_331|ssp245_median": [
+      "Z3",
+      "Z3"
+     ],
+     "cell_487_293|ssp245_median": [
+      "Z3",
+      "Z3"
+     ],
+     "cell_490_321|ssp245_median": [
+      "Z3",
+      "Z3"
+     ],
+     "cell_490_332|ssp245_median": [
+      "Z3",
+      "Z3"
+     ],
+     "cell_490_333|ssp245_median": [
+      "Z3",
+      "Z3"
+     ],
+     "cell_490_353|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_359|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_360|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_375|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_491_323|ssp245_median": [
+      "Z3",
+      "Z3"
+     ],
+     "cell_493_331|ssp245_median": [
+      "Z3",
+      "Z3"
+     ],
+     "cell_494_270|ssp245_median": [
+      "Z3",
+      "Z3"
+     ],
+     "cell_494_271|ssp245_median": [
+      "Z3",
+      "Z3"
+     ],
+     "cell_494_273|ssp245_median": [
+      "Z3",
+      "Z3"
+     ],
+     "cell_494_382|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_317|ssp245_median": [
+      "Z3",
+      "Z3"
+     ],
+     "cell_495_382|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_495_393|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_499_293|ssp245_median": [
+      "Z3",
+      "Z3"
+     ],
+     "cell_499_380|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_315|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_360|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_373|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_501_384|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_503_338|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_505_339|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_506_374|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_509_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_510_411|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_512_685|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_513_377|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_515_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_516_342|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_516_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_518_242|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_518_420|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_519_388|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_519_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_1168|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_272|ssp245_median": [
+      "Z3",
+      "Z3"
+     ],
+     "cell_524_1173|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_524_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_335|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_380|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_1179|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_301|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_336|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_337|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_397|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_526_345|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_527_374|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_528_353|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_528_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_531_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_533_406|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_534_254|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_534_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_539_347|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_542_228|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_543_235|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_544_326|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_567_720|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_602_782|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_603_821|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_606_745|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_616_630|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_634_790|ssp245_median": [
+      "Z1",
+      "Z1"
+     ]
+    }
+   },
+   "moved_between_plausible_bounds": {
+    "ssp245_median|water_allowed": {
+     "MW": 1966.691664,
+     "cells": [
+      "cell_366_1134",
+      "cell_366_1135",
+      "cell_366_1136",
+      "cell_457_938"
+     ]
+    },
+    "ssp245_median|water_banned": {
+     "MW": 0.0,
+     "cells": []
+    }
+   }
+  },
+  "elec_mult": {
+   "0.5": {
+    "ssp245_median": {
+     "lc": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0,
+      "Zempty": 0.0
+     },
+     "ban": {
+      "Z1": 0.3890273436008463,
+      "Z3": 0.6109726563991538,
+      "Zempty": 0.0
+     }
+    },
+    "_per_site": {
+     "cell_209_1300|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_366_1134|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1135|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1136|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_457_938|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_478_325|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_478_326|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_483_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_1193|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_487_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_321|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_353|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_359|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_360|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_375|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_491_323|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_493_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_270|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_271|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_273|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_382|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_317|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_382|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_495_393|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_499_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_499_380|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_315|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_360|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_373|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_501_384|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_503_338|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_505_339|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_506_374|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_509_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_510_411|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_512_685|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_513_377|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_515_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_516_342|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_516_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_518_242|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_518_420|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_519_388|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_519_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_1168|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_272|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_1173|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_524_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_335|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_380|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_1179|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_301|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_336|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_337|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_397|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_526_345|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_527_374|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_528_353|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_528_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_531_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_533_406|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_534_254|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_534_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_539_347|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_542_228|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_543_235|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_544_326|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_567_720|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_602_782|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_603_821|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_606_745|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_616_630|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_634_790|ssp245_median": [
+      "Z2",
+      "Z1"
+     ]
+    }
+   },
+   "0.625": {
+    "ssp245_median": {
+     "lc": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0,
+      "Zempty": 0.0
+     },
+     "ban": {
+      "Z1": 0.3890273436008463,
+      "Z3": 0.6109726563991538,
+      "Zempty": 0.0
+     }
+    },
+    "_per_site": {
+     "cell_209_1300|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_366_1134|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1135|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1136|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_457_938|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_478_325|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_478_326|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_483_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_1193|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_487_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_321|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_353|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_359|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_360|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_375|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_491_323|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_493_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_270|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_271|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_273|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_382|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_317|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_382|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_495_393|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_499_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_499_380|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_315|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_360|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_373|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_501_384|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_503_338|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_505_339|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_506_374|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_509_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_510_411|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_512_685|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_513_377|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_515_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_516_342|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_516_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_518_242|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_518_420|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_519_388|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_519_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_1168|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_272|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_1173|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_524_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_335|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_380|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_1179|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_301|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_336|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_337|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_397|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_526_345|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_527_374|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_528_353|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_528_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_531_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_533_406|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_534_254|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_534_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_539_347|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_542_228|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_543_235|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_544_326|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_567_720|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_602_782|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_603_821|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_606_745|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_616_630|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_634_790|ssp245_median": [
+      "Z2",
+      "Z1"
+     ]
+    }
+   },
+   "1": {
+    "ssp245_median": {
+     "lc": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0,
+      "Zempty": 0.0
+     },
+     "ban": {
+      "Z1": 0.3890273436008463,
+      "Z3": 0.6109726563991538,
+      "Zempty": 0.0
+     }
+    },
+    "_per_site": {
+     "cell_209_1300|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_366_1134|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1135|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1136|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_457_938|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_478_325|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_478_326|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_483_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_1193|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_487_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_321|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_353|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_359|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_360|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_375|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_491_323|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_493_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_270|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_271|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_273|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_382|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_317|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_382|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_495_393|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_499_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_499_380|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_315|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_360|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_373|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_501_384|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_503_338|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_505_339|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_506_374|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_509_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_510_411|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_512_685|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_513_377|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_515_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_516_342|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_516_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_518_242|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_518_420|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_519_388|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_519_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_1168|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_272|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_1173|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_524_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_335|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_380|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_1179|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_301|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_336|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_337|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_397|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_526_345|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_527_374|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_528_353|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_528_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_531_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_533_406|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_534_254|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_534_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_539_347|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_542_228|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_543_235|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_544_326|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_567_720|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_602_782|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_603_821|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_606_745|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_616_630|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_634_790|ssp245_median": [
+      "Z2",
+      "Z1"
+     ]
+    }
+   },
+   "1.5": {
+    "ssp245_median": {
+     "lc": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0,
+      "Zempty": 0.0
+     },
+     "ban": {
+      "Z1": 0.3890273436008463,
+      "Z3": 0.6109726563991538,
+      "Zempty": 0.0
+     }
+    },
+    "_per_site": {
+     "cell_209_1300|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_366_1134|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1135|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1136|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_457_938|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_478_325|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_478_326|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_483_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_1193|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_487_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_321|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_353|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_359|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_360|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_375|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_491_323|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_493_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_270|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_271|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_273|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_382|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_317|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_382|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_495_393|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_499_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_499_380|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_315|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_360|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_373|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_501_384|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_503_338|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_505_339|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_506_374|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_509_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_510_411|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_512_685|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_513_377|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_515_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_516_342|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_516_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_518_242|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_518_420|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_519_388|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_519_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_1168|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_272|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_1173|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_524_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_335|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_380|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_1179|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_301|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_336|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_337|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_397|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_526_345|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_527_374|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_528_353|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_528_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_531_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_533_406|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_534_254|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_534_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_539_347|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_542_228|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_543_235|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_544_326|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_567_720|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_602_782|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_603_821|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_606_745|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_616_630|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_634_790|ssp245_median": [
+      "Z2",
+      "Z1"
+     ]
+    }
+   },
+   "2": {
+    "ssp245_median": {
+     "lc": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0,
+      "Zempty": 0.0
+     },
+     "ban": {
+      "Z1": 0.3890273436008463,
+      "Z3": 0.6109726563991538,
+      "Zempty": 0.0
+     }
+    },
+    "_per_site": {
+     "cell_209_1300|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_366_1134|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1135|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1136|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_457_938|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_478_325|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_478_326|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_483_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_1193|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_487_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_321|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_353|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_359|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_360|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_375|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_491_323|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_493_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_270|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_271|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_273|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_382|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_317|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_382|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_495_393|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_499_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_499_380|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_315|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_360|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_373|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_501_384|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_503_338|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_505_339|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_506_374|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_509_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_510_411|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_512_685|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_513_377|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_515_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_516_342|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_516_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_518_242|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_518_420|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_519_388|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_519_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_1168|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_272|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_1173|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_524_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_335|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_380|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_1179|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_301|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_336|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_337|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_397|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_526_345|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_527_374|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_528_353|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_528_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_531_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_533_406|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_534_254|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_534_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_539_347|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_542_228|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_543_235|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_544_326|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_567_720|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_602_782|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_603_821|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_606_745|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_616_630|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_634_790|ssp245_median": [
+      "Z2",
+      "Z1"
+     ]
+    }
+   },
+   "moved_between_plausible_bounds": {
+    "ssp245_median|water_allowed": {
+     "MW": 0.0,
+     "cells": []
+    },
+    "ssp245_median|water_banned": {
+     "MW": 0.0,
+     "cells": []
+    }
+   }
+  },
+  "demand_USD_per_kW_month": {
+   "0": {
+    "ssp245_median": {
+     "lc": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0,
+      "Zempty": 0.0
+     },
+     "ban": {
+      "Z1": 0.3890273436008463,
+      "Z3": 0.6109726563991538,
+      "Zempty": 0.0
+     }
+    },
+    "_per_site": {
+     "cell_209_1300|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_366_1134|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1135|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1136|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_457_938|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_478_325|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_478_326|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_483_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_1193|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_487_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_321|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_353|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_359|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_360|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_375|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_491_323|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_493_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_270|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_271|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_273|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_382|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_317|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_382|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_495_393|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_499_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_499_380|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_315|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_360|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_373|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_501_384|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_503_338|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_505_339|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_506_374|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_509_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_510_411|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_512_685|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_513_377|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_515_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_516_342|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_516_410|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_518_242|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_518_420|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_519_388|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_519_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_1168|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_272|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_1173|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_524_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_335|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_380|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_1179|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_301|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_336|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_337|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_525_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_397|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_526_345|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_527_374|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_528_353|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_528_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_531_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_533_406|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_534_254|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_534_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_539_347|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_542_228|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_543_235|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_544_326|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_567_720|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_602_782|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_603_821|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_606_745|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_616_630|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_634_790|ssp245_median": [
+      "Z2",
+      "Z1"
+     ]
+    }
+   },
+   "10": {
+    "ssp245_median": {
+     "lc": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0,
+      "Zempty": 0.0
+     },
+     "ban": {
+      "Z1": 0.6984016308620347,
+      "Z3": 0.3015983691379655,
+      "Zempty": 0.0
+     }
+    },
+    "_per_site": {
+     "cell_209_1300|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_366_1134|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1135|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1136|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_457_938|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_478_325|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_478_326|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_483_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_1193|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_487_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_321|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_353|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_490_359|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_490_360|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_490_375|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_491_323|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_493_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_270|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_271|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_273|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_382|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_495_317|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_382|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_495_393|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_499_293|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_499_380|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_500_315|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_500_360|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_500_373|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_501_384|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_503_338|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_505_339|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_506_374|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_509_410|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_510_411|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_512_685|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_513_377|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_515_410|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_516_342|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_516_410|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_518_242|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_518_420|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_519_388|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_519_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_1168|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_272|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_524_1173|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_524_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_335|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_524_380|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_524_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_1179|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_301|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_336|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_337|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_397|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_526_345|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_527_374|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_528_353|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_528_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_531_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_533_406|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_534_254|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_534_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_539_347|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_542_228|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_543_235|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_544_326|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_567_720|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_602_782|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_603_821|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_606_745|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_616_630|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_634_790|ssp245_median": [
+      "Z2",
+      "Z1"
+     ]
+    }
+   },
+   "20": {
+    "ssp245_median": {
+     "lc": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0,
+      "Zempty": 0.0
+     },
+     "ban": {
+      "Z1": 0.7253760226963868,
+      "Z3": 0.2746239773036133,
+      "Zempty": 0.0
+     }
+    },
+    "_per_site": {
+     "cell_209_1300|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_366_1134|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1135|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_366_1136|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_457_938|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_478_325|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_478_326|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_483_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_1193|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_485_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_487_293|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_321|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_332|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_490_353|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_490_359|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_490_360|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_490_375|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_491_323|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_493_331|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_270|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_271|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_273|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_494_382|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_495_317|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_495_382|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_495_393|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_499_293|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_499_380|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_500_315|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_500_360|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_500_373|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_501_384|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_503_338|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_505_339|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_506_374|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_509_410|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_510_411|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_512_685|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_513_377|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_515_410|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_516_342|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_516_410|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_518_242|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_518_420|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_519_388|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_519_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_389|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_520_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_1168|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_521_272|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_524_1173|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_524_333|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_524_335|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_524_380|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_524_415|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_1179|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_301|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_336|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_337|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_525_397|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_526_345|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_527_374|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_528_353|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_528_385|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_531_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_533_406|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_534_254|ssp245_median": [
+      "Z2",
+      "Z3"
+     ],
+     "cell_534_368|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_539_347|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_542_228|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_543_235|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_544_326|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_567_720|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_602_782|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_603_821|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_606_745|ssp245_median": [
+      "Z2",
+      "Z1"
+     ],
+     "cell_616_630|ssp245_median": [
+      "Z1",
+      "Z1"
+     ],
+     "cell_634_790|ssp245_median": [
+      "Z2",
+      "Z1"
+     ]
+    }
+   }
+  }
+ },
+ "coincident|B_full_MW": {
+  "ssp245_median|lc": {
+   "cells": 80,
+   "coincident_peak_GW_e_mean": 0.31034522959145244,
+   "coincident_peak_GW_e_max": 0.3384645613199597,
+   "sum_of_site_peaks_GW_e_mean": 0.5481774466066104,
+   "ratio_coincident_to_sum_mean": 0.5661231069918257,
+   "annual_TWh_mean": 0.7325203467415073
+  },
+  "ssp245_median|ban": {
+   "cells": 80,
+   "coincident_peak_GW_e_mean": 0.9791234483185124,
+   "coincident_peak_GW_e_max": 1.2460606960525167,
+   "sum_of_site_peaks_GW_e_mean": 1.473629107129771,
+   "ratio_coincident_to_sum_mean": 0.663198064272706,
+   "annual_TWh_mean": 0.8729936821917104
+  },
+  "ssp245_median|cf": {
+   "cells": 80,
+   "coincident_peak_GW_e_mean": 0.31034522959145244,
+   "coincident_peak_GW_e_max": 0.3384645613199597,
+   "sum_of_site_peaks_GW_e_mean": 0.5481774466066104,
+   "ratio_coincident_to_sum_mean": 0.5661231069918257,
+   "annual_TWh_mean": 0.7325203467415073
+  },
+  "ssp245_median|cfdry": {
+   "cells": 66,
+   "coincident_peak_GW_e_mean": 0.410634889394146,
+   "coincident_peak_GW_e_max": 0.5542390004113414,
+   "sum_of_site_peaks_GW_e_mean": 0.5726313959128955,
+   "ratio_coincident_to_sum_mean": 0.7125236958205373,
+   "annual_TWh_mean": 0.3415022051176187
+  },
+  "ssp245_median|tower": {
+   "cells": 80,
+   "coincident_peak_GW_e_mean": 0.10315589097159142,
+   "coincident_peak_GW_e_max": 0.1108851532578775,
+   "sum_of_site_peaks_GW_e_mean": 0.12205894844093024,
+   "ratio_coincident_to_sum_mean": 0.8452023111127411,
+   "annual_TWh_mean": 0.5358702317249903
+  }
+ }
+}

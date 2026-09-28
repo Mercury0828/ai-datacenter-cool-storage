@@ -1,0 +1,30 @@
+{
+ "p_minus_1pct|historical": {
+  "items": 80,
+  "F_dry_changes": [],
+  "F_dry_changed_MW": 0.0,
+  "F_nc_changes": [],
+  "F_nc_changed_MW": 0.0
+ },
+ "p_minus_1pct|stress_plus1.2K": {
+  "items": 80,
+  "F_dry_changes": [],
+  "F_dry_changed_MW": 0.0,
+  "F_nc_changes": [],
+  "F_nc_changed_MW": 0.0
+ },
+ "keflavik_orography|historical": {
+  "items": 1,
+  "F_dry_changes": [],
+  "F_dry_changed_MW": 0.0,
+  "F_nc_changes": [],
+  "F_nc_changed_MW": 0.0
+ },
+ "keflavik_orography|stress_plus1.2K": {
+  "items": 1,
+  "F_dry_changes": [],
+  "F_dry_changed_MW": 0.0,
+  "F_nc_changes": [],
+  "F_nc_changed_MW": 0.0
+ }
+}

@@ -1,0 +1,4 @@
+[
+ {"name": "ff_cmip245", "args": ["experiments/phase1/ff_menu.py", "--workers", "2", "--scenario", "ssp245_median", "--tag", "cmip_ssp245_median"],
+  "items": "experiments/phase1/out/ff/cmip_ssp245_median/cell_*.json", "expected": 80}
+]

@@ -1,0 +1,13 @@
+site_id,site,lat,lon,station,weighted,era5_ilat,era5_ilon,era5_dist_km,era5_lat,era5_lon,era5_orog_m
+md_phoenix,Phoenix AZ (PHX),33.434,-112.012,KPHX,False,494,272,7.4,33.5,-112.0,402.0
+md_las_vegas,Las Vegas NV (LAS),36.08,-115.152,KLAS,False,504,259,12.5,36.0,-115.25,961.0
+md_tucson,Tucson AZ (TUS),32.132,-110.956,KTUS,False,489,276,13.8,32.25,-111.0,880.0
+md_albuquerque,Albuquerque NM (ABQ),35.042,-106.609,KABQ,False,500,294,11.0,35.0,-106.5,1867.0
+md_el_paso,El Paso TX (ELP),31.807,-106.378,KELP,False,487,294,13.2,31.75,-106.5,1243.0
+md_reno,Reno NV (RNO),39.499,-119.768,KRNO,False,518,241,1.5,39.5,-119.75,1755.0
+md_salt_lake_city,Salt Lake City UT (SLC),40.788,-111.978,KSLC,False,523,272,4.6,40.75,-112.0,1524.0
+md_boise,Boise ID (BOI),43.564,-116.223,KBOI,False,534,255,7.4,43.5,-116.25,926.0
+md_cheyenne,Cheyenne WY (CYS),41.156,-104.812,KCYS,False,525,301,11.7,41.25,-104.75,1817.0
+md_denver,Denver CO (DEN),39.862,-104.673,KDEN,False,519,301,14.1,39.75,-104.75,1649.0
+md_colorado_springs,Colorado Springs CO (COS),38.806,-104.701,KCOS,False,515,301,7.5,38.75,-104.75,1986.0
+md_santa_clara,Santa Clara CA (SJC),37.362,-121.929,KSJC,False,509,232,13.9,37.25,-122.0,261.0

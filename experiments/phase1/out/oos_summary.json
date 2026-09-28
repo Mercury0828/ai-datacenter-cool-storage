@@ -1,0 +1,178 @@
+{
+ "a": {
+  "F_dry_8h_GW_train": 35.689631373999994,
+  "F_dry_8h_GW_full36": 34.289631373999995,
+  "pooled_test_violation_obs": [
+   0.07223386459177834,
+   0.05515832482124617
+  ],
+  "pooled_test_violation_stress": [
+   0.1801397390562825,
+   0.1491317671092952
+  ],
+  "margin": {
+   "1.0": {
+    "pooled_obs": [
+     0.07223386459177834,
+     0.05515832482124617
+    ],
+    "pooled_stress": [
+     0.1801397390562825,
+     0.1491317671092952
+    ],
+    "F_dry_8h_GW": 35.689631373999994
+   },
+   "1.1": {
+    "pooled_obs": [
+     0.05678247088934067,
+     0.03983656792645557
+    ],
+    "pooled_stress": [
+     0.15873550870982953,
+     0.12257405515832483
+    ],
+    "F_dry_8h_GW": 35.689631373999994
+   },
+   "1.2": {
+    "pooled_obs": [
+     0.050187736584096504,
+     0.03575076608784474
+    ],
+    "pooled_stress": [
+     0.13429670790860884,
+     0.1041879468845761
+    ],
+    "F_dry_8h_GW": 35.689631373999994
+   },
+   "1.3": {
+    "pooled_obs": [
+     0.04011814383864842,
+     0.029958677685950414
+    ],
+    "pooled_stress": [
+     0.10838685939807194,
+     0.08574380165289257
+    ],
+    "F_dry_8h_GW": 34.289631373999995
+   },
+   "1.4": {
+    "pooled_obs": [
+     0.032652330129314955,
+     0.024793388429752067
+    ],
+    "pooled_stress": [
+     0.09881068073396951,
+     0.07644628099173553
+    ],
+    "F_dry_8h_GW": 34.289631373999995
+   },
+   "1.5": {
+    "pooled_obs": [
+     0.03157365382687106,
+     0.022988505747126436
+    ],
+    "pooled_stress": [
+     0.08551197911444246,
+     0.06583072100313479
+    ],
+    "F_dry_8h_GW": 34.136631374
+   },
+   "1.6": {
+    "pooled_obs": [
+     0.026578670143758747,
+     0.017970401691331923
+    ],
+    "pooled_stress": [
+     0.08358242493813813,
+     0.06342494714587738
+    ],
+    "F_dry_8h_GW": 33.608631374
+   },
+   "1.7": {
+    "pooled_obs": [
+     0.021082246600901248,
+     0.015856236786469344
+    ],
+    "pooled_stress": [
+     0.07833485521710291,
+     0.05708245243128964
+    ],
+    "F_dry_8h_GW": 33.608631374
+   },
+   "1.8": {
+    "pooled_obs": [
+     0.01051407397199168,
+     0.008456659619450317
+    ],
+    "pooled_stress": [
+     0.0684699651281259,
+     0.052854122621564484
+    ],
+    "F_dry_8h_GW": 33.608631374
+   },
+   "1.9": {
+    "pooled_obs": [
+     0.0058293538609572905,
+     0.0074866310160427805
+    ],
+    "pooled_stress": [
+     0.06196791373858997,
+     0.04919786096256684
+    ],
+    "F_dry_8h_GW": 33.326631373999994
+   },
+   "2.0": {
+    "pooled_obs": [
+     0.005503225057156678,
+     0.006734006734006734
+    ],
+    "pooled_stress": [
+     0.044187660017758035,
+     0.03479236812570146
+    ],
+    "F_dry_8h_GW": 31.452631374
+   }
+  },
+  "smallest_alpha_obs_le_5pct": "1.3"
+ },
+ "b": {
+  "pooled_test_violation_obs_weighted": 0.05153597393874203,
+  "pooled_test_violation_stress_weighted": 0.37075425431202147,
+  "sites_with_ge2_obs_test_violations": [
+   "openai_stargate_abilene",
+   "crusoe_abilene_expansion",
+   "coreweave_helios",
+   "dayone_nusajaya",
+   "dayone_kempas",
+   "coreweave_denton_tx",
+   "anthropic_barber_lake",
+   "meta_rosemount",
+   "meta_temple",
+   "vantage_tx1",
+   "google_kansas_city_east",
+   "microsoft_narvik_norway",
+   "microsoft_sat14"
+  ]
+ },
+ "c": {
+  "pooled_test_violation_obs_weighted": 0.0728176136774909,
+  "pooled_test_violation_stress_weighted": 0.2135231479384837,
+  "sites_with_ge2_obs_test_violations": [
+   "openai_stargate_new_mexico",
+   "openai_stargate_shackelford",
+   "openai_stargate_uae",
+   "openai_stargate_milam",
+   "openai_stargate_abilene",
+   "crusoe_abilene_expansion",
+   "dayone_nusajaya",
+   "dayone_kempas",
+   "coreweave_denton_tx",
+   "anthropic_barber_lake",
+   "meta_qts_hillsboro_2",
+   "meta_temple",
+   "google_the_dalles",
+   "microsoft_narvik_norway",
+   "google_waltham_cross"
+  ]
+ }
+}

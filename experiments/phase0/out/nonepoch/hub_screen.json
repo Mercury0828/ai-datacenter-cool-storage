@@ -1,0 +1,145 @@
+{
+ "summary": {
+  "current|B_full_MW": {
+   "denominator_MW": 2200.0,
+   "F_dry": 0.9090909090909091,
+   "F_nc": 1.0,
+   "F_nc_infeasible_MW": 0.0,
+   "F_dry_infeasible_MW": 200.0
+  },
+  "current|B_2027_MW": {
+   "denominator_MW": 2200.0,
+   "F_dry": 0.9090909090909091,
+   "F_nc": 1.0,
+   "F_nc_infeasible_MW": 0.0,
+   "F_dry_infeasible_MW": 200.0
+  },
+  "current|B_now_MW": {
+   "denominator_MW": 2200.0,
+   "F_dry": 0.9090909090909091,
+   "F_nc": 1.0,
+   "F_nc_infeasible_MW": 0.0,
+   "F_dry_infeasible_MW": 200.0
+  },
+  "2040|B_full_MW": {
+   "denominator_MW": 2200.0,
+   "F_dry": 0.45454545454545453,
+   "F_nc": 1.0,
+   "F_nc_infeasible_MW": 0.0,
+   "F_dry_infeasible_MW": 1200.0
+  },
+  "2040|B_2027_MW": {
+   "denominator_MW": 2200.0,
+   "F_dry": 0.45454545454545453,
+   "F_nc": 1.0,
+   "F_nc_infeasible_MW": 0.0,
+   "F_dry_infeasible_MW": 1200.0
+  },
+  "2040|B_now_MW": {
+   "denominator_MW": 2200.0,
+   "F_dry": 0.45454545454545453,
+   "F_nc": 1.0,
+   "F_nc_infeasible_MW": 0.0,
+   "F_dry_infeasible_MW": 1200.0
+  }
+ },
+ "cells": {
+  "humain_dammam": {
+   "current": {
+    "cell": "humain_dammam",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 36,
+    "viol_ad_kmax_tank8": 0,
+    "viol_tower_kctmax": null,
+    "F_dry": false,
+    "F_nc": true,
+    "commit": "9f02d46"
+   },
+   "2040": {
+    "cell": "humain_dammam",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 36,
+    "viol_ad_kmax_tank8": 0,
+    "viol_tower_kctmax": null,
+    "F_dry": false,
+    "F_nc": true,
+    "commit": "9f02d46"
+   }
+  },
+  "humain_riyadh": {
+   "current": {
+    "cell": "humain_riyadh",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 36,
+    "viol_ad_kmax_tank8": 0,
+    "viol_tower_kctmax": null,
+    "F_dry": false,
+    "F_nc": true,
+    "commit": "9f02d46"
+   },
+   "2040": {
+    "cell": "humain_riyadh",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 36,
+    "viol_ad_kmax_tank8": 0,
+    "viol_tower_kctmax": null,
+    "F_dry": false,
+    "F_nc": true,
+    "commit": "9f02d46"
+   }
+  },
+  "reliance_jamnagar": {
+   "current": {
+    "cell": "reliance_jamnagar",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "9f02d46"
+   },
+   "2040": {
+    "cell": "reliance_jamnagar",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "9f02d46"
+   }
+  },
+  "adani_google_vizag": {
+   "current": {
+    "cell": "adani_google_vizag",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "9f02d46"
+   },
+   "2040": {
+    "cell": "adani_google_vizag",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 2,
+    "viol_ad_kmax_tank8": 0,
+    "viol_tower_kctmax": null,
+    "F_dry": false,
+    "F_nc": true,
+    "commit": "9f02d46"
+   }
+  }
+ },
+ "commit": "9f02d46"
+}

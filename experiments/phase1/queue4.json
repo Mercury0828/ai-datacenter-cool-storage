@@ -1,0 +1,4 @@
+[
+ {"name": "bv1_corrected_q4", "args": ["experiments/phase1/bv1_min_storage.py", "--workers", "3", "--weather-dir", "D:/_caches/era5/weather_hub_corrected", "--tag", "corrected"],
+  "items": "experiments/phase1/out/bv1/corrected/*.json", "expected": 160}
+]

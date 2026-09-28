@@ -1,0 +1,4 @@
+[
+ {"name": "cds_rebuild", "args": ["experiments/phase1/cds_rebuild.py", "--part", "rebuild", "--workers", "3"],
+  "items": "experiments/phase1/out/m2/cds_rebuild/cell_*.json", "expected": 80}
+]

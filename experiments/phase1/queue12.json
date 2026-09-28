@@ -1,0 +1,6 @@
+[
+ {"name": "de3_uncorrected", "args": ["experiments/phase1/de3_tank_chiller.py", "--workers", "3", "--tag", "uncorrected", "--weather-dir", "D:/_caches/era5/weather_hub"],
+  "items": "experiments/phase1/out/de/de3/uncorrected/cell_*.json", "expected": 160},
+ {"name": "de3_corrected", "args": ["experiments/phase1/de3_tank_chiller.py", "--workers", "3", "--tag", "corrected", "--weather-dir", "D:/_caches/era5/weather_hub_corrected"],
+  "items": "experiments/phase1/out/de/de3/corrected/cell_*.json", "expected": 160}
+]

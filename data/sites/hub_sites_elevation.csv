@@ -1,0 +1,94 @@
+site_id,site,country,B_full_MW,lat,lon,era5_orog_m,site_elev_m_dem,dz_site_minus_cell_m,cell_id
+microsoft_fairwater_wisconsin,Microsoft Fairwater Wisconsin,United States,2263.0,42.6748702,-87.894888,223.0,212.0,-11.0,cell_531_368
+anthropic_amazon_new_carlisle,Anthropic-Amazon New Carlisle,United States,1925.0,41.7056871,-86.5098231,220.0,251.0,31.0,cell_527_374
+openai_stargate_new_mexico,OpenAI Stargate New Mexico,United States,1750.0,31.8700346,-106.6865799,1262.0,1251.0,-11.0,cell_487_293
+meta_hyperion,Meta Hyperion,United States,1632.0,32.4676421,-91.6267883,26.0,27.0,1.0,cell_490_353
+colossus_2,Colossus 2,United States,1531.0,34.9979829,-90.0348674,88.0,105.0,17.0,cell_500_360
+openai_stargate_shackelford,OpenAI Stargate Shackelford,United States,1400.0,32.728072,-99.2946024,434.0,434.0,0.0,cell_491_323
+qts_cedar_rapids,QTS Cedar Rapids,United States,1133.0,41.9194471,-91.7810132,252.0,236.0,-16.0,cell_528_353
+meta_prometheus,Meta Prometheus,United States,1022.0,40.0811745,-82.8087864,292.0,313.0,21.0,cell_520_389
+goodnight,Goodnight,United States,1006.0,35.1081103,-101.362741,942.0,1038.0,96.0,cell_500_315
+openai_stargate_uae,OpenAI Stargate UAE,United Arab Emirates,1000.0,24.1872857,54.4923846,20.0,16.0,-4.0,cell_457_938
+openai_stargate_michigan,OpenAI Stargate Michigan,United States,988.0,42.1245153,-83.8385743,223.0,266.0,43.0,cell_528_385
+openai_stargate_wisconsin,OpenAI Stargate Wisconsin,United States,902.0,43.3885538,-87.8692845,255.0,185.0,-70.0,cell_534_368
+google_fort_wayne,Google Fort Wayne,United States,863.0,41.0309293,-85.0536261,243.0,241.0,-2.0,cell_524_380
+openai_stargate_milam,OpenAI Stargate Milam,United States,857.0,30.6549433,-97.0058245,126.0,139.0,13.0,cell_483_332
+openai_stargate_abilene,OpenAI Stargate Abilene,United States,843.0,32.4942321,-99.8009071,551.0,540.0,-11.0,cell_490_321
+amazon_ridgeland,Amazon Ridgeland,United States,840.0,32.4000327,-90.1971708,90.0,111.0,21.0,cell_490_359
+vnet_bayin_ulanqab,VNET Bayin Ulanqab,China,700.0,40.9902685,113.1315646,1487.0,1369.0,-118.0,cell_524_1173
+amazon_madison_mega_site,Amazon Madison Mega Site,United States,683.0,32.612602,-90.0367512,102.0,70.0,-32.0,cell_490_360
+crusoe_abilene_expansion,Crusoe Abilene Expansion,United States,672.0,32.4942321,-99.8009071,551.0,540.0,-11.0,cell_490_321
+microsoft_fairwater_atlanta,Microsoft Fairwater Atlanta,United States,636.0,33.4453541,-84.5254819,269.0,291.0,22.0,cell_494_382
+coreweave_helios,Coreweave Helios,United States,528.0,33.7628599,-100.8168001,730.0,773.0,43.0,cell_495_317
+dayone_nusajaya,DayOne Nusajaya,Malaysia,473.0,1.4561674,103.6126399,26.0,33.0,7.0,cell_366_1134
+huawei_wuhu,Huawei Wuhu,China,457.0,31.1800568,118.2141777,16.0,95.0,79.0,cell_485_1193
+meta_bowling_green,Meta Bowling Green,United States,422.0,41.3747744,-83.6513229,219.0,213.0,-6.0,cell_525_385
+dayone_kempas,DayOne Kempas,Malaysia,421.691664,1.5287669,103.7050522,31.0,50.0,19.0,cell_366_1135
+coreweave_ellendale_nd,CoreWeave Ellendale ND,United States,400.0,46.0102576,-98.5686907,442.0,450.0,8.0,cell_544_326
+google_omaha,Google Omaha,United States,395.0,41.3356809,-96.0523625,343.0,335.0,-8.0,cell_525_336
+google_columbus,Google Columbus,United States,386.0,39.8614521,-83.0039995,243.0,225.0,-18.0,cell_519_388
+anthropic_lake_mariner,Anthropic Lake Mariner,United States,378.0,43.3586546,-78.604128,151.0,89.0,-62.0,cell_533_406
+google_pryor_north,Google Pryor (North),United States,368.0,36.2411721,-95.3300473,225.0,190.0,-35.0,cell_505_339
+meta_montgomery,Meta Montgomery,United States,358.0,32.3777111,-86.3090775,92.0,64.0,-28.0,cell_490_375
+stack_infrastructure_nva02,STACK Infrastructure NVA02,United States,348.0,38.7458055,-77.5377246,96.0,81.0,-15.0,cell_515_410
+huawei_horinger,Huawei Horinger,China,346.4,40.2952478,111.9044975,1365.0,1323.0,-42.0,cell_521_1168
+colossus_1,Colossus 1,United States,340.0,35.086206,-90.0733453,88.0,70.0,-18.0,cell_500_360
+aws_new_albany,AWS New Albany,United States,338.0,40.0811745,-82.8087864,292.0,313.0,21.0,cell_520_389
+google_new_albany,Google New Albany,United States,333.0,40.070051,-82.754042,292.0,343.0,51.0,cell_520_389
+qts_eagle_mountain,QTS Eagle Mountain,United States,304.0,40.2688855,-112.0342942,1576.0,1476.0,-100.0,cell_521_272
+google_storey_county,Google Storey County,United States,300.0,39.5539417,-119.4897585,1665.0,1324.0,-341.0,cell_518_242
+google_lincoln,Google Lincoln,United States,283.0,40.907472,-96.6457832,399.0,376.0,-23.0,cell_524_333
+coreweave_denton_tx,CoreWeave Denton TX,United States,282.0,33.2192732,-97.174715,224.0,212.0,-12.0,cell_493_331
+google_cedar_rapids,Google Cedar Rapids,United States,261.0,41.9221755,-91.7156674,252.0,233.0,-19.0,cell_528_353
+qts_richmond_3,QTS Richmond 3,United States,240.0,37.5107225,-77.3115564,36.0,57.0,21.0,cell_510_411
+google_bristow,Google Bristow,United States,238.0,38.7311636,-77.5480241,96.0,83.0,-13.0,cell_515_410
+qts_richmond_1,QTS Richmond 1,United States,238.0,37.4888273,-77.24749,36.0,52.0,16.0,cell_510_411
+google_papillion,Google Papillion,United States,237.0,41.1544433,-96.0422378,343.0,309.0,-34.0,cell_525_336
+google_council_bluffs_east,Google Council Bluffs (East),United States,237.0,41.1666499,-95.7977408,343.0,298.0,-45.0,cell_525_337
+start_campus_sines_data_campus,Start Campus Sines Data Campus,Portugal,233.0,37.956549,-8.8689639,79.0,43.0,-36.0,cell_512_685
+stream_phoenix,Stream Phoenix,United States,220.0,33.4672279,-112.3853489,406.0,303.0,-103.0,cell_494_270
+openai_stargate_lordstown,OpenAI Stargate Lordstown,United States,214.0,41.1659755,-80.8574312,311.0,292.0,-19.0,cell_525_397
+meta_cheyenne,Meta Cheyenne,United States,207.0,41.139981,-104.820246,1817.0,1862.0,45.0,cell_525_301
+anthropic_barber_lake,Anthropic Barber Lake,United States,207.0,32.44645,-99.7475905,551.0,531.0,-20.0,cell_490_321
+microsoft_goodyear,Microsoft Goodyear,United States,202.0,33.4089905,-112.3647996,375.0,288.0,-87.0,cell_494_271
+microsoft_project_osmium,Microsoft Project Osmium,United States,190.0,41.4833235,-93.7624442,283.0,300.0,17.0,cell_526_345
+google_mesa,Google Mesa,United States,183.0,33.4151005,-111.831455,484.0,379.0,-105.0,cell_494_273
+meta_qts_hillsboro_2,Meta-QTS Hillsboro 2,United States,180.0,45.5588758,-122.9296051,167.0,57.0,-110.0,cell_542_228
+qts_richmond_2,QTS Richmond 2,United States,180.0,37.5107225,-77.3115564,36.0,57.0,21.0,cell_510_411
+meta_rosemount,Meta Rosemount,United States,178.0,44.7391873,-93.12611,276.0,295.0,19.0,cell_539_347
+meta_jeffersonville,Meta Jeffersonville,United States,178.0,38.279131,-85.739009,187.0,138.0,-49.0,cell_513_377
+meta_temple,Meta Temple,United States,178.0,31.1260165,-97.3600001,178.0,230.0,52.0,cell_485_331
+aws_berwick,AWS Berwick,United States,169.0,41.0838485,-76.1435333,350.0,196.0,-154.0,cell_524_415
+alibaba_zhangbei,Alibaba Zhangbei,China,169.0,41.287775,114.769295,1443.0,1362.0,-81.0,cell_525_1179
+google_red_oak,Google Red Oak,United States,154.0,32.5376266,-96.7966747,155.0,189.0,34.0,cell_490_333
+google_the_dalles,Google The Dalles,United States,154.0,45.6253889,-121.2023887,476.0,40.0,-436.0,cell_543_235
+coreweave_muskogee_ok,CoreWeave Muskogee OK,United States,153.0,35.6967854,-95.4951648,188.0,191.0,3.0,cell_503_338
+meta_kuna,Meta Kuna,United States,152.0,43.4592072,-116.4211106,842.0,854.0,12.0,cell_534_254
+meta_huntsville,Meta Huntsville,United States,146.0,34.8981438,-86.7335699,257.0,257.0,0.0,cell_500_373
+nebius_mantsala,Nebius Mantsala,Finland,145.0,60.6353444,25.3159266,93.0,77.0,-16.0,cell_603_821
+google_lancaster,Google Lancaster,United States,137.0,39.7270407,-82.6831433,267.0,281.0,14.0,cell_519_389
+meta_eagle_mountain,Meta Eagle Mountain,United States,133.0,40.3093488,-112.0119825,1576.0,1485.0,-91.0,cell_521_272
+vantage_tx1,Vantage TX1,United States,128.0,29.4168571,-98.7901875,320.0,279.0,-41.0,cell_478_325
+coreweave_chester_va,CoreWeave Chester VA,United States,113.0,37.3489475,-77.438379,58.0,58.0,0.0,cell_509_410
+google_kansas_city_east,Google Kansas City East,United States,105.0,39.100105,-94.5781416,286.0,281.0,-5.0,cell_516_342
+google_midlothian,Google Midlothian,United States,103.0,32.438927,-97.0507991,199.0,195.0,-4.0,cell_490_332
+coreweave_lancaster_greenfield_site,CoreWeave Lancaster Greenfield site,United States,92.0,40.0379958,-76.3056707,145.0,117.0,-28.0,cell_520_415
+microsoft_narvik_norway,Microsoft Narvik Norway,Norway,92.0,68.4383796,17.4271978,397.0,39.0,-358.0,cell_634_790
+google_waltham_cross,Google Waltham Cross,United Kingdom,88.0,51.702052,-0.0335908,72.0,25.0,-47.0,cell_567_720
+meta_los_lunas,Meta Los Lunas,United States,87.0,34.8301645,-106.7838267,1621.0,1537.0,-84.0,cell_499_293
+meta_gallatin,Meta Gallatin,United States,87.0,36.3883031,-86.4475898,204.0,165.0,-39.0,cell_506_374
+meta_sarpy,Meta Sarpy,United States,80.0,41.0818396,-96.1310942,357.0,341.0,-16.0,cell_524_335
+google_arcola,Google Arcola,United States,77.0,39.003685,-77.4083096,126.0,98.0,-28.0,cell_516_410
+microsoft_sat40,Microsoft SAT40,United States,75.0,29.4246002,-98.4951405,261.0,201.0,-60.0,cell_478_326
+oracle_batam,Oracle Batam,Indonesia,72.0,1.1030815,104.0383696,23.0,11.0,-12.0,cell_366_1136
+meta_aiken,Meta Aiken,United States,69.0,33.7416558,-81.8423388,138.0,190.0,52.0,cell_495_393
+coreweave_marble_nc,CoreWeave Marble NC,United States,65.0,35.1849883,-83.9141225,799.0,517.0,-282.0,cell_501_384
+core42_lake_mariner,Core42 Lake Mariner,United States,58.0,43.3586546,-78.604128,151.0,89.0,-62.0,cell_533_406
+microsoft_nebius_new_jersey,Microsoft-Nebius New Jersey,United States,50.0,39.4281986,-75.0184088,25.0,19.0,-6.0,cell_518_420
+ecodatacenter_2,EcoDataCenter 2,Sweden,48.0,60.4856426,15.4234561,190.0,146.0,-44.0,cell_602_782
+microsoft_sat14,Microsoft SAT14,United States,47.0,29.4771901,-98.6925579,320.0,292.0,-28.0,cell_478_325
+coreweave_norway,CoreWeave Norway,Norway,42.0,61.5633988,6.258867,726.0,340.0,-386.0,cell_606_745
+southgate_melbourne,Southgate Melbourne,Australia,41.0,-37.8142454,144.9631732,84.0,18.0,-66.0,cell_209_1300
+coreweave_dalton_1__2,CoreWeave Dalton 1 & 2,United States,28.0,34.7134428,-84.9521507,268.0,221.0,-47.0,cell_499_380
+xai_qts_atlanta,xAI QTS Atlanta,United States,17.32971,33.7771907,-84.4195485,291.0,285.0,-6.0,cell_495_382
+nscale_keflavik,Nscale Keflavik,Iceland,10.21,63.9832697,-22.5561494,-999.0,24.0,1023.0,cell_616_630

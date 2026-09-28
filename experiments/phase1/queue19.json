@@ -1,0 +1,4 @@
+[
+ {"name": "r2r_b", "args": ["experiments/phase1/r2r_b_analysis.py", "--workers", "1"],
+  "items": "experiments/phase1/out/r2r/b/*.json", "expected": 15}
+]

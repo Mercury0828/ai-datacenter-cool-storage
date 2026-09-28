@@ -1,0 +1,4 @@
+[
+ {"name": "cmip_scen", "args": ["experiments/phase1/cmip_scenarios.py", "--workers", "3"],
+  "items": "experiments/phase1/out/cmip/scen/*__cell_*.json", "expected": 400}
+]

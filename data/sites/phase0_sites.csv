@@ -1,0 +1,17 @@
+site_id,site,weighted,rank_B_full,B_full_MW,B_2027_MW,B_now_MW,B_full_date,country,chips_now,lat,lon,geocode_query,era5_ilat,era5_ilon,era5_dist_km,era5_nearest_is_land,era5_lat,era5_lon,era5_orog_m
+microsoft_fairwater_wisconsin,Microsoft Fairwater Wisconsin,True,1.0,2263.0,737.0,369.0,2028-05-13,United States,B200,42.6748702,-87.894888,"4800 90th St, Mount Pleasant, WI 53403",531,368,12.0,True,42.75,-88.0,223.0
+anthropic_amazon_new_carlisle,Anthropic-Amazon New Carlisle,True,2.0,1925.0,1037.0,910.0,2028-03-17,United States,Trainium2,41.7056871,-86.5098231,"New Carlisle, St. Joseph County, Indiana",527,374,5.0,True,41.75,-86.5,220.0
+openai_stargate_new_mexico,OpenAI Stargate New Mexico,True,3.0,1750.0,0.0,0.0,2028-12-31,United States,,31.8700346,-106.6865799,"Santa Teresa, Dona Ana County, New Mexico",487,293,14.6,True,31.75,-106.75,1262.0
+meta_hyperion,Meta Hyperion,True,4.0,1632.0,0.0,0.0,2028-01-01,United States,,32.4676421,-91.6267883,"Holly Ridge, Louisiana 71269",490,353,12.1,True,32.5,-91.75,26.0
+colossus_2,Colossus 2,True,5.0,1531.0,1531.0,946.0,2027-02-25,United States,"B200,B300",34.9979829,-90.0348674,"5420 Tulane Rd, Memphis, TN 38109",500,360,3.2,True,35.0,-90.0,88.0
+openai_stargate_shackelford,OpenAI Stargate Shackelford,True,6.0,1400.0,420.0,0.0,2028-11-11,United States,,32.728072,-99.2946024,"Albany, Shackelford County, Texas",491,323,4.8,True,32.75,-99.25,434.0
+qts_cedar_rapids,QTS Cedar Rapids,True,7.0,1133.0,1133.0,0.0,2027-11-15,United States,,41.9194471,-91.7810132,"Fairfax, Iowa 52228",528,353,9.3,True,42.0,-91.75,252.0
+meta_prometheus,Meta Prometheus,True,8.0,1022.0,868.0,496.0,2028-07-01,United States,B200,40.0811745,-82.8087864,"New Albany, Ohio 43054",520,389,10.3,True,40.0,-82.75,292.0
+goodnight,Goodnight,True,9.0,1006.0,1006.0,0.0,2027-10-01,United States,,35.1081103,-101.362741,"Claude, Texas 79019",500,315,15.8,True,35.0,-101.25,942.0
+openai_stargate_uae,OpenAI Stargate UAE,True,10.0,1000.0,200.0,0.0,2028-01-01,United Arab Emirates,,24.1872857,54.4923846,"Al Bihouth, Abu Dhabi",457,938,7.0,True,24.25,54.5,20.0
+openai_stargate_michigan,OpenAI Stargate Michigan,True,11.0,988.0,0.0,0.0,2028-12-31,United States,,42.1245153,-83.8385743,"Saline Township, Washtenaw County, Michigan",528,385,15.7,True,42.0,-83.75,223.0
+openai_stargate_wisconsin,OpenAI Stargate Wisconsin,True,12.0,902.0,0.0,0.0,2028-12-31,United States,,43.3885538,-87.8692845,"Port Washington, Wisconsin",534,368,16.3,False,43.5,-88.0,255.0
+openai_stargate_abilene,OpenAI Stargate Abilene,True,15.0,843.0,843.0,421.0,2026-11-01,United States,"B200,B300",32.4942321,-99.8009071,"5502 Spinks Rd, Abilene, TX 79601",490,321,4.8,True,32.5,-99.75,551.0
+microsoft_goodyear,Microsoft Goodyear,True,52.0,202.0,202.0,202.0,2026-04-27,United States,"H100,B200",33.4089905,-112.3647996,"14250 W Broadway Rd, Goodyear, AZ 85338",494,271,14.7,True,33.5,-112.25,375.0
+nebius_mantsala,Nebius Mantsala,True,67.0,145.0,145.0,75.0,2027-12-31,Finland,"H100,B300,H200",60.6353444,25.3159266,"Mantsala, Finland",603,821,13.2,True,60.75,25.25,93.0
+lulea,Lulea (check site),False,,0.0,0.0,0.0,,Sweden,,65.5831187,22.1459535,"Lulea, Sweden",622,808,11.4,False,65.5,22.0,10.0

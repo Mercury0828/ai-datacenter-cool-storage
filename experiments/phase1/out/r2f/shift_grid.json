@@ -1,0 +1,77 @@
+{
+ "anthropic_amazon_new_carlisle": {
+  "kappa_path_max_K": 4.3981299850291835,
+  "scal_atom_max_K": 4.325042724609375,
+  "grid_max_K": 6.0
+ },
+ "colossus_2": {
+  "kappa_path_max_K": 6.1730223429951865,
+  "scal_atom_max_K": 3.6829630533854165,
+  "grid_max_K": 6.2
+ },
+ "goodnight": {
+  "kappa_path_max_K": 7.787049114331692,
+  "scal_atom_max_K": 4.363393147786458,
+  "grid_max_K": 7.8
+ },
+ "meta_hyperion": {
+  "kappa_path_max_K": 5.110553243885847,
+  "scal_atom_max_K": 3.72955322265625,
+  "grid_max_K": 6.0
+ },
+ "meta_prometheus": {
+  "kappa_path_max_K": 2.996327404479561,
+  "scal_atom_max_K": 4.264272054036458,
+  "grid_max_K": 6.0
+ },
+ "microsoft_fairwater_wisconsin": {
+  "kappa_path_max_K": 3.7087042731375233,
+  "scal_atom_max_K": 4.286997477213542,
+  "grid_max_K": 6.0
+ },
+ "microsoft_goodyear": {
+  "kappa_path_max_K": 10.039885326820361,
+  "scal_atom_max_K": 3.0488484700520835,
+  "grid_max_K": 10.1
+ },
+ "nebius_mantsala": {
+  "kappa_path_max_K": 8.53688183922558,
+  "scal_atom_max_K": 4.647298177083333,
+  "grid_max_K": 8.6
+ },
+ "openai_stargate_abilene": {
+  "kappa_path_max_K": 9.958761588874719,
+  "scal_atom_max_K": 3.5436909993489585,
+  "grid_max_K": 10.0
+ },
+ "openai_stargate_michigan": {
+  "kappa_path_max_K": 6.458423998174805,
+  "scal_atom_max_K": 4.68292236328125,
+  "grid_max_K": 6.5
+ },
+ "openai_stargate_new_mexico": {
+  "kappa_path_max_K": 9.447517738526559,
+  "scal_atom_max_K": 3.2232259114583335,
+  "grid_max_K": 9.5
+ },
+ "openai_stargate_shackelford": {
+  "kappa_path_max_K": 10.95054148017903,
+  "scal_atom_max_K": 3.527191162109375,
+  "grid_max_K": 11.0
+ },
+ "openai_stargate_uae": {
+  "kappa_path_max_K": 12.384118571928466,
+  "scal_atom_max_K": 3.261962890625,
+  "grid_max_K": 12.4
+ },
+ "openai_stargate_wisconsin": {
+  "kappa_path_max_K": 3.3610124280690434,
+  "scal_atom_max_K": 4.286997477213542,
+  "grid_max_K": 6.0
+ },
+ "qts_cedar_rapids": {
+  "kappa_path_max_K": 6.693574030042254,
+  "scal_atom_max_K": 4.695699055989583,
+  "grid_max_K": 6.7
+ }
+}

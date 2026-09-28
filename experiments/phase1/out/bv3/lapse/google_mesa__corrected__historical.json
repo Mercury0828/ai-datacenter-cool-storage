@@ -1,0 +1,1 @@
+{"site": "google_mesa", "cell": "cell_494_273", "weather": "corrected", "climate": "historical", "dz_m": -105.0, "lapse_shift_K": 0.6825, "total_shift_K": 0.6825, "m": 1, "h_star_reset": 210.32483932497274, "h_star_continuous": 210.32483932497274, "viol_dry_kmax_tank8": 36, "viol_ad_kmax_tank8": 0, "viol_tower_kctmax": null, "F_dry": false, "F_nc": true, "commit": "7a7fb7b"}

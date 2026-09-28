@@ -1,0 +1,1969 @@
+{
+ "summary": {
+  "current|B_full_MW": {
+   "denominator_MW": 37294.631374,
+   "F_dry": 0.8539468068372602,
+   "F_nc": 1.0,
+   "F_nc_infeasible_MW": 0.0,
+   "F_dry_infeasible_MW": 5447.0
+  },
+  "current|B_2027_MW": {
+   "denominator_MW": 24099.531374000002,
+   "F_dry": 0.9269280396920966,
+   "F_nc": 1.0,
+   "F_nc_infeasible_MW": 0.0,
+   "F_dry_infeasible_MW": 1761.0
+  },
+  "current|B_now_MW": {
+   "denominator_MW": 13500.209806,
+   "F_dry": 0.9340010257022816,
+   "F_nc": 1.0,
+   "F_nc_infeasible_MW": 0.0,
+   "F_dry_infeasible_MW": 891.0
+  },
+  "2040|B_full_MW": {
+   "denominator_MW": 37294.631374,
+   "F_dry": 0.7559970519954228,
+   "F_nc": 1.0,
+   "F_nc_infeasible_MW": 0.0,
+   "F_dry_infeasible_MW": 9100.0
+  },
+  "2040|B_2027_MW": {
+   "denominator_MW": 24099.531374000002,
+   "F_dry": 0.8273410409760443,
+   "F_nc": 1.0,
+   "F_nc_infeasible_MW": 0.0,
+   "F_dry_infeasible_MW": 4161.0
+  },
+  "2040|B_now_MW": {
+   "denominator_MW": 13500.209806,
+   "F_dry": 0.8545207794380258,
+   "F_nc": 1.0,
+   "F_nc_infeasible_MW": 0.0,
+   "F_dry_infeasible_MW": 1964.0
+  }
+ },
+ "cells": {
+  "cell_366_1134": {
+   "current": {
+    "cell": "cell_366_1134",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "4997fca"
+   },
+   "2040": {
+    "cell": "cell_366_1134",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "4997fca"
+   }
+  },
+  "cell_209_1300": {
+   "current": {
+    "cell": "cell_209_1300",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "4997fca"
+   },
+   "2040": {
+    "cell": "cell_209_1300",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "4997fca"
+   }
+  },
+  "cell_366_1135": {
+   "current": {
+    "cell": "cell_366_1135",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "4997fca"
+   },
+   "2040": {
+    "cell": "cell_366_1135",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "4997fca"
+   }
+  },
+  "cell_366_1136": {
+   "current": {
+    "cell": "cell_366_1136",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "4997fca"
+   },
+   "2040": {
+    "cell": "cell_366_1136",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "4997fca"
+   }
+  },
+  "cell_457_938": {
+   "current": {
+    "cell": "cell_457_938",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 36,
+    "viol_ad_kmax_tank8": 0,
+    "viol_tower_kctmax": null,
+    "F_dry": false,
+    "F_nc": true,
+    "commit": "4997fca"
+   },
+   "2040": {
+    "cell": "cell_457_938",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 36,
+    "viol_ad_kmax_tank8": 0,
+    "viol_tower_kctmax": null,
+    "F_dry": false,
+    "F_nc": true,
+    "commit": "4997fca"
+   }
+  },
+  "cell_478_325": {
+   "current": {
+    "cell": "cell_478_325",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "4997fca"
+   },
+   "2040": {
+    "cell": "cell_478_325",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 1,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_478_326": {
+   "current": {
+    "cell": "cell_478_326",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_478_326",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 1,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_483_332": {
+   "current": {
+    "cell": "cell_483_332",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_483_332",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 3,
+    "viol_ad_kmax_tank8": 0,
+    "viol_tower_kctmax": null,
+    "F_dry": false,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_485_1193": {
+   "current": {
+    "cell": "cell_485_1193",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_485_1193",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 1,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_485_331": {
+   "current": {
+    "cell": "cell_485_331",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 1,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_485_331",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 4,
+    "viol_ad_kmax_tank8": 0,
+    "viol_tower_kctmax": null,
+    "F_dry": false,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_487_293": {
+   "current": {
+    "cell": "cell_487_293",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 3,
+    "viol_ad_kmax_tank8": 0,
+    "viol_tower_kctmax": null,
+    "F_dry": false,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_487_293",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 7,
+    "viol_ad_kmax_tank8": 0,
+    "viol_tower_kctmax": null,
+    "F_dry": false,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_490_332": {
+   "current": {
+    "cell": "cell_490_332",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 2,
+    "viol_ad_kmax_tank8": 0,
+    "viol_tower_kctmax": null,
+    "F_dry": false,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_490_332",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 4,
+    "viol_ad_kmax_tank8": 0,
+    "viol_tower_kctmax": null,
+    "F_dry": false,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_490_321": {
+   "current": {
+    "cell": "cell_490_321",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_490_321",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 5,
+    "viol_ad_kmax_tank8": 0,
+    "viol_tower_kctmax": null,
+    "F_dry": false,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_490_333": {
+   "current": {
+    "cell": "cell_490_333",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 2,
+    "viol_ad_kmax_tank8": 0,
+    "viol_tower_kctmax": null,
+    "F_dry": false,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_490_333",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 5,
+    "viol_ad_kmax_tank8": 0,
+    "viol_tower_kctmax": null,
+    "F_dry": false,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_490_353": {
+   "current": {
+    "cell": "cell_490_353",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_490_353",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 1,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_490_359": {
+   "current": {
+    "cell": "cell_490_359",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_490_359",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_490_360": {
+   "current": {
+    "cell": "cell_490_360",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_490_360",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_490_375": {
+   "current": {
+    "cell": "cell_490_375",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_490_375",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_491_323": {
+   "current": {
+    "cell": "cell_491_323",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 5,
+    "viol_ad_kmax_tank8": 0,
+    "viol_tower_kctmax": null,
+    "F_dry": false,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_491_323",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 12,
+    "viol_ad_kmax_tank8": 0,
+    "viol_tower_kctmax": null,
+    "F_dry": false,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_493_331": {
+   "current": {
+    "cell": "cell_493_331",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 3,
+    "viol_ad_kmax_tank8": 0,
+    "viol_tower_kctmax": null,
+    "F_dry": false,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_493_331",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 6,
+    "viol_ad_kmax_tank8": 0,
+    "viol_tower_kctmax": null,
+    "F_dry": false,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_494_271": {
+   "current": {
+    "cell": "cell_494_271",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 36,
+    "viol_ad_kmax_tank8": 0,
+    "viol_tower_kctmax": null,
+    "F_dry": false,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_494_271",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 36,
+    "viol_ad_kmax_tank8": 0,
+    "viol_tower_kctmax": null,
+    "F_dry": false,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_494_270": {
+   "current": {
+    "cell": "cell_494_270",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 36,
+    "viol_ad_kmax_tank8": 0,
+    "viol_tower_kctmax": null,
+    "F_dry": false,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_494_270",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 36,
+    "viol_ad_kmax_tank8": 0,
+    "viol_tower_kctmax": null,
+    "F_dry": false,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_494_273": {
+   "current": {
+    "cell": "cell_494_273",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 36,
+    "viol_ad_kmax_tank8": 0,
+    "viol_tower_kctmax": null,
+    "F_dry": false,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_494_273",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 36,
+    "viol_ad_kmax_tank8": 0,
+    "viol_tower_kctmax": null,
+    "F_dry": false,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_494_382": {
+   "current": {
+    "cell": "cell_494_382",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_494_382",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_495_317": {
+   "current": {
+    "cell": "cell_495_317",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_495_317",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 6,
+    "viol_ad_kmax_tank8": 0,
+    "viol_tower_kctmax": null,
+    "F_dry": false,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_495_382": {
+   "current": {
+    "cell": "cell_495_382",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_495_382",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_495_393": {
+   "current": {
+    "cell": "cell_495_393",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_495_393",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_499_293": {
+   "current": {
+    "cell": "cell_499_293",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_499_293",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_499_380": {
+   "current": {
+    "cell": "cell_499_380",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_499_380",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_500_360": {
+   "current": {
+    "cell": "cell_500_360",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_500_360",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_500_315": {
+   "current": {
+    "cell": "cell_500_315",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_500_315",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 1,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_500_373": {
+   "current": {
+    "cell": "cell_500_373",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_500_373",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_501_384": {
+   "current": {
+    "cell": "cell_501_384",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_501_384",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_503_338": {
+   "current": {
+    "cell": "cell_503_338",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 2,
+    "viol_ad_kmax_tank8": 0,
+    "viol_tower_kctmax": null,
+    "F_dry": false,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_503_338",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 2,
+    "viol_ad_kmax_tank8": 0,
+    "viol_tower_kctmax": null,
+    "F_dry": false,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_505_339": {
+   "current": {
+    "cell": "cell_505_339",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 1,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_505_339",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 2,
+    "viol_ad_kmax_tank8": 0,
+    "viol_tower_kctmax": null,
+    "F_dry": false,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_506_374": {
+   "current": {
+    "cell": "cell_506_374",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_506_374",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_509_410": {
+   "current": {
+    "cell": "cell_509_410",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_509_410",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_510_411": {
+   "current": {
+    "cell": "cell_510_411",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_510_411",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_512_685": {
+   "current": {
+    "cell": "cell_512_685",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_512_685",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_513_377": {
+   "current": {
+    "cell": "cell_513_377",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_513_377",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_515_410": {
+   "current": {
+    "cell": "cell_515_410",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_515_410",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_516_342": {
+   "current": {
+    "cell": "cell_516_342",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_516_342",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_516_410": {
+   "current": {
+    "cell": "cell_516_410",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_516_410",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_518_242": {
+   "current": {
+    "cell": "cell_518_242",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_518_242",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_519_388": {
+   "current": {
+    "cell": "cell_519_388",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_519_388",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_518_420": {
+   "current": {
+    "cell": "cell_518_420",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_518_420",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_520_389": {
+   "current": {
+    "cell": "cell_520_389",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_520_389",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_519_389": {
+   "current": {
+    "cell": "cell_519_389",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_519_389",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_520_415": {
+   "current": {
+    "cell": "cell_520_415",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_520_415",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_521_1168": {
+   "current": {
+    "cell": "cell_521_1168",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_521_1168",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_521_272": {
+   "current": {
+    "cell": "cell_521_272",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_521_272",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_524_1173": {
+   "current": {
+    "cell": "cell_524_1173",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_524_1173",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_524_335": {
+   "current": {
+    "cell": "cell_524_335",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_524_335",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_524_333": {
+   "current": {
+    "cell": "cell_524_333",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_524_333",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_524_380": {
+   "current": {
+    "cell": "cell_524_380",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_524_380",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_524_415": {
+   "current": {
+    "cell": "cell_524_415",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_524_415",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_525_1179": {
+   "current": {
+    "cell": "cell_525_1179",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_525_1179",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_525_301": {
+   "current": {
+    "cell": "cell_525_301",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_525_301",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_525_336": {
+   "current": {
+    "cell": "cell_525_336",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_525_336",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_525_337": {
+   "current": {
+    "cell": "cell_525_337",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_525_337",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_525_385": {
+   "current": {
+    "cell": "cell_525_385",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_525_385",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_525_397": {
+   "current": {
+    "cell": "cell_525_397",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_525_397",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_526_345": {
+   "current": {
+    "cell": "cell_526_345",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_526_345",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_527_374": {
+   "current": {
+    "cell": "cell_527_374",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_527_374",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_528_385": {
+   "current": {
+    "cell": "cell_528_385",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_528_385",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_528_353": {
+   "current": {
+    "cell": "cell_528_353",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_528_353",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_533_406": {
+   "current": {
+    "cell": "cell_533_406",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_533_406",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_531_368": {
+   "current": {
+    "cell": "cell_531_368",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_531_368",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_534_254": {
+   "current": {
+    "cell": "cell_534_254",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_534_254",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 1,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_534_368": {
+   "current": {
+    "cell": "cell_534_368",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_534_368",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_539_347": {
+   "current": {
+    "cell": "cell_539_347",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_539_347",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_542_228": {
+   "current": {
+    "cell": "cell_542_228",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_542_228",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 1,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_543_235": {
+   "current": {
+    "cell": "cell_543_235",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_543_235",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 1,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_544_326": {
+   "current": {
+    "cell": "cell_544_326",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_544_326",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_567_720": {
+   "current": {
+    "cell": "cell_567_720",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_567_720",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_602_782": {
+   "current": {
+    "cell": "cell_602_782",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_602_782",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_603_821": {
+   "current": {
+    "cell": "cell_603_821",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_603_821",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_606_745": {
+   "current": {
+    "cell": "cell_606_745",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_606_745",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_616_630": {
+   "current": {
+    "cell": "cell_616_630",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_616_630",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  },
+  "cell_634_790": {
+   "current": {
+    "cell": "cell_634_790",
+    "climate": "current",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   },
+   "2040": {
+    "cell": "cell_634_790",
+    "climate": "2040",
+    "m": 1,
+    "viol_dry_kmax_tank8": 0,
+    "viol_ad_kmax_tank8": null,
+    "viol_tower_kctmax": null,
+    "F_dry": true,
+    "F_nc": true,
+    "commit": "0d610be"
+   }
+  }
+ },
+ "commit": "0d610be"
+}

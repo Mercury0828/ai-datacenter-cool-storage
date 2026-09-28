@@ -1,0 +1,4 @@
+[
+ {"name": "oos", "args": ["experiments/phase1/oos_designs.py", "--workers", "3"],
+  "items": "experiments/phase1/out/oos/cell_*.json", "expected": 80}
+]

@@ -1,0 +1,77 @@
+{
+ "historical": {
+  "water_allowed_zone_share": {
+   "Z1": 0.03788485398423877,
+   "Z2": 0.9621151460157613,
+   "Z3": 0.0,
+   "Zempty": 0.0
+  },
+  "ban_zone_share": {
+   "Z1": 0.5605533719948332,
+   "Z3": 0.4394466280051668,
+   "Zempty": 0.0
+  },
+  "ban_installed_GW_th": 2.9359269808797905,
+  "ban_physically_necessary_GW_th": 0.7425723695618974,
+  "ban_economic_GW_th": 2.1933546113178926,
+  "economic_by_category_GW_th": {
+   "feasible_alternative_gap_gt5pct": 1.271083547329419,
+   "feasible_alternative_gap_le5pct": 0.4476339950359451,
+   "compressor_free_alternative_infeasible": 0.47463706895252833
+  },
+  "ban_added_cost_MUSD_yr": 373.7386439477354,
+  "ban_water_saved_GL_yr": 21.117122469560595,
+  "ban_USD_per_m3": 17.698369864855557,
+  "compressor_free_water_free_feasible_GW": 34.289631374
+ },
+ "stress_plus1.2K": {
+  "water_allowed_zone_share": {
+   "Z1": 0.026194163288634845,
+   "Z2": 0.9738058367113652,
+   "Z3": 0.0,
+   "Zempty": 0.0
+  },
+  "ban_zone_share": {
+   "Z1": 0.4048473149549892,
+   "Z3": 0.5951526850450108,
+   "Zempty": 0.0
+  },
+  "ban_installed_GW_th": 4.5367379731222774,
+  "ban_physically_necessary_GW_th": 1.5719501090271555,
+  "ban_economic_GW_th": 2.9647878640951215,
+  "economic_by_category_GW_th": {
+   "feasible_alternative_gap_gt5pct": 0.4053813939801056,
+   "feasible_alternative_gap_le5pct": 0.8909986286489766,
+   "compressor_free_alternative_infeasible": 1.66840784146604
+  },
+  "ban_added_cost_MUSD_yr": 453.3195076863898,
+  "ban_water_saved_GL_yr": 25.140891136676167,
+  "ban_USD_per_m3": 18.031163065062394,
+  "compressor_free_water_free_feasible_GW": 28.194631374
+ },
+ "ssp245_median": {
+  "water_allowed_zone_share": {
+   "Z1": 0.026194163288634845,
+   "Z2": 0.9738058367113652,
+   "Z3": 0.0,
+   "Zempty": 0.0
+  },
+  "ban_zone_share": {
+   "Z1": 0.3890273436008463,
+   "Z3": 0.6109726563991538,
+   "Zempty": 0.0
+  },
+  "ban_installed_GW_th": 4.371805090919817,
+  "ban_physically_necessary_GW_th": 1.1887704156242171,
+  "ban_economic_GW_th": 3.1830346752955982,
+  "economic_by_category_GW_th": {
+   "feasible_alternative_gap_gt5pct": 0.631625074923964,
+   "feasible_alternative_gap_le5pct": 0.9173107725481224,
+   "compressor_free_alternative_infeasible": 1.6340988278235118
+  },
+  "ban_added_cost_MUSD_yr": 452.97858448901275,
+  "ban_water_saved_GL_yr": 25.103655359392437,
+  "ban_USD_per_m3": 18.044327728532668,
+  "compressor_free_water_free_feasible_GW": 29.051631374
+ }
+}

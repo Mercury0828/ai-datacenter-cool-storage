@@ -1,0 +1,1 @@
+{"site": "microsoft_narvik_norway", "cell": "cell_634_790", "weather": "corrected", "climate": "historical", "dz_m": -358.0, "lapse_shift_K": 2.327, "total_shift_K": 2.327, "m": 1, "h_star_reset": 0.0, "h_star_continuous": 0.0, "viol_dry_kmax_tank8": 0, "viol_ad_kmax_tank8": null, "viol_tower_kctmax": null, "F_dry": true, "F_nc": true, "commit": "7a7fb7b"}

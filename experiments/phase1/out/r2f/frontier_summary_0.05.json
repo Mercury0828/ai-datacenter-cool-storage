@@ -1,0 +1,73 @@
+{
+ "DR-F": {
+  "best_compliant_point": {
+   "path": "DR-F",
+   "variant": "",
+   "knob": 0.009212888865217622,
+   "V": 0.049124857699731815,
+   "K": 15756.6759244504
+  },
+  "points": 5076
+ },
+ "B-SAA": {
+  "best_compliant_point": {
+   "path": "B-SAA",
+   "variant": "",
+   "knob": 0.04284848484748486,
+   "V": 0.04913627825303978,
+   "K": 15775.800395207236
+  },
+  "points": 1660
+ },
+ "B-QNT": {
+  "best_compliant_point": {
+   "path": "B-QNT",
+   "variant": "",
+   "knob": 0.7949494949504952,
+   "V": 0.04850285679095847,
+   "K": 15839.928414978978
+  },
+  "points": 1301
+ },
+ "B-SCAL": {
+  "best_compliant_point": {
+   "path": "B-SCAL",
+   "variant": "",
+   "knob": 0.8383838383848383,
+   "V": 0.04991857484715767,
+   "K": 15895.590505721402
+  },
+  "points": 833
+ },
+ "BL2-shift": {
+  "best_compliant_point": {
+   "path": "BL2-a",
+   "variant": "",
+   "knob": 2.8,
+   "V": 0.045632849999512885,
+   "K": 15689.87637351012
+  },
+  "points": 995
+ },
+ "BL3": {
+  "best_compliant_point": {
+   "path": "BL3-a",
+   "variant": "",
+   "knob": 2.5,
+   "V": 0.0446038668445246,
+   "K": 15749.545321395592
+  },
+  "points": 1071
+ },
+ "BL1-shift": {
+  "best_compliant_point": {
+   "path": "BL1-a",
+   "variant": "20y",
+   "knob": 3.5,
+   "V": 0.04670729356719286,
+   "K": 15565.07784027045
+  },
+  "points": 6480
+ },
+ "DR-F_hindsight_saving_vs_best_baseline_hindsight_pct": -1.2309484484827937
+}

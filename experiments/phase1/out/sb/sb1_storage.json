@@ -1,0 +1,61 @@
+{
+ "m3_per_MWh_th": 86.1244019138756,
+ "frame_GW": 37.294631374,
+ "historical": {
+  "F_dry_GW": {
+   "0h": 1.804901664,
+   "1h": 12.825301664,
+   "2h": 20.725631374,
+   "4h": 27.404631374,
+   "6h": 30.278631373999996,
+   "8h": 34.289631374
+  },
+  "GW_h_in_4_8": 6.885,
+  "GW_h_in_6_8": 4.011,
+  "storage_GWh_th_at_h_star": 73.93334964975196,
+  "storage_GWh_th_at_8h_cap": 274.317050992,
+  "volume_million_m3_at_h_star": 6.367465520074332,
+  "volume_million_m3_at_8h_cap": 23.62539195146412,
+  "capacity_weighted_mean_h_star_of_feasible": 2.156143028875244,
+  "capacity_weighted_median_h_star_of_feasible": 1.687828966620508,
+  "interpolated_quantile_estimate_h": 1.663685434201702
+ },
+ "stress_plus1.2K": {
+  "F_dry_GW": {
+   "0h": 1.266901664,
+   "1h": 3.965901664,
+   "2h": 14.918631373999999,
+   "4h": 26.288631374,
+   "6h": 28.194631374,
+   "8h": 28.194631374
+  },
+  "GW_h_in_4_8": 1.906,
+  "GW_h_in_6_8": 0.0,
+  "storage_GWh_th_at_h_star": 57.63850259843112,
+  "storage_GWh_th_at_8h_cap": 225.557050992,
+  "volume_million_m3_at_h_star": 4.964081563501244,
+  "volume_million_m3_at_8h_cap": 19.42596611414354,
+  "capacity_weighted_mean_h_star_of_feasible": 2.044307720638728,
+  "capacity_weighted_median_h_star_of_feasible": 1.6947701482157564,
+  "interpolated_quantile_estimate_h": 1.6900873273687274
+ },
+ "ssp245_median": {
+  "F_dry_GW": {
+   "0h": 1.3319016639999999,
+   "1h": 3.365901664,
+   "2h": 14.328631373999999,
+   "4h": 26.503631374,
+   "6h": 27.967631374,
+   "8h": 29.051631374
+  },
+  "GW_h_in_4_8": 2.548,
+  "GW_h_in_6_8": 1.084,
+  "storage_GWh_th_at_h_star": 66.52079832157317,
+  "storage_GWh_th_at_8h_cap": 232.413050992,
+  "volume_million_m3_at_h_star": 5.729063970279029,
+  "volume_million_m3_at_8h_cap": 20.016435013665074,
+  "capacity_weighted_mean_h_star_of_feasible": 2.2897439894238265,
+  "capacity_weighted_median_h_star_of_feasible": 2.035651640717064,
+  "interpolated_quantile_estimate_h": 1.9152196416559446
+ }
+}

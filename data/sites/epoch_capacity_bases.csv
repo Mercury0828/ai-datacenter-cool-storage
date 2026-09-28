@@ -1,0 +1,95 @@
+site,B_now_MW,B_2027_MW,B_full_MW,B_full_date,facility_full_MW,Country,Address,Current chip types
+Microsoft Fairwater Wisconsin,369.0,737.0,2263.0,2028-05-13,2715.0,United States,"4800 90th St, Mount Pleasant, WI 53403",B200
+Anthropic-Amazon New Carlisle,910.0,1037.0,1925.0,2028-03-17,2310.0,United States,"55001 Larrison Blvd, New Carlisle, IN 46552",Trainium2
+OpenAI Stargate New Mexico,0.0,0.0,1750.0,2028-12-31,2450.0,United States,,
+Meta Hyperion,0.0,0.0,1632.0,2028-01-01,2203.0,United States,"Holly Ridge, LA 71269",
+Colossus 2,946.0,1531.0,1531.0,2027-02-25,2065.0,United States,"5420 Tulane Rd, Memphis, TN 38109","B200,B300"
+OpenAI Stargate Shackelford,0.0,420.0,1400.0,2028-11-11,1960.0,United States,"175 Private Road 1604, Abilene, TX 79601, Shackelford County",
+QTS Cedar Rapids,0.0,1133.0,1133.0,2027-11-15,1587.0,United States,"6200 76th Ave SW, Fairfax, IA 52228",
+Meta Prometheus,496.0,868.0,1022.0,2028-07-01,1328.0,United States,"1 Community Cir, New Albany, OH 43054",B200
+Goodnight,0.0,1006.0,1006.0,2027-10-01,1294.1,United States,"10001 Lima Rd, Claude, TX 79019",
+OpenAI Stargate UAE,0.0,200.0,1000.0,2028-01-01,1400.0,United Arab Emirates,"Nexus L&T Project Office, Al Bihouth, Al Dhafrah, Abu Dhabi, United Arab Emirates",
+OpenAI Stargate Michigan,0.0,0.0,988.0,2028-12-31,1383.0,United States,,
+OpenAI Stargate Wisconsin,0.0,0.0,902.0,2028-12-31,1300.0,United States,,
+Google Fort Wayne,0.0,518.0,863.0,2028-06-23,1035.0,United States,"6015 Adams Center Road, Fort Wayne, IN 46806",
+OpenAI Stargate Milam,0.0,0.0,857.0,2028-12-31,1200.0,United States,,
+OpenAI Stargate Abilene,421.0,843.0,843.0,2026-11-01,1180.0,United States,"5502 Spinks Rd, Abilene, TX 79601","B200,B300"
+Amazon Ridgeland,228.0,284.0,840.0,2028-09-29,1008.0,United States,"1626 County Line Road Ridgeland, Mississippi",Trainium2
+VNET Bayin Ulanqab,221.0,700.0,700.0,2027-09-01,798.0,China,"Bayin, Ulanqab, China",Ascend 910C
+Amazon Madison Mega Site,284.0,284.0,683.0,2028-03-15,819.0,United States,"Amazon Data Services Inc, Madison Mega Site Nissan Parkway and Highway 22 Canton, Mississippi Madison County",Trainium2
+Crusoe Abilene Expansion,0.0,672.0,672.0,2027-11-11,941.0,United States,"5502 Spinks Rd, Abilene, TX 79601",
+Microsoft Fairwater Atlanta,636.0,636.0,636.0,2026-06-14,859.0,United States,"1435 Hwy 54 W, Fayetteville, GA 30214",B200
+Coreweave Helios,132.0,132.0,528.0,2029-01-01,800.0,United States,"984 County Road 112, Afton, TX 79220",B200
+DayOne Nusajaya,240.0,473.0,473.0,2026-10-02,662.0,Malaysia,,"H100,B300"
+Huawei Wuhu,157.0,457.0,457.0,2027-12-01,526.0,China,"Wuhu, China",Ascend 910C
+Meta Bowling Green,0.0,163.0,422.0,2028-01-01,570.0,United States,"12356 Middleton Pike, Bowling Green, OH 43402",
+DayOne Kempas,322.470096,421.691664,421.691664,2026-10-01,590.3683296,Malaysia,"HP79+MP, 81300 Johor Bahru, Johor, Malaysia",B300
+CoreWeave Ellendale ND,68.0,400.0,400.0,2027-06-01,520.0,United States,"9685 87th Ave SE, Ellendale, ND 58436",B200
+Google Omaha,237.0,237.0,395.0,2028-07-23,474.0,United States,"11110 State St, Omaha, NE 68142","TPU v5e,TPU v5p,TPU v6e,TPU v7"
+Google Columbus,303.0,386.0,386.0,2027-07-01,464.0,United States,"5076 S High St, Columbus, OH 43207","TPU v5e,TPU v5p,TPU v6e,TPU v7"
+Anthropic Lake Mariner,42.0,378.0,378.0,2027-03-31,441.0,United States,"7725 Lake Rd, Barker, NY 14012",TPU v7
+Google Pryor (North),368.0,368.0,368.0,2026-09-06,442.0,United States,"4581 Webb St, Pryor, OK 74361","TPU v5p,TPU v5e"
+Meta Montgomery,153.0,358.0,358.0,2027-02-23,465.0,United States,"Co Rd 42, Montgomery, AL 36105, USA",B300
+STACK Infrastructure NVA02,85.0,85.0,348.0,2028-01-01,487.0,United States,"9590 Hornbaker Rd, Manassas, VA 20109",H100
+Huawei Horinger,184.3,184.3,346.4,2028-02-14,414.6,China,"Huawei, Horinger, China",Ascend 910C
+Colossus 1,340.0,340.0,340.0,2026-06-15,425.0,United States,"3231 Riverport Rd, Memphis, TN 38109","H100,H200,B200"
+AWS New Albany,213.0,338.0,338.0,2027-07-01,405.0,United States,13360 Miller Rd NW,"Trainium2,H100,H200,B200"
+Google New Albany,333.0,333.0,333.0,2026-05-18,400.0,United States,"1101 Beech Rd SW, New Albany, OH 43054","TPU v5e,TPU v5p,TPU v6e"
+QTS Eagle Mountain,0.0,304.0,304.0,2027-07-01,411.0,United States,"652 E Hyperscale Way, Eagle Mountain, UT 84013",
+Google Storey County,161.0,300.0,300.0,2027-06-30,389.0,United States,,"TPU v5e,TPU v4,TPU v6e,TPU v5p"
+Google Lincoln,141.0,283.0,283.0,2027-10-01,339.0,United States,"5475 Cloud Ct, Lincoln, NE 68514","TPU v6e,TPU v7"
+CoreWeave Denton TX,262.0,282.0,282.0,2027-05-31,395.0,United States,"8171 Jim Christal Rd, Denton, TX 76207",B200
+Google Cedar Rapids,0.0,261.0,261.0,2027-05-23,314.0,United States,"5800 EDGEWOOD RD SW CEDAR RAPIDS, IA 52404",
+QTS Richmond 3,144.0,240.0,240.0,2027-02-13,336.0,United States,"3525–3543 Portugee Rd, Sandston, VA 23150",
+Google Bristow,238.0,238.0,238.0,2026-05-20,286.0,United States,"13001 Rollins Ford Road, Bristow, VA 20136","TPU v5e,TPU v5p,TPU v6e,TPU v7"
+QTS Richmond 1,238.0,238.0,238.0,2026-02-13,333.0,United States,"6000 Technology Blvd, Sandston, VA 23150",
+Google Papillion,237.0,237.0,237.0,2026-05-04,284.0,United States,"14651-15249 Gold Coast Rd 68138 Papillion Nebraska, USA","TPU v4,TPU v5e,TPU v5p"
+Google Council Bluffs (East),237.0,237.0,237.0,2026-07-07,284.0,United States,"10410 Bunge Ave, Council Bluffs, IA 51503","TPU v5e,TPU v6e,TPU v5p,TPU v7"
+Start Campus Sines Data Campus,33.0,233.0,233.0,2027-09-30,280.0,Portugal,"Start Campus - Sustainable Data Center Services, Sines, Portugal",B300
+Stream Phoenix,64.0,64.0,220.0,2030-01-01,267.0,United States,2950 S. Litchfield Road,H100
+OpenAI Stargate Lordstown,0.0,214.0,214.0,2027-03-01,300.0,United States,"2300 Hallock Young Rd, Warren, OH 44481",
+Meta Cheyenne,152.0,207.0,207.0,2027-02-15,249.0,United States,"Cheyenne, WY 82007, USA",B300
+Anthropic Barber Lake,0.0,207.0,207.0,2027-04-30,300.0,United States,,
+Microsoft Goodyear,202.0,202.0,202.0,2026-04-27,263.0,United States,"14250 W Broadway Rd, Goodyear, AZ 85338","H100,B200"
+Microsoft Project Osmium,190.0,190.0,190.0,2026-06-16,228.0,United States,"5855 SW Kerry St, Cumming, IA 50061","A100,H100,B200"
+Google Mesa,183.0,183.0,183.0,2026-08-15,237.0,United States,,"TPU v6e,TPU v5p"
+Meta-QTS Hillsboro 2,180.0,180.0,180.0,2026-04-17,243.0,United States,"4755 NE Huffman St, Hillsboro, OR 97124",H100
+QTS Richmond 2,180.0,180.0,180.0,2026-05-14,252.0,United States,"6030–6070 Technology Blvd, Sandston, VA 23150",
+Meta Rosemount,178.0,178.0,178.0,2026-06-19,241.0,United States,"1772-2396 145th St, Rosemount, MN 55068, USA",B200
+Meta Jeffersonville,178.0,178.0,178.0,2026-06-04,241.0,United States,"500 8th St, Jeffersonville, IN 47130, USA",B300
+Meta Temple,152.0,178.0,178.0,2026-09-30,231.0,United States,"2310 Eberhardt Rd, Temple, TX 76504",B300
+AWS Berwick,108.0,169.0,169.0,2027-08-01,212.0,United States,"1125 Electron Ave, Berwick, PA 18603",Trainium2
+Alibaba Zhangbei,169.0,169.0,169.0,2026-01-03,203.0,China,"Alibaba Zhangbei Yun Calculation Data Center, Zhangbei County, Zhangjiakou, Hebei, China, 076471",H20
+Google Red Oak,77.0,154.0,154.0,2026-12-01,185.0,United States,"330 Austin Blvd, Red Oak, TX 75154",TPU v6e
+Google The Dalles,154.0,154.0,154.0,2026-04-29,185.0,United States,"3500 River Rd, The Dalles, OR","TPU v6e,TPU v5p,TPU v5e,TPU v7"
+CoreWeave Muskogee OK,0.0,153.0,153.0,2027-12-31,181.0,United States,"1525 W 43rd St S, Muskogee, OK 74401, USA",
+Meta Kuna,152.0,152.0,152.0,2026-06-01,198.0,United States,"601 Kuna Mora Rd,  Kuna ID 83634",B300
+Meta Huntsville,146.0,146.0,146.0,2026-06-02,198.0,United States,"5400 Prosperity Dr NW, Toney, AL",B300
+Nebius Mantsala,75.0,145.0,145.0,2027-12-31,196.0,Finland,,"H100,B300,H200"
+Google Lancaster,137.0,137.0,137.0,2026-03-12,164.0,United States,"105 Whiley Rd, Lancaster, OH 43130","TPU v5e,TPU v6e"
+Meta Eagle Mountain,133.0,133.0,133.0,2026-05-02,179.0,United States,"1275 N Community Cir, Eagle Mountain, UT 84005",B300
+Vantage TX1,32.0,128.0,128.0,2027-08-31,179.2,United States,"14720 Omicron Dr, San Antonio, TX 78245",B200
+CoreWeave Chester VA,82.0,113.0,113.0,2027-06-30,197.0,United States,"1401 Meadowville Technology Parkway, Chester, VA","H100,B200"
+Google Kansas City East,105.0,105.0,105.0,2026-08-01,126.0,United States,,
+Google Midlothian,103.0,103.0,103.0,2026-07-01,123.0,United States,"3250 Railport Parkway, Midlothian, TX 76065","TPU v7,TPU v6e"
+CoreWeave Lancaster Greenfield site,0.0,92.0,92.0,2027-06-30,124.0,United States,"216 Greenfield Rd, Lancaster, PA 
+",
+Microsoft Narvik Norway,0.0,92.0,92.0,2026-12-31,124.0,Norway,,
+Google Waltham Cross,88.0,88.0,88.0,2026-04-23,124.0,United Kingdom,"Land at Maxwell's Farm West, Great Cambridge Road, Cheshunt, EN8 8XH",TPU v6e
+Meta Los Lunas,87.0,87.0,87.0,2026-03-01,105.0,United States,"4250 Messenger Lp, Los Lunas, NM 87031",B300
+Meta Gallatin,87.0,87.0,87.0,2026-06-15,114.0,United States,"1 Meta Lp, Gallatin, TN 37066",B300
+Meta Sarpy,80.0,80.0,80.0,2026-08-02,105.0,United States,"14436-14998 Fairview Rd, Springfield, NE 68059, USA",B300
+Google Arcola,77.0,77.0,77.0,2026-06-16,93.0,United States,"42575 Arcola Blvd, Sterling, VA 20166","TPU v6e,TPU v7"
+Microsoft SAT40,75.0,75.0,75.0,2026-02-04,106.0,United States,"15000 Lambda Drive, San Antonio, TX 78245","H100,B300"
+Oracle Batam,72.0,72.0,72.0,2026-05-06,94.0,Indonesia,,"B200,B300"
+Meta Aiken,69.0,69.0,69.0,2026-08-07,90.0,United States,"7601 State Hwy 105, Trenton, SC 29847, USA",B300
+CoreWeave Marble NC,65.0,65.0,65.0,2026-05-06,91.0,United States,"155 Palmer Ln, Marble, NC 28905",B200
+Core42 Lake Mariner,58.0,58.0,58.0,2026-07-23,58.0,United States,"7725 Lake Rd, Barker, NY 14012",B200
+Microsoft-Nebius New Jersey,50.0,50.0,50.0,2026-07-12,70.0,United States,"3963 S Lincoln Ave, Vineland, New Jersey",B300
+EcoDataCenter 2,0.0,24.0,48.0,2028-06-30,67.0,Sweden,"Kvarnsvedsvägen 420, 784 66 Borlänge, Sweden",
+Microsoft SAT14,47.0,47.0,47.0,2026-03-31,66.0,United States,"3545 Wiseman Boulevard, San Antonio, TX 78251","H100,B300"
+CoreWeave Norway,42.0,42.0,42.0,2026-04-25,50.0,Norway,"Stølevegen 39, 4715 Øvrebø, Norway",B200
+Southgate Melbourne,41.0,41.0,41.0,2026-08-09,57.0,Australia,,B300
+CoreWeave Dalton 1 & 2,28.0,28.0,28.0,2026-02-20,40.0,United States,"2205 Industrial South Rd, Dalton, GA, 30721",B300
+xAI QTS Atlanta,17.32971,17.32971,17.32971,2026-07-10,24.0,United States,"1025 Jefferson Street NW, Atlanta, GA 30318","H100,A100"
+Nscale Keflavik,5.11,10.21,10.21,2026-12-31,13.28,Iceland,"Valhallarbraut 868, 262 Reykjanesbær, Iceland",B300

@@ -1,0 +1,1682 @@
+{
+ "M1-ii": {
+  "etaII_fitted": 0.5076,
+  "cop_AHRI_target": 2.9601406799531067,
+  "validation_optichill_EER_upto": 3.21,
+  "model_cop_at_35C_10C_registered": 3.220375909090909,
+  "rel_err": 0.003232370433305043,
+  "tolerance": 0.15,
+  "pass": true,
+  "secondary_model_cop_at_35C_7C": 2.9824200000000003,
+  "note": "R1 run validated at 7 degC by mistake (departure from PR-M1); corrected to the registered 10 degC",
+  "model_cop_trim_at_45C_amb_41C_lvg": 6.0
+ },
+ "M1-i-a": {
+  "UA_fit_kW_per_K": 2.2407160546369713,
+  "points": [
+   {
+    "water": "35/30",
+    "ambient": 25,
+    "catalog_kW": 11.0,
+    "model_kW": 11.1,
+    "rel_err": 0.0091
+   },
+   {
+    "water": "40/35",
+    "ambient": 25,
+    "catalog_kW": 19.6,
+    "model_kW": 18.79,
+    "rel_err": -0.0411
+   },
+   {
+    "water": "40/35",
+    "ambient": 30,
+    "catalog_kW": 11.0,
+    "model_kW": 11.1,
+    "rel_err": 0.0091
+   },
+   {
+    "water": "45/40",
+    "ambient": 25,
+    "catalog_kW": 28.1,
+    "model_kW": 26.61,
+    "rel_err": -0.0529
+   },
+   {
+    "water": "45/40",
+    "ambient": 30,
+    "catalog_kW": 19.6,
+    "model_kW": 18.79,
+    "rel_err": -0.0411
+   },
+   {
+    "water": "45/40",
+    "ambient": 35,
+    "catalog_kW": 11.1,
+    "model_kW": 11.1,
+    "rel_err": -0.0
+   },
+   {
+    "water": "50/45",
+    "ambient": 25,
+    "catalog_kW": 36.6,
+    "model_kW": 34.37,
+    "rel_err": -0.0608
+   },
+   {
+    "water": "50/45",
+    "ambient": 30,
+    "catalog_kW": 28.0,
+    "model_kW": 26.61,
+    "rel_err": -0.0495
+   },
+   {
+    "water": "50/45",
+    "ambient": 35,
+    "catalog_kW": 19.6,
+    "model_kW": 18.79,
+    "rel_err": -0.0411
+   },
+   {
+    "water": "50/45",
+    "ambient": 40,
+    "catalog_kW": 11.1,
+    "model_kW": 11.1,
+    "rel_err": -0.0
+   },
+   {
+    "water": "55/50",
+    "ambient": 25,
+    "catalog_kW": 45.0,
+    "model_kW": 42.11,
+    "rel_err": -0.0643
+   },
+   {
+    "water": "55/50",
+    "ambient": 30,
+    "catalog_kW": 36.4,
+    "model_kW": 34.37,
+    "rel_err": -0.0557
+   },
+   {
+    "water": "55/50",
+    "ambient": 35,
+    "catalog_kW": 27.9,
+    "model_kW": 26.61,
+    "rel_err": -0.0461
+   },
+   {
+    "water": "55/50",
+    "ambient": 40,
+    "catalog_kW": 19.5,
+    "model_kW": 18.79,
+    "rel_err": -0.0362
+   },
+   {
+    "water": "55/50",
+    "ambient": 45,
+    "catalog_kW": 11.1,
+    "model_kW": 11.1,
+    "rel_err": -0.0
+   }
+  ],
+  "max_abs_rel_err": 0.0643,
+  "tolerance": 0.1,
+  "pass": true
+ },
+ "M1-i-b": {
+  "k_max": 1.4948471247222268,
+  "dc_approach_at_k1": 8.122242264378439,
+  "departure_note": "PR-M1 says k in [1, k_max] spans ~10 K to 4 K. At k = 1 the module gives 10 K only at its rating (5 K glycol range); in the chain (10 K glycol range) k = 1 gives 8.1 K, so the grid starts at k = 0.6 (16.4 K) to cover the ~10 K end. Recorded departure.",
+  "dc_approach_at_kmax": 4.000000000000007,
+  "chain_approach_at_kmax_incl_HX": 6.000000000000007,
+  "k_grid": [
+   0.6,
+   0.7278,
+   0.8557,
+   0.9835,
+   1.1113,
+   1.2392,
+   1.367,
+   1.4948
+  ],
+  "pass": true
+ },
+ "M1-iii-a": {
+  "rows": [
+   {
+    "site": "Phoenix",
+    "pct": 0.4,
+    "dbt": 44.0,
+    "min_approach": 1.1,
+    "ours": "INF",
+    "theirs": "INF"
+   },
+   {
+    "site": "Phoenix",
+    "pct": 0.4,
+    "dbt": 44.0,
+    "min_approach": 1.7,
+    "ours": "INF",
+    "theirs": "INF"
+   },
+   {
+    "site": "Phoenix",
+    "pct": 0.4,
+    "dbt": 44.0,
+    "min_approach": 2.8,
+    "ours": "INF",
+    "theirs": "INF"
+   },
+   {
+    "site": "Phoenix",
+    "pct": 2.0,
+    "dbt": 41.7,
+    "min_approach": 1.1,
+    "ours": "INF",
+    "theirs": "INF"
+   },
+   {
+    "site": "Phoenix",
+    "pct": 2.0,
+    "dbt": 41.7,
+    "min_approach": 1.7,
+    "ours": "INF",
+    "theirs": "INF"
+   },
+   {
+    "site": "Phoenix",
+    "pct": 2.0,
+    "dbt": 41.7,
+    "min_approach": 2.8,
+    "ours": "INF",
+    "theirs": "INF"
+   },
+   {
+    "site": "Las Vegas",
+    "pct": 0.4,
+    "dbt": 42.9,
+    "min_approach": 1.1,
+    "ours": "INF",
+    "theirs": "INF"
+   },
+   {
+    "site": "Las Vegas",
+    "pct": 0.4,
+    "dbt": 42.9,
+    "min_approach": 1.7,
+    "ours": "INF",
+    "theirs": "INF"
+   },
+   {
+    "site": "Las Vegas",
+    "pct": 0.4,
+    "dbt": 42.9,
+    "min_approach": 2.8,
+    "ours": "INF",
+    "theirs": "INF"
+   },
+   {
+    "site": "Las Vegas",
+    "pct": 2.0,
+    "dbt": 40.5,
+    "min_approach": 1.1,
+    "ours": "FEAS",
+    "theirs": "INF"
+   },
+   {
+    "site": "Las Vegas",
+    "pct": 2.0,
+    "dbt": 40.5,
+    "min_approach": 1.7,
+    "ours": "INF",
+    "theirs": "INF"
+   },
+   {
+    "site": "Las Vegas",
+    "pct": 2.0,
+    "dbt": 40.5,
+    "min_approach": 2.8,
+    "ours": "INF",
+    "theirs": "INF"
+   },
+   {
+    "site": "Tucson",
+    "pct": 0.4,
+    "dbt": 41.1,
+    "min_approach": 1.1,
+    "ours": "INF",
+    "theirs": "INF"
+   },
+   {
+    "site": "Tucson",
+    "pct": 0.4,
+    "dbt": 41.1,
+    "min_approach": 1.7,
+    "ours": "INF",
+    "theirs": "INF"
+   },
+   {
+    "site": "Tucson",
+    "pct": 0.4,
+    "dbt": 41.1,
+    "min_approach": 2.8,
+    "ours": "INF",
+    "theirs": "INF"
+   },
+   {
+    "site": "Tucson",
+    "pct": 1.0,
+    "dbt": 39.9,
+    "min_approach": 1.1,
+    "ours": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "site": "Tucson",
+    "pct": 1.0,
+    "dbt": 39.9,
+    "min_approach": 1.7,
+    "ours": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "site": "Tucson",
+    "pct": 1.0,
+    "dbt": 39.9,
+    "min_approach": 2.8,
+    "ours": "INF",
+    "theirs": "INF"
+   },
+   {
+    "site": "Tucson",
+    "pct": 2.0,
+    "dbt": 38.7,
+    "min_approach": 1.1,
+    "ours": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "site": "Tucson",
+    "pct": 2.0,
+    "dbt": 38.7,
+    "min_approach": 1.7,
+    "ours": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "site": "Tucson",
+    "pct": 2.0,
+    "dbt": 38.7,
+    "min_approach": 2.8,
+    "ours": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "site": "El Paso",
+    "pct": 0.4,
+    "dbt": 38.8,
+    "min_approach": 1.1,
+    "ours": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "site": "El Paso",
+    "pct": 0.4,
+    "dbt": 38.8,
+    "min_approach": 1.7,
+    "ours": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "site": "El Paso",
+    "pct": 0.4,
+    "dbt": 38.8,
+    "min_approach": 2.8,
+    "ours": "FEAS",
+    "theirs": "FEAS"
+   }
+  ],
+  "mismatches": [
+   {
+    "site": "Las Vegas",
+    "pct": 2.0,
+    "dbt": 40.5,
+    "min_approach": 1.1,
+    "ours": "FEAS",
+    "theirs": "INF"
+   }
+  ],
+  "pass": true,
+  "note": "Las Vegas 2 % at 1.1 K: rule says feasible (40.5+1.1=41.6<=41.7); authors call it practically infeasible (~20 units). Documented modelling difference (PR-M1)."
+ },
+ "M1-iii-b": {
+  "rows": [
+   {
+    "hub": "md_phoenix",
+    "pct": 0.4,
+    "dbt_era5": 43.9,
+    "dbt_ashrae_quoted": 44.0,
+    "min_approach": 1.1,
+    "ours_era5": "INF",
+    "theirs": "INF"
+   },
+   {
+    "hub": "md_phoenix",
+    "pct": 0.4,
+    "dbt_era5": 43.9,
+    "dbt_ashrae_quoted": 44.0,
+    "min_approach": 1.7,
+    "ours_era5": "INF",
+    "theirs": "INF"
+   },
+   {
+    "hub": "md_phoenix",
+    "pct": 0.4,
+    "dbt_era5": 43.9,
+    "dbt_ashrae_quoted": 44.0,
+    "min_approach": 2.8,
+    "ours_era5": "INF",
+    "theirs": "INF"
+   },
+   {
+    "hub": "md_phoenix",
+    "pct": 1.0,
+    "dbt_era5": 42.75,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.1,
+    "ours_era5": "INF",
+    "theirs": "INF"
+   },
+   {
+    "hub": "md_phoenix",
+    "pct": 1.0,
+    "dbt_era5": 42.75,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.7,
+    "ours_era5": "INF",
+    "theirs": "INF"
+   },
+   {
+    "hub": "md_phoenix",
+    "pct": 1.0,
+    "dbt_era5": 42.75,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 2.8,
+    "ours_era5": "INF",
+    "theirs": "INF"
+   },
+   {
+    "hub": "md_phoenix",
+    "pct": 2.0,
+    "dbt_era5": 41.6,
+    "dbt_ashrae_quoted": 41.7,
+    "min_approach": 1.1,
+    "ours_era5": "INF",
+    "theirs": "INF"
+   },
+   {
+    "hub": "md_phoenix",
+    "pct": 2.0,
+    "dbt_era5": 41.6,
+    "dbt_ashrae_quoted": 41.7,
+    "min_approach": 1.7,
+    "ours_era5": "INF",
+    "theirs": "INF"
+   },
+   {
+    "hub": "md_phoenix",
+    "pct": 2.0,
+    "dbt_era5": 41.6,
+    "dbt_ashrae_quoted": 41.7,
+    "min_approach": 2.8,
+    "ours_era5": "INF",
+    "theirs": "INF"
+   },
+   {
+    "hub": "md_las_vegas",
+    "pct": 0.4,
+    "dbt_era5": 40.65,
+    "dbt_ashrae_quoted": 42.9,
+    "min_approach": 1.1,
+    "ours_era5": "INF",
+    "theirs": "INF"
+   },
+   {
+    "hub": "md_las_vegas",
+    "pct": 0.4,
+    "dbt_era5": 40.65,
+    "dbt_ashrae_quoted": 42.9,
+    "min_approach": 1.7,
+    "ours_era5": "INF",
+    "theirs": "INF"
+   },
+   {
+    "hub": "md_las_vegas",
+    "pct": 0.4,
+    "dbt_era5": 40.65,
+    "dbt_ashrae_quoted": 42.9,
+    "min_approach": 2.8,
+    "ours_era5": "INF",
+    "theirs": "INF"
+   },
+   {
+    "hub": "md_las_vegas",
+    "pct": 1.0,
+    "dbt_era5": 39.4,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.1,
+    "ours_era5": "FEAS",
+    "theirs": "INF"
+   },
+   {
+    "hub": "md_las_vegas",
+    "pct": 1.0,
+    "dbt_era5": 39.4,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.7,
+    "ours_era5": "FEAS",
+    "theirs": "INF"
+   },
+   {
+    "hub": "md_las_vegas",
+    "pct": 1.0,
+    "dbt_era5": 39.4,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 2.8,
+    "ours_era5": "INF",
+    "theirs": "INF"
+   },
+   {
+    "hub": "md_las_vegas",
+    "pct": 2.0,
+    "dbt_era5": 38.15,
+    "dbt_ashrae_quoted": 40.5,
+    "min_approach": 1.1,
+    "ours_era5": "FEAS",
+    "theirs": "INF"
+   },
+   {
+    "hub": "md_las_vegas",
+    "pct": 2.0,
+    "dbt_era5": 38.15,
+    "dbt_ashrae_quoted": 40.5,
+    "min_approach": 1.7,
+    "ours_era5": "FEAS",
+    "theirs": "INF"
+   },
+   {
+    "hub": "md_las_vegas",
+    "pct": 2.0,
+    "dbt_era5": 38.15,
+    "dbt_ashrae_quoted": 40.5,
+    "min_approach": 2.8,
+    "ours_era5": "FEAS",
+    "theirs": "INF"
+   },
+   {
+    "hub": "md_tucson",
+    "pct": 0.4,
+    "dbt_era5": 39.95,
+    "dbt_ashrae_quoted": 41.1,
+    "min_approach": 1.1,
+    "ours_era5": "FEAS",
+    "theirs": "INF"
+   },
+   {
+    "hub": "md_tucson",
+    "pct": 0.4,
+    "dbt_era5": 39.95,
+    "dbt_ashrae_quoted": 41.1,
+    "min_approach": 1.7,
+    "ours_era5": "FEAS",
+    "theirs": "INF"
+   },
+   {
+    "hub": "md_tucson",
+    "pct": 0.4,
+    "dbt_era5": 39.95,
+    "dbt_ashrae_quoted": 41.1,
+    "min_approach": 2.8,
+    "ours_era5": "INF",
+    "theirs": "INF"
+   },
+   {
+    "hub": "md_tucson",
+    "pct": 1.0,
+    "dbt_era5": 38.8,
+    "dbt_ashrae_quoted": 39.9,
+    "min_approach": 1.1,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_tucson",
+    "pct": 1.0,
+    "dbt_era5": 38.8,
+    "dbt_ashrae_quoted": 39.9,
+    "min_approach": 1.7,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_tucson",
+    "pct": 1.0,
+    "dbt_era5": 38.8,
+    "dbt_ashrae_quoted": 39.9,
+    "min_approach": 2.8,
+    "ours_era5": "FEAS",
+    "theirs": "INF"
+   },
+   {
+    "hub": "md_tucson",
+    "pct": 2.0,
+    "dbt_era5": 37.65,
+    "dbt_ashrae_quoted": 38.7,
+    "min_approach": 1.1,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_tucson",
+    "pct": 2.0,
+    "dbt_era5": 37.65,
+    "dbt_ashrae_quoted": 38.7,
+    "min_approach": 1.7,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_tucson",
+    "pct": 2.0,
+    "dbt_era5": 37.65,
+    "dbt_ashrae_quoted": 38.7,
+    "min_approach": 2.8,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_albuquerque",
+    "pct": 0.4,
+    "dbt_era5": 33.6,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.1,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_albuquerque",
+    "pct": 0.4,
+    "dbt_era5": 33.6,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.7,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_albuquerque",
+    "pct": 0.4,
+    "dbt_era5": 33.6,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 2.8,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_albuquerque",
+    "pct": 1.0,
+    "dbt_era5": 32.3,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.1,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_albuquerque",
+    "pct": 1.0,
+    "dbt_era5": 32.3,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.7,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_albuquerque",
+    "pct": 1.0,
+    "dbt_era5": 32.3,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 2.8,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_albuquerque",
+    "pct": 2.0,
+    "dbt_era5": 31.0,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.1,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_albuquerque",
+    "pct": 2.0,
+    "dbt_era5": 31.0,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.7,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_albuquerque",
+    "pct": 2.0,
+    "dbt_era5": 31.0,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 2.8,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_el_paso",
+    "pct": 0.4,
+    "dbt_era5": 38.45,
+    "dbt_ashrae_quoted": 38.8,
+    "min_approach": 1.1,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_el_paso",
+    "pct": 0.4,
+    "dbt_era5": 38.45,
+    "dbt_ashrae_quoted": 38.8,
+    "min_approach": 1.7,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_el_paso",
+    "pct": 0.4,
+    "dbt_era5": 38.45,
+    "dbt_ashrae_quoted": 38.8,
+    "min_approach": 2.8,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_el_paso",
+    "pct": 1.0,
+    "dbt_era5": 37.2,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.1,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_el_paso",
+    "pct": 1.0,
+    "dbt_era5": 37.2,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.7,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_el_paso",
+    "pct": 1.0,
+    "dbt_era5": 37.2,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 2.8,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_el_paso",
+    "pct": 2.0,
+    "dbt_era5": 36.0,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.1,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_el_paso",
+    "pct": 2.0,
+    "dbt_era5": 36.0,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.7,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_el_paso",
+    "pct": 2.0,
+    "dbt_era5": 36.0,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 2.8,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_reno",
+    "pct": 0.4,
+    "dbt_era5": 33.75,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.1,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_reno",
+    "pct": 0.4,
+    "dbt_era5": 33.75,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.7,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_reno",
+    "pct": 0.4,
+    "dbt_era5": 33.75,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 2.8,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_reno",
+    "pct": 1.0,
+    "dbt_era5": 32.25,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.1,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_reno",
+    "pct": 1.0,
+    "dbt_era5": 32.25,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.7,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_reno",
+    "pct": 1.0,
+    "dbt_era5": 32.25,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 2.8,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_reno",
+    "pct": 2.0,
+    "dbt_era5": 30.85,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.1,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_reno",
+    "pct": 2.0,
+    "dbt_era5": 30.85,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.7,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_reno",
+    "pct": 2.0,
+    "dbt_era5": 30.85,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 2.8,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_salt_lake_city",
+    "pct": 0.4,
+    "dbt_era5": 35.5,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.1,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_salt_lake_city",
+    "pct": 0.4,
+    "dbt_era5": 35.5,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.7,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_salt_lake_city",
+    "pct": 0.4,
+    "dbt_era5": 35.5,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 2.8,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_salt_lake_city",
+    "pct": 1.0,
+    "dbt_era5": 34.25,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.1,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_salt_lake_city",
+    "pct": 1.0,
+    "dbt_era5": 34.25,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.7,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_salt_lake_city",
+    "pct": 1.0,
+    "dbt_era5": 34.25,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 2.8,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_salt_lake_city",
+    "pct": 2.0,
+    "dbt_era5": 32.9,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.1,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_salt_lake_city",
+    "pct": 2.0,
+    "dbt_era5": 32.9,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.7,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_salt_lake_city",
+    "pct": 2.0,
+    "dbt_era5": 32.9,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 2.8,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_boise",
+    "pct": 0.4,
+    "dbt_era5": 37.73,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.1,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_boise",
+    "pct": 0.4,
+    "dbt_era5": 37.73,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.7,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_boise",
+    "pct": 0.4,
+    "dbt_era5": 37.73,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 2.8,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_boise",
+    "pct": 1.0,
+    "dbt_era5": 36.1,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.1,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_boise",
+    "pct": 1.0,
+    "dbt_era5": 36.1,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.7,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_boise",
+    "pct": 1.0,
+    "dbt_era5": 36.1,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 2.8,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_boise",
+    "pct": 2.0,
+    "dbt_era5": 34.4,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.1,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_boise",
+    "pct": 2.0,
+    "dbt_era5": 34.4,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.7,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_boise",
+    "pct": 2.0,
+    "dbt_era5": 34.4,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 2.8,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_cheyenne",
+    "pct": 0.4,
+    "dbt_era5": 32.25,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.1,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_cheyenne",
+    "pct": 0.4,
+    "dbt_era5": 32.25,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.7,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_cheyenne",
+    "pct": 0.4,
+    "dbt_era5": 32.25,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 2.8,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_cheyenne",
+    "pct": 1.0,
+    "dbt_era5": 30.95,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.1,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_cheyenne",
+    "pct": 1.0,
+    "dbt_era5": 30.95,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.7,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_cheyenne",
+    "pct": 1.0,
+    "dbt_era5": 30.95,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 2.8,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_cheyenne",
+    "pct": 2.0,
+    "dbt_era5": 29.55,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.1,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_cheyenne",
+    "pct": 2.0,
+    "dbt_era5": 29.55,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.7,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_cheyenne",
+    "pct": 2.0,
+    "dbt_era5": 29.55,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 2.8,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_denver",
+    "pct": 0.4,
+    "dbt_era5": 34.8,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.1,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_denver",
+    "pct": 0.4,
+    "dbt_era5": 34.8,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.7,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_denver",
+    "pct": 0.4,
+    "dbt_era5": 34.8,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 2.8,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_denver",
+    "pct": 1.0,
+    "dbt_era5": 33.5,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.1,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_denver",
+    "pct": 1.0,
+    "dbt_era5": 33.5,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.7,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_denver",
+    "pct": 1.0,
+    "dbt_era5": 33.5,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 2.8,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_denver",
+    "pct": 2.0,
+    "dbt_era5": 32.15,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.1,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_denver",
+    "pct": 2.0,
+    "dbt_era5": 32.15,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.7,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_denver",
+    "pct": 2.0,
+    "dbt_era5": 32.15,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 2.8,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_colorado_springs",
+    "pct": 0.4,
+    "dbt_era5": 31.7,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.1,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_colorado_springs",
+    "pct": 0.4,
+    "dbt_era5": 31.7,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.7,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_colorado_springs",
+    "pct": 0.4,
+    "dbt_era5": 31.7,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 2.8,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_colorado_springs",
+    "pct": 1.0,
+    "dbt_era5": 30.35,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.1,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_colorado_springs",
+    "pct": 1.0,
+    "dbt_era5": 30.35,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.7,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_colorado_springs",
+    "pct": 1.0,
+    "dbt_era5": 30.35,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 2.8,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_colorado_springs",
+    "pct": 2.0,
+    "dbt_era5": 29.05,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.1,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_colorado_springs",
+    "pct": 2.0,
+    "dbt_era5": 29.05,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.7,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_colorado_springs",
+    "pct": 2.0,
+    "dbt_era5": 29.05,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 2.8,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_santa_clara",
+    "pct": 0.4,
+    "dbt_era5": 31.6,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.1,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_santa_clara",
+    "pct": 0.4,
+    "dbt_era5": 31.6,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.7,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_santa_clara",
+    "pct": 0.4,
+    "dbt_era5": 31.6,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 2.8,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_santa_clara",
+    "pct": 1.0,
+    "dbt_era5": 29.5,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.1,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_santa_clara",
+    "pct": 1.0,
+    "dbt_era5": 29.5,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.7,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_santa_clara",
+    "pct": 1.0,
+    "dbt_era5": 29.5,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 2.8,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_santa_clara",
+    "pct": 2.0,
+    "dbt_era5": 27.5,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.1,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_santa_clara",
+    "pct": 2.0,
+    "dbt_era5": 27.5,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.7,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   },
+   {
+    "hub": "md_santa_clara",
+    "pct": 2.0,
+    "dbt_era5": 27.5,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 2.8,
+    "ours_era5": "FEAS",
+    "theirs": "FEAS"
+   }
+  ],
+  "agreement": "100/108",
+  "era5_minus_ashrae_dbt_K": {
+   "n": 8,
+   "mean": -1.0562500000000004,
+   "min": -2.3500000000000014,
+   "max": -0.10000000000000142
+  },
+  "mismatches": [
+   {
+    "hub": "md_las_vegas",
+    "pct": 1.0,
+    "dbt_era5": 39.4,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.1,
+    "ours_era5": "FEAS",
+    "theirs": "INF"
+   },
+   {
+    "hub": "md_las_vegas",
+    "pct": 1.0,
+    "dbt_era5": 39.4,
+    "dbt_ashrae_quoted": null,
+    "min_approach": 1.7,
+    "ours_era5": "FEAS",
+    "theirs": "INF"
+   },
+   {
+    "hub": "md_las_vegas",
+    "pct": 2.0,
+    "dbt_era5": 38.15,
+    "dbt_ashrae_quoted": 40.5,
+    "min_approach": 1.1,
+    "ours_era5": "FEAS",
+    "theirs": "INF"
+   },
+   {
+    "hub": "md_las_vegas",
+    "pct": 2.0,
+    "dbt_era5": 38.15,
+    "dbt_ashrae_quoted": 40.5,
+    "min_approach": 1.7,
+    "ours_era5": "FEAS",
+    "theirs": "INF"
+   },
+   {
+    "hub": "md_las_vegas",
+    "pct": 2.0,
+    "dbt_era5": 38.15,
+    "dbt_ashrae_quoted": 40.5,
+    "min_approach": 2.8,
+    "ours_era5": "FEAS",
+    "theirs": "INF"
+   },
+   {
+    "hub": "md_tucson",
+    "pct": 0.4,
+    "dbt_era5": 39.95,
+    "dbt_ashrae_quoted": 41.1,
+    "min_approach": 1.1,
+    "ours_era5": "FEAS",
+    "theirs": "INF"
+   },
+   {
+    "hub": "md_tucson",
+    "pct": 0.4,
+    "dbt_era5": 39.95,
+    "dbt_ashrae_quoted": 41.1,
+    "min_approach": 1.7,
+    "ours_era5": "FEAS",
+    "theirs": "INF"
+   },
+   {
+    "hub": "md_tucson",
+    "pct": 1.0,
+    "dbt_era5": 38.8,
+    "dbt_ashrae_quoted": 39.9,
+    "min_approach": 2.8,
+    "ours_era5": "FEAS",
+    "theirs": "INF"
+   }
+  ],
+  "window": [
+   1990,
+   2025
+  ],
+  "secondary_1998_2022": [
+   {
+    "hub": "md_phoenix",
+    "pct": 0.4,
+    "dbt_era5_1998_2022": 43.75
+   },
+   {
+    "hub": "md_phoenix",
+    "pct": 1.0,
+    "dbt_era5_1998_2022": 42.7
+   },
+   {
+    "hub": "md_phoenix",
+    "pct": 2.0,
+    "dbt_era5_1998_2022": 41.6
+   },
+   {
+    "hub": "md_las_vegas",
+    "pct": 0.4,
+    "dbt_era5_1998_2022": 40.65
+   },
+   {
+    "hub": "md_las_vegas",
+    "pct": 1.0,
+    "dbt_era5_1998_2022": 39.4
+   },
+   {
+    "hub": "md_las_vegas",
+    "pct": 2.0,
+    "dbt_era5_1998_2022": 38.15
+   },
+   {
+    "hub": "md_tucson",
+    "pct": 0.4,
+    "dbt_era5_1998_2022": 39.75
+   },
+   {
+    "hub": "md_tucson",
+    "pct": 1.0,
+    "dbt_era5_1998_2022": 38.7
+   },
+   {
+    "hub": "md_tucson",
+    "pct": 2.0,
+    "dbt_era5_1998_2022": 37.6
+   },
+   {
+    "hub": "md_albuquerque",
+    "pct": 0.4,
+    "dbt_era5_1998_2022": 33.45
+   },
+   {
+    "hub": "md_albuquerque",
+    "pct": 1.0,
+    "dbt_era5_1998_2022": 32.15
+   },
+   {
+    "hub": "md_albuquerque",
+    "pct": 2.0,
+    "dbt_era5_1998_2022": 31.0
+   },
+   {
+    "hub": "md_el_paso",
+    "pct": 0.4,
+    "dbt_era5_1998_2022": 38.2
+   },
+   {
+    "hub": "md_el_paso",
+    "pct": 1.0,
+    "dbt_era5_1998_2022": 37.1
+   },
+   {
+    "hub": "md_el_paso",
+    "pct": 2.0,
+    "dbt_era5_1998_2022": 35.95
+   },
+   {
+    "hub": "md_reno",
+    "pct": 0.4,
+    "dbt_era5_1998_2022": 33.9
+   },
+   {
+    "hub": "md_reno",
+    "pct": 1.0,
+    "dbt_era5_1998_2022": 32.45
+   },
+   {
+    "hub": "md_reno",
+    "pct": 2.0,
+    "dbt_era5_1998_2022": 31.0
+   },
+   {
+    "hub": "md_salt_lake_city",
+    "pct": 0.4,
+    "dbt_era5_1998_2022": 35.7
+   },
+   {
+    "hub": "md_salt_lake_city",
+    "pct": 1.0,
+    "dbt_era5_1998_2022": 34.5
+   },
+   {
+    "hub": "md_salt_lake_city",
+    "pct": 2.0,
+    "dbt_era5_1998_2022": 33.2
+   },
+   {
+    "hub": "md_boise",
+    "pct": 0.4,
+    "dbt_era5_1998_2022": 37.85
+   },
+   {
+    "hub": "md_boise",
+    "pct": 1.0,
+    "dbt_era5_1998_2022": 36.4
+   },
+   {
+    "hub": "md_boise",
+    "pct": 2.0,
+    "dbt_era5_1998_2022": 34.65
+   },
+   {
+    "hub": "md_cheyenne",
+    "pct": 0.4,
+    "dbt_era5_1998_2022": 32.4
+   },
+   {
+    "hub": "md_cheyenne",
+    "pct": 1.0,
+    "dbt_era5_1998_2022": 31.15
+   },
+   {
+    "hub": "md_cheyenne",
+    "pct": 2.0,
+    "dbt_era5_1998_2022": 29.8
+   },
+   {
+    "hub": "md_denver",
+    "pct": 0.4,
+    "dbt_era5_1998_2022": 34.85
+   },
+   {
+    "hub": "md_denver",
+    "pct": 1.0,
+    "dbt_era5_1998_2022": 33.6
+   },
+   {
+    "hub": "md_denver",
+    "pct": 2.0,
+    "dbt_era5_1998_2022": 32.3
+   },
+   {
+    "hub": "md_colorado_springs",
+    "pct": 0.4,
+    "dbt_era5_1998_2022": 31.9
+   },
+   {
+    "hub": "md_colorado_springs",
+    "pct": 1.0,
+    "dbt_era5_1998_2022": 30.55
+   },
+   {
+    "hub": "md_colorado_springs",
+    "pct": 2.0,
+    "dbt_era5_1998_2022": 29.3
+   },
+   {
+    "hub": "md_santa_clara",
+    "pct": 0.4,
+    "dbt_era5_1998_2022": 31.55
+   },
+   {
+    "hub": "md_santa_clara",
+    "pct": 1.0,
+    "dbt_era5_1998_2022": 29.4
+   },
+   {
+    "hub": "md_santa_clara",
+    "pct": 2.0,
+    "dbt_era5_1998_2022": 27.45
+   }
+  ]
+ },
+ "M1-iv": {
+  "tower_L_per_kWh_IT": 1.422754962055985,
+  "target": 1.12,
+  "band": [
+   0.56,
+   2.24
+  ],
+  "pass": true,
+  "tower_violating_years_no_chiller": 0
+ },
+ "expectations": {
+  "allowed_violating_years_m": 1,
+  "lulea_dry_k1_violating_years": 0,
+  "abilene_dry_kmax_no_tank_violating_years": 36,
+  "abilene_adiabatic_no_tank_violating_years_by_k": {
+   "0.6": 36,
+   "0.7278": 36,
+   "0.8557": 8,
+   "0.9835": 0,
+   "1.1113": 0,
+   "1.2392": 0,
+   "1.367": 0,
+   "1.4948": 0
+  },
+  "abilene_dry_kmax_violating_years_by_tank_hours": {
+   "0.0": 36,
+   "2.0": 22,
+   "4.0": 6,
+   "8.0": 0
+  }
+ },
+ "params": {
+  "T_TCS_max": 45.0,
+  "dT_CDU": 4.0,
+  "dT_fw": 10.0,
+  "dT_HX_design": 2.0,
+  "dT_glycol": 10.0,
+  "dc_ref_approach": 10.0,
+  "dc_ref_itd": 15.0,
+  "dc_ref_air_dT": 10.0,
+  "dc_ua_air_exp": 0.6,
+  "dc_fan_frac_ref": 0.015,
+  "dc_min_speed": 0.2,
+  "dc_approach_floor": 4.0,
+  "eta_ad": 0.75,
+  "ad_overspray": 1.15,
+  "ch_etaII": 0.5076,
+  "ch_dT_evap": 4.0,
+  "ch_dT_cond": 15.0,
+  "ch_cop_max": 6.0,
+  "ct_dT_cw": 10.0,
+  "ct_ma_ref": 25.0,
+  "ct_ntu_ref": 1.3,
+  "ct_ua_exp": 0.6,
+  "ct_fan_frac_ref": 0.01,
+  "ct_min_speed": 0.2,
+  "ct_cycles": 4.0,
+  "f_air": 0.0,
+  "T_sa_max": 32.0,
+  "dT_coil": 3.0,
+  "tank_charge_max": 1.0,
+  "tank_hours_grid": [
+   0.0,
+   2.0,
+   4.0,
+   8.0
+  ],
+  "kct_grid": [
+   0.5,
+   1.0,
+   1.5,
+   2.0
+  ],
+  "crf": 0.1168,
+  "elec_price": 80.0,
+  "water_price": 2.0,
+  "capex_dc_ref": 80000.0,
+  "capex_ad_frac": 0.25,
+  "capex_chiller": 300000.0,
+  "capex_tower": 60000.0,
+  "capex_tank_per_mwh": 35000.0,
+  "pi_c": 2000.0,
+  "eta_risk": 0.05,
+  "service": "S0"
+ },
+ "config_hash": "d797f7d9a46c"
+}

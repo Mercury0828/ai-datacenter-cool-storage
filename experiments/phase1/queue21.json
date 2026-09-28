@@ -1,0 +1,6 @@
+[
+ {"name": "ff_train", "args": ["experiments/phase1/ff_menu.py", "--workers", "2", "--years", "1990-2014", "--tag", "train_1990_2014", "--no-hourly"],
+  "items": "experiments/phase1/out/ff/train_1990_2014/cell_*.json", "expected": 80},
+ {"name": "oos_b", "args": ["experiments/phase1/oos_b.py", "--workers", "2"],
+  "items": "experiments/phase1/out/oos_b/cell_*.json", "expected": 80}
+]

@@ -1,0 +1,4 @@
+[
+ {"name": "ff_corrected", "args": ["experiments/phase1/ff_menu.py", "--workers", "3", "--weather-dir", "D:/_caches/era5/weather_hub_corrected", "--tag", "corrected"],
+  "items": "experiments/phase1/out/ff/corrected/*.json", "expected": 160}
+]

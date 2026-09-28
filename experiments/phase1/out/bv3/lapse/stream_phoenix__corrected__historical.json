@@ -1,0 +1,1 @@
+{"site": "stream_phoenix", "cell": "cell_494_270", "weather": "corrected", "climate": "historical", "dz_m": -103.0, "lapse_shift_K": 0.6695, "total_shift_K": 0.6695, "m": 1, "h_star_reset": 246.30382331266213, "h_star_continuous": 246.30382331266213, "viol_dry_kmax_tank8": 36, "viol_ad_kmax_tank8": 0, "viol_tower_kctmax": null, "F_dry": false, "F_nc": true, "commit": "7a7fb7b"}

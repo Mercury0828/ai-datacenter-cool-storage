@@ -1,0 +1,4 @@
+[
+ {"name": "as2_rural", "args": ["experiments/phase1/as2_rural_bound.py", "--workers", "3"],
+  "items": "experiments/phase1/out/as2/rural/cell_*.json", "expected": 160}
+]

@@ -1,0 +1,21 @@
+{
+ "historical": {
+  "F_dry_8h_GW_base": 34.289631374,
+  "F_dry_8h_GW_rural": 35.689631373999994,
+  "gained_sites": [
+   "openai_stargate_shackelford"
+  ],
+  "lost_sites": []
+ },
+ "stress_plus1.2K": {
+  "F_dry_8h_GW_base": 28.194631374,
+  "F_dry_8h_GW_rural": 30.125631374,
+  "gained_sites": [
+   "openai_stargate_milam",
+   "coreweave_helios",
+   "google_pryor_north",
+   "meta_temple"
+  ],
+  "lost_sites": []
+ }
+}

@@ -1,0 +1,6 @@
+[
+ {"name": "ffw_uncorrected", "args": ["experiments/phase1/ff_water_frontier.py", "--workers", "4", "--tag", "uncorrected", "--weather-dir", "D:/_caches/era5/weather_hub"],
+  "items": "experiments/phase1/out/ff_water/uncorrected/cell_*.json", "expected": 80},
+ {"name": "ffw_corrected", "args": ["experiments/phase1/ff_water_frontier.py", "--workers", "4", "--tag", "corrected", "--weather-dir", "D:/_caches/era5/weather_hub_corrected"],
+  "items": "experiments/phase1/out/ff_water/corrected/cell_*.json", "expected": 98}
+]

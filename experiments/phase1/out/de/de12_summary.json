@@ -1,0 +1,488 @@
+{
+ "sigma": 0.26254075891168294,
+ "ndraw": 10000,
+ "uncorrected": {
+  "DE1": {
+   "historical": {
+    "MW_gap_le_2pct": 8687.0,
+    "MW_gap_le_5pct": 11941.691664,
+    "economic_GW_th": 2.1933546113178926,
+    "economic_GW_th_decisive_gt5pct": 1.7457206162819474,
+    "economic_GW_th_near_tie_le5pct": 0.4476339950359451,
+    "economic_GW_th_by_category": {
+     "feasible_alternative_gap_gt5pct": 1.271083547329419,
+     "feasible_alternative_gap_le5pct": 0.4476339950359451,
+     "compressor_free_alternative_infeasible": 0.47463706895252833
+    },
+    "regret_force_Z1_where_Z3_MUSD_yr": 56.09211176776428,
+    "regret_force_Z3_where_Z1_MUSD_yr": 35.060458718597594,
+    "near_tie_sites_le5pct": [
+     "meta_hyperion",
+     "colossus_2",
+     "goodnight",
+     "amazon_ridgeland",
+     "amazon_madison_mega_site",
+     "huawei_wuhu",
+     "dayone_kempas",
+     "google_omaha",
+     "anthropic_lake_mariner",
+     "meta_montgomery",
+     "stack_infrastructure_nva02",
+     "colossus_1",
+     "qts_eagle_mountain",
+     "google_storey_county",
+     "google_lincoln",
+     "qts_richmond_3",
+     "google_bristow",
+     "qts_richmond_1",
+     "google_papillion",
+     "meta_qts_hillsboro_2",
+     "qts_richmond_2",
+     "google_the_dalles",
+     "meta_kuna",
+     "meta_huntsville",
+     "meta_eagle_mountain",
+     "coreweave_chester_va",
+     "google_kansas_city_east",
+     "meta_los_lunas",
+     "meta_gallatin",
+     "meta_sarpy",
+     "google_arcola",
+     "meta_aiken",
+     "core42_lake_mariner",
+     "microsoft_nebius_new_jersey",
+     "southgate_melbourne"
+    ]
+   },
+   "stress_plus1.2K": {
+    "MW_gap_le_2pct": 4794.0,
+    "MW_gap_le_5pct": 13624.32971,
+    "economic_GW_th": 2.9647878640951215,
+    "economic_GW_th_decisive_gt5pct": 2.0737892354461454,
+    "economic_GW_th_near_tie_le5pct": 0.8909986286489766,
+    "economic_GW_th_by_category": {
+     "feasible_alternative_gap_gt5pct": 0.4053813939801056,
+     "feasible_alternative_gap_le5pct": 0.8909986286489766,
+     "compressor_free_alternative_infeasible": 1.66840784146604
+    },
+    "regret_force_Z1_where_Z3_MUSD_yr": 14.871954245794482,
+    "regret_force_Z3_where_Z1_MUSD_yr": 21.649205130868094,
+    "near_tie_sites_le5pct": [
+     "meta_hyperion",
+     "colossus_2",
+     "qts_cedar_rapids",
+     "google_fort_wayne",
+     "amazon_ridgeland",
+     "amazon_madison_mega_site",
+     "microsoft_fairwater_atlanta",
+     "coreweave_ellendale_nd",
+     "google_omaha",
+     "meta_montgomery",
+     "stack_infrastructure_nva02",
+     "colossus_1",
+     "qts_eagle_mountain",
+     "google_storey_county",
+     "google_lincoln",
+     "google_cedar_rapids",
+     "qts_richmond_3",
+     "google_bristow",
+     "qts_richmond_1",
+     "google_papillion",
+     "google_council_bluffs_east",
+     "microsoft_project_osmium",
+     "meta_qts_hillsboro_2",
+     "qts_richmond_2",
+     "meta_jeffersonville",
+     "google_the_dalles",
+     "meta_huntsville",
+     "meta_eagle_mountain",
+     "coreweave_chester_va",
+     "google_kansas_city_east",
+     "coreweave_lancaster_greenfield_site",
+     "meta_los_lunas",
+     "meta_gallatin",
+     "meta_sarpy",
+     "google_arcola",
+     "oracle_batam",
+     "meta_aiken",
+     "microsoft_nebius_new_jersey",
+     "ecodatacenter_2",
+     "southgate_melbourne",
+     "coreweave_dalton_1__2",
+     "xai_qts_atlanta"
+    ]
+   }
+  },
+  "DE2": {
+   "historical": {
+    "F_dry_8h_share": {
+     "point": 0.91942540013695,
+     "p10": 0.9040243447790446,
+     "p50": 0.9204770325986437,
+     "p90": 0.9339980521138926
+    },
+    "F_dry_8h_GW": {
+     "point": 34.289631373999995,
+     "p10": 33.59894388596891,
+     "p50": 35.45499248099552,
+     "p90": 37.484711821451995
+    },
+    "ban_installed_GW_th": {
+     "point": 2.9359269808797905,
+     "p10": 2.741229925155079,
+     "p50": 3.0263210511765015,
+     "p90": 3.3479376576189237
+    },
+    "ban_physical_GW_th": {
+     "point": 0.7425723695618974,
+     "p10": 0.610697847907937,
+     "p50": 0.7546282540897602,
+     "p90": 0.9443671547226417
+    },
+    "ban_economic_GW_th": {
+     "point": 2.1933546113178926,
+     "p10": 2.0605224451251662,
+     "p50": 2.260380800740309,
+     "p90": 2.4926830248813157
+    },
+    "ban_added_cost_MUSD_yr": {
+     "point": 373.7386439477354,
+     "p10": 363.7035046989254,
+     "p50": 386.283941182327,
+     "p90": 411.19311558411647
+    },
+    "ban_water_saved_GL_yr": {
+     "point": 21.117122469560595,
+     "p10": 20.12981935272776,
+     "p50": 21.78659334199996,
+     "p90": 23.69563114204651
+    },
+    "storage_cost_flip_GW_ban": {
+     "point": 19.024329710000004,
+     "p10": 18.416723561698713,
+     "p50": 19.669991871395965,
+     "p90": 21.022635212474416
+    },
+    "ban_USD_per_m3": {
+     "point": 17.698369864855557,
+     "p10": 17.13261938085097,
+     "p50": 17.725322275742357,
+     "p90": 18.30842873914098
+    },
+    "P_economic_ge_2GW_th": 0.9559,
+    "fully_correlated_bound_economic_GW_th": [
+     1.5666818652270662,
+     3.0706964558450496
+    ]
+   },
+   "stress_plus1.2K": {
+    "F_dry_8h_share": {
+     "point": 0.7559970519954228,
+     "p10": 0.7327408429123344,
+     "p50": 0.7564333895088757,
+     "p90": 0.7791678897730818
+    },
+    "F_dry_8h_GW": {
+     "point": 28.194631374,
+     "p10": 27.439049331108126,
+     "p50": 29.16232917078965,
+     "p90": 30.991380107988398
+    },
+    "ban_installed_GW_th": {
+     "point": 4.5367379731222774,
+     "p10": 4.297603648800258,
+     "p50": 4.680747693957937,
+     "p90": 5.116348564184713
+    },
+    "ban_physical_GW_th": {
+     "point": 1.5719501090271555,
+     "p10": 1.4013924426073485,
+     "p50": 1.6096648125008504,
+     "p90": 1.875423002144955
+    },
+    "ban_economic_GW_th": {
+     "point": 2.9647878640951215,
+     "p10": 2.833073024067075,
+     "p50": 3.0631393545864336,
+     "p90": 3.313367519080486
+    },
+    "ban_added_cost_MUSD_yr": {
+     "point": 453.3195076863898,
+     "p10": 441.2476058134147,
+     "p50": 468.51794376384794,
+     "p90": 498.4827514533475
+    },
+    "ban_water_saved_GL_yr": {
+     "point": 25.140891136676167,
+     "p10": 23.949045960166433,
+     "p50": 25.932107670643553,
+     "p90": 28.210730852536443
+    },
+    "storage_cost_flip_GW_ban": {
+     "point": 24.174729710000005,
+     "p10": 23.32811010051019,
+     "p50": 24.985800384883014,
+     "p90": 26.765061302113747
+    },
+    "ban_USD_per_m3": {
+     "point": 18.031163065062394,
+     "p10": 17.41225042722397,
+     "p50": 18.052213338738895,
+     "p90": 18.6980898861656
+    },
+    "P_economic_ge_2GW_th": 1.0,
+    "fully_correlated_bound_economic_GW_th": [
+     2.117705617210801,
+     4.15070300973317
+    ]
+   }
+  }
+ },
+ "corrected": {
+  "DE1": {
+   "historical": {
+    "MW_gap_le_2pct": 7815.0,
+    "MW_gap_le_5pct": 14365.691664,
+    "economic_GW_th": 2.960185684306796,
+    "economic_GW_th_decisive_gt5pct": 2.3180925961455645,
+    "economic_GW_th_near_tie_le5pct": 0.6420930881612316,
+    "economic_GW_th_by_category": {
+     "feasible_alternative_gap_gt5pct": 1.22648469512478,
+     "feasible_alternative_gap_le5pct": 0.6420930881612316,
+     "compressor_free_alternative_infeasible": 1.091607901020785
+    },
+    "regret_force_Z1_where_Z3_MUSD_yr": 33.439248468459894,
+    "regret_force_Z3_where_Z1_MUSD_yr": 25.53792332408328,
+    "near_tie_sites_le5pct": [
+     "meta_hyperion",
+     "colossus_2",
+     "qts_cedar_rapids",
+     "google_fort_wayne",
+     "amazon_ridgeland",
+     "amazon_madison_mega_site",
+     "microsoft_fairwater_atlanta",
+     "huawei_wuhu",
+     "dayone_kempas",
+     "coreweave_ellendale_nd",
+     "google_omaha",
+     "meta_montgomery",
+     "stack_infrastructure_nva02",
+     "colossus_1",
+     "qts_eagle_mountain",
+     "google_storey_county",
+     "google_lincoln",
+     "google_cedar_rapids",
+     "qts_richmond_3",
+     "google_bristow",
+     "qts_richmond_1",
+     "google_papillion",
+     "google_council_bluffs_east",
+     "microsoft_project_osmium",
+     "meta_qts_hillsboro_2",
+     "qts_richmond_2",
+     "meta_jeffersonville",
+     "google_the_dalles",
+     "meta_huntsville",
+     "meta_eagle_mountain",
+     "coreweave_chester_va",
+     "google_kansas_city_east",
+     "coreweave_lancaster_greenfield_site",
+     "meta_los_lunas",
+     "meta_gallatin",
+     "meta_sarpy",
+     "google_arcola",
+     "meta_aiken",
+     "microsoft_nebius_new_jersey",
+     "southgate_melbourne",
+     "coreweave_dalton_1__2"
+    ]
+   },
+   "stress_plus1.2K": {
+    "MW_gap_le_2pct": 7847.32971,
+    "MW_gap_le_5pct": 19868.729710000003,
+    "economic_GW_th": 3.813437622032778,
+    "economic_GW_th_decisive_gt5pct": 2.751695284864192,
+    "economic_GW_th_near_tie_le5pct": 1.0617423371685861,
+    "economic_GW_th_by_category": {
+     "feasible_alternative_gap_gt5pct": 0.975187498149652,
+     "feasible_alternative_gap_le5pct": 1.0617423371685861,
+     "compressor_free_alternative_infeasible": 1.77650778671454
+    },
+    "regret_force_Z1_where_Z3_MUSD_yr": 27.163745852794783,
+    "regret_force_Z3_where_Z1_MUSD_yr": 11.375536177734727,
+    "near_tie_sites_le5pct": [
+     "microsoft_fairwater_wisconsin",
+     "anthropic_amazon_new_carlisle",
+     "colossus_2",
+     "qts_cedar_rapids",
+     "meta_prometheus",
+     "openai_stargate_michigan",
+     "google_fort_wayne",
+     "amazon_ridgeland",
+     "vnet_bayin_ulanqab",
+     "amazon_madison_mega_site",
+     "microsoft_fairwater_atlanta",
+     "meta_bowling_green",
+     "coreweave_ellendale_nd",
+     "google_omaha",
+     "meta_montgomery",
+     "stack_infrastructure_nva02",
+     "huawei_horinger",
+     "colossus_1",
+     "aws_new_albany",
+     "google_new_albany",
+     "google_storey_county",
+     "google_cedar_rapids",
+     "qts_richmond_3",
+     "google_bristow",
+     "qts_richmond_1",
+     "google_papillion",
+     "google_council_bluffs_east",
+     "meta_cheyenne",
+     "microsoft_project_osmium",
+     "meta_qts_hillsboro_2",
+     "qts_richmond_2",
+     "meta_rosemount",
+     "meta_jeffersonville",
+     "google_the_dalles",
+     "meta_huntsville",
+     "google_lancaster",
+     "coreweave_chester_va",
+     "coreweave_lancaster_greenfield_site",
+     "meta_los_lunas",
+     "meta_gallatin",
+     "meta_sarpy",
+     "google_arcola",
+     "oracle_batam",
+     "microsoft_nebius_new_jersey",
+     "coreweave_dalton_1__2",
+     "xai_qts_atlanta"
+    ]
+   }
+  },
+  "DE2": {
+   "historical": {
+    "F_dry_8h_share": {
+     "point": 0.8539468068372602,
+     "p10": 0.832982288205292,
+     "p50": 0.8551065407408117,
+     "p90": 0.8737911896720455
+    },
+    "F_dry_8h_GW": {
+     "point": 31.847631374,
+     "p10": 31.18562495411467,
+     "p50": 32.928473529677234,
+     "p90": 34.835097652722546
+    },
+    "ban_installed_GW_th": {
+     "point": 3.7981401497573524,
+     "p10": 3.586655510321418,
+     "p50": 3.917475699897447,
+     "p90": 4.2956556074410575
+    },
+    "ban_physical_GW_th": {
+     "point": 0.8379544654505562,
+     "p10": 0.7014177737952972,
+     "p50": 0.8533019077797792,
+     "p90": 1.0484634655621068
+    },
+    "ban_economic_GW_th": {
+     "point": 2.960185684306796,
+     "p10": 2.8082314880706507,
+     "p50": 3.052510644915076,
+     "p90": 3.339686545042284
+    },
+    "ban_added_cost_MUSD_yr": {
+     "point": 430.32913257825527,
+     "p10": 419.3737271128613,
+     "p50": 444.8016973254332,
+     "p90": 472.72055001119816
+    },
+    "ban_water_saved_GL_yr": {
+     "point": 21.305186002968966,
+     "p10": 20.32011496589191,
+     "p50": 21.97836137688247,
+     "p90": 23.89197948795036
+    },
+    "storage_cost_flip_GW_ban": {
+     "point": 25.47172971,
+     "p10": 24.682579611222973,
+     "p50": 26.321267628694578,
+     "p90": 28.129325562103585
+    },
+    "ban_USD_per_m3": {
+     "point": 20.198327886848165,
+     "p10": 19.489012160366197,
+     "p50": 20.228520133772143,
+     "p90": 20.962009239109545
+    },
+    "P_economic_ge_2GW_th": 1.0,
+    "fully_correlated_bound_economic_GW_th": [
+     2.114418345933426,
+     4.144259958029514
+    ]
+   },
+   "stress_plus1.2K": {
+    "F_dry_8h_share": {
+     "point": 0.7559970519954228,
+     "p10": 0.7327408429123344,
+     "p50": 0.7564333895088757,
+     "p90": 0.7791678897730818
+    },
+    "F_dry_8h_GW": {
+     "point": 28.194631374,
+     "p10": 27.439049331108126,
+     "p50": 29.16232917078965,
+     "p90": 30.991380107988398
+    },
+    "ban_installed_GW_th": {
+     "point": 5.634361850289485,
+     "p10": 5.3734161190754435,
+     "p50": 5.818473971703595,
+     "p90": 6.313110241839184
+    },
+    "ban_physical_GW_th": {
+     "point": 1.8209242282567064,
+     "p10": 1.6390751643017822,
+     "p50": 1.867399487430668,
+     "p90": 2.1538988072668777
+    },
+    "ban_economic_GW_th": {
+     "point": 3.813437622032778,
+     "p10": 3.6637842058650065,
+     "p50": 3.9407567228199145,
+     "p90": 4.238354338520126
+    },
+    "ban_added_cost_MUSD_yr": {
+     "point": 512.6382841317144,
+     "p10": 499.6532040162073,
+     "p50": 529.906509960708,
+     "p90": 562.855203581254
+    },
+    "ban_water_saved_GL_yr": {
+     "point": 25.510096457942467,
+     "p10": 24.32127972102825,
+     "p50": 26.316876878581716,
+     "p90": 28.603964058179663
+    },
+    "storage_cost_flip_GW_ban": {
+     "point": 24.313729710000004,
+     "p10": 23.470221493565152,
+     "p50": 25.13665422560607,
+     "p90": 26.905032222758713
+    },
+    "ban_USD_per_m3": {
+     "point": 20.095505517859635,
+     "p10": 19.355665810826153,
+     "p50": 20.1160605618662,
+     "p90": 20.895852750183113
+    },
+    "P_economic_ge_2GW_th": 1.0,
+    "fully_correlated_bound_economic_GW_th": [
+     2.7238840157376987,
+     5.338812670845889
+    ]
+   }
+  }
+ }
+}

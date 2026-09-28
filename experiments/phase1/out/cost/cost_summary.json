@@ -1,0 +1,1245 @@
+{
+ "central_inputs": {
+  "chiller": 300000.0,
+  "dc": 80000.0,
+  "ad_frac": 0.25,
+  "tank": 35000.0,
+  "tower": 60000.0,
+  "crf": 0.1168,
+  "elec_mult": 1.0,
+  "om": false
+ },
+ "variants": {
+  "central": {},
+  "chiller_250k": {
+   "chiller": 250000.0
+  },
+  "chiller_381k": {
+   "chiller": 381000.0
+  },
+  "store_15k": {
+   "tank": 15000.0
+  },
+  "store_44k": {
+   "tank": 44000.0
+  },
+  "tower_44k": {
+   "tower": 44000.0
+  },
+  "tower_100k": {
+   "tower": 100000.0
+  },
+  "elec_0.625x": {
+   "elec_mult": 0.625
+  },
+  "elec_1.5x": {
+   "elec_mult": 1.5
+  },
+  "crf_6pct_20yr": {
+   "crf": 0.0872
+  },
+  "crf_10pct_15yr": {
+   "crf": 0.1315
+  },
+  "pads_0.10": {
+   "ad_frac": 0.1
+  },
+  "pads_0.50": {
+   "ad_frac": 0.5
+  },
+  "joint_sourced_low": {
+   "chiller": 250000.0,
+   "tank": 15000.0,
+   "tower": 44000.0,
+   "crf": 0.0872,
+   "elec_mult": 0.625
+  },
+  "joint_sourced_high": {
+   "chiller": 381000.0,
+   "tank": 44000.0,
+   "tower": 100000.0,
+   "crf": 0.1315,
+   "elec_mult": 1.5
+  },
+  "omitted_om": {
+   "om": true
+  }
+ },
+ "dc_multipliers": [
+  0.5,
+  1.5,
+  2,
+  3,
+  4,
+  5,
+  6,
+  8,
+  10
+ ],
+ "menus": {
+  "uncorrected|historical": {
+   "items": 80,
+   "variants": {
+    "central": {
+     "water_allowed_zone_share": {
+      "Z1": 0.03788485398423877,
+      "Z2": 0.9621151460157613,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.4394466280051668,
+     "installed_GW_th": 2.935926980879791,
+     "physical_GW_th": 0.7425723695618974,
+     "economic_GW_th": 2.193354611317893,
+     "ban_store_GWh_th": 51.27773830041004,
+     "ban_added_cost_MUSD_yr": 373.7386439477354,
+     "water_saved_GL_yr": 21.117122469560595,
+     "USD_per_m3": 17.698369864855557
+    },
+    "chiller_250k": {
+     "water_allowed_zone_share": {
+      "Z1": 0.03788485398423877,
+      "Z2": 0.9621151460157613,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.4442730599437189,
+     "installed_GW_th": 3.017599561184658,
+     "physical_GW_th": 0.7425723695618974,
+     "economic_GW_th": 2.27502719162276,
+     "ban_store_GWh_th": 51.18411934315307,
+     "ban_added_cost_MUSD_yr": 356.42429772759215,
+     "water_saved_GL_yr": 21.117122469560595,
+     "USD_per_m3": 16.87845009382136
+    },
+    "chiller_381k": {
+     "water_allowed_zone_share": {
+      "Z1": 0.03788485398423877,
+      "Z2": 0.9621151460157613,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.2507063256970108,
+     "installed_GW_th": 2.3861095430304595,
+     "physical_GW_th": 0.7425723695618974,
+     "economic_GW_th": 1.6435371734685622,
+     "ban_store_GWh_th": 56.868049875262855,
+     "ban_added_cost_MUSD_yr": 399.6503183764292,
+     "water_saved_GL_yr": 21.117122469560595,
+     "USD_per_m3": 18.925415569877366
+    },
+    "store_15k": {
+     "water_allowed_zone_share": {
+      "Z1": 0.03788485398423877,
+      "Z2": 0.9621151460157613,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.19699886362523403,
+     "installed_GW_th": 1.4370438195894322,
+     "physical_GW_th": 0.7425723695618974,
+     "economic_GW_th": 0.6944714500275347,
+     "ban_store_GWh_th": 93.70394878810708,
+     "ban_added_cost_MUSD_yr": 226.6119812292474,
+     "water_saved_GL_yr": 23.97960867273598,
+     "USD_per_m3": 9.450195135456806
+    },
+    "store_44k": {
+     "water_allowed_zone_share": {
+      "Z1": 0.03788485398423877,
+      "Z2": 0.9621151460157613,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.4481878325161,
+     "installed_GW_th": 3.302918590148505,
+     "physical_GW_th": 0.7425723695618974,
+     "economic_GW_th": 2.5603462205866077,
+     "ban_store_GWh_th": 48.327391339501425,
+     "ban_added_cost_MUSD_yr": 425.8298500909714,
+     "water_saved_GL_yr": 20.958609085088018,
+     "USD_per_m3": 20.317657930551693
+    },
+    "tower_44k": {
+     "water_allowed_zone_share": {
+      "Z1": 0.03788485398423877,
+      "Z2": 0.9621151460157613,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.4394466280051668,
+     "installed_GW_th": 2.935926980879791,
+     "physical_GW_th": 0.7425723695618974,
+     "economic_GW_th": 2.193354611317893,
+     "ban_store_GWh_th": 51.27773830041004,
+     "ban_added_cost_MUSD_yr": 373.7386439477354,
+     "water_saved_GL_yr": 21.117122469560595,
+     "USD_per_m3": 17.698369864855557
+    },
+    "tower_100k": {
+     "water_allowed_zone_share": {
+      "Z1": 0.03788485398423877,
+      "Z2": 0.9621151460157613,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.4394466280051668,
+     "installed_GW_th": 2.935926980879791,
+     "physical_GW_th": 0.7425723695618974,
+     "economic_GW_th": 2.193354611317893,
+     "ban_store_GWh_th": 51.27773830041004,
+     "ban_added_cost_MUSD_yr": 373.7386439477354,
+     "water_saved_GL_yr": 21.117122469560595,
+     "USD_per_m3": 17.698369864855557
+    },
+    "elec_0.625x": {
+     "water_allowed_zone_share": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.4394466280051668,
+     "installed_GW_th": 2.9820780765336843,
+     "physical_GW_th": 0.7425723695618974,
+     "economic_GW_th": 2.239505706971787,
+     "ban_store_GWh_th": 51.2945319772589,
+     "ban_added_cost_MUSD_yr": 374.94776263991673,
+     "water_saved_GL_yr": 21.973092324620183,
+     "USD_per_m3": 17.0639506310998
+    },
+    "elec_1.5x": {
+     "water_allowed_zone_share": {
+      "Z1": 0.03788485398423877,
+      "Z2": 0.9621151460157613,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.4394466280051668,
+     "installed_GW_th": 2.9346721601965196,
+     "physical_GW_th": 0.7425723695618974,
+     "economic_GW_th": 2.192099790634622,
+     "ban_store_GWh_th": 51.23174062037167,
+     "ban_added_cost_MUSD_yr": 373.0080663357875,
+     "water_saved_GL_yr": 22.306057708108217,
+     "USD_per_m3": 16.72227657692285
+    },
+    "crf_6pct_20yr": {
+     "water_allowed_zone_share": {
+      "Z1": 0.03788485398423877,
+      "Z2": 0.9621151460157613,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.4394466280051668,
+     "installed_GW_th": 2.9346721601965196,
+     "physical_GW_th": 0.7425723695618974,
+     "economic_GW_th": 2.192099790634622,
+     "ban_store_GWh_th": 51.23174062037167,
+     "ban_added_cost_MUSD_yr": 267.8825689504946,
+     "water_saved_GL_yr": 20.920461583918623,
+     "USD_per_m3": 12.804811589645498
+    },
+    "crf_10pct_15yr": {
+     "water_allowed_zone_share": {
+      "Z1": 0.03788485398423877,
+      "Z2": 0.9621151460157613,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.4394466280051668,
+     "installed_GW_th": 2.935926980879791,
+     "physical_GW_th": 0.7425723695618974,
+     "economic_GW_th": 2.193354611317893,
+     "ban_store_GWh_th": 51.27773830041004,
+     "ban_added_cost_MUSD_yr": 426.6742392204105,
+     "water_saved_GL_yr": 21.948037618599308,
+     "USD_per_m3": 19.440199922877675
+    },
+    "pads_0.10": {
+     "water_allowed_zone_share": {
+      "Z1": 0.013511372694550768,
+      "Z2": 0.9864886273054493,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.4394466280051668,
+     "installed_GW_th": 2.935926980879791,
+     "physical_GW_th": 0.7425723695618974,
+     "economic_GW_th": 2.193354611317893,
+     "ban_store_GWh_th": 51.27773830041004,
+     "ban_added_cost_MUSD_yr": 420.4235569872419,
+     "water_saved_GL_yr": 21.041344430421482,
+     "USD_per_m3": 19.980831470986967
+    },
+    "pads_0.50": {
+     "water_allowed_zone_share": {
+      "Z1": 0.047108701689027185,
+      "Z2": 0.9528912983109729,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.4394466280051668,
+     "installed_GW_th": 2.935926980879791,
+     "physical_GW_th": 0.7425723695618974,
+     "economic_GW_th": 2.193354611317893,
+     "ban_store_GWh_th": 51.27773830041004,
+     "ban_added_cost_MUSD_yr": 298.0597628942094,
+     "water_saved_GL_yr": 22.065819169308195,
+     "USD_per_m3": 13.507758792331034
+    },
+    "joint_sourced_low": {
+     "water_allowed_zone_share": {
+      "Z1": 0.03788485398423877,
+      "Z2": 0.9621151460157613,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.21115639731165348,
+     "installed_GW_th": 1.8328055540786232,
+     "physical_GW_th": 0.7425723695618974,
+     "economic_GW_th": 1.0902331845167255,
+     "ban_store_GWh_th": 86.85834533332435,
+     "ban_added_cost_MUSD_yr": 150.18468531466732,
+     "water_saved_GL_yr": 23.255524021210913,
+     "USD_per_m3": 6.458021981258594
+    },
+    "joint_sourced_high": {
+     "water_allowed_zone_share": {
+      "Z1": 0.03788485398423877,
+      "Z2": 0.9621151460157613,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.4394466280051668,
+     "installed_GW_th": 2.933557972236755,
+     "physical_GW_th": 0.7425723695618974,
+     "economic_GW_th": 2.1909856026748575,
+     "ban_store_GWh_th": 50.892466073765384,
+     "ban_added_cost_MUSD_yr": 515.8701066780077,
+     "water_saved_GL_yr": 22.220454411474986,
+     "USD_per_m3": 23.216001667886882
+    },
+    "omitted_om": {
+     "water_allowed_zone_share": {
+      "Z1": 0.03788485398423877,
+      "Z2": 0.9621151460157613,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.4353173473466278,
+     "installed_GW_th": 2.926703094522235,
+     "physical_GW_th": 0.7425723695618974,
+     "economic_GW_th": 2.1841307249603368,
+     "ban_store_GWh_th": 51.347712041207636,
+     "ban_added_cost_MUSD_yr": 449.3018188640903,
+     "water_saved_GL_yr": 22.044790018639002,
+     "USD_per_m3": 20.381315425740183
+    }
+   },
+   "dc_breakeven": {
+    "0.5": {
+     "water_allowed_zone_share": {
+      "Z1": 0.03901102143656759,
+      "Z2": 0.9609889785634325,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.4394466280051668,
+     "installed_GW_th": 2.933557972236755,
+     "physical_GW_th": 0.7425723695618974,
+     "economic_GW_th": 2.1909856026748575,
+     "ban_store_GWh_th": 50.711802902016714,
+     "ban_added_cost_MUSD_yr": 321.01465163837486,
+     "water_saved_GL_yr": 17.681123486798583,
+     "USD_per_m3": 18.155783589094714
+    },
+    "1.5": {
+     "water_allowed_zone_share": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.5479072790687399,
+     "installed_GW_th": 3.9311930930690204,
+     "physical_GW_th": 0.7425723695618974,
+     "economic_GW_th": 3.188620723507123,
+     "ban_store_GWh_th": 57.415444091498586,
+     "ban_added_cost_MUSD_yr": 423.3199799729843,
+     "water_saved_GL_yr": 23.347770200410118,
+     "USD_per_m3": 18.131066750243605
+    },
+    "2": {
+     "water_allowed_zone_share": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9469923259416314,
+      "Z3": 0.026813510769733772
+     },
+     "banned_Z3_share": 0.6561086357072516,
+     "installed_GW_th": 5.25863447114169,
+     "physical_GW_th": 0.7425723695618974,
+     "economic_GW_th": 4.516062101579792,
+     "ban_store_GWh_th": 62.49626108282036,
+     "ban_added_cost_MUSD_yr": 457.6018615543047,
+     "water_saved_GL_yr": 37.53667704604367,
+     "USD_per_m3": 12.190793047370597
+    },
+    "3": {
+     "water_allowed_zone_share": {
+      "Z1": 0.00027376594495898186,
+      "Z2": 0.9729127232853073,
+      "Z3": 0.026813510769733772
+     },
+     "banned_Z3_share": 0.9166394317502928,
+     "installed_GW_th": 13.630394891511301,
+     "physical_GW_th": 0.7425723695618974,
+     "economic_GW_th": 12.887822521949404,
+     "ban_store_GWh_th": 36.49541989393767,
+     "ban_added_cost_MUSD_yr": 572.4931308942043,
+     "water_saved_GL_yr": 431.6568465722336,
+     "USD_per_m3": 1.326269084900066
+    },
+    "4": {
+     "water_allowed_zone_share": {
+      "Z1": 0.00027376594495898186,
+      "Z2": 0.9729127232853073,
+      "Z3": 0.026813510769733772
+     },
+     "banned_Z3_share": 0.9516042497940257,
+     "installed_GW_th": 20.469024357415993,
+     "physical_GW_th": 0.7425723695618974,
+     "economic_GW_th": 19.726451987854094,
+     "ban_store_GWh_th": 5.544020060817866,
+     "ban_added_cost_MUSD_yr": 838.4165377360032,
+     "water_saved_GL_yr": 470.79515876646286,
+     "USD_per_m3": 1.780852079984744
+    },
+    "5": {
+     "water_allowed_zone_share": {
+      "Z1": 0.0,
+      "Z2": 0.9731864892302662,
+      "Z3": 0.026813510769733772
+     },
+     "banned_Z3_share": 0.9738058367113652,
+     "installed_GW_th": 21.93520572682158,
+     "physical_GW_th": 0.7425723695618974,
+     "economic_GW_th": 21.19263335725968,
+     "ban_store_GWh_th": 1.3722632478574968,
+     "ban_added_cost_MUSD_yr": 1070.4352305787793,
+     "water_saved_GL_yr": 470.9144803750607,
+     "USD_per_m3": 2.273098991830171
+    },
+    "6": {
+     "water_allowed_zone_share": {
+      "Z1": 0.0,
+      "Z2": 0.9731864892302662,
+      "Z3": 0.026813510769733772
+     },
+     "banned_Z3_share": 0.9884192000808701,
+     "installed_GW_th": 22.510836556346515,
+     "physical_GW_th": 0.7425723695618974,
+     "economic_GW_th": 21.768264186784616,
+     "ban_store_GWh_th": 1.8793344165250379,
+     "ban_added_cost_MUSD_yr": 1286.3465550531464,
+     "water_saved_GL_yr": 470.9144803750607,
+     "USD_per_m3": 2.7315926960424606
+    },
+    "8": {
+     "water_allowed_zone_share": {
+      "Z1": 0.0,
+      "Z2": 0.9731864892302662,
+      "Z3": 0.026813510769733772
+     },
+     "banned_Z3_share": 0.999726234055041,
+     "installed_GW_th": 22.801306631981525,
+     "physical_GW_th": 0.7425723695618974,
+     "economic_GW_th": 22.058734262419627,
+     "ban_store_GWh_th": 0.176,
+     "ban_added_cost_MUSD_yr": 1708.3512125049676,
+     "water_saved_GL_yr": 470.9144803750607,
+     "USD_per_m3": 3.627731326385097
+    },
+    "10": {
+     "water_allowed_zone_share": {
+      "Z1": 0.0,
+      "Z2": 0.9731864892302662,
+      "Z3": 0.026813510769733772
+     },
+     "banned_Z3_share": 0.999726234055041,
+     "installed_GW_th": 22.801306631981525,
+     "physical_GW_th": 0.7425723695618974,
+     "economic_GW_th": 22.058734262419627,
+     "ban_store_GWh_th": 0.176,
+     "ban_added_cost_MUSD_yr": 2128.8372303971464,
+     "water_saved_GL_yr": 470.9144803750607,
+     "USD_per_m3": 4.5206450833740135
+    }
+   },
+   "dc_multiplier_water_allowed_Z3_gt5pct": null,
+   "USD_per_m3_range_sourced_and_om": [
+    6.458021981258594,
+    23.216001667886882
+   ],
+   "max_water_allowed_Z3_sourced_and_om": 0.0
+  },
+  "uncorrected|stress_plus1.2K": {
+   "items": 80,
+   "variants": {
+    "central": {
+     "water_allowed_zone_share": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.5951526850450108,
+     "installed_GW_th": 4.5367379731222774,
+     "physical_GW_th": 1.5719501090271555,
+     "economic_GW_th": 2.9647878640951224,
+     "ban_store_GWh_th": 61.27720622998821,
+     "ban_added_cost_MUSD_yr": 453.3195076863899,
+     "water_saved_GL_yr": 25.140891136676167,
+     "USD_per_m3": 18.031163065062398
+    },
+    "chiller_250k": {
+     "water_allowed_zone_share": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.5999791169835629,
+     "installed_GW_th": 5.201879802751839,
+     "physical_GW_th": 1.5719501090271555,
+     "economic_GW_th": 3.629929693724684,
+     "ban_store_GWh_th": 57.61972294858442,
+     "ban_added_cost_MUSD_yr": 426.1168513442441,
+     "water_saved_GL_yr": 25.140891136676167,
+     "USD_per_m3": 16.94915462732401
+    },
+    "chiller_381k": {
+     "water_allowed_zone_share": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.3889836007365279,
+     "installed_GW_th": 3.578654927950629,
+     "physical_GW_th": 1.5719501090271555,
+     "economic_GW_th": 2.0067048189234735,
+     "ban_store_GWh_th": 71.27246444119753,
+     "ban_added_cost_MUSD_yr": 494.1734792554439,
+     "water_saved_GL_yr": 25.140891136676167,
+     "USD_per_m3": 19.656163998679077
+    },
+    "store_15k": {
+     "water_allowed_zone_share": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.2603323760633452,
+     "installed_GW_th": 2.668121625231425,
+     "physical_GW_th": 1.5719501090271555,
+     "economic_GW_th": 1.0961715162042693,
+     "ban_store_GWh_th": 102.47223112681223,
+     "ban_added_cost_MUSD_yr": 281.9898518438905,
+     "water_saved_GL_yr": 26.41875171273197,
+     "USD_per_m3": 10.673852228528697
+    },
+    "store_44k": {
+     "water_allowed_zone_share": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.5999791169835629,
+     "installed_GW_th": 5.814696223853097,
+     "physical_GW_th": 1.5719501090271555,
+     "economic_GW_th": 4.242746114825942,
+     "ban_store_GWh_th": 52.20836724030356,
+     "ban_added_cost_MUSD_yr": 514.0926261376072,
+     "water_saved_GL_yr": 24.999907039978297,
+     "USD_per_m3": 20.56378150988731
+    },
+    "tower_44k": {
+     "water_allowed_zone_share": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.5951526850450108,
+     "installed_GW_th": 4.5367379731222774,
+     "physical_GW_th": 1.5719501090271555,
+     "economic_GW_th": 2.9647878640951224,
+     "ban_store_GWh_th": 61.27720622998821,
+     "ban_added_cost_MUSD_yr": 453.3195076863899,
+     "water_saved_GL_yr": 25.140891136676167,
+     "USD_per_m3": 18.031163065062398
+    },
+    "tower_100k": {
+     "water_allowed_zone_share": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.5951526850450108,
+     "installed_GW_th": 4.5367379731222774,
+     "physical_GW_th": 1.5719501090271555,
+     "economic_GW_th": 2.9647878640951224,
+     "ban_store_GWh_th": 61.27720622998821,
+     "ban_added_cost_MUSD_yr": 453.3195076863899,
+     "water_saved_GL_yr": 25.140891136676167,
+     "USD_per_m3": 18.031163065062398
+    },
+    "elec_0.625x": {
+     "water_allowed_zone_share": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.5951526850450108,
+     "installed_GW_th": 4.675550162736244,
+     "physical_GW_th": 1.5719501090271555,
+     "economic_GW_th": 3.10360005370909,
+     "ban_store_GWh_th": 60.981851928295555,
+     "ban_added_cost_MUSD_yr": 448.8768024175177,
+     "water_saved_GL_yr": 25.176521367636177,
+     "USD_per_m3": 17.82918282724071
+    },
+    "elec_1.5x": {
+     "water_allowed_zone_share": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.5951526850450108,
+     "installed_GW_th": 4.528347395033041,
+     "physical_GW_th": 1.5719501090271555,
+     "economic_GW_th": 2.956397286005885,
+     "ban_store_GWh_th": 61.27720622998821,
+     "ban_added_cost_MUSD_yr": 459.365464634402,
+     "water_saved_GL_yr": 26.925246240182037,
+     "USD_per_m3": 17.06077116386276
+    },
+    "crf_6pct_20yr": {
+     "water_allowed_zone_share": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.5951526850450108,
+     "installed_GW_th": 4.532857829899343,
+     "physical_GW_th": 1.5719501090271555,
+     "economic_GW_th": 2.960907720872188,
+     "ban_store_GWh_th": 61.27720622998821,
+     "ban_added_cost_MUSD_yr": 328.63575329328876,
+     "water_saved_GL_yr": 24.092728233461713,
+     "USD_per_m3": 13.64045408675867
+    },
+    "crf_10pct_15yr": {
+     "water_allowed_zone_share": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.5951526850450108,
+     "installed_GW_th": 4.547861295738314,
+     "physical_GW_th": 1.5719501090271555,
+     "economic_GW_th": 2.97591118671116,
+     "ban_store_GWh_th": 61.33553195049392,
+     "ban_added_cost_MUSD_yr": 515.2840334815627,
+     "water_saved_GL_yr": 25.200276123030434,
+     "USD_per_m3": 20.447555057170447
+    },
+    "pads_0.10": {
+     "water_allowed_zone_share": {
+      "Z1": 0.013511372694550768,
+      "Z2": 0.9864886273054493,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.5951526850450108,
+     "installed_GW_th": 4.5367379731222774,
+     "physical_GW_th": 1.5719501090271555,
+     "economic_GW_th": 2.9647878640951224,
+     "ban_store_GWh_th": 61.27720622998821,
+     "ban_added_cost_MUSD_yr": 503.019369406215,
+     "water_saved_GL_yr": 25.081919686466705,
+     "USD_per_m3": 20.055058611706905
+    },
+    "pads_0.50": {
+     "water_allowed_zone_share": {
+      "Z1": 0.04322074262741579,
+      "Z2": 0.9567792573725843,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.5951526850450108,
+     "installed_GW_th": 4.5367379731222774,
+     "physical_GW_th": 1.5719501090271555,
+     "economic_GW_th": 2.9647878640951224,
+     "ban_store_GWh_th": 61.27720622998821,
+     "ban_added_cost_MUSD_yr": 372.1772322315783,
+     "water_saved_GL_yr": 25.32782917024601,
+     "USD_per_m3": 14.694399181624114
+    },
+    "joint_sourced_low": {
+     "water_allowed_zone_share": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.26792059961117987,
+     "installed_GW_th": 3.084020644890764,
+     "physical_GW_th": 1.5719501090271555,
+     "economic_GW_th": 1.5120705358636086,
+     "ban_store_GWh_th": 96.07338862144984,
+     "ban_added_cost_MUSD_yr": 183.12217898833603,
+     "water_saved_GL_yr": 26.19671037153639,
+     "USD_per_m3": 6.9902738317595965
+    },
+    "joint_sourced_high": {
+     "water_allowed_zone_share": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.5951526850450108,
+     "installed_GW_th": 4.526269820474409,
+     "physical_GW_th": 1.5719501090271555,
+     "economic_GW_th": 2.954319711447253,
+     "ban_store_GWh_th": 60.87215521301588,
+     "ban_added_cost_MUSD_yr": 639.6846547719547,
+     "water_saved_GL_yr": 26.791917409685176,
+     "USD_per_m3": 23.876031154855347
+    },
+    "omitted_om": {
+     "water_allowed_zone_share": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.5951526850450108,
+     "installed_GW_th": 4.547861295738314,
+     "physical_GW_th": 1.5719501090271555,
+     "economic_GW_th": 2.97591118671116,
+     "ban_store_GWh_th": 61.33553195049392,
+     "ban_added_cost_MUSD_yr": 543.0812414650397,
+     "water_saved_GL_yr": 25.200276123030434,
+     "USD_per_m3": 21.550606779610636
+    }
+   },
+   "dc_breakeven": {
+    "0.5": {
+     "water_allowed_zone_share": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.5951526850450108,
+     "installed_GW_th": 4.526269820474409,
+     "physical_GW_th": 1.5719501090271555,
+     "economic_GW_th": 2.954319711447253,
+     "ban_store_GWh_th": 60.7720277005299,
+     "ban_added_cost_MUSD_yr": 412.76010158056897,
+     "water_saved_GL_yr": 19.973352896957696,
+     "USD_per_m3": 20.665538916274784
+    },
+    "1.5": {
+     "water_allowed_zone_share": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.6561086357072516,
+     "installed_GW_th": 5.7537821113804,
+     "physical_GW_th": 1.5719501090271555,
+     "economic_GW_th": 4.181832002353245,
+     "ban_store_GWh_th": 63.14442073761248,
+     "ban_added_cost_MUSD_yr": 491.1460145349976,
+     "water_saved_GL_yr": 26.18049559227557,
+     "USD_per_m3": 18.759996838253432
+    },
+    "2": {
+     "water_allowed_zone_share": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.898191736340716,
+     "installed_GW_th": 9.16821739926289,
+     "physical_GW_th": 1.5719501090271555,
+     "economic_GW_th": 7.596267290235734,
+     "ban_store_GWh_th": 57.959809376469615,
+     "ban_added_cost_MUSD_yr": 509.91019709371255,
+     "water_saved_GL_yr": 42.08163796869814,
+     "USD_per_m3": 12.117166101590495
+    },
+    "3": {
+     "water_allowed_zone_share": {
+      "Z1": 0.00027376594495898186,
+      "Z2": 0.9958382749934297,
+      "Z3": 0.0038879590616113973
+     },
+     "banned_Z3_share": 0.9516042497940257,
+     "installed_GW_th": 17.06481275695177,
+     "physical_GW_th": 1.5719501090271555,
+     "economic_GW_th": 15.492862647924616,
+     "ban_store_GWh_th": 26.34446117651845,
+     "ban_added_cost_MUSD_yr": 675.2037736065156,
+     "water_saved_GL_yr": 456.8164051067652,
+     "USD_per_m3": 1.478063760535723
+    },
+    "4": {
+     "water_allowed_zone_share": {
+      "Z1": 0.00027376594495898186,
+      "Z2": 0.999726234055041,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.9702128262682209,
+     "installed_GW_th": 22.738435062818763,
+     "physical_GW_th": 1.5719501090271555,
+     "economic_GW_th": 21.166484953791613,
+     "ban_store_GWh_th": 2.6011367534687295,
+     "ban_added_cost_MUSD_yr": 943.2524992748572,
+     "water_saved_GL_yr": 473.3085194613642,
+     "USD_per_m3": 1.9928914449887778
+    },
+    "5": {
+     "water_allowed_zone_share": {
+      "Z1": 0.0,
+      "Z2": 1.0,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.9738058367113652,
+     "installed_GW_th": 23.52595385095148,
+     "physical_GW_th": 1.5719501090271555,
+     "economic_GW_th": 21.954003741924325,
+     "ban_store_GWh_th": 1.5772474260980407,
+     "ban_added_cost_MUSD_yr": 1177.2491447039642,
+     "water_saved_GL_yr": 473.42874763283135,
+     "USD_per_m3": 2.4866448237253693
+    },
+    "6": {
+     "water_allowed_zone_share": {
+      "Z1": 0.0,
+      "Z2": 1.0,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.9738058367113652,
+     "installed_GW_th": 23.99541735097893,
+     "physical_GW_th": 1.5719501090271555,
+     "economic_GW_th": 22.42346724195177,
+     "ban_store_GWh_th": 1.5772474260980407,
+     "ban_added_cost_MUSD_yr": 1396.6691515540087,
+     "water_saved_GL_yr": 473.42874763283135,
+     "USD_per_m3": 2.950114792431655
+    },
+    "8": {
+     "water_allowed_zone_share": {
+      "Z1": 0.0,
+      "Z2": 1.0,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.999726234055041,
+     "installed_GW_th": 24.350697483859967,
+     "physical_GW_th": 1.5719501090271555,
+     "economic_GW_th": 22.77874737483281,
+     "ban_store_GWh_th": 0.176,
+     "ban_added_cost_MUSD_yr": 1820.263404102202,
+     "water_saved_GL_yr": 473.42874763283135,
+     "USD_per_m3": 3.844851866735205
+    },
+    "10": {
+     "water_allowed_zone_share": {
+      "Z1": 0.0,
+      "Z2": 1.0,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.999726234055041,
+     "installed_GW_th": 24.35623297191096,
+     "physical_GW_th": 1.5719501090271555,
+     "economic_GW_th": 22.784282862883803,
+     "ban_store_GWh_th": 0.176,
+     "ban_added_cost_MUSD_yr": 2240.754002060227,
+     "water_saved_GL_yr": 473.42874763283135,
+     "USD_per_m3": 4.733033245792773
+    }
+   },
+   "dc_multiplier_water_allowed_Z3_gt5pct": null,
+   "USD_per_m3_range_sourced_and_om": [
+    6.9902738317595965,
+    23.876031154855347
+   ],
+   "max_water_allowed_Z3_sourced_and_om": 0.0
+  },
+  "cmip_ssp245_median|ssp245_median": {
+   "items": 80,
+   "variants": {
+    "central": {
+     "water_allowed_zone_share": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.6109726563991538,
+     "installed_GW_th": 4.371805090919818,
+     "physical_GW_th": 1.1887704156242171,
+     "economic_GW_th": 3.183034675295599,
+     "ban_store_GWh_th": 63.09557043325897,
+     "ban_added_cost_MUSD_yr": 452.97858448901263,
+     "water_saved_GL_yr": 25.103655359392437,
+     "USD_per_m3": 18.044327728532668
+    },
+    "chiller_250k": {
+     "water_allowed_zone_share": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.6812508681266259,
+     "installed_GW_th": 5.475129698744306,
+     "physical_GW_th": 1.1887704156242171,
+     "economic_GW_th": 4.286359283120088,
+     "ban_store_GWh_th": 57.01078246925071,
+     "ban_added_cost_MUSD_yr": 426.2385603870217,
+     "water_saved_GL_yr": 25.103655359392437,
+     "USD_per_m3": 16.979143247660392
+    },
+    "chiller_381k": {
+     "water_allowed_zone_share": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.4319656585004111,
+     "installed_GW_th": 3.5784768530431528,
+     "physical_GW_th": 1.1887704156242171,
+     "economic_GW_th": 2.3897064374189356,
+     "ban_store_GWh_th": 71.30947222858157,
+     "ban_added_cost_MUSD_yr": 492.3644753856733,
+     "water_saved_GL_yr": 25.103655359392437,
+     "USD_per_m3": 19.613258242149065
+    },
+    "store_15k": {
+     "water_allowed_zone_share": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.2699316129189099,
+     "installed_GW_th": 2.3841191891086146,
+     "physical_GW_th": 1.1887704156242171,
+     "economic_GW_th": 1.1953487734843975,
+     "ban_store_GWh_th": 105.28297971267666,
+     "ban_added_cost_MUSD_yr": 275.0473767166889,
+     "water_saved_GL_yr": 26.144184320496453,
+     "USD_per_m3": 10.520403824611119
+    },
+    "store_44k": {
+     "water_allowed_zone_share": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.7328668763583635,
+     "installed_GW_th": 5.986175677821901,
+     "physical_GW_th": 1.1887704156242171,
+     "economic_GW_th": 4.797405262197684,
+     "ban_store_GWh_th": 51.45624958511314,
+     "ban_added_cost_MUSD_yr": 514.719845908027,
+     "water_saved_GL_yr": 24.853826455249067,
+     "USD_per_m3": 20.709883318563183
+    },
+    "tower_44k": {
+     "water_allowed_zone_share": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.6109726563991538,
+     "installed_GW_th": 4.371805090919818,
+     "physical_GW_th": 1.1887704156242171,
+     "economic_GW_th": 3.183034675295599,
+     "ban_store_GWh_th": 63.09557043325897,
+     "ban_added_cost_MUSD_yr": 452.97858448901263,
+     "water_saved_GL_yr": 25.103655359392437,
+     "USD_per_m3": 18.044327728532668
+    },
+    "tower_100k": {
+     "water_allowed_zone_share": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.6109726563991538,
+     "installed_GW_th": 4.371805090919818,
+     "physical_GW_th": 1.1887704156242171,
+     "economic_GW_th": 3.183034675295599,
+     "ban_store_GWh_th": 63.09557043325897,
+     "ban_added_cost_MUSD_yr": 452.97858448901263,
+     "water_saved_GL_yr": 25.103655359392437,
+     "USD_per_m3": 18.044327728532668
+    },
+    "elec_0.625x": {
+     "water_allowed_zone_share": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.6109726563991538,
+     "installed_GW_th": 4.468287160944694,
+     "physical_GW_th": 1.1887704156242171,
+     "economic_GW_th": 3.2795167453204757,
+     "ban_store_GWh_th": 63.19283305747036,
+     "ban_added_cost_MUSD_yr": 448.644842570091,
+     "water_saved_GL_yr": 25.100300134441685,
+     "USD_per_m3": 17.874082786543156
+    },
+    "elec_1.5x": {
+     "water_allowed_zone_share": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.6109726563991538,
+     "installed_GW_th": 4.367013768058491,
+     "physical_GW_th": 1.1887704156242171,
+     "economic_GW_th": 3.178243352434272,
+     "ban_store_GWh_th": 63.02989792770334,
+     "ban_added_cost_MUSD_yr": 459.1835924244529,
+     "water_saved_GL_yr": 26.699333753315937,
+     "USD_per_m3": 17.198316507333235
+    },
+    "crf_6pct_20yr": {
+     "water_allowed_zone_share": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.6109726563991538,
+     "installed_GW_th": 4.367013768058491,
+     "physical_GW_th": 1.1887704156242171,
+     "economic_GW_th": 3.178243352434272,
+     "ban_store_GWh_th": 63.02989792770334,
+     "ban_added_cost_MUSD_yr": 328.5890208855688,
+     "water_saved_GL_yr": 23.894826751463075,
+     "USD_per_m3": 13.751471157473421
+    },
+    "crf_10pct_15yr": {
+     "water_allowed_zone_share": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.6109726563991538,
+     "installed_GW_th": 4.38326731468069,
+     "physical_GW_th": 1.1887704156242171,
+     "economic_GW_th": 3.1944968990564715,
+     "ban_store_GWh_th": 63.09557043325897,
+     "ban_added_cost_MUSD_yr": 514.8928768959015,
+     "water_saved_GL_yr": 25.123789310615855,
+     "USD_per_m3": 20.49423638011236
+    },
+    "pads_0.10": {
+     "water_allowed_zone_share": {
+      "Z1": 0.013511372694550768,
+      "Z2": 0.9864886273054493,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.6109726563991538,
+     "installed_GW_th": 4.371805090919818,
+     "physical_GW_th": 1.1887704156242171,
+     "economic_GW_th": 3.183034675295599,
+     "ban_store_GWh_th": 63.09557043325897,
+     "ban_added_cost_MUSD_yr": 503.20533228609656,
+     "water_saved_GL_yr": 24.791965797684345,
+     "USD_per_m3": 20.29711304026959
+    },
+    "pads_0.50": {
+     "water_allowed_zone_share": {
+      "Z1": 0.04322074262741579,
+      "Z2": 0.9567792573725843,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.6109726563991538,
+     "installed_GW_th": 4.371805090919818,
+     "physical_GW_th": 1.1887704156242171,
+     "economic_GW_th": 3.183034675295599,
+     "ban_store_GWh_th": 63.09557043325897,
+     "ban_added_cost_MUSD_yr": 370.86082230817743,
+     "water_saved_GL_yr": 25.223164149411936,
+     "USD_per_m3": 14.70318395072665
+    },
+    "joint_sourced_low": {
+     "water_allowed_zone_share": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.2746239773036133,
+     "installed_GW_th": 2.5785144264803894,
+     "physical_GW_th": 1.1887704156242171,
+     "economic_GW_th": 1.3897440108561727,
+     "ban_store_GWh_th": 102.5202267487197,
+     "ban_added_cost_MUSD_yr": 179.39059330564592,
+     "water_saved_GL_yr": 25.81693848179881,
+     "USD_per_m3": 6.948561830137915
+    },
+    "joint_sourced_high": {
+     "water_allowed_zone_share": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.6109726563991538,
+     "installed_GW_th": 4.361551826186367,
+     "physical_GW_th": 1.1887704156242171,
+     "economic_GW_th": 3.1727814105621492,
+     "ban_store_GWh_th": 62.82513910158293,
+     "ban_added_cost_MUSD_yr": 640.3560703523458,
+     "water_saved_GL_yr": 26.699333753315937,
+     "USD_per_m3": 23.983971894909793
+    },
+    "omitted_om": {
+     "water_allowed_zone_share": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.6068433757406148,
+     "installed_GW_th": 4.3578207744385535,
+     "physical_GW_th": 1.1887704156242171,
+     "economic_GW_th": 3.1690503588143355,
+     "ban_store_GWh_th": 63.28061787910649,
+     "ban_added_cost_MUSD_yr": 542.468066942563,
+     "water_saved_GL_yr": 25.123789310615855,
+     "USD_per_m3": 21.591809270321637
+    }
+   },
+   "dc_breakeven": {
+    "0.5": {
+     "water_allowed_zone_share": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.6109726563991538,
+     "installed_GW_th": 4.361551826186367,
+     "physical_GW_th": 1.1887704156242171,
+     "economic_GW_th": 3.1727814105621492,
+     "ban_store_GWh_th": 62.80369189995574,
+     "ban_added_cost_MUSD_yr": 413.84966669598157,
+     "water_saved_GL_yr": 20.083782684634368,
+     "USD_per_m3": 20.606161358866338
+    },
+    "1.5": {
+     "water_allowed_zone_share": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.7342163925794861,
+     "installed_GW_th": 5.7331194741620415,
+     "physical_GW_th": 1.1887704156242171,
+     "economic_GW_th": 4.544349058537823,
+     "ban_store_GWh_th": 66.48579619842407,
+     "ban_added_cost_MUSD_yr": 487.8896697091723,
+     "water_saved_GL_yr": 25.807946004288173,
+     "USD_per_m3": 18.90462997822864
+    },
+    "2": {
+     "water_allowed_zone_share": {
+      "Z1": 0.026194163288634845,
+      "Z2": 0.9738058367113652,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.9142798428025563,
+     "installed_GW_th": 8.742600187523294,
+     "physical_GW_th": 1.1887704156242171,
+     "economic_GW_th": 7.553829771899076,
+     "ban_store_GWh_th": 61.12384592622802,
+     "ban_added_cost_MUSD_yr": 502.5005128246946,
+     "water_saved_GL_yr": 42.066305498129196,
+     "USD_per_m3": 11.945439630942683
+    },
+    "3": {
+     "water_allowed_zone_share": {
+      "Z1": 0.00027376594495898186,
+      "Z2": 0.999726234055041,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.9516042497940257,
+     "installed_GW_th": 17.50471596736444,
+     "physical_GW_th": 1.1887704156242171,
+     "economic_GW_th": 16.31594555174022,
+     "ban_store_GWh_th": 24.33157194627648,
+     "ban_added_cost_MUSD_yr": 679.5611921356932,
+     "water_saved_GL_yr": 458.32603177319675,
+     "USD_per_m3": 1.482702585115163
+    },
+    "4": {
+     "water_allowed_zone_share": {
+      "Z1": 0.00027376594495898186,
+      "Z2": 0.999726234055041,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.9702128262682209,
+     "installed_GW_th": 22.570957168478902,
+     "physical_GW_th": 1.1887704156242171,
+     "economic_GW_th": 21.382186752854683,
+     "ban_store_GWh_th": 4.171470824397251,
+     "ban_added_cost_MUSD_yr": 948.3144579374897,
+     "water_saved_GL_yr": 473.57628821989596,
+     "USD_per_m3": 2.002453419916916
+    },
+    "5": {
+     "water_allowed_zone_share": {
+      "Z1": 0.0,
+      "Z2": 1.0,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.9738058367113652,
+     "installed_GW_th": 23.665001609131135,
+     "physical_GW_th": 1.1887704156242171,
+     "economic_GW_th": 22.47623119350692,
+     "ban_store_GWh_th": 1.2256206872888267,
+     "ban_added_cost_MUSD_yr": 1182.5091886866705,
+     "water_saved_GL_yr": 473.69613273124713,
+     "USD_per_m3": 2.496345456460736
+    },
+    "6": {
+     "water_allowed_zone_share": {
+      "Z1": 0.0,
+      "Z2": 1.0,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.9738058367113652,
+     "installed_GW_th": 24.134779716449717,
+     "physical_GW_th": 1.1887704156242171,
+     "economic_GW_th": 22.9460093008255,
+     "ban_store_GWh_th": 1.2256206872888267,
+     "ban_added_cost_MUSD_yr": 1401.9197128278056,
+     "water_saved_GL_yr": 473.69613273124713,
+     "USD_per_m3": 2.959533793836541
+    },
+    "8": {
+     "water_allowed_zone_share": {
+      "Z1": 0.0,
+      "Z2": 1.0,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.999726234055041,
+     "installed_GW_th": 24.467080531852783,
+     "physical_GW_th": 1.1887704156242171,
+     "economic_GW_th": 23.278310116228567,
+     "ban_store_GWh_th": 0.176,
+     "ban_added_cost_MUSD_yr": 1824.6896554971972,
+     "water_saved_GL_yr": 473.69613273124713,
+     "USD_per_m3": 3.852025654033448
+    },
+    "10": {
+     "water_allowed_zone_share": {
+      "Z1": 0.0,
+      "Z2": 1.0,
+      "Z3": 0.0
+     },
+     "banned_Z3_share": 0.999726234055041,
+     "installed_GW_th": 24.467080531852783,
+     "physical_GW_th": 1.1887704156242171,
+     "economic_GW_th": 23.278310116228567,
+     "ban_store_GWh_th": 0.176,
+     "ban_added_cost_MUSD_yr": 2245.1756733893753,
+     "water_saved_GL_yr": 473.69613273124713,
+     "USD_per_m3": 4.739696016608989
+    }
+   },
+   "dc_multiplier_water_allowed_Z3_gt5pct": null,
+   "USD_per_m3_range_sourced_and_om": [
+    6.948561830137915,
+    23.983971894909793
+   ],
+   "max_water_allowed_Z3_sourced_and_om": 0.0
+  }
+ }
+}

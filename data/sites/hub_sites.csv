@@ -1,0 +1,94 @@
+site_id,site,country,B_full_MW,B_2027_MW,B_now_MW,lat,lon,geocode_query,era5_ilat,era5_ilon,era5_dist_km,era5_lat,era5_lon,era5_orog_m,cell_id,weighted
+microsoft_fairwater_wisconsin,Microsoft Fairwater Wisconsin,United States,2263.0,737.0,369.0,42.6748702,-87.894888,"4800 90th St, Mount Pleasant, WI 53403",531,368,12.0,42.75,-88.0,223.0,cell_531_368,True
+anthropic_amazon_new_carlisle,Anthropic-Amazon New Carlisle,United States,1925.0,1037.0,910.0,41.7056871,-86.5098231,"New Carlisle, Indiana",527,374,5.0,41.75,-86.5,220.0,cell_527_374,True
+openai_stargate_new_mexico,OpenAI Stargate New Mexico,United States,1750.0,0.0,0.0,31.8700346,-106.6865799,"Santa Teresa, New Mexico",487,293,14.6,31.75,-106.75,1262.0,cell_487_293,True
+meta_hyperion,Meta Hyperion,United States,1632.0,0.0,0.0,32.4676421,-91.6267883,"Holly Ridge, Louisiana",490,353,12.1,32.5,-91.75,26.0,cell_490_353,True
+colossus_2,Colossus 2,United States,1531.0,1531.0,946.0,34.9979829,-90.0348674,"5420 Tulane Rd, Memphis, TN 38109",500,360,3.2,35.0,-90.0,88.0,cell_500_360,True
+openai_stargate_shackelford,OpenAI Stargate Shackelford,United States,1400.0,420.0,0.0,32.728072,-99.2946024,"Albany, Shackelford County, Texas",491,323,4.8,32.75,-99.25,434.0,cell_491_323,True
+qts_cedar_rapids,QTS Cedar Rapids,United States,1133.0,1133.0,0.0,41.9194471,-91.7810132,"Fairfax, Iowa",528,353,9.3,42.0,-91.75,252.0,cell_528_353,True
+meta_prometheus,Meta Prometheus,United States,1022.0,868.0,496.0,40.0811745,-82.8087864,"New Albany, Ohio",520,389,10.3,40.0,-82.75,292.0,cell_520_389,True
+goodnight,Goodnight,United States,1006.0,1006.0,0.0,35.1081103,-101.362741,"Claude, Texas",500,315,15.8,35.0,-101.25,942.0,cell_500_315,True
+openai_stargate_uae,OpenAI Stargate UAE,United Arab Emirates,1000.0,200.0,0.0,24.1872857,54.4923846,"Al Bihouth, Abu Dhabi",457,938,7.0,24.25,54.5,20.0,cell_457_938,True
+openai_stargate_michigan,OpenAI Stargate Michigan,United States,988.0,0.0,0.0,42.1245153,-83.8385743,"Saline Township, Michigan",528,385,15.7,42.0,-83.75,223.0,cell_528_385,True
+openai_stargate_wisconsin,OpenAI Stargate Wisconsin,United States,902.0,0.0,0.0,43.3885538,-87.8692845,"Port Washington, Wisconsin",534,368,16.3,43.5,-88.0,255.0,cell_534_368,True
+google_fort_wayne,Google Fort Wayne,United States,863.0,518.0,0.0,41.0309293,-85.0536261,"6015 Adams Center Road, Fort Wayne, IN 46806",524,380,5.7,41.0,-85.0,243.0,cell_524_380,True
+openai_stargate_milam,OpenAI Stargate Milam,United States,857.0,0.0,0.0,30.6549433,-97.0058245,"Rockdale, Milam County, Texas",483,332,10.6,30.75,-97.0,126.0,cell_483_332,True
+openai_stargate_abilene,OpenAI Stargate Abilene,United States,843.0,843.0,421.0,32.4942321,-99.8009071,"5502 Spinks Rd, Abilene, TX 79601",490,321,4.8,32.5,-99.75,551.0,cell_490_321,True
+amazon_ridgeland,Amazon Ridgeland,United States,840.0,284.0,228.0,32.4000327,-90.1971708,"1626 County Line Road Ridgeland, Mississippi",490,359,12.2,32.5,-90.25,90.0,cell_490_359,True
+vnet_bayin_ulanqab,VNET Bayin Ulanqab,China,700.0,700.0,221.0,40.9902685,113.1315646,"Ulanqab, Inner Mongolia, China",524,1173,10.0,41.0,113.25,1487.0,cell_524_1173,True
+amazon_madison_mega_site,Amazon Madison Mega Site,United States,683.0,284.0,284.0,32.612602,-90.0367512,"Canton, Mississippi",490,360,13.0,32.5,-90.0,102.0,cell_490_360,True
+crusoe_abilene_expansion,Crusoe Abilene Expansion,United States,672.0,672.0,0.0,32.4942321,-99.8009071,"5502 Spinks Rd, Abilene, TX 79601",490,321,4.8,32.5,-99.75,551.0,cell_490_321,True
+microsoft_fairwater_atlanta,Microsoft Fairwater Atlanta,United States,636.0,636.0,636.0,33.4453541,-84.5254819,"1435 Hwy 54 W, Fayetteville, GA 30214",494,382,6.5,33.5,-84.5,269.0,cell_494_382,True
+coreweave_helios,Coreweave Helios,United States,528.0,132.0,132.0,33.7628599,-100.8168001,"Afton, Dickens County, Texas",495,317,6.3,33.75,-100.75,730.0,cell_495_317,True
+dayone_nusajaya,DayOne Nusajaya,Malaysia,473.0,473.0,240.0,1.4561674,103.6126399,"Nusajaya, Johor, Malaysia",366,1134,13.4,1.5,103.5,26.0,cell_366_1134,True
+huawei_wuhu,Huawei Wuhu,China,457.0,457.0,157.0,31.1800568,118.2141777,"Wuhu, Anhui, China",485,1193,8.5,31.25,118.25,16.0,cell_485_1193,True
+meta_bowling_green,Meta Bowling Green,United States,422.0,163.0,0.0,41.3747744,-83.6513229,"Bowling Green, Ohio",525,385,16.1,41.25,-83.75,219.0,cell_525_385,True
+dayone_kempas,DayOne Kempas,Malaysia,421.691664,421.691664,322.470096,1.5287669,103.7050522,"Kempas, Johor Bahru, Malaysia",366,1135,5.9,1.5,103.75,31.0,cell_366_1135,True
+coreweave_ellendale_nd,CoreWeave Ellendale ND,United States,400.0,400.0,68.0,46.0102576,-98.5686907,"9685 87th Ave SE, Ellendale, ND 58436",544,326,5.4,46.0,-98.5,442.0,cell_544_326,True
+google_omaha,Google Omaha,United States,395.0,237.0,237.0,41.3356809,-96.0523625,"11110 State St, Omaha, NE 68142",525,336,10.5,41.25,-96.0,343.0,cell_525_336,True
+google_columbus,Google Columbus,United States,386.0,386.0,303.0,39.8614521,-83.0039995,"5076 S High St, Columbus, OH 43207",519,388,12.4,39.75,-83.0,243.0,cell_519_388,True
+anthropic_lake_mariner,Anthropic Lake Mariner,United States,378.0,378.0,42.0,43.3586546,-78.604128,"7725 Lake Rd, Barker, NY 14012",533,406,14.7,43.25,-78.5,151.0,cell_533_406,True
+google_pryor_north,Google Pryor (North),United States,368.0,368.0,368.0,36.2411721,-95.3300473,"4581 Webb St, Pryor, OK 74361",505,339,7.2,36.25,-95.25,225.0,cell_505_339,True
+meta_montgomery,Meta Montgomery,United States,358.0,358.0,153.0,32.3777111,-86.3090775,"Montgomery, Alabama",490,375,14.7,32.5,-86.25,92.0,cell_490_375,True
+stack_infrastructure_nva02,STACK Infrastructure NVA02,United States,348.0,85.0,85.0,38.7458055,-77.5377246,"9590 Hornbaker Rd, Manassas, VA 20109",515,410,3.3,38.75,-77.5,96.0,cell_515_410,True
+huawei_horinger,Huawei Horinger,China,346.4,184.3,184.3,40.2952478,111.9044975,"Horinger, Hohhot, Inner Mongolia, China",521,1168,9.5,40.25,112.0,1365.0,cell_521_1168,True
+colossus_1,Colossus 1,United States,340.0,340.0,340.0,35.086206,-90.0733453,"3231 Riverport Rd, Memphis, TN 38109",500,360,11.7,35.0,-90.0,88.0,cell_500_360,True
+aws_new_albany,AWS New Albany,United States,338.0,338.0,213.0,40.0811745,-82.8087864,"New Albany, Ohio",520,389,10.3,40.0,-82.75,292.0,cell_520_389,True
+google_new_albany,Google New Albany,United States,333.0,333.0,333.0,40.070051,-82.754042,"1101 Beech Rd SW, New Albany, OH 43054",520,389,7.8,40.0,-82.75,292.0,cell_520_389,True
+qts_eagle_mountain,QTS Eagle Mountain,United States,304.0,304.0,0.0,40.2688855,-112.0342942,"652 E Hyperscale Way, Eagle Mountain, UT 84013",521,272,3.6,40.25,-112.0,1576.0,cell_521_272,True
+google_storey_county,Google Storey County,United States,300.0,300.0,161.0,39.5539417,-119.4897585,"McCarran, Storey County, Nevada",518,242,6.1,39.5,-119.5,1665.0,cell_518_242,True
+google_lincoln,Google Lincoln,United States,283.0,283.0,141.0,40.907472,-96.6457832,"5475 Cloud Ct, Lincoln, NE 68514",524,333,13.5,41.0,-96.75,399.0,cell_524_333,True
+coreweave_denton_tx,CoreWeave Denton TX,United States,282.0,282.0,262.0,33.2192732,-97.174715,"8171 Jim Christal Rd, Denton, TX 76207",493,331,7.8,33.25,-97.25,224.0,cell_493_331,True
+google_cedar_rapids,Google Cedar Rapids,United States,261.0,261.0,0.0,41.9221755,-91.7156674,"5800 EDGEWOOD RD SW CEDAR RAPIDS, IA 52404",528,353,9.1,42.0,-91.75,252.0,cell_528_353,True
+qts_richmond_3,QTS Richmond 3,United States,240.0,240.0,144.0,37.5107225,-77.3115564,"Sandston, Virginia",510,411,5.6,37.5,-77.25,36.0,cell_510_411,True
+google_bristow,Google Bristow,United States,238.0,238.0,238.0,38.7311636,-77.5480241,"Bristow, Virginia",515,410,4.7,38.75,-77.5,96.0,cell_515_410,True
+qts_richmond_1,QTS Richmond 1,United States,238.0,238.0,238.0,37.4888273,-77.24749,"6000 Technology Blvd, Sandston, VA 23150",510,411,1.3,37.5,-77.25,36.0,cell_510_411,True
+google_papillion,Google Papillion,United States,237.0,237.0,237.0,41.1544433,-96.0422378,"Papillion, Nebraska",525,336,11.2,41.25,-96.0,343.0,cell_525_336,True
+google_council_bluffs_east,Google Council Bluffs (East),United States,237.0,237.0,237.0,41.1666499,-95.7977408,"10410 Bunge Ave, Council Bluffs, IA 51503",525,337,10.1,41.25,-95.75,343.0,cell_525_337,True
+start_campus_sines_data_campus,Start Campus Sines Data Campus,Portugal,233.0,233.0,33.0,37.956549,-8.8689639,"Sines, Portugal",512,685,11.5,38.0,-8.75,79.0,cell_512_685,True
+stream_phoenix,Stream Phoenix,United States,220.0,64.0,64.0,33.4672279,-112.3853489,"Goodyear, Arizona",494,270,11.2,33.5,-112.5,406.0,cell_494_270,True
+openai_stargate_lordstown,OpenAI Stargate Lordstown,United States,214.0,214.0,0.0,41.1659755,-80.8574312,"Lordstown, Ohio",525,397,13.0,41.25,-80.75,311.0,cell_525_397,True
+meta_cheyenne,Meta Cheyenne,United States,207.0,207.0,152.0,41.139981,-104.820246,"Cheyenne, Wyoming",525,301,13.6,41.25,-104.75,1817.0,cell_525_301,True
+anthropic_barber_lake,Anthropic Barber Lake,United States,207.0,207.0,0.0,32.44645,-99.7475905,"Abilene, Texas",490,321,6.0,32.5,-99.75,551.0,cell_490_321,True
+microsoft_goodyear,Microsoft Goodyear,United States,202.0,202.0,202.0,33.4089905,-112.3647996,"14250 W Broadway Rd, Goodyear, AZ 85338",494,271,14.7,33.5,-112.25,375.0,cell_494_271,True
+microsoft_project_osmium,Microsoft Project Osmium,United States,190.0,190.0,190.0,41.4833235,-93.7624442,"Cumming, Iowa",526,345,2.1,41.5,-93.75,283.0,cell_526_345,True
+google_mesa,Google Mesa,United States,183.0,183.0,183.0,33.4151005,-111.831455,"Mesa, Arizona",494,273,12.1,33.5,-111.75,484.0,cell_494_273,True
+meta_qts_hillsboro_2,Meta-QTS Hillsboro 2,United States,180.0,180.0,180.0,45.5588758,-122.9296051,"4755 NE Huffman St, Hillsboro, OR 97124",542,228,8.5,45.5,-123.0,167.0,cell_542_228,True
+qts_richmond_2,QTS Richmond 2,United States,180.0,180.0,180.0,37.5107225,-77.3115564,"Sandston, Virginia",510,411,5.6,37.5,-77.25,36.0,cell_510_411,True
+meta_rosemount,Meta Rosemount,United States,178.0,178.0,178.0,44.7391873,-93.12611,"Rosemount, Minnesota",539,347,9.9,44.75,-93.25,276.0,cell_539_347,True
+meta_jeffersonville,Meta Jeffersonville,United States,178.0,178.0,178.0,38.279131,-85.739009,"500 8th St, Jeffersonville, IN 47130, USA",513,377,3.4,38.25,-85.75,187.0,cell_513_377,True
+meta_temple,Meta Temple,United States,178.0,178.0,152.0,31.1260165,-97.3600001,"2310 Eberhardt Rd, Temple, TX 76504",485,331,17.3,31.25,-97.25,178.0,cell_485_331,True
+aws_berwick,AWS Berwick,United States,169.0,169.0,108.0,41.0838485,-76.1435333,"1125 Electron Ave, Berwick, PA 18603",524,415,12.9,41.0,-76.25,350.0,cell_524_415,True
+alibaba_zhangbei,Alibaba Zhangbei,China,169.0,169.0,169.0,41.287775,114.769295,"Zhangbei, Zhangjiakou, Hebei, China",525,1179,4.5,41.25,114.75,1443.0,cell_525_1179,True
+google_red_oak,Google Red Oak,United States,154.0,154.0,77.0,32.5376266,-96.7966747,"330 Austin Blvd, Red Oak, TX 75154",490,333,6.1,32.5,-96.75,155.0,cell_490_333,True
+google_the_dalles,Google The Dalles,United States,154.0,154.0,154.0,45.6253889,-121.2023887,"3500 River Rd, The Dalles, OR",543,235,14.3,45.75,-121.25,476.0,cell_543_235,True
+coreweave_muskogee_ok,CoreWeave Muskogee OK,United States,153.0,153.0,0.0,35.6967854,-95.4951648,"1525 W 43rd St S, Muskogee, OK 74401, USA",503,338,5.9,35.75,-95.5,188.0,cell_503_338,True
+meta_kuna,Meta Kuna,United States,152.0,152.0,152.0,43.4592072,-116.4211106,"601 Kuna Mora Rd,  Kuna ID 83634",534,254,7.8,43.5,-116.5,842.0,cell_534_254,True
+meta_huntsville,Meta Huntsville,United States,146.0,146.0,146.0,34.8981438,-86.7335699,"Toney, Alabama",500,373,11.4,35.0,-86.75,257.0,cell_500_373,True
+nebius_mantsala,Nebius Mantsala,Finland,145.0,145.0,75.0,60.6353444,25.3159266,"Mantsala, Finland",603,821,13.2,60.75,25.25,93.0,cell_603_821,True
+google_lancaster,Google Lancaster,United States,137.0,137.0,137.0,39.7270407,-82.6831433,"105 Whiley Rd, Lancaster, OH 43130",519,389,6.3,39.75,-82.75,267.0,cell_519_389,True
+meta_eagle_mountain,Meta Eagle Mountain,United States,133.0,133.0,133.0,40.3093488,-112.0119825,"Eagle Mountain, Utah",521,272,6.7,40.25,-112.0,1576.0,cell_521_272,True
+vantage_tx1,Vantage TX1,United States,128.0,128.0,32.0,29.4168571,-98.7901875,"14720 Omicron Dr, San Antonio, TX 78245",478,325,10.0,29.5,-98.75,320.0,cell_478_325,True
+coreweave_chester_va,CoreWeave Chester VA,United States,113.0,113.0,82.0,37.3489475,-77.438379,"Chester, Virginia",509,410,12.3,37.25,-77.5,58.0,cell_509_410,True
+google_kansas_city_east,Google Kansas City East,United States,105.0,105.0,105.0,39.100105,-94.5781416,"Kansas City, Missouri",516,342,13.0,39.0,-94.5,286.0,cell_516_342,True
+google_midlothian,Google Midlothian,United States,103.0,103.0,103.0,32.438927,-97.0507991,"3250 Railport Parkway, Midlothian, TX 76065",490,332,8.3,32.5,-97.0,199.0,cell_490_332,True
+coreweave_lancaster_greenfield_site,CoreWeave Lancaster Greenfield site,United States,92.0,92.0,0.0,40.0379958,-76.3056707,"Lancaster, Pennsylvania",520,415,6.4,40.0,-76.25,145.0,cell_520_415,True
+microsoft_narvik_norway,Microsoft Narvik Norway,Norway,92.0,92.0,0.0,68.4383796,17.4271978,"Narvik, Norway",634,790,7.5,68.5,17.5,397.0,cell_634_790,True
+google_waltham_cross,Google Waltham Cross,United Kingdom,88.0,88.0,88.0,51.702052,-0.0335908,"Cheshunt, England",567,720,5.8,51.75,0.0,72.0,cell_567_720,True
+meta_los_lunas,Meta Los Lunas,United States,87.0,87.0,87.0,34.8301645,-106.7838267,"4250 Messenger Lp, Los Lunas, NM 87031",499,293,9.4,34.75,-106.75,1621.0,cell_499_293,True
+meta_gallatin,Meta Gallatin,United States,87.0,87.0,87.0,36.3883031,-86.4475898,"Gallatin, Tennessee",506,374,13.3,36.5,-86.5,204.0,cell_506_374,True
+meta_sarpy,Meta Sarpy,United States,80.0,80.0,80.0,41.0818396,-96.1310942,"Springfield, Sarpy County, Nebraska",524,335,13.5,41.0,-96.25,357.0,cell_524_335,True
+google_arcola,Google Arcola,United States,77.0,77.0,77.0,39.003685,-77.4083096,"Sterling, Virginia",516,410,7.9,39.0,-77.5,126.0,cell_516_410,True
+microsoft_sat40,Microsoft SAT40,United States,75.0,75.0,75.0,29.4246002,-98.4951405,"San Antonio, Texas",478,326,8.4,29.5,-98.5,261.0,cell_478_326,True
+oracle_batam,Oracle Batam,Indonesia,72.0,72.0,72.0,1.1030815,104.0383696,"Batam, Indonesia",366,1136,44.3,1.5,104.0,23.0,cell_366_1136,True
+meta_aiken,Meta Aiken,United States,69.0,69.0,69.0,33.7416558,-81.8423388,"Trenton, South Carolina",495,393,8.6,33.75,-81.75,138.0,cell_495_393,True
+coreweave_marble_nc,CoreWeave Marble NC,United States,65.0,65.0,65.0,35.1849883,-83.9141225,"155 Palmer Ln, Marble, NC 28905",501,384,10.6,35.25,-84.0,799.0,cell_501_384,True
+core42_lake_mariner,Core42 Lake Mariner,United States,58.0,58.0,58.0,43.3586546,-78.604128,"7725 Lake Rd, Barker, NY 14012",533,406,14.7,43.25,-78.5,151.0,cell_533_406,True
+microsoft_nebius_new_jersey,Microsoft-Nebius New Jersey,United States,50.0,50.0,50.0,39.4281986,-75.0184088,"3963 S Lincoln Ave, Vineland, New Jersey",518,420,8.1,39.5,-75.0,25.0,cell_518_420,True
+ecodatacenter_2,EcoDataCenter 2,Sweden,48.0,24.0,0.0,60.4856426,15.4234561,"Borlange, Sweden",602,782,4.5,60.5,15.5,190.0,cell_602_782,True
+microsoft_sat14,Microsoft SAT14,United States,47.0,47.0,47.0,29.4771901,-98.6925579,"3545 Wiseman Boulevard, San Antonio, TX 78251",478,325,6.1,29.5,-98.75,320.0,cell_478_325,True
+coreweave_norway,CoreWeave Norway,Norway,42.0,42.0,42.0,61.5633988,6.258867,"Ovrebo, Norway",606,745,7.1,61.5,6.25,726.0,cell_606_745,True
+southgate_melbourne,Southgate Melbourne,Australia,41.0,41.0,41.0,-37.8142454,144.9631732,"Melbourne, Victoria, Australia",209,1300,7.8,-37.75,145.0,84.0,cell_209_1300,True
+coreweave_dalton_1__2,CoreWeave Dalton 1 & 2,United States,28.0,28.0,28.0,34.7134428,-84.9521507,"2205 Industrial South Rd, Dalton, GA, 30721",499,380,6.0,34.75,-85.0,268.0,cell_499_380,True
+xai_qts_atlanta,xAI QTS Atlanta,United States,17.32971,17.32971,17.32971,33.7771907,-84.4195485,"1025 Jefferson Street NW, Atlanta, GA 30318",495,382,8.0,33.75,-84.5,291.0,cell_495_382,True
+nscale_keflavik,Nscale Keflavik,Iceland,10.21,10.21,5.11,63.9832697,-22.5561494,"Reykjanesbaer, Iceland",616,630,3.3,64.0,-22.5,-999.0,cell_616_630,True

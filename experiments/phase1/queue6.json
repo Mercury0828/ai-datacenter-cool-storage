@@ -1,0 +1,4 @@
+[
+ {"name": "hw_screen", "args": ["experiments/phase1/hw_screen.py", "--workers", "2"],
+  "items": "experiments/phase1/out/hw/*.json", "expected": 160}
+]

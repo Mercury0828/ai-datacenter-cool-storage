@@ -1,0 +1,403 @@
+{
+ "A": {
+  "items": 160,
+  "base|historical": {
+   "F_dry_8h_GW": 34.289631374,
+   "F_dry_8h_share": 0.9194254001369502,
+   "missing": 0
+  },
+  "charge_0.5|historical": {
+   "F_dry_8h_GW": 34.289631374,
+   "F_dry_8h_share": 0.9194254001369502,
+   "missing": 0
+  },
+  "charge_0.25|historical": {
+   "F_dry_8h_GW": 30.125631374,
+   "F_dry_8h_share": 0.8077739412917787,
+   "missing": 0
+  },
+  "loss_0.01_per_day|historical": {
+   "F_dry_8h_GW": 34.289631374,
+   "F_dry_8h_share": 0.9194254001369502,
+   "missing": 0
+  },
+  "loss_0.03_per_day|historical": {
+   "F_dry_8h_GW": 34.289631374,
+   "F_dry_8h_share": 0.9194254001369502,
+   "missing": 0
+  },
+  "usable_0.8|historical": {
+   "F_dry_8h_GW": 30.278631373999996,
+   "F_dry_8h_share": 0.8118764084395479,
+   "missing": 0
+  },
+  "nights_plus1K|historical": {
+   "F_dry_8h_GW": 30.125631374,
+   "F_dry_8h_share": 0.8077739412917787,
+   "missing": 0
+  },
+  "nights_plus2K|historical": {
+   "F_dry_8h_GW": 29.229631374,
+   "F_dry_8h_share": 0.7837490356420972,
+   "missing": 0
+  },
+  "approach_floor_3K|historical": {
+   "F_dry_8h_GW": 35.689631373999994,
+   "F_dry_8h_share": 0.9569643152145773,
+   "missing": 0
+  },
+  "approach_floor_5K|historical": {
+   "F_dry_8h_GW": 29.229631374,
+   "F_dry_8h_share": 0.7837490356420972,
+   "missing": 0
+  },
+  "hx_1K|historical": {
+   "F_dry_8h_GW": 35.689631373999994,
+   "F_dry_8h_share": 0.9569643152145773,
+   "missing": 0
+  },
+  "hx_3K|historical": {
+   "F_dry_8h_GW": 29.229631374,
+   "F_dry_8h_share": 0.7837490356420972,
+   "missing": 0
+  },
+  "combined_adverse|historical": {
+   "F_dry_8h_GW": 24.872631374,
+   "F_dry_8h_share": 0.6669225692183671,
+   "missing": 0
+  },
+  "combined_favourable|historical": {
+   "F_dry_8h_GW": 35.689631373999994,
+   "F_dry_8h_share": 0.9569643152145773,
+   "missing": 0
+  },
+  "base|stress_plus1.2K": {
+   "F_dry_8h_GW": 28.194631374,
+   "F_dry_8h_share": 0.7559970519954228,
+   "missing": 0
+  },
+  "charge_0.5|stress_plus1.2K": {
+   "F_dry_8h_GW": 28.194631374,
+   "F_dry_8h_share": 0.7559970519954228,
+   "missing": 0
+  },
+  "charge_0.25|stress_plus1.2K": {
+   "F_dry_8h_GW": 28.042631374,
+   "F_dry_8h_share": 0.7519213983584232,
+   "missing": 0
+  },
+  "loss_0.01_per_day|stress_plus1.2K": {
+   "F_dry_8h_GW": 28.194631374,
+   "F_dry_8h_share": 0.7559970519954228,
+   "missing": 0
+  },
+  "loss_0.03_per_day|stress_plus1.2K": {
+   "F_dry_8h_GW": 28.194631374,
+   "F_dry_8h_share": 0.7559970519954228,
+   "missing": 0
+  },
+  "usable_0.8|stress_plus1.2K": {
+   "F_dry_8h_GW": 28.194631374,
+   "F_dry_8h_share": 0.7559970519954228,
+   "missing": 0
+  },
+  "nights_plus1K|stress_plus1.2K": {
+   "F_dry_8h_GW": 27.737631374,
+   "F_dry_8h_share": 0.7437432775736544,
+   "missing": 0
+  },
+  "nights_plus2K|stress_plus1.2K": {
+   "F_dry_8h_GW": 27.585631374000002,
+   "F_dry_8h_share": 0.7396676239366549,
+   "missing": 0
+  },
+  "approach_floor_3K|stress_plus1.2K": {
+   "F_dry_8h_GW": 33.597631373999995,
+   "F_dry_8h_share": 0.9008704506842943,
+   "missing": 0
+  },
+  "approach_floor_5K|stress_plus1.2K": {
+   "F_dry_8h_GW": 26.579631373999998,
+   "F_dry_8h_share": 0.7126932321023026,
+   "missing": 0
+  },
+  "hx_1K|stress_plus1.2K": {
+   "F_dry_8h_GW": 33.597631373999995,
+   "F_dry_8h_share": 0.9008704506842943,
+   "missing": 0
+  },
+  "hx_3K|stress_plus1.2K": {
+   "F_dry_8h_GW": 27.585631374000002,
+   "F_dry_8h_share": 0.7396676239366549,
+   "missing": 0
+  },
+  "combined_adverse|stress_plus1.2K": {
+   "F_dry_8h_GW": 22.755631374,
+   "F_dry_8h_share": 0.6101583669188407,
+   "missing": 0
+  },
+  "combined_favourable|stress_plus1.2K": {
+   "F_dry_8h_GW": 35.689631373999994,
+   "F_dry_8h_share": 0.9569643152145773,
+   "missing": 0
+  }
+ },
+ "D": {
+  "uncorrected": {
+   "base|historical": {
+    "USD_per_m3": 17.698369864855557,
+    "ban_added_cost_MUSD_yr": 373.7386439477354,
+    "banned_Z3_share": 0.4394466280051668,
+    "installed_GW_th": 2.935926980879791,
+    "physical_GW_th": 0.7425723695618974,
+    "economic_GW_th": 2.193354611317893,
+    "water_allowed_Z3_share": 0.0
+   },
+   "base|stress_plus1.2K": {
+    "USD_per_m3": 18.031163065062398,
+    "ban_added_cost_MUSD_yr": 453.3195076863899,
+    "banned_Z3_share": 0.5951526850450108,
+    "installed_GW_th": 4.5367379731222774,
+    "physical_GW_th": 1.5719501090271555,
+    "economic_GW_th": 2.9647878640951224,
+    "water_allowed_Z3_share": 0.0
+   },
+   "chiller_200k|historical": {
+    "USD_per_m3": 15.084095956823608,
+    "ban_added_cost_MUSD_yr": 318.53270166284796,
+    "banned_Z3_share": 0.5888515100141234,
+    "installed_GW_th": 10.766345507214213,
+    "physical_GW_th": 0.7425723695618974,
+    "economic_GW_th": 10.023773137652318,
+    "water_allowed_Z3_share": 0.0
+   },
+   "chiller_200k|stress_plus1.2K": {
+    "USD_per_m3": 14.61952822612692,
+    "ban_added_cost_MUSD_yr": 367.5479676026213,
+    "banned_Z3_share": 0.8656025953511817,
+    "installed_GW_th": 15.444113525030843,
+    "physical_GW_th": 1.5719501090271555,
+    "economic_GW_th": 13.872163416003687,
+    "water_allowed_Z3_share": 0.005738091304723028
+   },
+   "chiller_500k|historical": {
+    "USD_per_m3": 20.317540210635283,
+    "ban_added_cost_MUSD_yr": 429.0479849082072,
+    "banned_Z3_share": 0.2210237692749155,
+    "installed_GW_th": 1.9083272268946796,
+    "physical_GW_th": 0.7425723695618974,
+    "economic_GW_th": 1.1657548573327823,
+    "water_allowed_Z3_share": 0.0
+   },
+   "chiller_500k|stress_plus1.2K": {
+    "USD_per_m3": 21.435246457239025,
+    "ban_added_cost_MUSD_yr": 538.9011976692698,
+    "banned_Z3_share": 0.26234338937107526,
+    "installed_GW_th": 3.069701791537418,
+    "physical_GW_th": 1.5719501090271555,
+    "economic_GW_th": 1.4977516825102626,
+    "water_allowed_Z3_share": 0.0
+   },
+   "dc_50k|historical": {
+    "USD_per_m3": 17.255787095337645,
+    "ban_added_cost_MUSD_yr": 333.0696272885592,
+    "banned_Z3_share": 0.4394466280051668,
+    "installed_GW_th": 2.933557972236755,
+    "physical_GW_th": 0.7425723695618974,
+    "economic_GW_th": 2.1909856026748575,
+    "water_allowed_Z3_share": 0.0
+   },
+   "dc_50k|stress_plus1.2K": {
+    "USD_per_m3": 19.060412520907462,
+    "ban_added_cost_MUSD_yr": 421.0831120618447,
+    "banned_Z3_share": 0.5951526850450108,
+    "installed_GW_th": 4.526269820474409,
+    "physical_GW_th": 1.5719501090271555,
+    "economic_GW_th": 2.954319711447253,
+    "water_allowed_Z3_share": 0.0
+   },
+   "dc_150k|historical": {
+    "USD_per_m3": 12.654469238322765,
+    "ban_added_cost_MUSD_yr": 450.54800654588246,
+    "banned_Z3_share": 0.6182659313285214,
+    "installed_GW_th": 4.907687829290759,
+    "physical_GW_th": 0.7425723695618974,
+    "economic_GW_th": 4.165115459728861,
+    "water_allowed_Z3_share": 0.026813510769733772
+   },
+   "dc_150k|stress_plus1.2K": {
+    "USD_per_m3": 12.639988173819564,
+    "ban_added_cost_MUSD_yr": 507.79086908950165,
+    "banned_Z3_share": 0.8843720528899952,
+    "installed_GW_th": 8.31742460980691,
+    "physical_GW_th": 1.5719501090271555,
+    "economic_GW_th": 6.745474500779755,
+    "water_allowed_Z3_share": 0.0
+   },
+   "crf_6pct|historical": {
+    "USD_per_m3": 15.444954069051716,
+    "ban_added_cost_MUSD_yr": 324.2313876244015,
+    "banned_Z3_share": 0.4394466280051668,
+    "installed_GW_th": 2.9346721601965196,
+    "physical_GW_th": 0.7425723695618974,
+    "economic_GW_th": 2.192099790634622,
+    "water_allowed_Z3_share": 0.0
+   },
+   "crf_6pct|stress_plus1.2K": {
+    "USD_per_m3": 15.710837892279276,
+    "ban_added_cost_MUSD_yr": 394.9844651157601,
+    "banned_Z3_share": 0.5951526850450108,
+    "installed_GW_th": 4.532857829899343,
+    "physical_GW_th": 1.5719501090271555,
+    "economic_GW_th": 2.960907720872188,
+    "water_allowed_Z3_share": 0.0
+   },
+   "crf_10pct|historical": {
+    "USD_per_m3": 19.435892843866775,
+    "ban_added_cost_MUSD_yr": 426.579707288253,
+    "banned_Z3_share": 0.4394466280051668,
+    "installed_GW_th": 2.935926980879791,
+    "physical_GW_th": 0.7425723695618974,
+    "economic_GW_th": 2.193354611317893,
+    "water_allowed_Z3_share": 0.0
+   },
+   "crf_10pct|stress_plus1.2K": {
+    "USD_per_m3": 20.44316892358236,
+    "ban_added_cost_MUSD_yr": 515.1735017040303,
+    "banned_Z3_share": 0.5951526850450108,
+    "installed_GW_th": 4.547861295738314,
+    "physical_GW_th": 1.5719501090271555,
+    "economic_GW_th": 2.97591118671116,
+    "water_allowed_Z3_share": 0.0
+   }
+  },
+  "corrected": {
+   "base|historical": {
+    "USD_per_m3": 20.198327886848165,
+    "ban_added_cost_MUSD_yr": 430.32913257825527,
+    "banned_Z3_share": 0.5601342399797385,
+    "installed_GW_th": 3.7981401497573533,
+    "physical_GW_th": 0.8379544654505562,
+    "economic_GW_th": 2.960185684306797,
+    "water_allowed_Z3_share": 0.0
+   },
+   "base|stress_plus1.2K": {
+    "USD_per_m3": 20.095505517859635,
+    "ban_added_cost_MUSD_yr": 512.6382841317144,
+    "banned_Z3_share": 0.6568326004980345,
+    "installed_GW_th": 5.634361850289485,
+    "physical_GW_th": 1.8209242282567064,
+    "economic_GW_th": 3.813437622032779,
+    "water_allowed_Z3_share": 0.0
+   },
+   "chiller_200k|historical": {
+    "USD_per_m3": 16.977205954831216,
+    "ban_added_cost_MUSD_yr": 361.7025306783914,
+    "banned_Z3_share": 0.7650699027928137,
+    "installed_GW_th": 13.947455115206582,
+    "physical_GW_th": 0.8379544654505562,
+    "economic_GW_th": 13.109500649756024,
+    "water_allowed_Z3_share": 0.0
+   },
+   "chiller_200k|stress_plus1.2K": {
+    "USD_per_m3": 15.870670042029444,
+    "ban_added_cost_MUSD_yr": 404.86232362434896,
+    "banned_Z3_share": 0.9040102681777482,
+    "installed_GW_th": 17.996787729062454,
+    "physical_GW_th": 1.8209242282567064,
+    "economic_GW_th": 16.17586350080575,
+    "water_allowed_Z3_share": 0.0
+   },
+   "chiller_500k|historical": {
+    "USD_per_m3": 23.30946993036372,
+    "ban_added_cost_MUSD_yr": 496.6125924970111,
+    "banned_Z3_share": 0.24400294800457734,
+    "installed_GW_th": 2.2446215675181147,
+    "physical_GW_th": 0.8379544654505562,
+    "economic_GW_th": 1.4066671020675585,
+    "water_allowed_Z3_share": 0.0
+   },
+   "chiller_500k|stress_plus1.2K": {
+    "USD_per_m3": 24.088065016291452,
+    "ban_added_cost_MUSD_yr": 614.4888620507845,
+    "banned_Z3_share": 0.26703575375577865,
+    "installed_GW_th": 3.4610899565845794,
+    "physical_GW_th": 1.8209242282567064,
+    "economic_GW_th": 1.6401657283278723,
+    "water_allowed_Z3_share": 0.0
+   },
+   "dc_50k|historical": {
+    "USD_per_m3": 20.366930509874354,
+    "ban_added_cost_MUSD_yr": 391.8009797712375,
+    "banned_Z3_share": 0.5601342399797385,
+    "installed_GW_th": 3.775746072066246,
+    "physical_GW_th": 0.8379544654505562,
+    "economic_GW_th": 2.9377916066156904,
+    "water_allowed_Z3_share": 0.0
+   },
+   "dc_50k|stress_plus1.2K": {
+    "USD_per_m3": 22.043241160573398,
+    "ban_added_cost_MUSD_yr": 483.50538027297955,
+    "banned_Z3_share": 0.6568326004980345,
+    "installed_GW_th": 5.584265730969519,
+    "physical_GW_th": 1.8209242282567064,
+    "economic_GW_th": 3.7633415027128123,
+    "water_allowed_Z3_share": 0.0
+   },
+   "dc_150k|historical": {
+    "USD_per_m3": 14.461637417307868,
+    "ban_added_cost_MUSD_yr": 494.6761301739726,
+    "banned_Z3_share": 0.7992230680896287,
+    "installed_GW_th": 6.388038981954478,
+    "physical_GW_th": 0.8379544654505562,
+    "economic_GW_th": 5.550084516503921,
+    "water_allowed_Z3_share": 0.026813510769733772
+   },
+   "dc_150k|stress_plus1.2K": {
+    "USD_per_m3": 13.60360933314805,
+    "ban_added_cost_MUSD_yr": 551.6474689365817,
+    "banned_Z3_share": 0.9228869797596408,
+    "installed_GW_th": 10.002096899949885,
+    "physical_GW_th": 1.8209242282567064,
+    "economic_GW_th": 8.181172671693181,
+    "water_allowed_Z3_share": 0.0
+   },
+   "crf_6pct|historical": {
+    "USD_per_m3": 17.58614147812852,
+    "ban_added_cost_MUSD_yr": 374.42388638789896,
+    "banned_Z3_share": 0.5601342399797385,
+    "installed_GW_th": 3.7864927960486128,
+    "physical_GW_th": 0.8379544654505562,
+    "economic_GW_th": 2.9485383305980566,
+    "water_allowed_Z3_share": 0.0
+   },
+   "crf_6pct|stress_plus1.2K": {
+    "USD_per_m3": 17.76364003494529,
+    "ban_added_cost_MUSD_yr": 447.5574634346275,
+    "banned_Z3_share": 0.6568326004980345,
+    "installed_GW_th": 5.603536509343775,
+    "physical_GW_th": 1.8209242282567064,
+    "economic_GW_th": 3.7826122810870677,
+    "water_allowed_Z3_share": 0.0
+   },
+   "crf_10pct|historical": {
+    "USD_per_m3": 22.25619268342305,
+    "ban_added_cost_MUSD_yr": 489.83287775127684,
+    "banned_Z3_share": 0.5601342399797385,
+    "installed_GW_th": 3.7981401497573533,
+    "physical_GW_th": 0.8379544654505562,
+    "economic_GW_th": 2.960185684306797,
+    "water_allowed_Z3_share": 0.0
+   },
+   "crf_10pct|stress_plus1.2K": {
+    "USD_per_m3": 22.744602708561988,
+    "ban_added_cost_MUSD_yr": 581.6983852185433,
+    "banned_Z3_share": 0.6568326004980345,
+    "installed_GW_th": 5.684346337978551,
+    "physical_GW_th": 1.8209242282567064,
+    "economic_GW_th": 3.863422109721843,
+    "water_allowed_Z3_share": 0.0
+   }
+  }
+ }
+}

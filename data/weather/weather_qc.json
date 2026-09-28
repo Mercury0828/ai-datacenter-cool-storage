@@ -1,0 +1,19 @@
+{
+ "window": "1990-01-01T00Z..2025-12-31T23Z",
+ "source": "ERA5 raw grid point via s3://openmeteo (DD-005)",
+ "temperature_2m_chunk904_overlap": {
+  "hours": 216,
+  "max_abs_diff": 0.05000114440917969
+ },
+ "temperature_2m_nan_count": 0,
+ "dew_point_2m_chunk904_overlap": {
+  "hours": 216,
+  "max_abs_diff": 0.05000114440917969
+ },
+ "dew_point_2m_nan_count": 0,
+ "pressure_msl_chunk904_overlap": {
+  "hours": 216,
+  "max_abs_diff": 10.0
+ },
+ "pressure_msl_nan_count": 0
+}

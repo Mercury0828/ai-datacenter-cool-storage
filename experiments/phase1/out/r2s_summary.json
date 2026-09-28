@@ -1,0 +1,635 @@
+{
+ "audit": {
+  "eta_D_K": 0.25,
+  "sites": {
+   "microsoft_fairwater_wisconsin": {
+    "delta_s_K": 0.9940450130837297,
+    "designs": 68,
+    "dr_infeasible": 0,
+    "max_abs_capacity_diff": 9.992475596964923e-13,
+    "designs_equal_1e-6": 68,
+    "dr_cost": 16918.131355445446,
+    "bl2_5K_cost": 16918.131355480145,
+    "cost_equal": 1.0,
+    "eps_0.24_designs_differing": 20
+   },
+   "anthropic_amazon_new_carlisle": {
+    "delta_s_K": 0.9444967164855291,
+    "designs": 68,
+    "dr_infeasible": 0,
+    "max_abs_capacity_diff": 9.963141422986155e-13,
+    "designs_equal_1e-6": 68,
+    "dr_cost": 17475.554261429075,
+    "bl2_5K_cost": 17475.554261463418,
+    "cost_equal": 1.0,
+    "eps_0.24_designs_differing": 11
+   },
+   "openai_stargate_new_mexico": {
+    "delta_s_K": 2.52129156287741,
+    "designs": 68,
+    "dr_infeasible": 0,
+    "max_abs_capacity_diff": 9.967443537206577e-13,
+    "designs_equal_1e-6": 68,
+    "dr_cost": 16400.94156025384,
+    "bl2_5K_cost": 16400.94156025384,
+    "cost_equal": 1.0,
+    "eps_0.24_designs_differing": 0
+   },
+   "meta_hyperion": {
+    "delta_s_K": 1.623201615338166,
+    "designs": 68,
+    "dr_infeasible": 0,
+    "max_abs_capacity_diff": 9.99644811372491e-13,
+    "designs_equal_1e-6": 68,
+    "dr_cost": 18391.30664581006,
+    "bl2_5K_cost": 18391.30664584476,
+    "cost_equal": 1.0,
+    "eps_0.24_designs_differing": 8
+   },
+   "colossus_2": {
+    "delta_s_K": 1.7134915481138127,
+    "designs": 68,
+    "dr_infeasible": 0,
+    "max_abs_capacity_diff": 9.983125437429408e-13,
+    "designs_equal_1e-6": 68,
+    "dr_cost": 18559.118394126588,
+    "bl2_5K_cost": 18559.118394161425,
+    "cost_equal": 1.0,
+    "eps_0.24_designs_differing": 4
+   },
+   "openai_stargate_shackelford": {
+    "delta_s_K": 2.6988578464673854,
+    "designs": 68,
+    "dr_infeasible": 0,
+    "max_abs_capacity_diff": 9.905479214644686e-13,
+    "designs_equal_1e-6": 68,
+    "dr_cost": 18249.500663186445,
+    "bl2_5K_cost": 18249.500663186445,
+    "cost_equal": 1.0,
+    "eps_0.24_designs_differing": 15
+   },
+   "qts_cedar_rapids": {
+    "delta_s_K": 2.0225359488224655,
+    "designs": 68,
+    "dr_infeasible": 0,
+    "max_abs_capacity_diff": 9.992562333138721e-13,
+    "designs_equal_1e-6": 68,
+    "dr_cost": 18417.452223361885,
+    "bl2_5K_cost": 18417.45222339624,
+    "cost_equal": 1.0,
+    "eps_0.24_designs_differing": 31
+   },
+   "meta_prometheus": {
+    "delta_s_K": 0.8997681485033603,
+    "designs": 68,
+    "dr_infeasible": 0,
+    "max_abs_capacity_diff": 9.995337890700284e-13,
+    "designs_equal_1e-6": 68,
+    "dr_cost": 15928.854049876512,
+    "bl2_5K_cost": 15928.854049910893,
+    "cost_equal": 1.0,
+    "eps_0.24_designs_differing": 21
+   },
+   "goodnight": {
+    "delta_s_K": 2.0728623188405644,
+    "designs": 68,
+    "dr_infeasible": 0,
+    "max_abs_capacity_diff": 9.886154395122304e-13,
+    "designs_equal_1e-6": 68,
+    "dr_cost": 15892.07466103594,
+    "bl2_5K_cost": 15892.074661070395,
+    "cost_equal": 1.0,
+    "eps_0.24_designs_differing": 8
+   },
+   "openai_stargate_uae": {
+    "delta_s_K": 3.1096422101449392,
+    "designs": 68,
+    "dr_infeasible": 0,
+    "max_abs_capacity_diff": 9.964806757523093e-13,
+    "designs_equal_1e-6": 68,
+    "dr_cost": 30985.888361899437,
+    "bl2_5K_cost": 30985.888361934027,
+    "cost_equal": 1.0,
+    "eps_0.24_designs_differing": 50
+   },
+   "openai_stargate_michigan": {
+    "delta_s_K": 1.754346253522543,
+    "designs": 68,
+    "dr_infeasible": 0,
+    "max_abs_capacity_diff": 9.97993354623361e-13,
+    "designs_equal_1e-6": 68,
+    "dr_cost": 17158.672338078868,
+    "bl2_5K_cost": 17158.67233811199,
+    "cost_equal": 1.0,
+    "eps_0.24_designs_differing": 0
+   },
+   "openai_stargate_wisconsin": {
+    "delta_s_K": 0.6138940469001719,
+    "designs": 68,
+    "dr_infeasible": 0,
+    "max_abs_capacity_diff": 9.999917560676863e-13,
+    "designs_equal_1e-6": 68,
+    "dr_cost": 14739.659148416938,
+    "bl2_5K_cost": 14739.6591484505,
+    "cost_equal": 1.0,
+    "eps_0.24_designs_differing": 1
+   },
+   "openai_stargate_abilene": {
+    "delta_s_K": 2.489939597800922,
+    "designs": 68,
+    "dr_infeasible": 0,
+    "max_abs_capacity_diff": 9.9133201647561e-13,
+    "designs_equal_1e-6": 68,
+    "dr_cost": 17003.60385862762,
+    "bl2_5K_cost": 17003.60385862762,
+    "cost_equal": 1.0,
+    "eps_0.24_designs_differing": 9
+   },
+   "microsoft_goodyear": {
+    "delta_s_K": 2.3166580258390574,
+    "designs": 68,
+    "dr_infeasible": 0,
+    "max_abs_capacity_diff": 9.996205252438273e-13,
+    "designs_equal_1e-6": 68,
+    "dr_cost": 22302.47208163264,
+    "bl2_5K_cost": 22302.472081666845,
+    "cost_equal": 1.0,
+    "eps_0.24_designs_differing": 46
+   },
+   "nebius_mantsala": {
+    "delta_s_K": 1.720737564160605,
+    "designs": 68,
+    "dr_infeasible": 0,
+    "max_abs_capacity_diff": 9.908636411370964e-13,
+    "designs_equal_1e-6": 68,
+    "dr_cost": 10478.21650199165,
+    "bl2_5K_cost": 10478.21650199165,
+    "cost_equal": 1.0,
+    "eps_0.24_designs_differing": 1
+   }
+  },
+  "all_sites_equal": true
+ },
+ "oracle": {
+  "ssp245_median": {
+   "0.025": {
+    "pooled_oracle_cost": 14531.195030276054,
+    "pooled_oracle_violation": 0.02439753754430792,
+    "pooled_oracle_v_by_site": {
+     "microsoft_fairwater_wisconsin": 2,
+     "anthropic_amazon_new_carlisle": 2,
+     "openai_stargate_new_mexico": 0,
+     "meta_hyperion": 0,
+     "colossus_2": 0,
+     "openai_stargate_shackelford": 1,
+     "qts_cedar_rapids": 0,
+     "meta_prometheus": 0,
+     "goodnight": 0,
+     "openai_stargate_uae": 2,
+     "openai_stargate_michigan": 3,
+     "openai_stargate_wisconsin": 0,
+     "openai_stargate_abilene": 1,
+     "microsoft_goodyear": 0,
+     "nebius_mantsala": 0
+    },
+    "sitewise_oracle_cost": 15093.870307535397,
+    "sitewise_violation_cap": 0,
+    "executable": {
+     "BL1-shift": {
+      "cost": 14891.656438114698,
+      "viol": 0.02355521737496712,
+      "knob": "BL1-shift|a1.75|100y"
+     },
+     "BL2-shift": {
+      "cost": 14744.560225925328,
+      "viol": 0.024525920915843134,
+      "knob": "BL2-shift|a1.5"
+     },
+     "BL3": {
+      "cost": 14870.09894570392,
+      "viol": 0.024009256127957516,
+      "knob": "BL3|a1.3"
+     },
+     "DR": {
+      "cost": 14915.850320692207,
+      "viol": 0.016469081526572227,
+      "knob": "DR|a0.075"
+     }
+    },
+    "best_executable_baseline": {
+     "cost": 14744.560225925328,
+     "knob": "BL2-shift|a1.5"
+    },
+    "headroom_pooled_oracle_pct": 1.4470773789109992,
+    "headroom_sitewise_oracle_pct": -2.369077654794194
+   },
+   "0.05": {
+    "pooled_oracle_cost": 14306.792895138076,
+    "pooled_oracle_violation": 0.049933303272836585,
+    "pooled_oracle_v_by_site": {
+     "microsoft_fairwater_wisconsin": 2,
+     "anthropic_amazon_new_carlisle": 2,
+     "openai_stargate_new_mexico": 1,
+     "meta_hyperion": 0,
+     "colossus_2": 0,
+     "openai_stargate_shackelford": 1,
+     "qts_cedar_rapids": 2,
+     "meta_prometheus": 1,
+     "goodnight": 0,
+     "openai_stargate_uae": 6,
+     "openai_stargate_michigan": 3,
+     "openai_stargate_wisconsin": 0,
+     "openai_stargate_abilene": 1,
+     "microsoft_goodyear": 36,
+     "nebius_mantsala": 0
+    },
+    "sitewise_oracle_cost": 14795.005017370047,
+    "sitewise_violation_cap": 1,
+    "executable": {
+     "BL1-shift": {
+      "cost": 14572.631870231615,
+      "viol": 0.04032177256729168,
+      "knob": "BL1-shift|a1.75|50y"
+     },
+     "BL2-shift": {
+      "cost": 14593.681030616193,
+      "viol": 0.04251838074124175,
+      "knob": "BL2-shift|k0.75"
+     },
+     "BL3": {
+      "cost": 14733.431673639647,
+      "viol": 0.04224439183857513,
+      "knob": "BL3|a1"
+     },
+     "DR": {
+      "cost": 14670.574138565898,
+      "viol": 0.03669885644860282,
+      "knob": "DR|k0.03"
+     }
+    },
+    "best_executable_baseline": {
+     "cost": 14572.631870231615,
+     "knob": "BL1-shift|a1.75|50y"
+    },
+    "headroom_pooled_oracle_pct": 1.8242344791305931,
+    "headroom_sitewise_oracle_pct": -1.5259642123581552
+   },
+   "0.1": {
+    "pooled_oracle_cost": 13559.48768081486,
+    "pooled_oracle_violation": 0.09991670737358935,
+    "pooled_oracle_v_by_site": {
+     "microsoft_fairwater_wisconsin": 2,
+     "anthropic_amazon_new_carlisle": 3,
+     "openai_stargate_new_mexico": 1,
+     "meta_hyperion": 0,
+     "colossus_2": 0,
+     "openai_stargate_shackelford": 1,
+     "qts_cedar_rapids": 2,
+     "meta_prometheus": 1,
+     "goodnight": 0,
+     "openai_stargate_uae": 36,
+     "openai_stargate_michigan": 3,
+     "openai_stargate_wisconsin": 0,
+     "openai_stargate_abilene": 1,
+     "microsoft_goodyear": 36,
+     "nebius_mantsala": 0
+    },
+    "sitewise_oracle_cost": 14414.504904231115,
+    "sitewise_violation_cap": 3,
+    "executable": {
+     "BL1-shift": {
+      "cost": 14279.124239054736,
+      "viol": 0.09539667330502637,
+      "knob": "BL1-shift|a1|100y"
+     },
+     "BL2-shift": {
+      "cost": 14309.48444683771,
+      "viol": 0.09947989078019515,
+      "knob": "BL2-shift|k0.5"
+     },
+     "BL3": {
+      "cost": 14450.600753945522,
+      "viol": 0.0934505692706572,
+      "knob": "BL3|a0.6"
+     },
+     "DR": {
+      "cost": 14443.227079234604,
+      "viol": 0.07650239857713649,
+      "knob": "DR|k0.02"
+     }
+    },
+    "best_executable_baseline": {
+     "cost": 14279.124239054736,
+     "knob": "BL1-shift|a1|100y"
+    },
+    "headroom_pooled_oracle_pct": 5.039780775011415,
+    "headroom_sitewise_oracle_pct": -0.9481020187925848
+   }
+  },
+  "ssp585_p90": {
+   "0.025": {
+    "pooled_oracle_cost": 15479.493617256612,
+    "pooled_oracle_violation": 0.024978394017961147,
+    "pooled_oracle_v_by_site": {
+     "microsoft_fairwater_wisconsin": 2,
+     "anthropic_amazon_new_carlisle": 2,
+     "openai_stargate_new_mexico": 0,
+     "meta_hyperion": 0,
+     "colossus_2": 0,
+     "openai_stargate_shackelford": 1,
+     "qts_cedar_rapids": 0,
+     "meta_prometheus": 0,
+     "goodnight": 0,
+     "openai_stargate_uae": 4,
+     "openai_stargate_michigan": 1,
+     "openai_stargate_wisconsin": 0,
+     "openai_stargate_abilene": 1,
+     "microsoft_goodyear": 1,
+     "nebius_mantsala": 1
+    },
+    "sitewise_oracle_cost": 16125.970368656317,
+    "sitewise_violation_cap": 0,
+    "executable": {
+     "BL2-shift": {
+      "cost": 15783.035951801807,
+      "viol": 0.022355928806723532,
+      "knob": "BL2-shift|a2.9"
+     },
+     "BL3": {
+      "cost": 16009.133094036502,
+      "viol": 0.023074562557146256,
+      "knob": "BL3|a2.8"
+     },
+     "DR": {
+      "cost": 16089.842445306422,
+      "viol": 0.014751562519570636,
+      "knob": "DR|a0.15"
+     }
+    },
+    "best_executable_baseline": {
+     "cost": 15783.035951801807,
+     "knob": "BL2-shift|a2.9"
+    },
+    "headroom_pooled_oracle_pct": 1.9232189261441879,
+    "headroom_sitewise_oracle_pct": -2.172803875640672
+   },
+   "0.05": {
+    "pooled_oracle_cost": 15190.769870311638,
+    "pooled_oracle_violation": 0.049582597477423315,
+    "pooled_oracle_v_by_site": {
+     "microsoft_fairwater_wisconsin": 2,
+     "anthropic_amazon_new_carlisle": 2,
+     "openai_stargate_new_mexico": 0,
+     "meta_hyperion": 0,
+     "colossus_2": 0,
+     "openai_stargate_shackelford": 1,
+     "qts_cedar_rapids": 2,
+     "meta_prometheus": 3,
+     "goodnight": 0,
+     "openai_stargate_uae": 4,
+     "openai_stargate_michigan": 3,
+     "openai_stargate_wisconsin": 1,
+     "openai_stargate_abilene": 1,
+     "microsoft_goodyear": 36,
+     "nebius_mantsala": 4
+    },
+    "sitewise_oracle_cost": 15778.892531202982,
+    "sitewise_violation_cap": 1,
+    "executable": {
+     "BL2-shift": {
+      "cost": 15547.948690444668,
+      "viol": 0.04647478049574769,
+      "knob": "BL2-shift|a2.6"
+     },
+     "BL3": {
+      "cost": 15553.083118657476,
+      "viol": 0.04612720600207918,
+      "knob": "BL3|a2.2"
+     },
+     "DR": {
+      "cost": 16089.842445306422,
+      "viol": 0.014751562519570636,
+      "knob": "DR|a0.15"
+     }
+    },
+    "best_executable_baseline": {
+     "cost": 15547.948690444668,
+     "knob": "BL2-shift|a2.6"
+    },
+    "headroom_pooled_oracle_pct": 2.2972729537790504,
+    "headroom_sitewise_oracle_pct": -1.4853653389031773
+   },
+   "0.1": {
+    "pooled_oracle_cost": 14367.247681913885,
+    "pooled_oracle_violation": 0.09968342539360463,
+    "pooled_oracle_v_by_site": {
+     "microsoft_fairwater_wisconsin": 2,
+     "anthropic_amazon_new_carlisle": 2,
+     "openai_stargate_new_mexico": 0,
+     "meta_hyperion": 0,
+     "colossus_2": 0,
+     "openai_stargate_shackelford": 1,
+     "qts_cedar_rapids": 2,
+     "meta_prometheus": 3,
+     "goodnight": 0,
+     "openai_stargate_uae": 36,
+     "openai_stargate_michigan": 3,
+     "openai_stargate_wisconsin": 1,
+     "openai_stargate_abilene": 1,
+     "microsoft_goodyear": 36,
+     "nebius_mantsala": 4
+    },
+    "sitewise_oracle_cost": 15251.615543279217,
+    "sitewise_violation_cap": 3,
+    "executable": {
+     "BL2-shift": {
+      "cost": 15191.215648412694,
+      "viol": 0.08408328010120367,
+      "knob": "BL2-shift|a2.2"
+     },
+     "BL3": {
+      "cost": 15149.43585349647,
+      "viol": 0.09267087513621163,
+      "knob": "BL3|a1.8"
+     },
+     "DR": {
+      "cost": 15266.95758363935,
+      "viol": 0.07743865779882013,
+      "knob": "DR|a0.1"
+     }
+    },
+    "best_executable_baseline": {
+     "cost": 15149.43585349647,
+     "knob": "BL3|a1.8"
+    },
+    "headroom_pooled_oracle_pct": 5.163150490531687,
+    "headroom_sitewise_oracle_pct": -0.6744785137273723
+   }
+  },
+  "F0": {
+   "0.025": {
+    "pooled_oracle_cost": 13611.80994483698,
+    "pooled_oracle_violation": 0.024784537973580923,
+    "pooled_oracle_v_by_site": {
+     "microsoft_fairwater_wisconsin": 0,
+     "anthropic_amazon_new_carlisle": 0,
+     "openai_stargate_new_mexico": 0,
+     "meta_hyperion": 0,
+     "colossus_2": 0,
+     "openai_stargate_shackelford": 0,
+     "qts_cedar_rapids": 1,
+     "meta_prometheus": 0,
+     "goodnight": 0,
+     "openai_stargate_uae": 0,
+     "openai_stargate_michigan": 0,
+     "openai_stargate_wisconsin": 1,
+     "openai_stargate_abilene": 0,
+     "microsoft_goodyear": 11,
+     "nebius_mantsala": 4
+    },
+    "sitewise_oracle_cost": 13813.790732569685,
+    "sitewise_violation_cap": 0,
+    "executable": {
+     "BL1-shift": {
+      "cost": 13934.30600872702,
+      "viol": 0.01096012543425462,
+      "knob": "BL1-shift|a1.75|5y"
+     },
+     "BL2-shift": {
+      "cost": 13996.156360753854,
+      "viol": 0.023918590709256924,
+      "knob": "BL2-shift|a0.3"
+     },
+     "BL3": {
+      "cost": 14022.657148460667,
+      "viol": 0.01096012543425462,
+      "knob": "BL3|k0"
+     },
+     "DR": {
+      "cost": 14006.94170632841,
+      "viol": 0.01096012543425462,
+      "knob": "DR|a0.005"
+     }
+    },
+    "best_executable_baseline": {
+     "cost": 13934.30600872702,
+     "knob": "BL1-shift|a1.75|5y"
+    },
+    "headroom_pooled_oracle_pct": 2.314403485096872,
+    "headroom_sitewise_oracle_pct": 0.8648817966381506
+   },
+   "0.05": {
+    "pooled_oracle_cost": 13470.93493158112,
+    "pooled_oracle_violation": 0.049999487605169035,
+    "pooled_oracle_v_by_site": {
+     "microsoft_fairwater_wisconsin": 1,
+     "anthropic_amazon_new_carlisle": 2,
+     "openai_stargate_new_mexico": 0,
+     "meta_hyperion": 0,
+     "colossus_2": 0,
+     "openai_stargate_shackelford": 0,
+     "qts_cedar_rapids": 1,
+     "meta_prometheus": 0,
+     "goodnight": 0,
+     "openai_stargate_uae": 0,
+     "openai_stargate_michigan": 0,
+     "openai_stargate_wisconsin": 0,
+     "openai_stargate_abilene": 0,
+     "microsoft_goodyear": 11,
+     "nebius_mantsala": 2
+    },
+    "sitewise_oracle_cost": 13813.790732569685,
+    "sitewise_violation_cap": 0,
+    "executable": {
+     "BL1-shift": {
+      "cost": 13791.59709866629,
+      "viol": 0.04953833225730419,
+      "knob": "BL1-shift|a0.75|20y"
+     },
+     "BL2-shift": {
+      "cost": 13920.7577442112,
+      "viol": 0.0384859757534766,
+      "knob": "BL2-shift|k0"
+     },
+     "BL3": {
+      "cost": 14022.657148460667,
+      "viol": 0.01096012543425462,
+      "knob": "BL3|k0"
+     },
+     "DR": {
+      "cost": 13920.757744212277,
+      "viol": 0.0384859757534766,
+      "knob": "DR|k0"
+     }
+    },
+    "best_executable_baseline": {
+     "cost": 13791.59709866629,
+     "knob": "BL1-shift|a0.75|20y"
+    },
+    "headroom_pooled_oracle_pct": 2.325054631389867,
+    "headroom_sitewise_oracle_pct": -0.1609214200836817
+   },
+   "0.1": {
+    "pooled_oracle_cost": 12794.227882569681,
+    "pooled_oracle_violation": 0.09938922536149455,
+    "pooled_oracle_v_by_site": {
+     "microsoft_fairwater_wisconsin": 0,
+     "anthropic_amazon_new_carlisle": 2,
+     "openai_stargate_new_mexico": 0,
+     "meta_hyperion": 0,
+     "colossus_2": 0,
+     "openai_stargate_shackelford": 0,
+     "qts_cedar_rapids": 1,
+     "meta_prometheus": 0,
+     "goodnight": 0,
+     "openai_stargate_uae": 11,
+     "openai_stargate_michigan": 0,
+     "openai_stargate_wisconsin": 1,
+     "openai_stargate_abilene": 0,
+     "microsoft_goodyear": 11,
+     "nebius_mantsala": 2
+    },
+    "sitewise_oracle_cost": 13621.680335907002,
+    "sitewise_violation_cap": 1,
+    "executable": {
+     "BL1-shift": {
+      "cost": 13535.545433534528,
+      "viol": 0.09753435607341593,
+      "knob": "BL1-shift|a1|5y"
+     },
+     "BL2-shift": {
+      "cost": 13920.7577442112,
+      "viol": 0.0384859757534766,
+      "knob": "BL2-shift|k0"
+     },
+     "BL3": {
+      "cost": 14022.657148460667,
+      "viol": 0.01096012543425462,
+      "knob": "BL3|k0"
+     },
+     "DR": {
+      "cost": 13920.757744212277,
+      "viol": 0.0384859757534766,
+      "knob": "DR|k0"
+     }
+    },
+    "best_executable_baseline": {
+     "cost": 13535.545433534528,
+     "knob": "BL1-shift|a1|5y"
+    },
+    "headroom_pooled_oracle_pct": 5.47682067638161,
+    "headroom_sitewise_oracle_pct": -0.6363607790719206
+   }
+  }
+ },
+ "fleet": {
+  "capacity_MW": 17742.0,
+  "delta_C_adjusted_minus_stationary_MW_th": 153.71072108184168,
+  "excess_C_overrobust_minus_adjusted_MW_th": 284.7604601124398,
+  "delta_cost_adjusted_minus_stationary_MUSD_yr": 16.833250937449247,
+  "excess_cost_overrobust_minus_adjusted_MUSD_yr": 55.51640704859477,
+  "C_stationary_MW_th": 30.83845409535861,
+  "C_adjusted_MW_th": 184.54917517720028,
+  "C_overrobust_MW_th": 469.30963528964
+ }
+}

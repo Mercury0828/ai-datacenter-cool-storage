@@ -1,0 +1,4 @@
+[
+ {"name": "r2r_pre", "args": ["experiments/phase1/r2r_precompute.py", "--workers", "3"],
+  "items": "experiments/phase1/out/r2r/*__*.npz", "expected": 30}
+]

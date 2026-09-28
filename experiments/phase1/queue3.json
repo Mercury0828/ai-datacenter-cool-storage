@@ -1,0 +1,6 @@
+[
+ {"name": "bv2c_corrected", "args": ["experiments/phase1/bv2_continuous.py", "--workers", "2", "--weather-dir", "D:/_caches/era5/weather_hub_corrected", "--tag", "corrected"],
+  "items": "experiments/phase1/out/bv2_continuous/corrected/*.json", "expected": 160},
+ {"name": "bv3_lapse", "args": ["experiments/phase1/bv3_lapse.py", "--workers", "2"],
+  "items": "experiments/phase1/out/bv3/lapse/*.json", "expected": 40}
+]

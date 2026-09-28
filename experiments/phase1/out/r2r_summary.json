@@ -1,0 +1,469 @@
+{
+ "sites": {
+  "microsoft_fairwater_wisconsin": {
+   "delta_s_K": 0.9940450130837297,
+   "jja_trend_K_per_yr": 0.025819350989187785,
+   "w": 2263.0
+  },
+  "anthropic_amazon_new_carlisle": {
+   "delta_s_K": 0.9444967164855291,
+   "jja_trend_K_per_yr": 0.02453238224637738,
+   "w": 1925.0
+  },
+  "openai_stargate_new_mexico": {
+   "delta_s_K": 2.52129156287741,
+   "jja_trend_K_per_yr": 0.06548809254227039,
+   "w": 1750.0
+  },
+  "meta_hyperion": {
+   "delta_s_K": 1.623201615338166,
+   "jja_trend_K_per_yr": 0.04216108091787445,
+   "w": 1632.0
+  },
+  "colossus_2": {
+   "delta_s_K": 1.7134915481138127,
+   "jja_trend_K_per_yr": 0.04450627397698215,
+   "w": 1531.0
+  },
+  "openai_stargate_shackelford": {
+   "delta_s_K": 2.6988578464673854,
+   "jja_trend_K_per_yr": 0.07010020380434767,
+   "w": 1400.0
+  },
+  "qts_cedar_rapids": {
+   "delta_s_K": 2.0225359488224655,
+   "jja_trend_K_per_yr": 0.05253340126811598,
+   "w": 1133.0
+  },
+  "meta_prometheus": {
+   "delta_s_K": 0.8997681485033603,
+   "jja_trend_K_per_yr": 0.02337060125982754,
+   "w": 1022.0
+  },
+  "goodnight": {
+   "delta_s_K": 2.0728623188405644,
+   "jja_trend_K_per_yr": 0.05384057971014453,
+   "w": 1006.0
+  },
+  "openai_stargate_uae": {
+   "delta_s_K": 3.1096422101449392,
+   "jja_trend_K_per_yr": 0.08076992753623219,
+   "w": 1000.0
+  },
+  "openai_stargate_michigan": {
+   "delta_s_K": 1.754346253522543,
+   "jja_trend_K_per_yr": 0.045567435156429685,
+   "w": 988.0
+  },
+  "openai_stargate_wisconsin": {
+   "delta_s_K": 0.6138940469001719,
+   "jja_trend_K_per_yr": 0.015945299919484984,
+   "w": 902.0
+  },
+  "openai_stargate_abilene": {
+   "delta_s_K": 2.489939597800922,
+   "jja_trend_K_per_yr": 0.06467375578703694,
+   "w": 843.0
+  },
+  "microsoft_goodyear": {
+   "delta_s_K": 2.3166580258390574,
+   "jja_trend_K_per_yr": 0.060172935736079416,
+   "w": 202.0
+  },
+  "nebius_mantsala": {
+   "delta_s_K": 1.720737564160605,
+   "jja_trend_K_per_yr": 0.044694482185989745,
+   "w": 145.0
+  }
+ },
+ "methods": {
+  "DR|0.0": {
+   "cost_per_MW_yr": 13920.75774421228,
+   "viol_ssp245_median": 0.24996712133168,
+   "viol_ssp585_p90": 0.6450199777051315,
+   "viol_F0": 0.0384859757534766,
+   "chiller_GW_th": 0.030838454095903373
+  },
+  "BL2-shift|0.0": {
+   "cost_per_MW_yr": 13920.757744211201,
+   "viol_ssp245_median": 0.24996712133168,
+   "viol_ssp585_p90": 0.6450199777051315,
+   "viol_F0": 0.0384859757534766,
+   "chiller_GW_th": 0.03083845409535861
+  },
+  "BL3|0.0": {
+   "cost_per_MW_yr": 14022.657148460668,
+   "viol_ssp245_median": 0.18610891919988978,
+   "viol_ssp585_p90": 0.5897994714362654,
+   "viol_F0": 0.01096012543425462,
+   "chiller_GW_th": 0.0498044647047071
+  },
+  "DR|0.25": {
+   "cost_per_MW_yr": 17909.19801385376,
+   "viol_ssp245_median": 0.0,
+   "viol_ssp585_p90": 0.0,
+   "viol_F0": 0.0,
+   "chiller_GW_th": 0.42402565349609916
+  },
+  "BL2-shift|0.25": {
+   "cost_per_MW_yr": 14047.24210756762,
+   "viol_ssp245_median": 0.16580712433772968,
+   "viol_ssp585_p90": 0.591570222572928,
+   "viol_F0": 0.01096012543425462,
+   "chiller_GW_th": 0.062253334137993124
+  },
+  "BL3|0.25": {
+   "cost_per_MW_yr": 14322.811790566828,
+   "viol_ssp245_median": 0.12184521349215295,
+   "viol_ssp585_p90": 0.46328079009005624,
+   "viol_F0": 0.0,
+   "chiller_GW_th": 0.10326631797002932
+  },
+  "DR|0.5": {
+   "cost_per_MW_yr": 17998.632729333727,
+   "viol_ssp245_median": 0.0,
+   "viol_ssp585_p90": 0.0,
+   "viol_F0": 0.0,
+   "chiller_GW_th": 0.46930963528964004
+  },
+  "BL2-shift|0.5": {
+   "cost_per_MW_yr": 14309.48444683771,
+   "viol_ssp245_median": 0.09947989078019515,
+   "viol_ssp585_p90": 0.45109219804857276,
+   "viol_F0": 0.0,
+   "chiller_GW_th": 0.09726675209543074
+  },
+  "BL3|0.5": {
+   "cost_per_MW_yr": 14615.598578935085,
+   "viol_ssp245_median": 0.06364057666052932,
+   "viol_ssp585_p90": 0.3025181928631371,
+   "viol_F0": 0.0,
+   "chiller_GW_th": 0.14160124028959428
+  },
+  "DR|0.75": {
+   "cost_per_MW_yr": 17998.632729333727,
+   "viol_ssp245_median": 0.0,
+   "viol_ssp585_p90": 0.0,
+   "viol_F0": 0.0,
+   "chiller_GW_th": 0.46930963528964004
+  },
+  "BL2-shift|0.75": {
+   "cost_per_MW_yr": 14593.681030616195,
+   "viol_ssp245_median": 0.04251838074124175,
+   "viol_ssp585_p90": 0.23468480316637233,
+   "viol_F0": 0.0,
+   "chiller_GW_th": 0.10334041595801796
+  },
+  "BL3|0.75": {
+   "cost_per_MW_yr": 14859.679587680397,
+   "viol_ssp245_median": 0.028281917358684353,
+   "viol_ssp585_p90": 0.16918423326945478,
+   "viol_F0": 0.0,
+   "chiller_GW_th": 0.15966473192847178
+  },
+  "DR|1.0": {
+   "cost_per_MW_yr": 17998.632729333727,
+   "viol_ssp245_median": 0.0,
+   "viol_ssp585_p90": 0.0,
+   "viol_F0": 0.0,
+   "chiller_GW_th": 0.46930963528964004
+  },
+  "BL2-shift|1.0": {
+   "cost_per_MW_yr": 14869.537528759125,
+   "viol_ssp245_median": 0.031432006913914255,
+   "viol_ssp585_p90": 0.1667778278786057,
+   "viol_F0": 0.0,
+   "chiller_GW_th": 0.1845491751772003
+  },
+  "BL3|1.0": {
+   "cost_per_MW_yr": 15200.964449858571,
+   "viol_ssp245_median": 0.017294179536316838,
+   "viol_ssp585_p90": 0.1204329964052656,
+   "viol_F0": 0.0,
+   "chiller_GW_th": 0.22423274915973257
+  },
+  "DR|1.25": {
+   "cost_per_MW_yr": 17998.632729333727,
+   "viol_ssp245_median": 0.0,
+   "viol_ssp585_p90": 0.0,
+   "viol_F0": 0.0,
+   "chiller_GW_th": 0.46930963528964004
+  },
+  "BL2-shift|1.25": {
+   "cost_per_MW_yr": 15234.122165460398,
+   "viol_ssp245_median": 0.02473415248186976,
+   "viol_ssp585_p90": 0.1318998233945816,
+   "viol_F0": 0.0,
+   "chiller_GW_th": 0.3021147873475537
+  },
+  "BL3|1.25": {
+   "cost_per_MW_yr": 15604.651816777006,
+   "viol_ssp245_median": 0.011510665213742657,
+   "viol_ssp585_p90": 0.08604347499342427,
+   "viol_F0": 0.0,
+   "chiller_GW_th": 0.31996805426645253
+  },
+  "DR|1.5": {
+   "cost_per_MW_yr": 17998.632729333727,
+   "viol_ssp245_median": 0.0,
+   "viol_ssp585_p90": 0.0,
+   "viol_F0": 0.0,
+   "chiller_GW_th": 0.46930963528964004
+  },
+  "BL2-shift|1.5": {
+   "cost_per_MW_yr": 15604.861389249576,
+   "viol_ssp245_median": 0.01516332869900675,
+   "viol_ssp585_p90": 0.08649438244466989,
+   "viol_F0": 0.0,
+   "chiller_GW_th": 0.38159659692192327
+  },
+  "BL3|1.5": {
+   "cost_per_MW_yr": 15984.726012306335,
+   "viol_ssp245_median": 0.0016000951915730408,
+   "viol_ssp585_p90": 0.05670944024850011,
+   "viol_F0": 0.0,
+   "chiller_GW_th": 0.3510671304459157
+  },
+  "DR|2.0": {
+   "cost_per_MW_yr": 17998.632729333727,
+   "viol_ssp245_median": 0.0,
+   "viol_ssp585_p90": 0.0,
+   "viol_F0": 0.0,
+   "chiller_GW_th": 0.46930963528964004
+  },
+  "BL2-shift|2.0": {
+   "cost_per_MW_yr": 16236.393675823416,
+   "viol_ssp245_median": 0.005836746452235123,
+   "viol_ssp585_p90": 0.04567473289996117,
+   "viol_F0": 0.0,
+   "chiller_GW_th": 0.3003801973166398
+  },
+  "BL3|2.0": {
+   "cost_per_MW_yr": 16632.045369715215,
+   "viol_ssp245_median": 0.0,
+   "viol_ssp585_p90": 0.027987574994676787,
+   "viol_F0": 0.0,
+   "chiller_GW_th": 0.3903731085762848
+  },
+  "BL1-shift|0|2%": {
+   "cost_per_MW_yr": 12360.167789410574,
+   "viol_ssp245_median": 0.9997729806235048,
+   "viol_ssp585_p90": 1.0,
+   "viol_F0": 0.9716133263647636,
+   "chiller_GW_th": 0.02571952528107637
+  },
+  "BL1-shift|0|1%": {
+   "cost_per_MW_yr": 12633.50908868284,
+   "viol_ssp245_median": 0.9910053357381731,
+   "viol_ssp585_p90": 1.0,
+   "viol_F0": 0.9350744509689386,
+   "chiller_GW_th": 0.049554065362222816
+  },
+  "BL1-shift|0|0.4%": {
+   "cost_per_MW_yr": 12848.553609062217,
+   "viol_ssp245_median": 0.9575771239619735,
+   "viol_ssp585_p90": 0.9993189418705144,
+   "viol_F0": 0.8058535985488978,
+   "chiller_GW_th": 0.001236490438050362
+  },
+  "BL1-shift|0|5y": {
+   "cost_per_MW_yr": 13254.73932802186,
+   "viol_ssp245_median": 0.7798005987048936,
+   "viol_ssp585_p90": 0.9520848207016621,
+   "viol_F0": 0.487733267746795,
+   "chiller_GW_th": 0.02674314899680344
+  },
+  "BL1-shift|0|10y": {
+   "cost_per_MW_yr": 13397.928413587933,
+   "viol_ssp245_median": 0.709125552674758,
+   "viol_ssp585_p90": 0.938906737308834,
+   "viol_F0": 0.36494297045531404,
+   "chiller_GW_th": 0.06473861623704566
+  },
+  "BL1-shift|0|20y": {
+   "cost_per_MW_yr": 13490.350690890662,
+   "viol_ssp245_median": 0.482622840967447,
+   "viol_ssp585_p90": 0.830247435463871,
+   "viol_F0": 0.14626310449780183,
+   "chiller_GW_th": 0.006654161511368001
+  },
+  "BL1-shift|0|50y": {
+   "cost_per_MW_yr": 13677.920179760284,
+   "viol_ssp245_median": 0.36924779869487345,
+   "viol_ssp585_p90": 0.7724013326820226,
+   "viol_F0": 0.07963640462795012,
+   "chiller_GW_th": 0.07605335768789906
+  },
+  "BL1-shift|0|100y": {
+   "cost_per_MW_yr": 13849.72950549622,
+   "viol_ssp245_median": 0.2933732261175616,
+   "viol_ssp585_p90": 0.6987562469469808,
+   "viol_F0": 0.053857820682304956,
+   "chiller_GW_th": 0.07018417449546623
+  },
+  "BL1-shift|1|2%": {
+   "cost_per_MW_yr": 12647.792963391319,
+   "viol_ssp245_median": 0.9279722316161274,
+   "viol_ssp585_p90": 0.9921247761119253,
+   "viol_F0": 0.8268669105666062,
+   "chiller_GW_th": 0.0002341573195696448
+  },
+  "BL1-shift|1|1%": {
+   "cost_per_MW_yr": 12951.45685025344,
+   "viol_ssp245_median": 0.7445108280414334,
+   "viol_ssp585_p90": 0.8813001791104598,
+   "viol_F0": 0.6421741937467335,
+   "chiller_GW_th": 0.03162291529120186
+  },
+  "BL1-shift|1|0.4%": {
+   "cost_per_MW_yr": 13456.098346795563,
+   "viol_ssp245_median": 0.5328739713673768,
+   "viol_ssp585_p90": 0.8511191272435777,
+   "viol_F0": 0.21190600629220852,
+   "chiller_GW_th": 0.09381930817882256
+  },
+  "BL1-shift|1|5y": {
+   "cost_per_MW_yr": 13831.83743002083,
+   "viol_ssp245_median": 0.28453356129210033,
+   "viol_ssp585_p90": 0.6555082728992097,
+   "viol_F0": 0.03712812945143009,
+   "chiller_GW_th": 0.06279574517867093
+  },
+  "BL1-shift|1|10y": {
+   "cost_per_MW_yr": 14136.132125217297,
+   "viol_ssp245_median": 0.2074283871290973,
+   "viol_ssp585_p90": 0.5349844687433459,
+   "viol_F0": 0.03132269601664259,
+   "chiller_GW_th": 0.14161340333022707
+  },
+  "BL1-shift|1|20y": {
+   "cost_per_MW_yr": 14407.58084979062,
+   "viol_ssp245_median": 0.12272667493330328,
+   "viol_ssp585_p90": 0.3919888776162026,
+   "viol_F0": 0.0,
+   "chiller_GW_th": 0.1559347697527835
+  },
+  "BL1-shift|1|50y": {
+   "cost_per_MW_yr": 14632.103650820103,
+   "viol_ssp245_median": 0.050221383033354626,
+   "viol_ssp585_p90": 0.21582810405941957,
+   "viol_F0": 0.0,
+   "chiller_GW_th": 0.07559257724873236
+  },
+  "BL1-shift|1|100y": {
+   "cost_per_MW_yr": 14854.890336268876,
+   "viol_ssp245_median": 0.036139919087162915,
+   "viol_ssp585_p90": 0.1812726236551059,
+   "viol_F0": 0.0,
+   "chiller_GW_th": 0.15296502252893074
+  }
+ },
+ "rule": {
+  "ssp245_median": {
+   "0.025": {
+    "frontier_cost": {
+     "DR": 17510.301526148356,
+     "BL2-shift": 15219.651274550655,
+     "BL3": 14961.617650960234,
+     "BL1-shift": null
+    },
+    "best_baseline": 14961.617650960234,
+    "dr_vs_best_pct": 17.03481491538148,
+    "verdict": "FAIL"
+   },
+   "0.05": {
+    "frontier_cost": {
+     "DR": 17111.405038442957,
+     "BL2-shift": 14556.353181810635,
+     "BL3": 14709.759550445564,
+     "BL1-shift": 14635.606212230205
+    },
+    "best_baseline": 14556.353181810635,
+    "dr_vs_best_pct": 17.552829508321288,
+    "verdict": "FAIL"
+   },
+   "0.1": {
+    "frontier_cost": {
+     "DR": 16313.612063032155,
+     "BL2-shift": 14307.42805685788,
+     "BL3": 14432.699769390387,
+     "BL1-shift": 14477.957184819421
+    },
+    "best_baseline": 14307.42805685788,
+    "dr_vs_best_pct": 14.021975146068733,
+    "verdict": "FAIL"
+   }
+  },
+  "ssp585_p90": {
+   "0.025": {
+    "frontier_cost": {
+     "DR": 17754.612093746615,
+     "BL2-shift": null,
+     "BL3": null,
+     "BL1-shift": null
+    },
+    "best_baseline": null,
+    "dr_vs_best_pct": null,
+    "verdict": "PASS (baselines cannot match)"
+   },
+   "0.05": {
+    "frontier_cost": {
+     "DR": 17600.02617363947,
+     "BL2-shift": 16169.476251195889,
+     "BL3": 16135.94009648404,
+     "BL1-shift": null
+    },
+    "best_baseline": 16135.94009648404,
+    "dr_vs_best_pct": 9.073447647927546,
+    "verdict": "FAIL"
+   },
+   "0.1": {
+    "frontier_cost": {
+     "DR": 17290.854333425184,
+     "BL2-shift": 15494.586892085677,
+     "BL3": 15440.820725213869,
+     "BL1-shift": null
+    },
+    "best_baseline": 15440.820725213869,
+    "dr_vs_best_pct": 11.981446071647795,
+    "verdict": "FAIL"
+   }
+  },
+  "F0": {
+   "0.025": {
+    "frontier_cost": {
+     "DR": 15318.357979558157,
+     "BL2-shift": 13982.727312367553,
+     "BL3": 14022.657148460668,
+     "BL1-shift": 14190.9258686636
+    },
+    "best_baseline": 13982.727312367553,
+    "dr_vs_best_pct": 9.55200396427136,
+    "verdict": "FAIL"
+   },
+   "0.05": {
+    "frontier_cost": {
+     "DR": 13920.75774421228,
+     "BL2-shift": 13920.757744211201,
+     "BL3": 14022.657148460668,
+     "BL1-shift": 13785.22996565493
+    },
+    "best_baseline": 13785.22996565493,
+    "dr_vs_best_pct": 0.9831375965073441,
+    "verdict": "INCONCLUSIVE"
+   },
+   "0.1": {
+    "frontier_cost": {
+     "DR": 13920.75774421228,
+     "BL2-shift": 13920.757744211201,
+     "BL3": 14022.657148460668,
+     "BL1-shift": 13620.591973756618
+    },
+    "best_baseline": 13620.591973756618,
+    "dr_vs_best_pct": 2.203764498885241,
+    "verdict": "INCONCLUSIVE"
+   }
+  }
+ },
+ "verdict_central_5pct": "FAIL"
+}
