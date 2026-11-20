@@ -67,7 +67,7 @@ def main():
     ax.set_xticks([1, 2, 5, 10, 20, 50])
     ax.set_xticklabels(["1", "2", "5", "10", "20", "50"])
     ax.xaxis.set_minor_formatter(NullFormatter())
-    ax.set_xlabel("Site-years violating the screen [%]")
+    ax.set_xlabel("Site-years with a coolant-limit violation [%]")
     hs = [Line2D([], [], ls="", marker="o", mfc="white", mec="black", mew=0.9, ms=4, label="Sized on 1990–2014"),
           Line2D([], [], ls="", marker="o", mfc="black", mec="black", ms=4, label="Plus warming margin"),
           Line2D([], [], color=K.C["hist"], lw=1.5, label="Tested 2015–2025"),

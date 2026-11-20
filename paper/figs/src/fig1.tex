@@ -44,7 +44,7 @@
 \node[box, line width=1.2pt, text width=27mm, minimum height=15mm, outer sep=0pt, anchor=south] (store) at (j |- row1) {{\nin\bfseries Cool-water store}\\[0.5mm]up to 8\,h of\\full IT heat};
 \node[water, text width=21mm, minimum height=15mm, outer sep=0pt, anchor=south] (pads) at (dc |- row1) {{\eig\bfseries Evaporative pads}\\[0.3mm]optional, uses water};
 \node[comp, text width=20mm, minimum height=12mm, below=12mm of j] (chiller) {{\eig\bfseries Trim chiller}\\[0.3mm]optional, uses\\compressors};
-\node[below=0.8mm of chiller] (series) {in series on the facility water};
+\node[below=0.8mm of chiller] (series) {in series on the facility water, bypassed when idle};
 % ---- background emphasis on the store only
 \begin{scope}[on background layer]
   \node[fit=(store), inner sep=2mm, fill=mainfill!55, draw=none, rounded corners=2pt] {};

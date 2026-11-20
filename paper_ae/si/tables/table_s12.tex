@@ -1,0 +1,25 @@
+\begin{table}[p]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3.5pt}
+\caption{\textbf{Held-out validation across climate-model families.} Pooled violation (\%, capacity-weighted, averaged over the 12 held-out families) and registered annualized cost (\$ per MW-year, historical weather) of every procedure at the three risk budgets, the eight tunable ones calibrated at each budget and the four monthly quantile fields fixed, and the 90\,\% cluster-bootstrap risk interval at 5\,\%. $^{\dagger}$ not compliant at that budget.}\label{tab:s12}
+\begin{tabular}{@{}lrrrrrrr@{}}
+\toprule
+& \multicolumn{2}{c}{2.5\,\% budget} & \multicolumn{2}{c}{5\,\% budget} & \multicolumn{2}{c}{10\,\% budget} & 90\,\% interval\\
+Procedure & Viol. & Cost & Viol. & Cost & Viol. & Cost & at 5\,\% \\
+\midrule
+Robust over model fields (DR-F) & 2.74$^{\dagger}$ & 16,131 & 5.43$^{\dagger}$ & 15,708 & 12.50$^{\dagger}$ & 15,240 & 2.0--9.5 \\
+Ensemble average (B-SAA) & 2.83$^{\dagger}$ & 16,125 & 5.44$^{\dagger}$ & 15,704 & 12.49$^{\dagger}$ & 15,241 & 2.0--9.5 \\
+Worst training field (B-ROB) & 0.65 & 17,501 & 1.32 & 17,031 & 1.90 & 16,624 & 0.5--2.3 \\
+Ensemble quantile (B-QNT) & 2.08 & 16,284 & 4.36 & 15,885 & 9.91 & 15,366 & 1.7--7.6 \\
+Summer-warming quantile (B-SCAL) & 2.39 & 16,414 & 4.58 & 15,924 & 10.04$^{\dagger}$ & 15,419 & 1.6--8.2 \\
+Uniform margin (BL2-shift) & 2.25 & 16,222 & 4.46 & 15,788 & 8.40 & 15,374 & 1.8--7.6 \\
+Margin, no violating year (BL3) & 2.25 & 16,222 & 4.26 & 15,810 & 10.32$^{\dagger}$ & 15,379 & 1.8--7.1 \\
+Design day + margin (BL1-shift) & 2.85$^{\dagger}$ & 16,105 & 5.46$^{\dagger}$ & 15,482 & 11.78$^{\dagger}$ & 15,168 & 2.0--9.5 \\
+Monthly quantile field, 0.5 (B-MON) & 8.67$^{\dagger}$ & 15,455 & 14.81$^{\dagger}$ & 15,102 & 20.32$^{\dagger}$ & 14,856 & 8.3--22.2 \\
+Monthly quantile field, 0.75 (B-MON) & 4.09$^{\dagger}$ & 15,956 & 6.97$^{\dagger}$ & 15,666 & 12.74$^{\dagger}$ & 15,273 & 2.9--11.7 \\
+Monthly quantile field, 0.9 (B-MON) & 1.32 & 16,693 & 2.56 & 16,271 & 4.54 & 15,891 & 1.0--4.5 \\
+Monthly quantile field, 1 (B-MON) & 0.65 & 17,501 & 1.28 & 17,059 & 1.90 & 16,627 & 0.5--2.2 \\
+\bottomrule
+\end{tabular}
+\end{table}

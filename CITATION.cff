@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software or data, please cite the paper and this archive."
-title: "Model, scripts and derived data for: A few hours of cool-water storage let most announced AI capacity avoid both chillers and evaporative water"
+title: "Model, scripts and derived data for: Cool-water storage and dry heat rejection for liquid-cooled AI data centers"
 authors:
   - family-names: Shen
     given-names: Jiachen
@@ -12,8 +12,8 @@ authors:
     orcid: "https://orcid.org/0009-0005-7952-007X"
 license: MIT
 repository-code: "https://github.com/Mercury0828/ai-datacenter-cool-storage"
-version: 1.0.0
-date-released: 2026-09-28
+version: 1.1.0
+date-released: 2026-11-20
 keywords:
   - data centres
   - liquid cooling

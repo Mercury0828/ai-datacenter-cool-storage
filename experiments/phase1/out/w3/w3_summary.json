@@ -1,0 +1,260 @@
+{
+ "commit": "d284912",
+ "frame_GW": 37.294631374,
+ "cells": 80,
+ "historical": {
+  "m0": {
+   "F_dry_curve_GW": {
+    "0": 1.739901664,
+    "2": 16.918301663999998,
+    "4": 26.411631374,
+    "8": 31.761631374,
+    "12": 33.632631374,
+    "24": 35.689631373999994
+   },
+   "median_store_h_feasible": 1.8157499546811993,
+   "mean_store_h_feasible": 2.235211670478475,
+   "stored_GWh_feasible": 70.99396912060008
+  },
+  "m1": {
+   "F_dry_curve_GW": {
+    "0": 1.804901664,
+    "2": 20.725631374,
+    "4": 27.404631374,
+    "8": 34.289631374,
+    "12": 35.689631373999994,
+    "24": 35.689631373999994
+   },
+   "median_store_h_feasible": 1.687828966620508,
+   "mean_store_h_feasible": 2.156143028875244,
+   "stored_GWh_feasible": 73.93334964975196
+  },
+  "m2": {
+   "F_dry_curve_GW": {
+    "0": 2.9639016639999998,
+    "2": 23.852631374,
+    "4": 29.675631374,
+    "8": 34.289631374,
+    "12": 35.689631373999994,
+    "24": 35.689631373999994
+   },
+   "median_store_h_feasible": 1.347466835167076,
+   "mean_store_h_feasible": 1.7692459013906963,
+   "stored_GWh_feasible": 60.666789768647334
+  },
+  "m3": {
+   "F_dry_curve_GW": {
+    "0": 3.663901664,
+    "2": 24.152631374000002,
+    "4": 30.007631374,
+    "8": 35.689631373999994,
+    "12": 35.689631373999994,
+    "24": 35.689631373999994
+   },
+   "median_store_h_feasible": 1.2277593388881844,
+   "mean_store_h_feasible": 1.794048005626947,
+   "stored_GWh_feasible": 64.02891198808561
+  },
+  "QB_remove_accepted_year": {
+   "added_store_h_median_feasible_m1": 0.37854777639421455,
+   "added_store_h_max": 8.584570773094004,
+   "added_GWh": 27.916395382312327,
+   "GW_within_8h_at_m0_of_m1_feasible": 31.761631374
+  },
+  "QC_excluded_year_with_m1_store": {
+   "sites_with_shortfall": 78,
+   "GW_with_shortfall": 32.54972971,
+   "fleet_unmet_GWh": 33.5371744059892,
+   "unmet_h_median_over_shortfall_sites": 0.5000882775069657,
+   "unmet_h_max": 8.584570773094002,
+   "hours_unmet_max": 28,
+   "longest_run_h_max": 9,
+   "longest_run_h_median_over_shortfall_sites": 3.0,
+   "peak_unmet_max": 0.6617375911708427,
+   "min_trim_GWth_fleet": 1.4527555123945013,
+   "min_trim_per_unit_median_feasible_m1": 0.033917404693197706,
+   "hours_unmet_median_over_shortfall_sites": 5.0,
+   "min_trim_per_unit_max": 0.23738688057155272,
+   "min_trim_check_max_unmet": 0.0
+  },
+  "QD_m0_screen": {
+   "F_dry_GW": 31.761631374,
+   "F_nc_GW": 37.294631374
+  }
+ },
+ "stress_plus1.2K": {
+  "m0": {
+   "F_dry_curve_GW": {
+    "0": 0.84521,
+    "2": 14.104301664000001,
+    "4": 24.253631373999998,
+    "8": 25.402631374,
+    "12": 28.722631374,
+    "24": 32.129631374
+   },
+   "median_store_h_feasible": 1.8944213540294939,
+   "mean_store_h_feasible": 2.2069142507121593,
+   "stored_GWh_feasible": 56.061429184868395
+  },
+  "m1": {
+   "F_dry_curve_GW": {
+    "0": 1.266901664,
+    "2": 14.918631373999999,
+    "4": 26.288631374,
+    "8": 28.194631374,
+    "12": 30.125631374,
+    "24": 34.135631374
+   },
+   "median_store_h_feasible": 1.6947701482157564,
+   "mean_store_h_feasible": 2.044307720638728,
+   "stored_GWh_feasible": 57.63850259843112
+  },
+  "m2": {
+   "F_dry_curve_GW": {
+    "0": 1.3319016639999999,
+    "2": 16.596631374,
+    "4": 27.557631374,
+    "8": 29.572631374,
+    "12": 30.278631373999996,
+    "24": 35.689631373999994
+   },
+   "median_store_h_feasible": 1.1595932904789517,
+   "mean_store_h_feasible": 1.8016758608374939,
+   "stored_GWh_feasible": 53.280296087981334
+  },
+  "m3": {
+   "F_dry_curve_GW": {
+    "0": 2.233901664,
+    "2": 18.138631374,
+    "4": 27.557631374,
+    "8": 29.675631374,
+    "12": 32.567631374,
+    "24": 35.689631373999994
+   },
+   "median_store_h_feasible": 0.9574159992103266,
+   "mean_store_h_feasible": 1.5895903937120575,
+   "stored_GWh_feasible": 47.172098559450546
+  },
+  "QB_remove_accepted_year": {
+   "added_store_h_median_feasible_m1": 0.2654735791133338,
+   "added_store_h_max": 5.890277002188195,
+   "added_GWh": 23.276869882594607,
+   "GW_within_8h_at_m0_of_m1_feasible": 25.402631374
+  },
+  "QC_excluded_year_with_m1_store": {
+   "sites_with_shortfall": 68,
+   "GW_with_shortfall": 27.349421374000002,
+   "fleet_unmet_GWh": 28.12647219684958,
+   "unmet_h_median_over_shortfall_sites": 0.37176773012345465,
+   "unmet_h_max": 7.0879518141883455,
+   "hours_unmet_max": 30,
+   "longest_run_h_max": 9,
+   "longest_run_h_median_over_shortfall_sites": 3.0,
+   "peak_unmet_max": 0.7342510442266205,
+   "min_trim_GWth_fleet": 1.2295092296272718,
+   "min_trim_per_unit_median_feasible_m1": 0.026912544265110784,
+   "hours_unmet_median_over_shortfall_sites": 5.0,
+   "min_trim_per_unit_max": 0.24944678722291472,
+   "min_trim_check_max_unmet": 0.0
+  },
+  "QD_m0_screen": {
+   "F_dry_GW": 25.402631374,
+   "F_nc_GW": 37.294631374
+  }
+ },
+ "ssp245_median": {
+  "m0": {
+   "F_dry_curve_GW": {
+    "0": 1.266901664,
+    "2": 13.926301663999999,
+    "4": 24.304631374,
+    "8": 28.899631374000002,
+    "12": 29.757631374,
+    "24": 32.232631374
+   },
+   "median_store_h_feasible": 2.164659597698643,
+   "mean_store_h_feasible": 2.8875600512234216,
+   "stored_GWh_feasible": 83.44942105064544
+  },
+  "m1": {
+   "F_dry_curve_GW": {
+    "0": 1.3319016639999999,
+    "2": 14.328631373999999,
+    "4": 26.503631374,
+    "8": 29.051631374,
+    "12": 33.229631374,
+    "24": 35.689631373999994
+   },
+   "median_store_h_feasible": 2.035651640717064,
+   "mean_store_h_feasible": 2.2897439894238265,
+   "stored_GWh_feasible": 66.52079832157317
+  },
+  "m2": {
+   "F_dry_curve_GW": {
+    "0": 1.804901664,
+    "2": 16.937631374000002,
+    "4": 27.404631374,
+    "8": 29.750631374,
+    "12": 34.289631374,
+    "24": 35.689631373999994
+   },
+   "median_store_h_feasible": 1.6741902300271856,
+   "mean_store_h_feasible": 1.9027048238078514,
+   "stored_GWh_feasible": 56.606669826639006
+  },
+  "m3": {
+   "F_dry_curve_GW": {
+    "0": 1.804901664,
+    "2": 17.931631374000002,
+    "4": 27.557631374,
+    "8": 31.603631374,
+    "12": 34.289631374,
+    "24": 35.689631373999994
+   },
+   "median_store_h_feasible": 1.537397583706055,
+   "mean_store_h_feasible": 2.0655567056490565,
+   "stored_GWh_feasible": 65.2790927074266
+  },
+  "QB_remove_accepted_year": {
+   "added_store_h_median_feasible_m1": 0.17815984689156306,
+   "added_store_h_max": 4.1890909090841,
+   "added_GWh": 18.441365092558407,
+   "GW_within_8h_at_m0_of_m1_feasible": 28.899631374000002
+  },
+  "QC_excluded_year_with_m1_store": {
+   "sites_with_shortfall": 68,
+   "GW_with_shortfall": 27.784729710000004,
+   "fleet_unmet_GWh": 21.726527693499296,
+   "unmet_h_median_over_shortfall_sites": 0.17838089138493718,
+   "unmet_h_max": 5.64250722650441,
+   "hours_unmet_max": 21,
+   "longest_run_h_max": 8,
+   "longest_run_h_median_over_shortfall_sites": 2.0,
+   "peak_unmet_max": 0.7090125106267358,
+   "min_trim_GWth_fleet": 0.9742908467415179,
+   "min_trim_per_unit_median_feasible_m1": 0.014568644598577858,
+   "hours_unmet_median_over_shortfall_sites": 2.0,
+   "min_trim_per_unit_max": 0.22159608269405054,
+   "min_trim_check_max_unmet": 0.0
+  },
+  "QD_m0_screen": {
+   "F_dry_GW": 28.899631374000002,
+   "F_nc_GW": 37.294631374
+  }
+ },
+ "consistency_gate": {
+  "historical": {
+   "max_abs_diff_E2_vs_hstar": 0.0,
+   "F_dry_8h_m1_GW": 34.289631374
+  },
+  "stress_plus1.2K": {
+   "max_abs_diff_E2_vs_hstar": 0.0,
+   "F_dry_8h_m1_GW": 28.194631374
+  },
+  "ssp245_median": {
+   "max_abs_diff_E2_vs_hstar": 0.0,
+   "F_dry_8h_m1_GW": 29.051631374
+  }
+ },
+ "consistency_gate_pass": true
+}

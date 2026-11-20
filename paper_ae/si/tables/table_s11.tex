@@ -1,0 +1,25 @@
+\begin{table}[htbp]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\caption{\textbf{Oracle headroom on the development benchmark.} Registered annualized cost (\$ per MW-year) of the pooled perfect-foresight oracle, of the cheapest executable baseline point and of the cheapest executable point of the per-year robust formulation, each at a pooled capacity-weighted test violation within the budget, on the 15 sites. An executable point uses one setting for all sites and no interpolation. Headroom is the oracle's saving against the cheapest executable baseline point and against the interpolated baseline frontier (\%).}\label{tab:s11}
+\begin{tabular}{@{}p{27mm}rrp{40mm}p{33mm}rr@{}}
+\toprule
+Test & Budget (\%) & Oracle & Cheapest baseline point & Per-year robust point & \multicolumn{2}{c}{Headroom (\%)}\\
+\cmidrule(l){6-7}
+& & & & & executable & frontier\\
+\midrule
+SSP2-4.5 median, around 2040 & 2.5 & 14,531 & 14,745 (uniform margin, +1.5~K) & 14,916 ($\omega$ = 0.075~K) & 1.45 & 1.43 \\
+ & 5.0 & 14,307 & 14,573 (design day, 50-yr, +1.75~K) & 14,671 ($\omega$ = 0.03$\times$ drift) & 1.82 & 0.97 \\
+ & 10.0 & 13,559 & 14,279 (design day, 100-yr, +1~K) & 14,443 ($\omega$ = 0.02$\times$ drift) & 5.04 & 4.99 \\
+\addlinespace
+SSP5-8.5 90th percentile, around 2040 & 2.5 & 15,479 & 15,783 (uniform margin, +2.9~K) & 16,090 ($\omega$ = 0.15~K) & 1.92 & 1.84 \\
+ & 5.0 & 15,191 & 15,548 (uniform margin, +2.6~K) & 16,090 ($\omega$ = 0.15~K) & 2.30 & 2.07 \\
+ & 10.0 & 14,367 & 15,149 (margin, no violating year, +1.8~K) & 15,267 ($\omega$ = 0.1~K) & 5.16 & 4.85 \\
+\addlinespace
+Observed 2015--2025 & 2.5 & 13,612 & 13,934 (design day, 5-yr, +1.75~K) & 14,007 ($\omega$ = 0.005~K) & 2.31 & 2.05 \\
+ & 5.0 & 13,471 & 13,792 (design day, 20-yr, +0.75~K) & 13,921 ($\omega$ = 0$\times$ drift) & 2.33 & 2.31 \\
+ & 10.0 & 12,794 & 13,536 (design day, 5-yr, +1~K) & 13,921 ($\omega$ = 0$\times$ drift) & 5.48 & 5.46 \\
+\bottomrule
+\end{tabular}
+\end{table}

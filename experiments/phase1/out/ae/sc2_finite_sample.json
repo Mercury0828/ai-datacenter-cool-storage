@@ -1,0 +1,81 @@
+{
+ "reference": {
+  "second_of_25": 0.07692307692307693,
+  "largest_of_25": 0.038461538461538464
+ },
+ "n_sites": 93,
+ "second": {
+  "obs_own": {
+   "pooled_weighted": 0.07223386459177834,
+   "pooled_unweighted": 0.05515832482124617,
+   "sites": 89,
+   "GW": 35.68963137399999,
+   "stored_heat_GWh": 67.95665260620609
+  },
+  "obs_drift_cohort": {
+   "pooled_weighted": 0.046226269018867984,
+   "pooled_unweighted": 0.040525739320920046,
+   "sites": 83,
+   "GW": 31.886631373999986,
+   "stored_heat_GWh": 48.56610436197328
+  },
+  "scen_own": {
+   "pooled_weighted": 0.18589648921737525,
+   "pooled_unweighted": 0.16760299625468164,
+   "sites": 89,
+   "GW": 35.68963137399999,
+   "stored_heat_GWh": 67.95665260620609
+  },
+  "scen_drift_cohort": {
+   "pooled_weighted": 0.15215687163933486,
+   "pooled_unweighted": 0.15185185185185185,
+   "sites": 75,
+   "GW": 28.819631373999986,
+   "stored_heat_GWh": 37.42210980691356
+  }
+ },
+ "largest": {
+  "obs_own": {
+   "pooled_weighted": 0.025596921972513037,
+   "pooled_unweighted": 0.024096385542168676,
+   "sites": 83,
+   "GW": 31.761631373999986,
+   "stored_heat_GWh": 64.4068271528288
+  },
+  "obs_drift_cohort": {
+   "pooled_weighted": 0.007757597014946329,
+   "pooled_unweighted": 0.012048192771084338,
+   "sites": 83,
+   "GW": 31.886631373999986,
+   "stored_heat_GWh": 81.58972280827334
+  },
+  "scen_own": {
+   "pooled_weighted": 0.09951483807103628,
+   "pooled_unweighted": 0.09370816599732262,
+   "sites": 83,
+   "GW": 31.761631373999986,
+   "stored_heat_GWh": 64.4068271528288
+  },
+  "scen_drift_cohort": {
+   "pooled_weighted": 0.08540198072332067,
+   "pooled_unweighted": 0.08222222222222222,
+   "sites": 75,
+   "GW": 28.819631373999986,
+   "stored_heat_GWh": 49.63918244642871
+  }
+ },
+ "drift_aware": {
+  "obs": {
+   "pooled_weighted": 0.018189440997926343,
+   "sites": 83,
+   "GW": 31.886631373999986,
+   "stored_heat_GWh": 67.54533503344948
+  },
+  "scen": {
+   "pooled_weighted": 0.037510435937225764,
+   "sites": 75,
+   "GW": 28.819631373999986,
+   "stored_heat_GWh": 69.47688997982479
+  }
+ }
+}

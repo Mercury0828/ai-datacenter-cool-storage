@@ -54,6 +54,24 @@ REPRODUCED
 | Sizing procedures for climatic drift (Figure 6B; Note S12) | `experiments/phase0/r2_dro.py` → `r2_aggregate.py`; `r2r_precompute.py` → `r2r_analysis.py` → `r2r_b_analysis.py` → `r2r_c_analysis.py`; `r2s_structure.py`, `r2s_certificates.py`; `r2f_cmip_2060.py` → `r2f_extract_1960.py` → `r2f_precompute.py --part test`, `--part train` → `r2f_opyear.py` → `r2f_stage1.py` → `r2f_precompute.py --part shift`, `--part bmon` → `r2f_check_stage2_inputs.py` → `r2f_stage2.py` → `r2f_frontier.py` | `experiments/phase0/out/r2/`, `r2r/`, `r2r*_summary.json`, `r2s_summary.json`, `r2s_certificates.json`, `r2f/` |
 | Figures and supplemental tables | `paper/figs/src/fig2_boundary.py` … `fig6_drift.py` (Figure 1 is drawn from `paper/figs/src/fig1.tex`); `paper/si/make_si.py` | figure files and `paper/si/tables/` |
 
+Figure and Note numbers in the table above are those of the first manuscript version (release 1.0). The current version
+(release 1.1) is listed next.
+
+## Current manuscript version (release 1.1)
+
+The analyses added in this version re-use the result files above; none of them changes an earlier result file. All
+outputs are under `experiments/phase1/out/`.
+
+| Result in the paper | Script | Outputs |
+|---|---|---|
+| The water- and compressor-free boundary on three capacity bases (all announced capacity, capacity expected by 2027, operating capacity), under the three climates | `ae_w1_bases.py` (re-weights `m2/cds_rebuild/<cell>.json`; no simulation) | `ae/w1_bases.json` |
+| What the 35-of-36 rule accepts: capacity against store size for 0 to 3 allowed failing years (31.8 GW within 8 h with no failing year); the store added to remove the accepted year; unmet heat, its duration and the trim duty needed in each site's worst year; the compressor-free capacity with water allowed in every year | `w3_risk.py --part cells`, then `--part summary` (checks that the second-largest annual store equals the archived requirement of every cell, and the input checksums) | `w3/<cell>.json`, `w3/w3_summary.json`, `w3/w3_sites.csv` |
+| One-statistic baseline for the two-statistic site screen (design-point excess only), with the same fit and leave-one-cell-out validation as `ruler.py` | `ae_sc1_ruler1d.py` | `ae/sc1_ruler1d.json` |
+| Finite-sample calibrated stationary baseline for the drift test (order statistic with the k/(n+1) reference) | `ae_sc2_finite_sample.py` (reads `oos_b/`, `oos_c/`; no simulation) | `ae/sc2_finite_sample.json` |
+| Coincident fan-and-chiller peak under a ban on evaporation, with chiller-first and store-first dispatch | `ae_sc3_dispatch.py` | `ae/sc3_dispatch.json`; the hourly per-cell traces `ae/sc3/<cell>.npz` (211 MB) are not included and are rewritten by the script |
+| Figures 1–6 | `paper_ae/figs/src/fig2_boundary.py`, `fig3_warming.py`, `fig4_water.py`, `fig5_drift.py`, `fig6_screen.py` (shared code in `common.py`, `drift_helpers.py`); Figure 1 is drawn from `paper_ae/figs/src/fig1.tex` | figure files |
+| Supplemental tables | `paper/si/make_si.py` writes the tables carried over from release 1.0; the tables of this version as typeset are in `paper_ae/si/tables/`; the tables on the 35-of-36 rule are read from `w3/w3_summary.json` | `paper_ae/si/tables/` |
+
 ## Tests
 
 `python -m pytest tests` runs the unit tests of the thermal chain. `experiments/phase1/r2f_selftest.py` checks the

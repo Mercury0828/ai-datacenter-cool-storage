@@ -3,8 +3,11 @@
 This repository holds the thermal-chain model, the analysis scripts, the derived site and grid-cell tables and every result
 file behind the figures and numbers of
 
-> Jiachen Shen and Hui Zhong. *A few hours of cool-water storage let most announced AI capacity avoid both chillers and
-> evaporative water.* Manuscript submitted to *Joule*, 2026.
+> Jiachen Shen and Hui Zhong. *Cool-water storage and dry heat rejection for liquid-cooled AI data centers.* Manuscript,
+> 2026.
+
+Release 1.1 adds the analyses, result files and figure sources of the current manuscript version (`MANIFEST.md`, section
+"Current manuscript version"). Release 1.0 matches the first version of the manuscript.
 
 The study applies one 45 °C liquid-cooling reference design to the 93 AI data-centre sites tracked by Epoch AI (37.3 GW of
 announced IT capacity). Each site is simulated hour by hour over ERA5 weather for 1990–2025, over the same weather with the
@@ -44,7 +47,11 @@ CMIP6 warming expected around 2040, and under a uniform +1.2 K stress. A design 
 3. **Quick check.** `python release/reproduce_one_cell.py` rebuilds the Abilene, Texas grid cell from the raw Climate Data
    Store archive and compares its storage requirement under the three climates with the archived result.
 4. **Figures and tables.** `python paper/figs/src/fig2_boundary.py` (and `fig3_warming.py` to `fig6_drift.py`) draw the main
-   figures from the result files; `python paper/si/make_si.py` writes the supplemental tables and figures.
+   figures from the result files; `python paper/si/make_si.py` writes the supplemental tables and figures. The figures of
+   the current manuscript version are drawn by `paper_ae/figs/src/fig2_boundary.py` to `fig6_screen.py`; Figure 1 is
+   `paper_ae/figs/src/fig1.tex`, compiled with `pdflatex` (TikZ). The analyses added in this version are run with
+   `python experiments/phase1/ae_w1_bases.py`, `w3_risk.py --part all`, `ae_sc1_ruler1d.py`, `ae_sc2_finite_sample.py`
+   and `ae_sc3_dispatch.py` (see `MANIFEST.md`).
 
 Long runs are resumable: each writes one file per item and skips finished items. `MANIFEST.md` lists the scripts behind each
 result in run order.

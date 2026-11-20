@@ -16,6 +16,7 @@ HIST, S12, C40 = K.C["hist"], K.C["stress"], K.C["c2040"]
 CLS = [("core", "Robust core, 22.5 GW", "#0072B2", "o"),
        ("sensitive", "Assumption-sensitive, 13.2 GW", "#E69F00", "D"),
        ("out", "Infeasible in every test, 1.6 GW", "#D55E00", "^")]
+EDGE = {"core": ("white", 0.6), "sensitive": ("white", 0.6), "out": ("black", 1.0)}  # core and out share a gray level
 SHORT = {"cell_485_331": "Temple", "cell_487_293": "Stargate New Mexico", "cell_490_321": "Abilene (3 sites)",
          "cell_490_332": "Midlothian", "cell_490_333": "Red Oak", "cell_493_331": "Denton",
          "cell_495_317": "Helios", "cell_505_339": "Pryor"}
@@ -50,7 +51,7 @@ def main():
     ax.set_yticks([20, 25, 30, 35])
     ax.set_ylabel("Capacity within 8 h of storage [GW]")
     ax.text(xs["models"] + 0.34, 29.05, "median\nfield", fontsize=7, va="center", color=C40)
-    ax.text(-0.35, 21.0, "SSP2-4.5, circa 2040, unless labelled", fontsize=7, color=K.C["grey"])
+    ax.text(-0.35, 21.0, "SSP2-4.5, circa 2040, unless labeled", fontsize=7, color=K.C["grey"])
     K.panel_label(ax, "A", dx=-0.2)
 
     # (B) total design approach
@@ -92,7 +93,8 @@ def main():
         for key, _, col, _ in CLS:
             w = g.loc[g.cls == key, "B_full_MW"].sum() / 1e3
             if w > 0:
-                axm.barh(yv, w, left=left, height=0.62, color=col, edgecolor="white", linewidth=0.6, zorder=2)
+                axm.barh(yv, w, left=left, height=0.62, color=col, edgecolor=EDGE[key][0], linewidth=EDGE[key][1],
+                         zorder=2)
             left += w
         axm.text(left + 0.3, yv, "%.1f GW" % left, va="center", ha="left", fontsize=7)
     axm.set_yticks(yy)
@@ -101,7 +103,7 @@ def main():
     axm.set_xlabel("IT capacity by class around 2040 [GW]")
     axm.set_xlim(0, 25)
     axm.set_ylim(-0.6, len(rows) - 0.1)
-    hs = [Patch(facecolor=col, edgecolor="white", label=lab) for _, lab, col, _ in CLS]
+    hs = [Patch(facecolor=col, edgecolor=EDGE[key][0], linewidth=EDGE[key][1], label=lab) for key, lab, col, _ in CLS]
     axm.legend(handles=hs, loc="upper right", borderaxespad=0.2, handlelength=1.2, labelspacing=0.3)
     K.panel_label(axm, "C", dx=-0.2, dy=1.02)
 

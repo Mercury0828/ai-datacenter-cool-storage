@@ -1,0 +1,18 @@
+\begin{table}[htbp]
+\centering
+\footnotesize
+\caption{\textbf{Retrospective test frontiers of the held-out validation at 5\,\%.} For each calibrated procedure, every distinct setting on its path was applied to all 12 folds and evaluated on the test; the table gives the cheapest setting whose pooled violation is at most 5\,\%, its violation (\%) and cost (\$ per MW-year), and the number of settings evaluated. The settings are chosen with hindsight and do not change the verdict.}\label{tab:s13}
+\begin{tabular}{@{}llrrr@{}}
+\toprule
+Procedure & Cheapest compliant setting & Violation & Cost & Settings\\
+\midrule
+Design day + margin (BL1-shift) & design day, 20-yr, +3.5~K & 4.67 & 15,565 & 6,480 \\
+Uniform margin (BL2-shift) & shift 2.8~K & 4.56 & 15,690 & 995 \\
+Margin, no violating year (BL3) & shift 2.5~K & 4.46 & 15,750 & 1,071 \\
+Robust over model fields (DR-F) & normalized radius 0.0092 & 4.91 & 15,757 & 5,076 \\
+Ensemble average (B-SAA) & violation budget 0.0428 & 4.91 & 15,776 & 1,660 \\
+Ensemble quantile (B-QNT) & quantile 0.795 & 4.85 & 15,840 & 1,301 \\
+Summer-warming quantile (B-SCAL) & quantile 0.838 & 4.99 & 15,896 & 833 \\
+\bottomrule
+\end{tabular}
+\end{table}
